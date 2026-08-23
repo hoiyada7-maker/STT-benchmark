@@ -1,0 +1,21 @@
+# 데이터·산출물 (오디오 wav·다운로드 로그·리포트 — 재다운로드 가능, 용량 큼)
+data/
+
+# 스크래치·로컬 문서
+.temp/
+.docs/
+.claude/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 에디터/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

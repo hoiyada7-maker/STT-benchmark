@@ -1,0 +1,14 @@
+# STT 엔진 벤치마크 의존성
+# torch 는 CUDA 빌드를 별도 설치해야 함 (GPU 사용 시).
+#   GPU: https://pytorch.org/get-started/locally/ (예: pip install torch --index-url ...)
+
+numpy
+soundfile
+soxr
+funasr
+modelscope
+faster-whisper
+jiwer
+
+# 선택(데이터 준비): yt-dlp
+#   pip install yt-dlp

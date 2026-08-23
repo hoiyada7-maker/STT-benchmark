@@ -1,0 +1,162 @@
+"""배치 채점 러너.
+
+data/ 의 모든 (오디오, 정답) 쌍에 대해 선택한 엔진들을 돌려
+CER/WER/RTF 를 계산하고, 콘솔 표와 CSV/md 리포트를 출력한다.
+
+실행:
+    python -m benchmark.run_benchmark                 # 전체(2 엔진)
+    python -m benchmark.run_benchmark --engine sensevoice
+    python -m benchmark.run_benchmark --limit 30      # 앞 30초만 스모크 테스트
+"""
+
+import argparse
+import csv
+import os
+import sys
+
+# Windows 콘솔(cp1252)에서 한글 출력 깨짐 방지
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from engines import get_engine, SenseVoiceEngine, SenseVoiceGGUFEngine, FasterWhisperEngine
+from benchmark import dataset
+from benchmark.score import measure_transcribe, score_pair
+
+REPORT_DIR = os.path.join(dataset.DATA_DIR, "reports")
+
+ENGINE_SPECS = {
+    "sensevoice": lambda lang, dev: SenseVoiceEngine(language=lang, device=dev),
+    "sensevoice-gguf": lambda lang, dev: SenseVoiceGGUFEngine(language=lang, device=dev),
+    "faster-whisper": lambda lang, dev: FasterWhisperEngine(
+        language=lang, device=dev, model_size="small"
+    ),
+}
+
+
+def build_engine(name, language, device):
+    spec = ENGINE_SPECS[name]
+    eng = spec(language, device)
+    return eng
+
+
+def run(args):
+    samples = dataset.list_samples()
+    if not samples:
+        print("data/audio 에 wav + data/transcripts 에 동일 이름 txt 가 없습니다.")
+        return 1
+
+    device = "cpu" if args.cpu else "cuda:0"
+    rows = []
+
+    for apath, tpath, key in samples:
+        audio, sr = dataset.load_audio(apath)
+        transcript = dataset.load_transcript(tpath)
+
+        if args.limit:
+            audio = audio[: int(sr * args.limit)]
+            print(f"[경고] --limit 모드: 오디오만 앞 {args.limit}s 로 자름. "
+                  f"정답은 전체라 지표가 부정확함(스모크 테스트 전용).")
+        audio_seconds = len(audio) / sr
+
+        print(f"\n=== {key} ({audio_seconds:.1f}s, {len(transcript.split())} 단어) ===")
+
+        for eng_name in args.engines:
+            print(f"  [{eng_name}] 로딩...")
+            engine = build_engine(eng_name, args.language, device)
+            engine.load()
+            print(f"  [{eng_name}] 인식 중...")
+            text, elapsed = measure_transcribe(engine, audio, sr=sr)
+            metrics = score_pair(transcript, text, audio_seconds=audio_seconds)
+            rtf = elapsed / audio_seconds if audio_seconds else float("nan")
+            row = {
+                "file": key,
+                "engine": engine.name,
+                "model": engine.model_id,
+                "wer_raw": f"{metrics['wer_raw']:.4f}",
+                "cer_raw": f"{metrics['cer_raw']:.4f}",
+                "wer_norm": f"{metrics['wer_norm']:.4f}",
+                "cer_norm": f"{metrics['cer_norm']:.4f}",
+                "rtf": f"{rtf:.3f}",
+                "elapsed_s": f"{elapsed:.2f}",
+                "audio_s": f"{audio_seconds:.1f}",
+                "hyp_words": metrics["hyp_words"],
+            }
+            rows.append(row)
+            print(
+                f"    WER {metrics['wer_norm']:.4f} (raw {metrics['wer_raw']:.4f}) | "
+                f"CER {metrics['cer_norm']:.4f} | RTF {rtf:.3f} | {elapsed:.1f}s"
+            )
+            print(f"    출력(앞 120): {text[:120]}")
+
+    _save_report(rows)
+    _print_table(rows)
+    return 0
+
+
+def _print_table(rows):
+    print("\n" + "=" * 78)
+    print(" 최종 결과")
+    print("=" * 78)
+    hdr = ("파일", "엔진", "모델", "WER(raw)", "CER(raw)", "WER(정규화)", "CER(정규화)", "RTF")
+    print(" | ".join(hdr))
+    print("-" * 78)
+    for r in rows:
+        print(
+            f"{r['file'][:14]:<14} | {r['engine']:<14} | {r['model']:<20} | "
+            f"{r['wer_raw']:>8} | {r['cer_raw']:>8} | {r['wer_norm']:>10} | "
+            f"{r['cer_norm']:>10} | {r['rtf']:>5}"
+        )
+
+
+def _save_report(rows):
+    import datetime
+
+    os.makedirs(REPORT_DIR, exist_ok=True)
+    stamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    csv_path = os.path.join(REPORT_DIR, f"report_{stamp}.csv")
+    md_path = os.path.join(REPORT_DIR, f"report_{stamp}.md")
+
+    keys = [
+        "file", "engine", "model", "wer_raw", "cer_raw", "wer_norm", "cer_norm",
+        "rtf", "elapsed_s", "audio_s", "hyp_words",
+    ]
+    with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=keys)
+        w.writeheader()
+        w.writerows(rows)
+
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write("# STT 채점 리포트\n\n")
+        f.write(f"> 생성: {stamp} · 정답은 YouTube 자동자막 기준(상대 비교)\n\n")
+        f.write("| 파일 | 엔진 | 모델 | WER(raw) | CER(raw) | WER(정규화) | CER(정규화) | RTF |\n")
+        f.write("|---|---|---|---|---|---|---|---|\n")
+        for r in rows:
+            f.write(
+                f"| {r['file']} | {r['engine']} | {r['model']} | {r['wer_raw']} | "
+                f"{r['cer_raw']} | {r['wer_norm']} | {r['cer_norm']} | {r['rtf']} |\n"
+            )
+
+    print(f"\n리포트 저장: {csv_path}\n          {md_path}")
+
+
+def main():
+    ap = argparse.ArgumentParser(description="STT 엔진 배치 채점")
+    ap.add_argument("--engine", action="append", dest="engines",
+                    help="채점할 엔진 (반복 가능). 기본: sensevoice, faster-whisper")
+    ap.add_argument("--language", default="en", help="인식 언어 (기본: en)")
+    ap.add_argument("--cpu", action="store_true", help="CPU 강제")
+    ap.add_argument("--limit", type=float, default=0,
+                    help="오디오 앞 N초만 사용 (0=전체). 스모크 테스트용")
+    args = ap.parse_args()
+
+    if not args.engines:
+        args.engines = ["sensevoice", "faster-whisper"]
+
+    sys.exit(run(args))
+
+
+if __name__ == "__main__":
+    main()
