@@ -1,58 +1,84 @@
-# STT 엔진 벤치마크
+# STT Engine Benchmark
 
-동일 음성 소스를 여러 STT 엔진에 태워 **정답 대비 CER/WER/RTF 로 자동 채점**하는 도구.
+*English (default) · [한국어](README.ko.md)*
 
-원래 `liveCaption`(실시간 자막) 프로젝트에 함께 있던 벤치마크 부분을 목적 분리를 위해
-떼어낸 저장소다. 엔진 어댑터 계층(`engines/`)은 라이브 캡션 쪽과 동일 인터페이스를 쓰므로,
-양쪽 프로젝트가 각자 복사본을 갖는다.
+Runs the same audio source through multiple STT engines and **auto-scores each against a reference transcript (CER / WER / RTF)**.
 
-## 구성
+## 📊 Benchmark results
+
+Full results — related repos by engine, English/Korean scores per engine & model, a metric glossary, and interpretation:
+
+- **[Benchmark summary (English)](2026-08-23%20142956%20stt-benchmark-summary.md)** ← start here
+- [벤치마크 요약 (한국어)](2026-08-23%20142956%20stt-benchmark-summary.ko.md)
+
+Headline — best normalized WER on a 10-minute clip (see the summary for the full table incl. SenseVoice, Parakeet, Moonshine, MOSS, distil-\*):
+
+| Language | Best engine / model | WER | CER |
+|---|---|---|---|
+| English | faster-whisper · large-v3-turbo | **0.0681** | 0.0485 |
+| Korean  | faster-whisper · large-v3-turbo | **0.1865** | 0.0855 |
+
+> Measured on: CPU — 12th Gen Intel Core i7-12850HX · GPU — NVIDIA RTX A2000 8GB Laptop.
+
+## Engines
+
+Swap engines behind a common `SttEngine` interface (`engines/`). Registry keys:
+
+| key | engine | languages |
+|---|---|---|
+| `faster-whisper` | OpenAI Whisper (CTranslate2); models small → large-v3-turbo, distil-\* | 99 |
+| `sensevoice` | FunASR / Paraformer (non-autoregressive) | 50+ |
+| `sensevoice-gguf` | SenseVoice on llama.cpp GGUF runtime (CPU) | 50+ |
+| `parakeet` | NVIDIA Parakeet TDT (onnx-asr) | English + 25 EU (no Korean) |
+| `moonshine` | Useful Sensors Moonshine (ONNX, short-form) | English only |
+| `moss` | MOSS-Transcribe-Diarize (Whisper enc + LLM dec) | 50+ |
+
+## Layout
 
 ```
 stt-benchmark/
-  engines/     base.py · sensevoice.py · sensevoice_gguf.py · faster_whisper.py · moss.py
-               # SttEngine 인터페이스 — 교체 가능한 STT 엔진 어댑터 계층
-  benchmark/   score.py · dataset.py · run_benchmark.py
-               # wav + 정답 txt 를 매칭해 엔진별 CER/WER/RTF 산출
-  data/        audio/ · transcripts/ · raw/ · reports/   # 음성·정답·리포트 (gitignore)
-  .docs/       벤치 결과·계획 문서 (gitignore)
+  engines/     base.py · faster_whisper.py · sensevoice.py · sensevoice_gguf.py
+               parakeet.py · moonshine.py · moss.py
+               # SttEngine interface — pluggable STT engine adapters
+  benchmark/   score.py · dataset.py · run_benchmark.py · graded.py
+               # match wav + reference txt, compute per-engine CER/WER/RTF
+  data/        audio/ · transcripts/ · raw/ · reports/   # audio · references · reports (gitignored)
 ```
 
-- `engines/` — `SttEngine` 인터페이스. `load()` 후 `transcribe(audio) -> str`.
-- `benchmark/dataset.py` — `data/audio/*.wav` 와 같은 이름의 `data/transcripts/*.txt`(정답)를 매칭.
-- `benchmark/score.py` — `jiwer` 로 CER/WER 계산, 전사 시간으로 RTF 산출.
-- `benchmark/run_benchmark.py` — 엔진별 배치 채점 후 `data/reports/` 에 결과 저장.
+- `engines/` — the `SttEngine` interface: `load()`, then `transcribe(audio) -> str`.
+- `benchmark/dataset.py` — matches `data/audio/*.wav` to same-named `data/transcripts/*.txt` (reference).
+- `benchmark/score.py` — CER/WER via `jiwer`; RTF from transcription time.
+- `benchmark/graded.py` — renders a word-level graded transcript (mis-transcribed = ~~strikethrough~~, corrections = [**bold**]).
+- `benchmark/run_benchmark.py` — batch-scores per engine, writes to `data/reports/`.
 
-## 설치
+## Install
 
 ```bash
 pip install -r requirements.txt
-# torch 는 CUDA 빌드 별도 설치 (GPU 사용 시)
+# Install a CUDA build of torch separately for GPU use:
 #   https://pytorch.org/get-started/locally/
 ```
 
-## 사용
+## Usage
 
-`data/audio/<이름>.wav` 와 `data/transcripts/<이름>.txt`(정답 전사)를 같은 이름으로 둔다.
+Place `data/audio/<name>.wav` and `data/transcripts/<name>.txt` (reference) under the same base name.
 
 ```bash
-# 기본(sensevoice + faster-whisper), 영어, GPU
+# default (sensevoice + faster-whisper), English, GPU
 python -m benchmark.run_benchmark
 
-# 엔진·언어 지정, CPU, 앞 60초만(스모크)
+# pick engine/language, CPU, first 60s only (smoke test)
 python -m benchmark.run_benchmark --engine faster-whisper --language en --cpu --limit 60
 ```
 
-옵션:
-
-| 옵션 | 설명 |
+| Option | Description |
 |---|---|
-| `--engine` | 채점할 엔진 (반복 가능). 기본: `sensevoice`, `faster-whisper` |
-| `--language` | 인식 언어 (기본: `en`) |
-| `--cpu` | CPU 강제 (미지정 시 `cuda:0`) |
-| `--limit` | 오디오 앞 N초만 사용 (0=전체). 스모크 테스트용 |
+| `--engine` | engine to score (repeatable). Default: `sensevoice`, `faster-whisper` |
+| `--language` | recognition language (default: `en`) |
+| `--cpu` | force CPU (default: `cuda:0`) |
+| `--limit` | use first N seconds only (0 = full). For smoke tests |
 
-## 데이터 준비
+## Data prep
 
-`data/raw/` 의 YouTube 자막(json3)·오디오는 `yt-dlp` 로 받는다(`pip install yt-dlp`).
-벤치 실험에 쓴 일회성 스크립트는 `.temp/` 에 있다(전사 생성·엔진별 재채점 등).
+YouTube subtitles (json3) and audio under `data/raw/` are fetched with `yt-dlp` (`pip install yt-dlp`).
+One-off scripts used for the benchmark experiments (reference building, per-engine re-scoring) live in `.temp/`.

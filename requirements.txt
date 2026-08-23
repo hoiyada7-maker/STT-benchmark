@@ -10,5 +10,9 @@ modelscope
 faster-whisper
 jiwer
 
+# 추가 엔진 (영어 벤치)
+onnx-asr               # Parakeet (NVIDIA NeMo FastConformer-TDT) ONNX 런타임
+useful-moonshine-onnx  # Moonshine (Useful Sensors) ONNX 런타임
+
 # 선택(데이터 준비): yt-dlp
 #   pip install yt-dlp
