@@ -74,9 +74,11 @@ python -m benchmark.run_benchmark --engine faster-whisper --language en --cpu --
 | 옵션 | 설명 |
 |---|---|
 | `--engine` | 채점할 엔진 (반복 가능). 기본: `sensevoice`, `faster-whisper` |
+| `--model` | faster-whisper 모델 크기 (기본: `small`) |
 | `--language` | 인식 언어 (기본: `en`) |
 | `--cpu` | CPU 강제 (미지정 시 `cuda:0`) |
 | `--limit` | 오디오 앞 N초만 사용 (0=전체). 스모크 테스트용 |
+| `--graded` | 엔진·파일별 채점지 생성 → `data/reports/graded/` |
 
 ## 데이터 준비
 

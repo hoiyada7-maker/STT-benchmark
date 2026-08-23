@@ -74,9 +74,11 @@ python -m benchmark.run_benchmark --engine faster-whisper --language en --cpu --
 | Option | Description |
 |---|---|
 | `--engine` | engine to score (repeatable). Default: `sensevoice`, `faster-whisper` |
+| `--model` | faster-whisper model size (default: `small`) |
 | `--language` | recognition language (default: `en`) |
 | `--cpu` | force CPU (default: `cuda:0`) |
 | `--limit` | use first N seconds only (0 = full). For smoke tests |
+| `--graded` | save a graded transcript per engine/file → `data/reports/graded/` |
 
 ## Data prep
 

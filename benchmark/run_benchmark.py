@@ -2,11 +2,16 @@
 
 data/ 의 모든 (오디오, 정답) 쌍에 대해 선택한 엔진들을 돌려
 CER/WER/RTF 를 계산하고, 콘솔 표와 CSV/md 리포트를 출력한다.
+등록된 6개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
+moonshine) 모두 --engine 으로 선택 가능하며, faster-whisper 는 --model 로
+모델 크기를 고를 수 있다. --graded 를 주면 엔진·파일별 채점지(md)도 저장한다.
 
 실행:
     python -m benchmark.run_benchmark                 # 전체(2 엔진)
     python -m benchmark.run_benchmark --engine sensevoice
+    python -m benchmark.run_benchmark --engine faster-whisper --model medium
     python -m benchmark.run_benchmark --limit 30      # 앞 30초만 스모크 테스트
+    python -m benchmark.run_benchmark --graded        # 채점지(md)도 저장
 """
 
 import argparse
@@ -21,25 +26,21 @@ if hasattr(sys.stdout, "reconfigure"):
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from engines import get_engine, SenseVoiceEngine, SenseVoiceGGUFEngine, FasterWhisperEngine
+from engines import get_engine
 from benchmark import dataset
+from benchmark.graded import build_markdown
 from benchmark.score import measure_transcribe, score_pair
 
 REPORT_DIR = os.path.join(dataset.DATA_DIR, "reports")
 
-ENGINE_SPECS = {
-    "sensevoice": lambda lang, dev: SenseVoiceEngine(language=lang, device=dev),
-    "sensevoice-gguf": lambda lang, dev: SenseVoiceGGUFEngine(language=lang, device=dev),
-    "faster-whisper": lambda lang, dev: FasterWhisperEngine(
-        language=lang, device=dev, model_size="small"
-    ),
-}
+# 한국어를 지원하지 않는 엔진
+NO_KOREAN_ENGINES = {"parakeet", "moonshine"}
 
 
-def build_engine(name, language, device):
-    spec = ENGINE_SPECS[name]
-    eng = spec(language, device)
-    return eng
+def build_engine(name, language, device, model):
+    if name == "faster-whisper":
+        return get_engine(name, language=language, device=device, model_size=model)
+    return get_engine(name, language=language, device=device)
 
 
 def run(args):
@@ -64,8 +65,12 @@ def run(args):
         print(f"\n=== {key} ({audio_seconds:.1f}s, {len(transcript.split())} 단어) ===")
 
         for eng_name in args.engines:
+            if args.language.startswith("ko") and eng_name in NO_KOREAN_ENGINES:
+                print(f"  [{eng_name}] 경고: 한국어({args.language})를 지원하지 않는 엔진이라 건너뜀.")
+                continue
+
             print(f"  [{eng_name}] 로딩...")
-            engine = build_engine(eng_name, args.language, device)
+            engine = build_engine(eng_name, args.language, device, args.model)
             engine.load()
             print(f"  [{eng_name}] 인식 중...")
             text, elapsed = measure_transcribe(engine, audio, sr=sr)
@@ -91,6 +96,9 @@ def run(args):
             )
             print(f"    출력(앞 120): {text[:120]}")
 
+            if args.graded:
+                _save_graded(eng_name, engine, args, key, audio_seconds, transcript, text, metrics, rtf, elapsed)
+
     _save_report(rows)
     _print_table(rows)
     return 0
@@ -109,6 +117,31 @@ def _print_table(rows):
             f"{r['wer_raw']:>8} | {r['cer_raw']:>8} | {r['wer_norm']:>10} | "
             f"{r['cer_norm']:>10} | {r['rtf']:>5}"
         )
+
+
+def _save_graded(eng_name, engine, args, key, audio_seconds, transcript, text, metrics, rtf, elapsed):
+    meta = {
+        "엔진 / 모델": f"{engine.name} · {engine.model_id}",
+        "언어": args.language,
+        "데이터": f"{key} ({audio_seconds:.0f}s)",
+        "WER (raw / norm)": f"{metrics['wer_raw']:.4f} / {metrics['wer_norm']:.4f}",
+        "CER (raw / norm)": f"{metrics['cer_raw']:.4f} / {metrics['cer_norm']:.4f}",
+        "RTF": f"{rtf:.3f}",
+        "처리시간": f"{elapsed:.1f}s",
+    }
+    md = build_markdown(transcript, text, title=f"채점지 — {engine.name} ({args.language})", meta=meta)
+
+    slug = eng_name
+    if eng_name == "faster-whisper":
+        slug = f"{eng_name}_{args.model}"
+
+    graded_dir = os.path.join(REPORT_DIR, "graded")
+    os.makedirs(graded_dir, exist_ok=True)
+    # 파일명에 데이터셋 key 를 넣어 여러 오디오를 돌려도 서로 덮어쓰지 않게 한다.
+    path = os.path.join(graded_dir, f"graded_{args.language}_{key}_{slug}.md")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(md)
+    print(f"    채점지 저장: {path}")
 
 
 def _save_report(rows):
@@ -145,11 +178,16 @@ def _save_report(rows):
 def main():
     ap = argparse.ArgumentParser(description="STT 엔진 배치 채점")
     ap.add_argument("--engine", action="append", dest="engines",
-                    help="채점할 엔진 (반복 가능). 기본: sensevoice, faster-whisper")
+                    help="채점할 엔진 (반복 가능). 기본: sensevoice, faster-whisper. "
+                         "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine")
+    ap.add_argument("--model", default="small",
+                    help="faster-whisper 모델 크기 (기본: small). 다른 엔진에는 영향 없음")
     ap.add_argument("--language", default="en", help="인식 언어 (기본: en)")
     ap.add_argument("--cpu", action="store_true", help="CPU 강제")
     ap.add_argument("--limit", type=float, default=0,
                     help="오디오 앞 N초만 사용 (0=전체). 스모크 테스트용")
+    ap.add_argument("--graded", action="store_true",
+                    help="엔진·파일별 채점지(md, 단어 diff)를 data/reports/graded/ 에 저장")
     args = ap.parse_args()
 
     if not args.engines:
