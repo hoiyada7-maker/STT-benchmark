@@ -32,15 +32,16 @@ Swap engines behind a common `SttEngine` interface (`engines/`). Registry keys:
 | `parakeet` | NVIDIA Parakeet TDT (onnx-asr) | English + 25 EU (no Korean) |
 | `moonshine` | Useful Sensors Moonshine (ONNX, short-form) | English only |
 | `moss` | MOSS-Transcribe-Diarize (Whisper enc + LLM dec) | 50+ |
-| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM backbone); 0.6B/1.7B, pick size via `--model` | 52 (incl. ko/en) |
+| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM backbone); 0.6B/1.7B + Korean fine-tune 1.7b-ko (TeamUNIVA), pick via `--model` | 52 (incl. ko/en) |
 | `nemo-asr` | NVIDIA NeMo 2026 (Parakeet-Unified · Nemotron-Speech · Nemotron-3.5), pick via `--model`; needs a dedicated Python-3.12 venv | En-only (2) + 40 incl. ko (Nemotron-3.5) |
+| `granite-speech` | IBM Granite-Speech 3.3 (Whisper encoder + Granite LLM, two-pass); runs on GPU via transformers | English + 5 EU (no Korean) |
 
 ## Layout
 
 ```
 stt-benchmark/
   engines/     base.py · faster_whisper.py · sensevoice.py · sensevoice_gguf.py
-               parakeet.py · moonshine.py · moss.py · qwen3_asr.py · nemo_asr.py
+               parakeet.py · moonshine.py · moss.py · qwen3_asr.py · nemo_asr.py · granite_speech.py
                # SttEngine interface — pluggable STT engine adapters
   benchmark/   score.py · dataset.py · run_benchmark.py · graded.py
                # match wav + reference txt, compute per-engine CER/WER/RTF

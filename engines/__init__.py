@@ -9,6 +9,7 @@ from .parakeet import ParakeetEngine
 from .moonshine import MoonshineEngine
 from .qwen3_asr import Qwen3AsrEngine
 from .nemo_asr import NemoAsrEngine
+from .granite_speech import GraniteSpeechEngine
 
 __all__ = [
     "SttEngine",
@@ -20,6 +21,7 @@ __all__ = [
     "MoonshineEngine",
     "Qwen3AsrEngine",
     "NemoAsrEngine",
+    "GraniteSpeechEngine",
 ]
 
 
@@ -34,6 +36,7 @@ def get_engine(name: str, **kwargs) -> SttEngine:
         "moonshine": MoonshineEngine,
         "qwen3-asr": Qwen3AsrEngine,
         "nemo-asr": NemoAsrEngine,
+        "granite-speech": GraniteSpeechEngine,
     }
     if name not in registry:
         raise KeyError(f"알 수 없는 엔진: {name!r} (가능: {list(registry)})")

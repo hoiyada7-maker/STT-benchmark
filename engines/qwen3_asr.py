@@ -15,6 +15,8 @@ from .base import SttEngine
 _MODELS = {
     "0.6b": "Qwen/Qwen3-ASR-0.6B",
     "1.7b": "Qwen/Qwen3-ASR-1.7B",
+    # 한국어 특화 파인튜닝(같은 qwen-asr API, base 는 Qwen3-ASR-1.7B)
+    "1.7b-ko": "TeamUNIVA/qwen3_asr_1.7b_ko_beta",
 }
 _LANG = {"en": "English", "ko": "Korean"}
 _CHUNK_SECONDS = 120.0
@@ -42,6 +44,16 @@ class Qwen3AsrEngine(SttEngine):
             device_map=dev,
             max_new_tokens=4096,
         )
+        # 일부 파인튜닝 저장소(예: 1.7b-ko)는 chat_template.json 을 누락한다.
+        # base Qwen3-ASR-1.7B 의 템플릿(동일 아키텍처)을 복원해 채운다.
+        if getattr(self._model.processor, "chat_template", None) is None:
+            import json
+
+            from huggingface_hub import hf_hub_download
+
+            p = hf_hub_download("Qwen/Qwen3-ASR-1.7B", "chat_template.json")
+            with open(p, encoding="utf-8") as f:
+                self._model.processor.chat_template = json.load(f)["chat_template"]
         self._lang = _LANG.get(self.language[:2], "English")
         self._chunked = False
 

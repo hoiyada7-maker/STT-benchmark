@@ -32,15 +32,16 @@
 | `parakeet` | NVIDIA Parakeet TDT (onnx-asr) | 영어 + 유럽어 25종 (한국어 X) |
 | `moonshine` | Useful Sensors Moonshine (ONNX, 단문형) | 영어 전용 |
 | `moss` | MOSS-Transcribe-Diarize (Whisper 인코더 + LLM 디코더) | 50+ |
-| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM 백본); 0.6B/1.7B, `--model` 로 크기 선택 | 52개 (ko/en 포함) |
+| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM 백본); 0.6B/1.7B + 한국어 파인튜닝 1.7b-ko(TeamUNIVA), `--model` 로 선택 | 52개 (ko/en 포함) |
 | `nemo-asr` | NVIDIA NeMo 2026 (Parakeet-Unified · Nemotron-Speech · Nemotron-3.5), `--model` 로 선택; 전용 Python 3.12 venv 필요 | 영어 전용(2종) + 40개 ko 포함(Nemotron-3.5) |
+| `granite-speech` | IBM Granite-Speech 3.3 (Whisper 인코더 + Granite LLM, 2-pass); transformers 로 GPU 구동 | 영어 + 유럽어 5종 (한국어 X) |
 
 ## 구성
 
 ```
 stt-benchmark/
   engines/     base.py · faster_whisper.py · sensevoice.py · sensevoice_gguf.py
-               parakeet.py · moonshine.py · moss.py · qwen3_asr.py · nemo_asr.py
+               parakeet.py · moonshine.py · moss.py · qwen3_asr.py · nemo_asr.py · granite_speech.py
                # SttEngine 인터페이스 — 교체 가능한 STT 엔진 어댑터
   benchmark/   score.py · dataset.py · run_benchmark.py · graded.py
                # wav + 정답 txt 매칭, 엔진별 CER/WER/RTF 산출

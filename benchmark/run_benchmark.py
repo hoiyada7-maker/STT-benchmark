@@ -2,10 +2,11 @@
 
 data/ 의 모든 (오디오, 정답) 쌍에 대해 선택한 엔진들을 돌려
 CER/WER/RTF 를 계산하고, 콘솔 표와 CSV/md 리포트를 출력한다.
-등록된 8개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
-moonshine, qwen3-asr, nemo-asr) 모두 --engine 으로 선택 가능하며, faster-whisper 는
---model 로 모델 크기를, qwen3-asr(0.6b/1.7b)·nemo-asr(parakeet-unified/nemotron-speech/
-nemotron-3.5)는 --model 로 변형을 고를 수 있다. (nemo-asr 는 전용 .venv-nemo312 필요)
+등록된 9개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
+moonshine, qwen3-asr, nemo-asr, granite-speech) 모두 --engine 으로 선택 가능하며,
+faster-whisper 는 --model 로 모델 크기를, qwen3-asr(0.6b/1.7b/1.7b-ko)·nemo-asr
+(parakeet-unified/nemotron-speech/nemotron-3.5)는 --model 로 변형을 고를 수 있다.
+granite-speech 는 영어 전용(한국어 미지원), nemo-asr 는 전용 .venv-nemo312 필요.
 --graded 를 주면 엔진·파일별 채점지(md)도 저장한다.
 
 실행:
@@ -36,7 +37,7 @@ from benchmark.score import measure_transcribe, score_pair
 REPORT_DIR = os.path.join(dataset.DATA_DIR, "reports")
 
 # 한국어를 지원하지 않는 엔진
-NO_KOREAN_ENGINES = {"parakeet", "moonshine"}
+NO_KOREAN_ENGINES = {"parakeet", "moonshine", "granite-speech"}
 
 
 def build_engine(name, language, device, model):
@@ -183,9 +184,9 @@ def main():
     ap = argparse.ArgumentParser(description="STT 엔진 배치 채점")
     ap.add_argument("--engine", action="append", dest="engines",
                     help="채점할 엔진 (반복 가능). 기본: sensevoice, faster-whisper. "
-                         "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine, qwen3-asr, nemo-asr")
+                         "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine, qwen3-asr, nemo-asr, granite-speech")
     ap.add_argument("--model", default="small",
-                    help="faster-whisper 모델 크기(기본: small), qwen3-asr 변형(0.6b/1.7b), "
+                    help="faster-whisper 모델 크기(기본: small), qwen3-asr 변형(0.6b/1.7b/1.7b-ko), "
                          "또는 nemo-asr 변형(parakeet-unified/nemotron-speech/nemotron-3.5). 다른 엔진에는 영향 없음")
     ap.add_argument("--language", default="en", help="인식 언어 (기본: en)")
     ap.add_argument("--cpu", action="store_true", help="CPU 강제")
