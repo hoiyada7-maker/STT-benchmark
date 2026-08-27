@@ -7,6 +7,8 @@ from .faster_whisper import FasterWhisperEngine
 from .moss import MossTranscribeDiarizeEngine
 from .parakeet import ParakeetEngine
 from .moonshine import MoonshineEngine
+from .qwen3_asr import Qwen3AsrEngine
+from .nemo_asr import NemoAsrEngine
 
 __all__ = [
     "SttEngine",
@@ -16,6 +18,8 @@ __all__ = [
     "MossTranscribeDiarizeEngine",
     "ParakeetEngine",
     "MoonshineEngine",
+    "Qwen3AsrEngine",
+    "NemoAsrEngine",
 ]
 
 
@@ -28,6 +32,8 @@ def get_engine(name: str, **kwargs) -> SttEngine:
         "moss": MossTranscribeDiarizeEngine,
         "parakeet": ParakeetEngine,
         "moonshine": MoonshineEngine,
+        "qwen3-asr": Qwen3AsrEngine,
+        "nemo-asr": NemoAsrEngine,
     }
     if name not in registry:
         raise KeyError(f"알 수 없는 엔진: {name!r} (가능: {list(registry)})")

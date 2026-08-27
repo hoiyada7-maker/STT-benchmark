@@ -2,9 +2,11 @@
 
 data/ 의 모든 (오디오, 정답) 쌍에 대해 선택한 엔진들을 돌려
 CER/WER/RTF 를 계산하고, 콘솔 표와 CSV/md 리포트를 출력한다.
-등록된 6개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
-moonshine) 모두 --engine 으로 선택 가능하며, faster-whisper 는 --model 로
-모델 크기를 고를 수 있다. --graded 를 주면 엔진·파일별 채점지(md)도 저장한다.
+등록된 8개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
+moonshine, qwen3-asr, nemo-asr) 모두 --engine 으로 선택 가능하며, faster-whisper 는
+--model 로 모델 크기를, qwen3-asr(0.6b/1.7b)·nemo-asr(parakeet-unified/nemotron-speech/
+nemotron-3.5)는 --model 로 변형을 고를 수 있다. (nemo-asr 는 전용 .venv-nemo312 필요)
+--graded 를 주면 엔진·파일별 채점지(md)도 저장한다.
 
 실행:
     python -m benchmark.run_benchmark                 # 전체(2 엔진)
@@ -40,6 +42,8 @@ NO_KOREAN_ENGINES = {"parakeet", "moonshine"}
 def build_engine(name, language, device, model):
     if name == "faster-whisper":
         return get_engine(name, language=language, device=device, model_size=model)
+    if name in ("qwen3-asr", "nemo-asr"):
+        return get_engine(name, language=language, device=device, variant=model)
     return get_engine(name, language=language, device=device)
 
 
@@ -179,9 +183,10 @@ def main():
     ap = argparse.ArgumentParser(description="STT 엔진 배치 채점")
     ap.add_argument("--engine", action="append", dest="engines",
                     help="채점할 엔진 (반복 가능). 기본: sensevoice, faster-whisper. "
-                         "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine")
+                         "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine, qwen3-asr, nemo-asr")
     ap.add_argument("--model", default="small",
-                    help="faster-whisper 모델 크기 (기본: small). 다른 엔진에는 영향 없음")
+                    help="faster-whisper 모델 크기(기본: small), qwen3-asr 변형(0.6b/1.7b), "
+                         "또는 nemo-asr 변형(parakeet-unified/nemotron-speech/nemotron-3.5). 다른 엔진에는 영향 없음")
     ap.add_argument("--language", default="en", help="인식 언어 (기본: en)")
     ap.add_argument("--cpu", action="store_true", help="CPU 강제")
     ap.add_argument("--limit", type=float, default=0,

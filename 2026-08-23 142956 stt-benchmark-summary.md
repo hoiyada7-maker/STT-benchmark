@@ -10,7 +10,7 @@
 
 ## 1. Related repos by engine used
 
-The engines included in the benchmark fall into five broad families: **Whisper family**, **Paraformer (SenseVoice) family**, **NVIDIA Parakeet**, **Moonshine**, and **LLM-based ASR**. The `Related repos` column holds two things — the **first line** is the engine's own repo (either the **original research/development repo** for the model, or a **runtime implementation repo** that runs that model), and the **second line, `Adopting apps`**, lists the downstream apps that actually use that engine (drawn from a survey of 6 apps used as references for real-time captioning/post-processing, filtered to those using the given engine).
+The engines included in the benchmark fall into five broad families: **Whisper family**, **Paraformer (SenseVoice) family**, **NVIDIA NeMo (Parakeet · Nemotron)**, **Moonshine**, and **LLM-based ASR**. The `Related repos` column holds two things — the **first line** is the engine's own repo (either the **original research/development repo** for the model, or a **runtime implementation repo** that runs that model), and the **second line, `Adopting apps`**, lists the downstream apps that actually use that engine (drawn from a survey of 6 apps used as references for real-time captioning/post-processing, filtered to those using the given engine).
 
 | Engine | Family | Related repos | Supported languages | Notes |
 |---|---|---|---|---|
@@ -20,8 +20,10 @@ The engines included in the benchmark fall into five broad families: **Whisper f
 | **Parakeet** | NVIDIA NeMo FastConformer-TDT | [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) · [istupakov/onnx-asr](https://github.com/istupakov/onnx-asr) (runtime)<br>**Adopting apps**: [meetily](https://github.com/Zackriya-Solutions/meetily) · [Handy](https://github.com/cjpais/Handy) · [speech-to-speech](https://github.com/huggingface/speech-to-speech) · [VoiceStudio](https://github.com/debpalash/VoiceStudio) | English + 25 European languages (**Korean not supported**) | A speed-first multilingual ASR model. Good CPU efficiency has made it a popular choice among related apps |
 | **Moonshine** | Useful Sensors Moonshine | [usefulsensors/moonshine](https://github.com/usefulsensors/moonshine)<br>**Adopting apps**: [VoiceStudio](https://github.com/debpalash/VoiceStudio) | English only | Low-power, low-latency ONNX short-form model. Aimed at embedded/on-device use. Good CPU efficiency |
 | **MOSS** | LLM-based ASR | [OpenMOSS/MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize) | 50+ | A Whisper encoder paired with a small LLM decoder. Supports speaker diarization |
+| **Qwen3-ASR** | LLM-based ASR | [QwenLM/Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR) | 52 (incl. ko/en) | A transcription model built on the Qwen3 LLM backbone. Scored at two sizes, 0.6B/1.7B (the same repo's ForcedAligner-0.6B is excluded from transcription scoring, since it only aligns existing text to audio timestamps rather than transcribing) |
+| **NeMo (2026)** | NVIDIA NeMo FastConformer/RNNT | [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) | 2 English-only + 40 (incl. ko, Nemotron-3.5) | Three new 2026 NeMo models — Parakeet-Unified · Nemotron-Speech (English), Nemotron-3.5 (multilingual, language set via `prompt`). Same NeMo lineage as the onnx Parakeet (v3) above but distinct new models; needs a dedicated Python-3.12 venv and runs whole-clip (600s) GPU inference |
 
-> All 6 apps surveyed use a **Whisper-family engine (faster-whisper / whisper.cpp / WhisperX) as their core, default engine**, and **Parakeet · Moonshine**, which kept recurring across those apps, were additionally evaluated here for English (results in §2). `whisper.cpp`, `WhisperX`, TensorRT, OpenVINO, `sherpa-onnx`, etc. are not new engines but rather **different runtimes** for existing models.
+> All 6 apps surveyed use a **Whisper-family engine (faster-whisper / whisper.cpp / WhisperX) as their core, default engine**, and **Parakeet · Moonshine**, which kept recurring across those apps, were additionally evaluated here for English (results in §2). Within the LLM-based ASR family, **Qwen3-ASR** was evaluated alongside MOSS, and Qwen3-ASR was scored for both English and Korean. In addition, **three new NeMo models NVIDIA released in 2026** (Parakeet-Unified · Nemotron-Speech · Nemotron-3.5) were added to the scoring (all three for English; for Korean, only the multilingual Nemotron-3.5). `whisper.cpp`, `WhisperX`, TensorRT, OpenVINO, `sherpa-onnx`, etc. are not new engines but rather **different runtimes** for existing models.
 
 ### Model lineup scored within the Whisper family
 
@@ -57,6 +59,11 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 | SenseVoice-GGUF (CPU) | 0.2902 | 0.1269 | 0.034 |
 | Parakeet · v3 (CPU) | 0.2469 | 0.1702 | 0.079 |
 | Moonshine · base (CPU) | 0.1341 | 0.0816 | 0.152 |
+| Qwen3-ASR · 0.6B | 0.1747 | 0.1113 | 0.159 |
+| Qwen3-ASR · 1.7B | 0.1417 | 0.0981 | 0.189 |
+| NeMo · Parakeet-Unified | 0.1190 | 0.0843 | 0.153 |
+| NeMo · Nemotron-Speech | 0.1664 | 0.1074 | 0.146 |
+| NeMo · Nemotron-3.5 | 0.1623 | 0.1001 | 0.159 |
 | faster-whisper · small | 0.1774 | 0.1163 | 0.030 |
 | faster-whisper · medium | 0.0908 | 0.0627 | 0.066 |
 | faster-whisper · large-v3 | 0.0736 | 0.0540 | 0.377 |
@@ -68,11 +75,14 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 - **distil-large-v3** delivers medium-level accuracy at the highest speed (RTF 0.075), making it the best-value option for English.
 - **Moonshine (base)** is an ultra-lightweight English-only model, yet its WER of 0.1341 beats whisper-small (0.1774) — making it attractive for on-device, low-power English dictation.
 - **Parakeet (v3)** came in lower than expected on this clip's English, at WER 0.2469. The main reason is that v3 is a **unified multilingual model**, putting it at a disadvantage versus an English-specialized variant (v2); the fixed-window chunking effect noted below is minimal (only about 4 boundaries).
+- **Qwen3-ASR (1.7B)** posts a WER of 0.1417, beating whisper-small (0.1774) but falling short of medium (0.0908). It's a short-form model, so feeding it the full 600 seconds unchunked caused unstable long-form behavior — including entirely dropping the leading portion (e.g., unchunked input pushed the 0.6B WER up to 0.4697) — so, like Parakeet and Moonshine, it was chunked into fixed 120-second windows.
+- **The three NeMo (2026) models** land at English WER 0.119–0.166, with the best, **Parakeet-Unified (0.1190)**, falling short of whisper-medium (0.0908) but beating whisper-small (0.1774), Qwen3-ASR, and Moonshine. Unlike the onnx Parakeet (v3), all three run **whole-clip GPU inference over the full 600 seconds** (no chunking), so their RTF is GPU-based and directly comparable to Whisper. Notably, Parakeet-Unified missed the entire opening sentence (~38 word deletions) yet still ranked first among the three NeMo models.
 
 > **Measurement caveats (fairness)**:
 > - **The evaluation window is identical.** Every engine is scored on the same 600-second (first 10 minutes) clip, so this part is fair.
-> - **Internal chunking differs by engine.** The earlier engines use **VAD-based chunking** that cuts at silence boundaries (faster-whisper = Silero VAD, SenseVoice/GGUF = FSMN-VAD, capped at 30 seconds). The two newly added engines, by contrast, use a **fixed time window** — Parakeet uses a 120-second window because full-length inference failed due to a runtime limitation, and Moonshine uses a 30-second window since it's a short-form model. Fixed windows cut without regard to word boundaries, which can inflate WER somewhat. That said, Parakeet's 120-second window has only about 4 boundaries, so the impact is minimal, while Moonshine's 30-second window has about 19 boundaries, incurring a slight penalty.
-> - **RTF is CPU (ONNX) based** for Parakeet, Moonshine, and SenseVoice-GGUF, so it should not be directly compared to Whisper's GPU-measured RTF. WER/CER remain the core basis for accuracy comparison.
+> - **Internal chunking differs by engine.** The earlier engines use **VAD-based chunking** that cuts at silence boundaries (faster-whisper = Silero VAD, SenseVoice/GGUF = FSMN-VAD, capped at 30 seconds). The newly added engines (Parakeet, Moonshine, Qwen3-ASR), by contrast, use a **fixed time window** — Parakeet uses a 120-second window because full-length inference failed due to a runtime limitation, and Moonshine uses a 30-second window since it's a short-form model. Qwen3-ASR also uses a 120-second window, but for a different reason than Parakeet: rather than a runtime limitation, it's a deliberate choice made from the start, because the model itself is short-form by design and silently produces poor results (e.g., dropping the leading portion) on unchunked long-form input. Fixed windows cut without regard to word boundaries, which can inflate WER somewhat. That said, Parakeet's 120-second window has only about 4 boundaries, so the impact is minimal, while Moonshine's 30-second window has about 19 boundaries, incurring a slight penalty.
+> - **The three NeMo (2026) models run whole-clip GPU inference over the full 600 seconds, without chunking.** Unlike the newly added engines above that use fixed windows (onnx Parakeet, Moonshine, Qwen3-ASR), they incur no boundary-cutting penalty, and their RTF is GPU-based, so it compares directly with Whisper under the same conditions.
+> - **RTF is CPU (ONNX) based** for Parakeet, Moonshine, and SenseVoice-GGUF, so it should not be directly compared to the GPU-measured RTF of Whisper and NeMo. WER/CER remain the core basis for accuracy comparison.
 
 ### 2-2. Korean results (normalized)
 
@@ -80,6 +90,9 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 |---|---|---|---|
 | SenseVoice | 0.6946 | 0.2164 | **0.010** |
 | SenseVoice-GGUF (CPU) | 0.7032 | 0.2383 | 0.034 |
+| Qwen3-ASR · 0.6B | 0.3849 | 0.1773 | 0.255 |
+| Qwen3-ASR · 1.7B | 0.2626 | 0.1076 | 0.314 |
+| NeMo · Nemotron-3.5 | 0.3644 | 0.1735 | 0.157 |
 | faster-whisper · small | 0.2541 | 0.1022 | 0.038 |
 | faster-whisper · medium | 0.2079 | 0.0918 | 0.093 |
 | faster-whisper · large-v3 | 0.2207 | 0.1207 | 0.486 |
@@ -88,11 +101,14 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 | faster-whisper · distil-large-v3.5 | 0.9957 | 0.8592 | 0.113 |
 | Parakeet · v3 | — (unsupported) | — | — |
 | Moonshine | — (English only) | — | — |
+| NeMo · Parakeet-Unified / Nemotron-Speech | — (English only) | — | — |
 
 - Top Korean accuracy also goes to **large-v3-turbo**, the only model that improves on medium.
 - **The distil variants are unusable for Korean** (WER ~0.99). Because they were distilled with an English focus, their multilingual capability was stripped out.
 - **The SenseVoice family lags far behind for Korean** (WER ~0.70) — a limitation of a Chinese-centric multilingual model.
+- **Qwen3-ASR (1.7B)** posts a WER of 0.2626, roughly on par with small (0.2541), but falls short of medium (0.2079) and large-v3-turbo (0.1865).
 - **Parakeet (v3)** was excluded from Korean scoring because Korean isn't among its supported languages (English + 25 European languages). **Moonshine** was never a candidate to begin with, since it's English-only.
+- **NeMo Nemotron-3.5** posts a Korean WER of 0.3644 / CER 0.1735 — respectable for a multilingual model covering 40 languages, but short of Qwen3-ASR (1.7B) and the Whisper family. The other two NeMo models (Parakeet-Unified, Nemotron-Speech) are English-only and were excluded from Korean scoring.
 
 ### 2-3. Speed (RTF) summary
 
@@ -151,6 +167,7 @@ After switching the reference to **human-written manual subtitles**, that cancel
 | English accuracy is top priority | **large-v3-turbo** (WER 0.0681, even more accurate than large-v3) |
 | Fastest English (minimal accuracy trade-off) | **distil-large-v3** (RTF 0.075, WER ≈ medium) |
 | English on-device / ultra-lightweight CPU | **Moonshine** (WER 0.1341, an ultra-lightweight English model that beats whisper-small) |
+| English on GPU / whole-clip (no chunking needed) | **NeMo Parakeet-Unified** (WER 0.1190, whole 600s on GPU) |
 | Korean accuracy is top priority | **large-v3-turbo** (WER 0.1865 / CER 0.0855) |
 | Lowest latency / ultra-lightweight (trading off accuracy) | **SenseVoice** (RTF 0.010, but inaccurate for Korean) |
 | CPU-only environment | **SenseVoice-GGUF** (multilingual) / **Moonshine** (English) |
