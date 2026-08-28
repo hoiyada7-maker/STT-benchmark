@@ -1,0 +1,3 @@
+﻿file,engine,model,wer_raw,cer_raw,wer_norm,cer_norm,rtf,elapsed_s,audio_s,hyp_words
+talk_first10min,SenseVoice,iic/SenseVoiceSmall,0.3548,0.1444,0.2568,0.1040,0.010,5.98,600.0,1755
+talk_first10min,faster-whisper,whisper-small,0.2552,0.1363,0.1546,0.1089,0.038,23.05,600.0,1844

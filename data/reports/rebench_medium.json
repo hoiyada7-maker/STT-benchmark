@@ -1,0 +1,39 @@
+{
+  "engine": "faster-whisper medium",
+  "runs": [
+    {
+      "tag": "english",
+      "language": "en",
+      "model": "whisper-medium",
+      "device": "cuda:0",
+      "audio_s": 600.0,
+      "wer_raw": 0.1435,
+      "cer_raw": 0.0767,
+      "wer_norm": 0.0908,
+      "cer_norm": 0.0627,
+      "rtf": 0.0661,
+      "elapsed": 39.66,
+      "ref_words": 1463,
+      "hyp_words": 1491,
+      "ref_chars": 8016,
+      "hyp_chars": 8084
+    },
+    {
+      "tag": "korean",
+      "language": "ko",
+      "model": "whisper-medium",
+      "device": "cuda:0",
+      "audio_s": 600.0,
+      "wer_raw": 0.3191,
+      "cer_raw": 0.1265,
+      "wer_norm": 0.2079,
+      "cer_norm": 0.0918,
+      "rtf": 0.0925,
+      "elapsed": 55.51,
+      "ref_words": 1169,
+      "hyp_words": 1137,
+      "ref_chars": 4539,
+      "hyp_chars": 4502
+    }
+  ]
+}

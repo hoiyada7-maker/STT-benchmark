@@ -1,0 +1,4747 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 12520,
+    "dDurationMs": 3016,
+    "segs": [ {
+      "utf8": "Chris Anderson:\nElon, hey, welcome back to TED."
+    } ]
+  }, {
+    "tStartMs": 15560,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "It's great to have you here."
+    } ]
+  }, {
+    "tStartMs": 16960,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "Elon Musk: Thanks for having me."
+    } ]
+  }, {
+    "tStartMs": 18560,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "CA: So, in the next half hour or so,"
+    } ]
+  }, {
+    "tStartMs": 21440,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "we're going to spend some time"
+    } ]
+  }, {
+    "tStartMs": 23280,
+    "dDurationMs": 3896,
+    "segs": [ {
+      "utf8": "exploring your vision for what\nan exciting future might look like,"
+    } ]
+  }, {
+    "tStartMs": 27200,
+    "dDurationMs": 4096,
+    "segs": [ {
+      "utf8": "which I guess makes\nthe first question a little ironic:"
+    } ]
+  }, {
+    "tStartMs": 31320,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "Why are you boring?"
+    } ]
+  }, {
+    "tStartMs": 33080,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 34320,
+    "dDurationMs": 1550,
+    "segs": [ {
+      "utf8": "I ask myself that frequently."
+    } ]
+  }, {
+    "tStartMs": 39240,
+    "dDurationMs": 4136,
+    "segs": [ {
+      "utf8": "We're trying to dig a hole under LA,"
+    } ]
+  }, {
+    "tStartMs": 43400,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "and this is to create the beginning"
+    } ]
+  }, {
+    "tStartMs": 46600,
+    "dDurationMs": 4120,
+    "segs": [ {
+      "utf8": "of what will hopefully\nbe a 3D network of tunnels"
+    } ]
+  }, {
+    "tStartMs": 51520,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "to alleviate congestion."
+    } ]
+  }, {
+    "tStartMs": 53760,
+    "dDurationMs": 5536,
+    "segs": [ {
+      "utf8": "So right now, one of the most\nsoul-destroying things is traffic."
+    } ]
+  }, {
+    "tStartMs": 59320,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "It affects people\nin every part of the world."
+    } ]
+  }, {
+    "tStartMs": 62200,
+    "dDurationMs": 3816,
+    "segs": [ {
+      "utf8": "It takes away so much of your life."
+    } ]
+  }, {
+    "tStartMs": 66040,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "It's horrible."
+    } ]
+  }, {
+    "tStartMs": 68040,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "It's particularly horrible in LA."
+    } ]
+  }, {
+    "tStartMs": 69680,
+    "dDurationMs": 2656,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 72360,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "CA: I think you've brought with you"
+    } ]
+  }, {
+    "tStartMs": 74320,
+    "dDurationMs": 2455,
+    "segs": [ {
+      "utf8": "the first visualization\nthat's been shown of this."
+    } ]
+  }, {
+    "tStartMs": 76800,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "Can I show this?"
+    } ]
+  }, {
+    "tStartMs": 78160,
+    "dDurationMs": 2696,
+    "segs": [ {
+      "utf8": "EM: Yeah, absolutely.\nSo this is the first time --"
+    } ]
+  }, {
+    "tStartMs": 80880,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "Just to show what we're talking about."
+    } ]
+  }, {
+    "tStartMs": 82760,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "So a couple of key things\nthat are important"
+    } ]
+  }, {
+    "tStartMs": 84920,
+    "dDurationMs": 3896,
+    "segs": [ {
+      "utf8": "in having a 3D tunnel network."
+    } ]
+  }, {
+    "tStartMs": 88840,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "First of all, you have to be able"
+    } ]
+  }, {
+    "tStartMs": 90480,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "to integrate the entrance\nand exit of the tunnel"
+    } ]
+  }, {
+    "tStartMs": 92760,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "seamlessly into the fabric of the city."
+    } ]
+  }, {
+    "tStartMs": 94840,
+    "dDurationMs": 3656,
+    "segs": [ {
+      "utf8": "So by having an elevator,"
+    } ]
+  }, {
+    "tStartMs": 98520,
+    "dDurationMs": 4776,
+    "segs": [ {
+      "utf8": "sort of a car skate,\nthat's on an elevator,"
+    } ]
+  }, {
+    "tStartMs": 103320,
+    "dDurationMs": 3936,
+    "segs": [ {
+      "utf8": "you can integrate the entrance\nand exits to the tunnel network"
+    } ]
+  }, {
+    "tStartMs": 107280,
+    "dDurationMs": 2240,
+    "segs": [ {
+      "utf8": "just by using two parking spaces."
+    } ]
+  }, {
+    "tStartMs": 110840,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "And then the car gets on a skate."
+    } ]
+  }, {
+    "tStartMs": 112960,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "There's no speed limit here,"
+    } ]
+  }, {
+    "tStartMs": 114360,
+    "dDurationMs": 5016,
+    "segs": [ {
+      "utf8": "so we're designing this to be able\nto operate at 200 kilometers an hour."
+    } ]
+  }, {
+    "tStartMs": 119400,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: How much?"
+    } ]
+  }, {
+    "tStartMs": 120640,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "EM: 200 kilometers an hour,\nor about 130 miles per hour."
+    } ]
+  }, {
+    "tStartMs": 124800,
+    "dDurationMs": 6216,
+    "segs": [ {
+      "utf8": "So you should be able\nto get from, say, Westwood to LAX"
+    } ]
+  }, {
+    "tStartMs": 131040,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "in six minutes -- five, six minutes."
+    } ]
+  }, {
+    "tStartMs": 133320,
+    "dDurationMs": 4336,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 137680,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "CA: So possibly, initially done,"
+    } ]
+  }, {
+    "tStartMs": 139280,
+    "dDurationMs": 2296,
+    "segs": [ {
+      "utf8": "it's like on a sort\nof toll road-type basis."
+    } ]
+  }, {
+    "tStartMs": 141600,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 142840,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "CA: Which, I guess,\nalleviates some traffic"
+    } ]
+  }, {
+    "tStartMs": 144920,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "from the surface streets as well."
+    } ]
+  }, {
+    "tStartMs": 146640,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "EM: So, I don't know\nif people noticed it in the video,"
+    } ]
+  }, {
+    "tStartMs": 149280,
+    "dDurationMs": 5136,
+    "segs": [ {
+      "utf8": "but there's no real limit\nto how many levels of tunnel you can have."
+    } ]
+  }, {
+    "tStartMs": 154440,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "You can go much further deep\nthan you can go up."
+    } ]
+  }, {
+    "tStartMs": 157280,
+    "dDurationMs": 4176,
+    "segs": [ {
+      "utf8": "The deepest mines are much deeper\nthan the tallest buildings are tall,"
+    } ]
+  }, {
+    "tStartMs": 161480,
+    "dDurationMs": 5256,
+    "segs": [ {
+      "utf8": "so you can alleviate any arbitrary\nlevel of urban congestion"
+    } ]
+  }, {
+    "tStartMs": 166760,
+    "dDurationMs": 1296,
+    "segs": [ {
+      "utf8": "with a 3D tunnel network."
+    } ]
+  }, {
+    "tStartMs": 168080,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "This is a very important point."
+    } ]
+  }, {
+    "tStartMs": 169640,
+    "dDurationMs": 6376,
+    "segs": [ {
+      "utf8": "So a key rebuttal to the tunnels\nis that if you add one layer of tunnels,"
+    } ]
+  }, {
+    "tStartMs": 176040,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "that will simply alleviate congestion,\nit will get used up,"
+    } ]
+  }, {
+    "tStartMs": 178840,
+    "dDurationMs": 3296,
+    "segs": [ {
+      "utf8": "and then you'll be back where you started,\nback with congestion."
+    } ]
+  }, {
+    "tStartMs": 182160,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "But you can go to any\narbitrary number of tunnels,"
+    } ]
+  }, {
+    "tStartMs": 184600,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "any number of levels."
+    } ]
+  }, {
+    "tStartMs": 185960,
+    "dDurationMs": 3536,
+    "segs": [ {
+      "utf8": "CA: But people -- seen traditionally,\nit's incredibly expensive to dig,"
+    } ]
+  }, {
+    "tStartMs": 189520,
+    "dDurationMs": 1776,
+    "segs": [ {
+      "utf8": "and that would block this idea."
+    } ]
+  }, {
+    "tStartMs": 191320,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 193040,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "Well, they're right."
+    } ]
+  }, {
+    "tStartMs": 194280,
+    "dDurationMs": 3776,
+    "segs": [ {
+      "utf8": "To give you an example,\nthe LA subway extension,"
+    } ]
+  }, {
+    "tStartMs": 198080,
+    "dDurationMs": 3656,
+    "segs": [ {
+      "utf8": "which is -- I think it's\na two-and-a-half mile extension"
+    } ]
+  }, {
+    "tStartMs": 201760,
+    "dDurationMs": 2239,
+    "segs": [ {
+      "utf8": "that was just completed\nfor two billion dollars."
+    } ]
+  }, {
+    "tStartMs": 204023,
+    "dDurationMs": 5393,
+    "segs": [ {
+      "utf8": "So it's roughly a billion dollars a mile\nto do the subway extension in LA."
+    } ]
+  }, {
+    "tStartMs": 209440,
+    "dDurationMs": 3976,
+    "segs": [ {
+      "utf8": "And this is not the highest\nutility subway in the world."
+    } ]
+  }, {
+    "tStartMs": 213440,
+    "dDurationMs": 4496,
+    "segs": [ {
+      "utf8": "So yeah, it's quite difficult\nto dig tunnels normally."
+    } ]
+  }, {
+    "tStartMs": 217960,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "I think we need to have\nat least a tenfold improvement"
+    } ]
+  }, {
+    "tStartMs": 221160,
+    "dDurationMs": 2320,
+    "segs": [ {
+      "utf8": "in the cost per mile of tunneling."
+    } ]
+  }, {
+    "tStartMs": 224160,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "CA: And how could you achieve that?"
+    } ]
+  }, {
+    "tStartMs": 228240,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "EM: Actually, if you just do two things,"
+    } ]
+  }, {
+    "tStartMs": 230320,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "you can get to approximately\nan order of magnitude improvement,"
+    } ]
+  }, {
+    "tStartMs": 233680,
+    "dDurationMs": 2176,
+    "segs": [ {
+      "utf8": "and I think you can go beyond that."
+    } ]
+  }, {
+    "tStartMs": 235880,
+    "dDurationMs": 4256,
+    "segs": [ {
+      "utf8": "So the first thing to do\nis to cut the tunnel diameter"
+    } ]
+  }, {
+    "tStartMs": 240160,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "by a factor of two or more."
+    } ]
+  }, {
+    "tStartMs": 241800,
+    "dDurationMs": 3976,
+    "segs": [ {
+      "utf8": "So a single road lane tunnel\naccording to regulations"
+    } ]
+  }, {
+    "tStartMs": 245800,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "has to be 26 feet,\nmaybe 28 feet in diameter"
+    } ]
+  }, {
+    "tStartMs": 248680,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "to allow for crashes\nand emergency vehicles"
+    } ]
+  }, {
+    "tStartMs": 251880,
+    "dDurationMs": 4256,
+    "segs": [ {
+      "utf8": "and sufficient ventilation\nfor combustion engine cars."
+    } ]
+  }, {
+    "tStartMs": 256160,
+    "dDurationMs": 3576,
+    "segs": [ {
+      "utf8": "But if you shrink that diameter\nto what we're attempting,"
+    } ]
+  }, {
+    "tStartMs": 259760,
+    "dDurationMs": 3656,
+    "segs": [ {
+      "utf8": "which is 12 feet, which is plenty\nto get an electric skate through,"
+    } ]
+  }, {
+    "tStartMs": 263440,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "you drop the diameter by a factor of two"
+    } ]
+  }, {
+    "tStartMs": 266680,
+    "dDurationMs": 3896,
+    "segs": [ {
+      "utf8": "and the cross-sectional area\nby a factor of four,"
+    } ]
+  }, {
+    "tStartMs": 270600,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "and the tunneling cost scales\nwith the cross-sectional area."
+    } ]
+  }, {
+    "tStartMs": 273480,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "So that's roughly a half-order\nof magnitude improvement right there."
+    } ]
+  }, {
+    "tStartMs": 276720,
+    "dDurationMs": 4896,
+    "segs": [ {
+      "utf8": "Then tunneling machines currently tunnel\nfor half the time, then they stop,"
+    } ]
+  }, {
+    "tStartMs": 281640,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "and then the rest of the time\nis putting in reinforcements"
+    } ]
+  }, {
+    "tStartMs": 284840,
+    "dDurationMs": 1296,
+    "segs": [ {
+      "utf8": "for the tunnel wall."
+    } ]
+  }, {
+    "tStartMs": 286160,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "So if you design the machine instead"
+    } ]
+  }, {
+    "tStartMs": 288400,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "to do continuous\ntunneling and reinforcing,"
+    } ]
+  }, {
+    "tStartMs": 290760,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "that will give you\na factor of two improvement."
+    } ]
+  }, {
+    "tStartMs": 293000,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "Combine that and that's a factor of eight."
+    } ]
+  }, {
+    "tStartMs": 295240,
+    "dDurationMs": 4656,
+    "segs": [ {
+      "utf8": "Also these machines are far from being\nat their power or thermal limits,"
+    } ]
+  }, {
+    "tStartMs": 299920,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "so you can jack up the power\nto the machine substantially."
+    } ]
+  }, {
+    "tStartMs": 303000,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "I think you can get\nat least a factor of two,"
+    } ]
+  }, {
+    "tStartMs": 305160,
+    "dDurationMs": 4176,
+    "segs": [ {
+      "utf8": "maybe a factor of four or five\nimprovement on top of that."
+    } ]
+  }, {
+    "tStartMs": 309360,
+    "dDurationMs": 4216,
+    "segs": [ {
+      "utf8": "So I think there's a fairly\nstraightforward series of steps"
+    } ]
+  }, {
+    "tStartMs": 313600,
+    "dDurationMs": 2976,
+    "segs": [ {
+      "utf8": "to get somewhere in excess\nof an order of magnitude improvement"
+    } ]
+  }, {
+    "tStartMs": 316600,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "in the cost per mile,"
+    } ]
+  }, {
+    "tStartMs": 318360,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "and our target actually is --"
+    } ]
+  }, {
+    "tStartMs": 321320,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "we've got a pet snail called Gary,"
+    } ]
+  }, {
+    "tStartMs": 324160,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "this is from Gary the snail\nfrom \"South Park,\""
+    } ]
+  }, {
+    "tStartMs": 326720,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "I mean, sorry, \"SpongeBob SquarePants.\""
+    } ]
+  }, {
+    "tStartMs": 329680,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 331280,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "So Gary is capable of --"
+    } ]
+  }, {
+    "tStartMs": 335720,
+    "dDurationMs": 4096,
+    "segs": [ {
+      "utf8": "currently he's capable\nof going 14 times faster"
+    } ]
+  }, {
+    "tStartMs": 339840,
+    "dDurationMs": 1776,
+    "segs": [ {
+      "utf8": "than a tunnel-boring machine."
+    } ]
+  }, {
+    "tStartMs": 341640,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 344440,
+    "dDurationMs": 1776,
+    "segs": [ {
+      "utf8": "CA: You want to beat Gary."
+    } ]
+  }, {
+    "tStartMs": 346240,
+    "dDurationMs": 1296,
+    "segs": [ {
+      "utf8": "EM: We want to beat Gary."
+    } ]
+  }, {
+    "tStartMs": 347560,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 349120,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "He's not a patient little fellow,"
+    } ]
+  }, {
+    "tStartMs": 351360,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "and that will be victory."
+    } ]
+  }, {
+    "tStartMs": 354480,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "Victory is beating the snail."
+    } ]
+  }, {
+    "tStartMs": 357280,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "CA: But a lot of people imagining,\ndreaming about future cities,"
+    } ]
+  }, {
+    "tStartMs": 360360,
+    "dDurationMs": 3896,
+    "segs": [ {
+      "utf8": "they imagine that actually\nthe solution is flying cars, drones, etc."
+    } ]
+  }, {
+    "tStartMs": 364280,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "You go aboveground."
+    } ]
+  }, {
+    "tStartMs": 366520,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "Why isn't that a better solution?"
+    } ]
+  }, {
+    "tStartMs": 368360,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "You save all that tunneling cost."
+    } ]
+  }, {
+    "tStartMs": 370360,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "EM: Right. I'm in favor of flying things."
+    } ]
+  }, {
+    "tStartMs": 372600,
+    "dDurationMs": 3856,
+    "segs": [ {
+      "utf8": "Obviously, I do rockets,\nso I like things that fly."
+    } ]
+  }, {
+    "tStartMs": 376480,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "This is not some inherent bias\nagainst flying things,"
+    } ]
+  }, {
+    "tStartMs": 379440,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "but there is a challenge with flying cars"
+    } ]
+  }, {
+    "tStartMs": 382520,
+    "dDurationMs": 3296,
+    "segs": [ {
+      "utf8": "in that they'll be quite noisy,"
+    } ]
+  }, {
+    "tStartMs": 385840,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "the wind force generated\nwill be very high."
+    } ]
+  }, {
+    "tStartMs": 392000,
+    "dDurationMs": 2696,
+    "segs": [ {
+      "utf8": "Let's just say that if something's\nflying over your head,"
+    } ]
+  }, {
+    "tStartMs": 394720,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "a whole bunch of flying cars\ngoing all over the place,"
+    } ]
+  }, {
+    "tStartMs": 398440,
+    "dDurationMs": 4616,
+    "segs": [ {
+      "utf8": "that is not an anxiety-reducing situation."
+    } ]
+  }, {
+    "tStartMs": 403080,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 405200,
+    "dDurationMs": 3560,
+    "segs": [ {
+      "utf8": "You don't think to yourself,\n\"Well, I feel better about today.\""
+    } ]
+  }, {
+    "tStartMs": 410520,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "You're thinking,\n\"Did they service their hubcap,"
+    } ]
+  }, {
+    "tStartMs": 413160,
+    "dDurationMs": 2896,
+    "segs": [ {
+      "utf8": "or is it going to come off\nand guillotine me?\""
+    } ]
+  }, {
+    "tStartMs": 416080,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "Things like that."
+    } ]
+  }, {
+    "tStartMs": 420320,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "CA: So you've got this vision"
+    } ]
+  }, {
+    "tStartMs": 421920,
+    "dDurationMs": 5296,
+    "segs": [ {
+      "utf8": "of future cities with these rich,\n3D networks of tunnels underneath."
+    } ]
+  }, {
+    "tStartMs": 427240,
+    "dDurationMs": 2016,
+    "segs": [ {
+      "utf8": "Is there a tie-in here with Hyperloop?"
+    } ]
+  }, {
+    "tStartMs": 429280,
+    "dDurationMs": 3536,
+    "segs": [ {
+      "utf8": "Could you apply these tunnels\nto use for this Hyperloop idea"
+    } ]
+  }, {
+    "tStartMs": 432840,
+    "dDurationMs": 1381,
+    "segs": [ {
+      "utf8": "you released a few years ago."
+    } ]
+  }, {
+    "tStartMs": 434840,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "EM: Yeah, so we've been\nsort of puttering around"
+    } ]
+  }, {
+    "tStartMs": 438080,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "with the Hyperloop stuff for a while."
+    } ]
+  }, {
+    "tStartMs": 440720,
+    "dDurationMs": 3816,
+    "segs": [ {
+      "utf8": "We built a Hyperloop test track\nadjacent to SpaceX,"
+    } ]
+  }, {
+    "tStartMs": 444560,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "just for a student competition,"
+    } ]
+  }, {
+    "tStartMs": 446720,
+    "dDurationMs": 3016,
+    "segs": [ {
+      "utf8": "to encourage innovative\nideas in transport."
+    } ]
+  }, {
+    "tStartMs": 449760,
+    "dDurationMs": 5016,
+    "segs": [ {
+      "utf8": "And it actually ends up being\nthe biggest vacuum chamber in the world"
+    } ]
+  }, {
+    "tStartMs": 454800,
+    "dDurationMs": 1920,
+    "segs": [ {
+      "utf8": "after the Large Hadron Collider,"
+    } ]
+  }, {
+    "tStartMs": 457800,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "by volume."
+    } ]
+  }, {
+    "tStartMs": 461320,
+    "dDurationMs": 5456,
+    "segs": [ {
+      "utf8": "So it was quite fun to do that,\nbut it was kind of a hobby thing,"
+    } ]
+  }, {
+    "tStartMs": 466800,
+    "dDurationMs": 3696,
+    "segs": [ {
+      "utf8": "and then we think we might --"
+    } ]
+  }, {
+    "tStartMs": 470520,
+    "dDurationMs": 4360,
+    "segs": [ {
+      "utf8": "so we've built a little pusher car\nto push the student pods,"
+    } ]
+  }, {
+    "tStartMs": 476440,
+    "dDurationMs": 3936,
+    "segs": [ {
+      "utf8": "but we're going to try seeing\nhow fast we can make the pusher go"
+    } ]
+  }, {
+    "tStartMs": 480400,
+    "dDurationMs": 1429,
+    "segs": [ {
+      "utf8": "if it's not pushing something."
+    } ]
+  }, {
+    "tStartMs": 482720,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "So we're cautiously optimistic"
+    } ]
+  }, {
+    "tStartMs": 485080,
+    "dDurationMs": 5016,
+    "segs": [ {
+      "utf8": "we'll be able to be faster\nthan the world's fastest bullet train"
+    } ]
+  }, {
+    "tStartMs": 490120,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "even in a .8-mile stretch."
+    } ]
+  }, {
+    "tStartMs": 492400,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "CA: Whoa. Good brakes."
+    } ]
+  }, {
+    "tStartMs": 494960,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "EM: Yeah, I mean, it's -- yeah."
+    } ]
+  }, {
+    "tStartMs": 497240,
+    "dDurationMs": 4616,
+    "segs": [ {
+      "utf8": "It's either going to smash\ninto tiny pieces or go quite fast."
+    } ]
+  }, {
+    "tStartMs": 501880,
+    "dDurationMs": 3576,
+    "segs": [ {
+      "utf8": "CA: But you can picture,\nthen, a Hyperloop in a tunnel"
+    } ]
+  }, {
+    "tStartMs": 505480,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "running quite long distances."
+    } ]
+  }, {
+    "tStartMs": 507320,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "EM: Exactly."
+    } ]
+  }, {
+    "tStartMs": 509040,
+    "dDurationMs": 1776,
+    "segs": [ {
+      "utf8": "And looking at tunneling technology,"
+    } ]
+  }, {
+    "tStartMs": 510840,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "it turns out that\nin order to make a tunnel,"
+    } ]
+  }, {
+    "tStartMs": 513400,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "you have to --"
+    } ]
+  }, {
+    "tStartMs": 516320,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "In order to seal against the water table,"
+    } ]
+  }, {
+    "tStartMs": 518720,
+    "dDurationMs": 4656,
+    "segs": [ {
+      "utf8": "you've got to typically design\na tunnel wall to be good"
+    } ]
+  }, {
+    "tStartMs": 523400,
+    "dDurationMs": 2320,
+    "segs": [ {
+      "utf8": "to about five or six atmospheres."
+    } ]
+  }, {
+    "tStartMs": 527159,
+    "dDurationMs": 3017,
+    "segs": [ {
+      "utf8": "So to go to vacuum is only one atmosphere,"
+    } ]
+  }, {
+    "tStartMs": 530200,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "or near-vacuum."
+    } ]
+  }, {
+    "tStartMs": 531640,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "So actually, it sort of turns out\nthat automatically,"
+    } ]
+  }, {
+    "tStartMs": 536080,
+    "dDurationMs": 3976,
+    "segs": [ {
+      "utf8": "if you build a tunnel that is good enough\nto resist the water table,"
+    } ]
+  }, {
+    "tStartMs": 540080,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "it is automatically\ncapable of holding vacuum."
+    } ]
+  }, {
+    "tStartMs": 542520,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "CA: Huh."
+    } ]
+  }, {
+    "tStartMs": 544160,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "EM: So, yeah."
+    } ]
+  }, {
+    "tStartMs": 545720,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "CA: And so you could actually picture,"
+    } ]
+  }, {
+    "tStartMs": 547600,
+    "dDurationMs": 5696,
+    "segs": [ {
+      "utf8": "what kind of length tunnel\nis in Elon's future to running Hyperloop?"
+    } ]
+  }, {
+    "tStartMs": 553320,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "EM: I think there's no real length limit."
+    } ]
+  }, {
+    "tStartMs": 556560,
+    "dDurationMs": 3016,
+    "segs": [ {
+      "utf8": "You could dig as much as you want."
+    } ]
+  }, {
+    "tStartMs": 559600,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "I think if you were to do something"
+    } ]
+  }, {
+    "tStartMs": 561840,
+    "dDurationMs": 5176,
+    "segs": [ {
+      "utf8": "like a DC-to-New York Hyperloop,"
+    } ]
+  }, {
+    "tStartMs": 567040,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "I think you'd probably want\nto go underground the entire way"
+    } ]
+  }, {
+    "tStartMs": 569920,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "because it's a high-density area."
+    } ]
+  }, {
+    "tStartMs": 571560,
+    "dDurationMs": 4056,
+    "segs": [ {
+      "utf8": "You're going under\na lot of buildings and houses,"
+    } ]
+  }, {
+    "tStartMs": 575640,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "and if you go deep enough,"
+    } ]
+  }, {
+    "tStartMs": 577200,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "you cannot detect the tunnel."
+    } ]
+  }, {
+    "tStartMs": 579600,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "Sometimes people think,\nwell, it's going to be pretty annoying"
+    } ]
+  }, {
+    "tStartMs": 582560,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "to have a tunnel dug under my house."
+    } ]
+  }, {
+    "tStartMs": 584440,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "Like, if that tunnel is dug"
+    } ]
+  }, {
+    "tStartMs": 585800,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "more than about three or four\ntunnel diameters beneath your house,"
+    } ]
+  }, {
+    "tStartMs": 589000,
+    "dDurationMs": 2880,
+    "segs": [ {
+      "utf8": "you will not be able\nto detect it being dug at all."
+    } ]
+  }, {
+    "tStartMs": 592880,
+    "dDurationMs": 6696,
+    "segs": [ {
+      "utf8": "In fact, if you're able\nto detect the tunnel being dug,"
+    } ]
+  }, {
+    "tStartMs": 599600,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "whatever device you are using,"
+    } ]
+  }, {
+    "tStartMs": 601240,
+    "dDurationMs": 3266,
+    "segs": [ {
+      "utf8": "you can get a lot of money\nfor that device from the Israeli military,"
+    } ]
+  }, {
+    "tStartMs": 604530,
+    "dDurationMs": 2796,
+    "segs": [ {
+      "utf8": "who is trying to detect\ntunnels from Hamas,"
+    } ]
+  }, {
+    "tStartMs": 607636,
+    "dDurationMs": 4780,
+    "segs": [ {
+      "utf8": "and from the US Customs and Border patrol\nthat try and detect drug tunnels."
+    } ]
+  }, {
+    "tStartMs": 612440,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "So the reality is"
+    } ]
+  }, {
+    "tStartMs": 615680,
+    "dDurationMs": 3856,
+    "segs": [ {
+      "utf8": "that earth is incredibly good\nat absorbing vibrations,"
+    } ]
+  }, {
+    "tStartMs": 619560,
+    "dDurationMs": 2976,
+    "segs": [ {
+      "utf8": "and once the tunnel depth\nis below a certain level,"
+    } ]
+  }, {
+    "tStartMs": 622560,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "it is undetectable."
+    } ]
+  }, {
+    "tStartMs": 624560,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "Maybe if you have a very sensitive\nseismic instrument,"
+    } ]
+  }, {
+    "tStartMs": 627160,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "you might be able to detect it."
+    } ]
+  }, {
+    "tStartMs": 629280,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "CA: So you've started\na new company to do this"
+    } ]
+  }, {
+    "tStartMs": 631680,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "called The Boring Company."
+    } ]
+  }, {
+    "tStartMs": 633400,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "Very nice. Very funny."
+    } ]
+  }, {
+    "tStartMs": 635360,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 636760,
+    "dDurationMs": 1496,
+    "segs": [ {
+      "utf8": "EM: What's funny about that?"
+    } ]
+  }, {
+    "tStartMs": 638280,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 640920,
+    "dDurationMs": 1920,
+    "segs": [ {
+      "utf8": "CA: How much of your time is this?"
+    } ]
+  }, {
+    "tStartMs": 643600,
+    "dDurationMs": 3120,
+    "segs": [ {
+      "utf8": "EM: It's maybe ..."
+    } ]
+  }, {
+    "tStartMs": 647680,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "two or three percent."
+    } ]
+  }, {
+    "tStartMs": 649440,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "CA: You've called it a hobby."
+    } ]
+  }, {
+    "tStartMs": 650880,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "This is what an Elon Musk\nhobby looks like."
+    } ]
+  }, {
+    "tStartMs": 653520,
+    "dDurationMs": 1016,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 654560,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "EM: I mean, it really is, like --"
+    } ]
+  }, {
+    "tStartMs": 657040,
+    "dDurationMs": 4880,
+    "segs": [ {
+      "utf8": "This is basically interns\nand people doing it part time."
+    } ]
+  }, {
+    "tStartMs": 663320,
+    "dDurationMs": 4696,
+    "segs": [ {
+      "utf8": "We bought some second-hand machinery."
+    } ]
+  }, {
+    "tStartMs": 668040,
+    "dDurationMs": 3120,
+    "segs": [ {
+      "utf8": "It's kind of puttering along,\nbut it's making good progress, so --"
+    } ]
+  }, {
+    "tStartMs": 672000,
+    "dDurationMs": 1896,
+    "segs": [ {
+      "utf8": "CA: So an even bigger part of your time"
+    } ]
+  }, {
+    "tStartMs": 673920,
+    "dDurationMs": 4280,
+    "segs": [ {
+      "utf8": "is being spent on electrifying\ncars and transport through Tesla."
+    } ]
+  }, {
+    "tStartMs": 679440,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "Is one of the motivations\nfor the tunneling project"
+    } ]
+  }, {
+    "tStartMs": 682040,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "the realization that actually,"
+    } ]
+  }, {
+    "tStartMs": 684600,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "in a world where cars are electric\nand where they're self-driving,"
+    } ]
+  }, {
+    "tStartMs": 688040,
+    "dDurationMs": 3536,
+    "segs": [ {
+      "utf8": "there may end up being\nmore cars on the roads"
+    } ]
+  }, {
+    "tStartMs": 691600,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "on any given hour than there are now?"
+    } ]
+  }, {
+    "tStartMs": 694000,
+    "dDurationMs": 1920,
+    "segs": [ {
+      "utf8": "EM: Yeah, exactly."
+    } ]
+  }, {
+    "tStartMs": 698040,
+    "dDurationMs": 4296,
+    "segs": [ {
+      "utf8": "A lot of people think\nthat when you make cars autonomous,"
+    } ]
+  }, {
+    "tStartMs": 702360,
+    "dDurationMs": 4616,
+    "segs": [ {
+      "utf8": "they'll be able to go faster\nand that will alleviate congestion."
+    } ]
+  }, {
+    "tStartMs": 707000,
+    "dDurationMs": 1896,
+    "segs": [ {
+      "utf8": "And to some degree that will be true,"
+    } ]
+  }, {
+    "tStartMs": 708920,
+    "dDurationMs": 5056,
+    "segs": [ {
+      "utf8": "but once you have shared autonomy\nwhere it's much cheaper to go by car"
+    } ]
+  }, {
+    "tStartMs": 714000,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "and you can go point to point,"
+    } ]
+  }, {
+    "tStartMs": 716960,
+    "dDurationMs": 5136,
+    "segs": [ {
+      "utf8": "the affordability of going in a car\nwill be better than that of a bus."
+    } ]
+  }, {
+    "tStartMs": 722120,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "Like, it will cost less than a bus ticket."
+    } ]
+  }, {
+    "tStartMs": 724360,
+    "dDurationMs": 5056,
+    "segs": [ {
+      "utf8": "So the amount of driving that will occur\nwill be much greater with shared autonomy,"
+    } ]
+  }, {
+    "tStartMs": 729440,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "and actually traffic will get far worse."
+    } ]
+  }, {
+    "tStartMs": 732320,
+    "dDurationMs": 4256,
+    "segs": [ {
+      "utf8": "CA: You started Tesla\nwith the goal of persuading the world"
+    } ]
+  }, {
+    "tStartMs": 736600,
+    "dDurationMs": 3136,
+    "segs": [ {
+      "utf8": "that electrification\nwas the future of cars,"
+    } ]
+  }, {
+    "tStartMs": 739760,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "and a few years ago,\npeople were laughing at you."
+    } ]
+  }, {
+    "tStartMs": 742160,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "Now, not so much."
+    } ]
+  }, {
+    "tStartMs": 744640,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "EM: OK."
+    } ]
+  }, {
+    "tStartMs": 745880,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 747840,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "I don't know. I don't know."
+    } ]
+  }, {
+    "tStartMs": 750080,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "CA: But isn't it true that pretty much\nevery auto manufacturer"
+    } ]
+  }, {
+    "tStartMs": 753520,
+    "dDurationMs": 3016,
+    "segs": [ {
+      "utf8": "has announced\nserious electrification plans"
+    } ]
+  }, {
+    "tStartMs": 756560,
+    "dDurationMs": 2640,
+    "segs": [ {
+      "utf8": "for the short- to medium-term future?"
+    } ]
+  }, {
+    "tStartMs": 760000,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "EM: Yeah. Yeah."
+    } ]
+  }, {
+    "tStartMs": 763280,
+    "dDurationMs": 4976,
+    "segs": [ {
+      "utf8": "I think almost every automaker\nhas some electric vehicle program."
+    } ]
+  }, {
+    "tStartMs": 768280,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "They vary in seriousness."
+    } ]
+  }, {
+    "tStartMs": 769560,
+    "dDurationMs": 4296,
+    "segs": [ {
+      "utf8": "Some are very serious\nabout transitioning entirely to electric,"
+    } ]
+  }, {
+    "tStartMs": 773880,
+    "dDurationMs": 2360,
+    "segs": [ {
+      "utf8": "and some are just dabbling in it."
+    } ]
+  }, {
+    "tStartMs": 777280,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "And some, amazingly,\nare still pursuing fuel cells,"
+    } ]
+  }, {
+    "tStartMs": 779720,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "but I think that won't last much longer."
+    } ]
+  }, {
+    "tStartMs": 781880,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "CA: But isn't there a sense, though, Elon,"
+    } ]
+  }, {
+    "tStartMs": 783960,
+    "dDurationMs": 3696,
+    "segs": [ {
+      "utf8": "where you can now just declare victory\nand say, you know, \"We did it.\""
+    } ]
+  }, {
+    "tStartMs": 787680,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "Let the world electrify,\nand you go on and focus on other stuff?"
+    } ]
+  }, {
+    "tStartMs": 793520,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 796320,
+    "dDurationMs": 4576,
+    "segs": [ {
+      "utf8": "I intend to stay with Tesla\nas far into the future as I can imagine,"
+    } ]
+  }, {
+    "tStartMs": 800920,
+    "dDurationMs": 4656,
+    "segs": [ {
+      "utf8": "and there are a lot of exciting\nthings that we have coming."
+    } ]
+  }, {
+    "tStartMs": 805600,
+    "dDurationMs": 2176,
+    "segs": [ {
+      "utf8": "Obviously the Model 3 is coming soon."
+    } ]
+  }, {
+    "tStartMs": 807800,
+    "dDurationMs": 3400,
+    "segs": [ {
+      "utf8": "We'll be unveiling the Tesla Semi truck."
+    } ]
+  }, {
+    "tStartMs": 812120,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "CA: OK, we're going to come to this."
+    } ]
+  }, {
+    "tStartMs": 814080,
+    "dDurationMs": 4976,
+    "segs": [ {
+      "utf8": "So Model 3, it's supposed\nto be coming in July-ish."
+    } ]
+  }, {
+    "tStartMs": 819080,
+    "dDurationMs": 4536,
+    "segs": [ {
+      "utf8": "EM: Yeah, it's looking quite good\nfor starting production in July."
+    } ]
+  }, {
+    "tStartMs": 823640,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "CA: Wow."
+    } ]
+  }, {
+    "tStartMs": 825040,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "One of the things\nthat people are so excited about"
+    } ]
+  }, {
+    "tStartMs": 827440,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "is the fact that it's got autopilot."
+    } ]
+  }, {
+    "tStartMs": 830680,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "And you put out this video a while back"
+    } ]
+  }, {
+    "tStartMs": 833040,
+    "dDurationMs": 5336,
+    "segs": [ {
+      "utf8": "showing what that technology\nwould look like."
+    } ]
+  }, {
+    "tStartMs": 838400,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 839640,
+    "dDurationMs": 2486,
+    "segs": [ {
+      "utf8": "CA: There's obviously autopilot\nin Model S right now."
+    } ]
+  }, {
+    "tStartMs": 842170,
+    "dDurationMs": 1366,
+    "segs": [ {
+      "utf8": "What are we seeing here?"
+    } ]
+  }, {
+    "tStartMs": 843560,
+    "dDurationMs": 6016,
+    "segs": [ {
+      "utf8": "EM: Yeah, so this is using\nonly cameras and GPS."
+    } ]
+  }, {
+    "tStartMs": 849600,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "So there's no LIDAR\nor radar being used here."
+    } ]
+  }, {
+    "tStartMs": 852120,
+    "dDurationMs": 4040,
+    "segs": [ {
+      "utf8": "This is just using passive optical,\nwhich is essentially what a person uses."
+    } ]
+  }, {
+    "tStartMs": 857200,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "The whole road system\nis meant to be navigated"
+    } ]
+  }, {
+    "tStartMs": 859720,
+    "dDurationMs": 4056,
+    "segs": [ {
+      "utf8": "with passive optical, or cameras,"
+    } ]
+  }, {
+    "tStartMs": 863800,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "and so once you solve cameras"
+    } ]
+  }, {
+    "tStartMs": 867160,
+    "dDurationMs": 1240,
+    "segs": [ {
+      "utf8": "or vision,"
+    } ]
+  }, {
+    "tStartMs": 869720,
+    "dDurationMs": 1496,
+    "segs": [ {
+      "utf8": "then autonomy is solved."
+    } ]
+  }, {
+    "tStartMs": 871240,
+    "dDurationMs": 2280,
+    "segs": [ {
+      "utf8": "If you don't solve vision,\nit's not solved."
+    } ]
+  }, {
+    "tStartMs": 874120,
+    "dDurationMs": 6016,
+    "segs": [ {
+      "utf8": "So that's why our focus is\nso heavily on having a vision neural net"
+    } ]
+  }, {
+    "tStartMs": 880160,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "that's very effective for road conditions."
+    } ]
+  }, {
+    "tStartMs": 883400,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "CA: Right. Many other people\nare going the LIDAR route."
+    } ]
+  }, {
+    "tStartMs": 886040,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "You want cameras plus radar is most of it."
+    } ]
+  }, {
+    "tStartMs": 888920,
+    "dDurationMs": 3376,
+    "segs": [ {
+      "utf8": "EM: You can absolutely\nbe superhuman with just cameras."
+    } ]
+  }, {
+    "tStartMs": 892320,
+    "dDurationMs": 3016,
+    "segs": [ {
+      "utf8": "Like, you can probably do it\nten times better than humans would,"
+    } ]
+  }, {
+    "tStartMs": 895360,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "just cameras."
+    } ]
+  }, {
+    "tStartMs": 896640,
+    "dDurationMs": 4456,
+    "segs": [ {
+      "utf8": "CA: So the new cars being sold right now\nhave eight cameras in them."
+    } ]
+  }, {
+    "tStartMs": 901120,
+    "dDurationMs": 4336,
+    "segs": [ {
+      "utf8": "They can't yet do what that showed."
+    } ]
+  }, {
+    "tStartMs": 905480,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "When will they be able to?"
+    } ]
+  }, {
+    "tStartMs": 908440,
+    "dDurationMs": 5736,
+    "segs": [ {
+      "utf8": "EM: I think we're still on track\nfor being able to go cross-country"
+    } ]
+  }, {
+    "tStartMs": 914200,
+    "dDurationMs": 4176,
+    "segs": [ {
+      "utf8": "from LA to New York by the end\nof the year, fully autonomous."
+    } ]
+  }, {
+    "tStartMs": 918400,
+    "dDurationMs": 3776,
+    "segs": [ {
+      "utf8": "CA: OK, so by the end\nof the year, you're saying,"
+    } ]
+  }, {
+    "tStartMs": 922200,
+    "dDurationMs": 3976,
+    "segs": [ {
+      "utf8": "someone's going to sit in a Tesla\nwithout touching the steering wheel,"
+    } ]
+  }, {
+    "tStartMs": 926200,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "tap in \"New York,\" off it goes."
+    } ]
+  }, {
+    "tStartMs": 928720,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 929960,
+    "dDurationMs": 3200,
+    "segs": [ {
+      "utf8": "CA: Won't ever have to touch the wheel --\nby the end of 2017."
+    } ]
+  }, {
+    "tStartMs": 934280,
+    "dDurationMs": 4616,
+    "segs": [ {
+      "utf8": "EM: Yeah. Essentially,\nNovember or December of this year,"
+    } ]
+  }, {
+    "tStartMs": 938920,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "we should be able to go all the way\nfrom a parking lot in California"
+    } ]
+  }, {
+    "tStartMs": 943360,
+    "dDurationMs": 1656,
+    "segs": [ {
+      "utf8": "to a parking lot in New York,"
+    } ]
+  }, {
+    "tStartMs": 945040,
+    "dDurationMs": 2840,
+    "segs": [ {
+      "utf8": "no controls touched at any point\nduring the entire journey."
+    } ]
+  }, {
+    "tStartMs": 948800,
+    "dDurationMs": 2016,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 950840,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: Amazing."
+    } ]
+  }, {
+    "tStartMs": 952080,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "But part of that is possible"
+    } ]
+  }, {
+    "tStartMs": 953520,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "because you've already got a fleet\nof Teslas driving all these roads."
+    } ]
+  }, {
+    "tStartMs": 956960,
+    "dDurationMs": 4800,
+    "segs": [ {
+      "utf8": "You're accumulating a huge amount\nof data of that national road system."
+    } ]
+  }, {
+    "tStartMs": 963440,
+    "dDurationMs": 2656,
+    "segs": [ {
+      "utf8": "EM: Yes, but the thing\nthat will be interesting"
+    } ]
+  }, {
+    "tStartMs": 966120,
+    "dDurationMs": 5080,
+    "segs": [ {
+      "utf8": "is that I'm actually fairly confident\nit will be able to do that route"
+    } ]
+  }, {
+    "tStartMs": 972960,
+    "dDurationMs": 3240,
+    "segs": [ {
+      "utf8": "even if you change the route dynamically."
+    } ]
+  }, {
+    "tStartMs": 976840,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "So, it's fairly easy --"
+    } ]
+  }, {
+    "tStartMs": 980040,
+    "dDurationMs": 3736,
+    "segs": [ {
+      "utf8": "If you say I'm going to be really good\nat one specific route, that's one thing,"
+    } ]
+  }, {
+    "tStartMs": 983800,
+    "dDurationMs": 5136,
+    "segs": [ {
+      "utf8": "but it should be able to go,\nreally be very good,"
+    } ]
+  }, {
+    "tStartMs": 988960,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "certainly once you enter a highway,"
+    } ]
+  }, {
+    "tStartMs": 990720,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "to go anywhere on the highway system"
+    } ]
+  }, {
+    "tStartMs": 993520,
+    "dDurationMs": 1240,
+    "segs": [ {
+      "utf8": "in a given country."
+    } ]
+  }, {
+    "tStartMs": 996040,
+    "dDurationMs": 2296,
+    "segs": [ {
+      "utf8": "So it's not sort of limited\nto LA to New York."
+    } ]
+  }, {
+    "tStartMs": 998360,
+    "dDurationMs": 3456,
+    "segs": [ {
+      "utf8": "We could change it\nand make it Seattle-Florida,"
+    } ]
+  }, {
+    "tStartMs": 1001840,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "that day, in real time."
+    } ]
+  }, {
+    "tStartMs": 1004400,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "So you were going from LA to New York."
+    } ]
+  }, {
+    "tStartMs": 1006560,
+    "dDurationMs": 2720,
+    "segs": [ {
+      "utf8": "Now go from LA to Toronto."
+    } ]
+  }, {
+    "tStartMs": 1010320,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "CA: So leaving aside\nregulation for a second,"
+    } ]
+  }, {
+    "tStartMs": 1013080,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "in terms of the technology alone,"
+    } ]
+  }, {
+    "tStartMs": 1015880,
+    "dDurationMs": 3816,
+    "segs": [ {
+      "utf8": "the time when someone\nwill be able to buy one of your cars"
+    } ]
+  }, {
+    "tStartMs": 1019720,
+    "dDurationMs": 3816,
+    "segs": [ {
+      "utf8": "and literally just take the hands\noff the wheel and go to sleep"
+    } ]
+  }, {
+    "tStartMs": 1023560,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "and wake up and find that they've arrived,"
+    } ]
+  }, {
+    "tStartMs": 1025640,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "how far away is that, to do that safely?"
+    } ]
+  }, {
+    "tStartMs": 1027600,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "EM: I think that's about two years."
+    } ]
+  }, {
+    "tStartMs": 1029880,
+    "dDurationMs": 3376,
+    "segs": [ {
+      "utf8": "So the real trick of it\nis not how do you make it work"
+    } ]
+  }, {
+    "tStartMs": 1033280,
+    "dDurationMs": 2935,
+    "segs": [ {
+      "utf8": "say 99.9 percent of the time,"
+    } ]
+  }, {
+    "tStartMs": 1036240,
+    "dDurationMs": 4096,
+    "segs": [ {
+      "utf8": "because, like, if a car crashes\none in a thousand times,"
+    } ]
+  }, {
+    "tStartMs": 1040359,
+    "dDurationMs": 3977,
+    "segs": [ {
+      "utf8": "then you're probably still not going\nto be comfortable falling asleep."
+    } ]
+  }, {
+    "tStartMs": 1047520,
+    "dDurationMs": 1520,
+    "segs": [ {
+      "utf8": "You shouldn't be, certainly."
+    } ]
+  }, {
+    "tStartMs": 1049080,
+    "dDurationMs": 1460,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1052040,
+    "dDurationMs": 2895,
+    "segs": [ {
+      "utf8": "It's never going to be perfect."
+    } ]
+  }, {
+    "tStartMs": 1054960,
+    "dDurationMs": 1735,
+    "segs": [ {
+      "utf8": "No system is going to be perfect,"
+    } ]
+  }, {
+    "tStartMs": 1056720,
+    "dDurationMs": 1599,
+    "segs": [ {
+      "utf8": "but if you say it's perhaps --"
+    } ]
+  }, {
+    "tStartMs": 1060520,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "the car is unlikely to crash"
+    } ]
+  }, {
+    "tStartMs": 1062960,
+    "dDurationMs": 3456,
+    "segs": [ {
+      "utf8": "in a hundred lifetimes,\nor a thousand lifetimes,"
+    } ]
+  }, {
+    "tStartMs": 1066440,
+    "dDurationMs": 3896,
+    "segs": [ {
+      "utf8": "then people are like, OK, wow,\nif I were to live a thousand lives,"
+    } ]
+  }, {
+    "tStartMs": 1070360,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "I would still most likely\nnever experience a crash,"
+    } ]
+  }, {
+    "tStartMs": 1073000,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "then that's probably OK."
+    } ]
+  }, {
+    "tStartMs": 1074400,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: To sleep."
+    } ]
+  }, {
+    "tStartMs": 1075640,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "I guess the big concern of yours\nis that people may actually"
+    } ]
+  }, {
+    "tStartMs": 1078520,
+    "dDurationMs": 2296,
+    "segs": [ {
+      "utf8": "get seduced too early\nto think that this is safe,"
+    } ]
+  }, {
+    "tStartMs": 1080830,
+    "dDurationMs": 4546,
+    "segs": [ {
+      "utf8": "and that you'll have some horrible\nincident happen that puts things back."
+    } ]
+  }, {
+    "tStartMs": 1085400,
+    "dDurationMs": 6016,
+    "segs": [ {
+      "utf8": "EM: Well, I think that the autonomy system\nis likely to at least mitigate the crash,"
+    } ]
+  }, {
+    "tStartMs": 1091440,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "except in rare circumstances."
+    } ]
+  }, {
+    "tStartMs": 1094280,
+    "dDurationMs": 2296,
+    "segs": [ {
+      "utf8": "The thing to appreciate\nabout vehicle safety"
+    } ]
+  }, {
+    "tStartMs": 1096600,
+    "dDurationMs": 3400,
+    "segs": [ {
+      "utf8": "is this is probabilistic."
+    } ]
+  }, {
+    "tStartMs": 1100920,
+    "dDurationMs": 3456,
+    "segs": [ {
+      "utf8": "I mean, there's some chance that any time\na human driver gets in a car,"
+    } ]
+  }, {
+    "tStartMs": 1104400,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "that they will have an accident\nthat is their fault."
+    } ]
+  }, {
+    "tStartMs": 1107360,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "It's never zero."
+    } ]
+  }, {
+    "tStartMs": 1109440,
+    "dDurationMs": 4376,
+    "segs": [ {
+      "utf8": "So really the key threshold for autonomy"
+    } ]
+  }, {
+    "tStartMs": 1113840,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "is how much better does autonomy\nneed to be than a person"
+    } ]
+  }, {
+    "tStartMs": 1118280,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "before you can rely on it?"
+    } ]
+  }, {
+    "tStartMs": 1119680,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "CA: But once you get\nliterally safe hands-off driving,"
+    } ]
+  }, {
+    "tStartMs": 1123120,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "the power to disrupt\nthe whole industry seems massive,"
+    } ]
+  }, {
+    "tStartMs": 1125960,
+    "dDurationMs": 4376,
+    "segs": [ {
+      "utf8": "because at that point you've spoken\nof people being able to buy a car,"
+    } ]
+  }, {
+    "tStartMs": 1130360,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "drops you off at work,\nand then you let it go"
+    } ]
+  }, {
+    "tStartMs": 1132520,
+    "dDurationMs": 3976,
+    "segs": [ {
+      "utf8": "and provide a sort of Uber-like\nservice to other people,"
+    } ]
+  }, {
+    "tStartMs": 1136520,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "earn you money,"
+    } ]
+  }, {
+    "tStartMs": 1137760,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "maybe even cover the cost\nof your lease of that car,"
+    } ]
+  }, {
+    "tStartMs": 1140240,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "so you can kind of get a car for free."
+    } ]
+  }, {
+    "tStartMs": 1142120,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "Is that really likely?"
+    } ]
+  }, {
+    "tStartMs": 1143400,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "EM: Yeah. Absolutely\nthis is what will happen."
+    } ]
+  }, {
+    "tStartMs": 1146280,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "So there will be a shared autonomy fleet"
+    } ]
+  }, {
+    "tStartMs": 1148280,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "where you buy your car"
+    } ]
+  }, {
+    "tStartMs": 1149560,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "and you can choose\nto use that car exclusively,"
+    } ]
+  }, {
+    "tStartMs": 1153000,
+    "dDurationMs": 3696,
+    "segs": [ {
+      "utf8": "you could choose to have it be used\nonly by friends and family,"
+    } ]
+  }, {
+    "tStartMs": 1156720,
+    "dDurationMs": 5056,
+    "segs": [ {
+      "utf8": "only by other drivers\nwho are rated five star,"
+    } ]
+  }, {
+    "tStartMs": 1161800,
+    "dDurationMs": 4880,
+    "segs": [ {
+      "utf8": "you can choose to share it sometimes\nbut not other times."
+    } ]
+  }, {
+    "tStartMs": 1168120,
+    "dDurationMs": 3296,
+    "segs": [ {
+      "utf8": "That's 100 percent what will occur."
+    } ]
+  }, {
+    "tStartMs": 1171440,
+    "dDurationMs": 1381,
+    "segs": [ {
+      "utf8": "It's just a question of when."
+    } ]
+  }, {
+    "tStartMs": 1173960,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: Wow."
+    } ]
+  }, {
+    "tStartMs": 1175200,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "So you mentioned the Semi"
+    } ]
+  }, {
+    "tStartMs": 1177440,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "and I think you're planning\nto announce this in September,"
+    } ]
+  }, {
+    "tStartMs": 1180200,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "but I'm curious whether there's\nanything you could show us today?"
+    } ]
+  }, {
+    "tStartMs": 1183320,
+    "dDurationMs": 3856,
+    "segs": [ {
+      "utf8": "EM: I will show you\na teaser shot of the truck."
+    } ]
+  }, {
+    "tStartMs": 1187200,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1189720,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "It's alive."
+    } ]
+  }, {
+    "tStartMs": 1191680,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: OK."
+    } ]
+  }, {
+    "tStartMs": 1192920,
+    "dDurationMs": 2696,
+    "segs": [ {
+      "utf8": "EM: That's definitely a case\nwhere we want to be cautious"
+    } ]
+  }, {
+    "tStartMs": 1195640,
+    "dDurationMs": 1334,
+    "segs": [ {
+      "utf8": "about the autonomy features."
+    } ]
+  }, {
+    "tStartMs": 1198360,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "Yeah."
+    } ]
+  }, {
+    "tStartMs": 1199600,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1201240,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "CA: We can't see that much of it,"
+    } ]
+  }, {
+    "tStartMs": 1202880,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "but it doesn't look like\njust a little friendly neighborhood truck."
+    } ]
+  }, {
+    "tStartMs": 1206120,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "It looks kind of badass."
+    } ]
+  }, {
+    "tStartMs": 1207400,
+    "dDurationMs": 3160,
+    "segs": [ {
+      "utf8": "What sort of semi is this?"
+    } ]
+  }, {
+    "tStartMs": 1211160,
+    "dDurationMs": 4576,
+    "segs": [ {
+      "utf8": "EM: So this is a heavy duty,\nlong-range semitruck."
+    } ]
+  }, {
+    "tStartMs": 1215760,
+    "dDurationMs": 4256,
+    "segs": [ {
+      "utf8": "So it's the highest weight capability"
+    } ]
+  }, {
+    "tStartMs": 1220040,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "and with long range."
+    } ]
+  }, {
+    "tStartMs": 1223120,
+    "dDurationMs": 5440,
+    "segs": [ {
+      "utf8": "So essentially it's meant to alleviate\nthe heavy-duty trucking loads."
+    } ]
+  }, {
+    "tStartMs": 1229280,
+    "dDurationMs": 5296,
+    "segs": [ {
+      "utf8": "And this is something which\npeople do not today think is possible."
+    } ]
+  }, {
+    "tStartMs": 1234600,
+    "dDurationMs": 3736,
+    "segs": [ {
+      "utf8": "They think the truck doesn't have enough\npower or it doesn't have enough range,"
+    } ]
+  }, {
+    "tStartMs": 1238360,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "and then with the Tesla Semi"
+    } ]
+  }, {
+    "tStartMs": 1240920,
+    "dDurationMs": 2656,
+    "segs": [ {
+      "utf8": "we want to show that no, an electric truck"
+    } ]
+  }, {
+    "tStartMs": 1243600,
+    "dDurationMs": 6016,
+    "segs": [ {
+      "utf8": "actually can out-torque any diesel semi."
+    } ]
+  }, {
+    "tStartMs": 1249640,
+    "dDurationMs": 4136,
+    "segs": [ {
+      "utf8": "And if you had a tug-of-war competition,"
+    } ]
+  }, {
+    "tStartMs": 1253800,
+    "dDurationMs": 5056,
+    "segs": [ {
+      "utf8": "the Tesla Semi\nwill tug the diesel semi uphill."
+    } ]
+  }, {
+    "tStartMs": 1258880,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1261160,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 1263040,
+    "dDurationMs": 3016,
+    "segs": [ {
+      "utf8": "CA: That's pretty cool.\nAnd short term, these aren't driverless."
+    } ]
+  }, {
+    "tStartMs": 1266080,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "These are going to be trucks\nthat truck drivers want to drive."
+    } ]
+  }, {
+    "tStartMs": 1270480,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "EM: Yes. So what will be\nreally fun about this"
+    } ]
+  }, {
+    "tStartMs": 1273120,
+    "dDurationMs": 5376,
+    "segs": [ {
+      "utf8": "is you have a flat torque RPM curve\nwith an electric motor,"
+    } ]
+  }, {
+    "tStartMs": 1278520,
+    "dDurationMs": 3496,
+    "segs": [ {
+      "utf8": "whereas with a diesel motor or any kind\nof internal combustion engine car,"
+    } ]
+  }, {
+    "tStartMs": 1282040,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "you've got a torque RPM curve\nthat looks like a hill."
+    } ]
+  }, {
+    "tStartMs": 1285840,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "So this will be a very spry truck."
+    } ]
+  }, {
+    "tStartMs": 1288800,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "You can drive this\naround like a sports car."
+    } ]
+  }, {
+    "tStartMs": 1291680,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "There's no gears.\nIt's, like, single speed."
+    } ]
+  }, {
+    "tStartMs": 1294080,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "CA: There's a great movie\nto be made here somewhere."
+    } ]
+  }, {
+    "tStartMs": 1296560,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "I don't know what it is\nand I don't know that it ends well,"
+    } ]
+  }, {
+    "tStartMs": 1299360,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "but it's a great movie."
+    } ]
+  }, {
+    "tStartMs": 1300600,
+    "dDurationMs": 1016,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1301640,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "EM: It's quite bizarre test-driving."
+    } ]
+  }, {
+    "tStartMs": 1304400,
+    "dDurationMs": 4016,
+    "segs": [ {
+      "utf8": "When I was driving the test prototype\nfor the first truck."
+    } ]
+  }, {
+    "tStartMs": 1308440,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "It's really weird,\nbecause you're driving around"
+    } ]
+  }, {
+    "tStartMs": 1310720,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "and you're just so nimble,\nand you're in this giant truck."
+    } ]
+  }, {
+    "tStartMs": 1313840,
+    "dDurationMs": 3496,
+    "segs": [ {
+      "utf8": "CA: Wait, you've\nalready driven a prototype?"
+    } ]
+  }, {
+    "tStartMs": 1317360,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "EM: Yeah, I drove it\naround the parking lot,"
+    } ]
+  }, {
+    "tStartMs": 1319480,
+    "dDurationMs": 1456,
+    "segs": [ {
+      "utf8": "and I was like, this is crazy."
+    } ]
+  }, {
+    "tStartMs": 1320960,
+    "dDurationMs": 2176,
+    "segs": [ {
+      "utf8": "CA: Wow. This is no vaporware."
+    } ]
+  }, {
+    "tStartMs": 1323160,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "EM: It's just like,\ndriving this giant truck"
+    } ]
+  }, {
+    "tStartMs": 1325280,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "and making these mad maneuvers."
+    } ]
+  }, {
+    "tStartMs": 1327280,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "CA: This is cool.\nOK, from a really badass picture"
+    } ]
+  }, {
+    "tStartMs": 1329760,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "to a kind of less badass picture."
+    } ]
+  }, {
+    "tStartMs": 1332400,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "This is just a cute house\nfrom \"Desperate Housewives\" or something."
+    } ]
+  }, {
+    "tStartMs": 1335760,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "What on earth is going on here?"
+    } ]
+  }, {
+    "tStartMs": 1338840,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "EM: Well, this illustrates\nthe picture of the future"
+    } ]
+  }, {
+    "tStartMs": 1341320,
+    "dDurationMs": 2976,
+    "segs": [ {
+      "utf8": "that I think is how things will evolve."
+    } ]
+  }, {
+    "tStartMs": 1344320,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "You've got an electric car\nin the driveway."
+    } ]
+  }, {
+    "tStartMs": 1346680,
+    "dDurationMs": 3736,
+    "segs": [ {
+      "utf8": "If you look in between\nthe electric car and the house,"
+    } ]
+  }, {
+    "tStartMs": 1350440,
+    "dDurationMs": 3856,
+    "segs": [ {
+      "utf8": "there are actually three Powerwalls\nstacked up against the side of the house,"
+    } ]
+  }, {
+    "tStartMs": 1354320,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "and then that house roof is a solar roof."
+    } ]
+  }, {
+    "tStartMs": 1357160,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "So that's an actual solar glass roof."
+    } ]
+  }, {
+    "tStartMs": 1359280,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: OK."
+    } ]
+  }, {
+    "tStartMs": 1360520,
+    "dDurationMs": 4256,
+    "segs": [ {
+      "utf8": "EM: That's a picture of a real --\nwell, admittedly, it's a real fake house."
+    } ]
+  }, {
+    "tStartMs": 1364800,
+    "dDurationMs": 1656,
+    "segs": [ {
+      "utf8": "That's a real fake house."
+    } ]
+  }, {
+    "tStartMs": 1366480,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1369600,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "CA: So these roof tiles,"
+    } ]
+  }, {
+    "tStartMs": 1371480,
+    "dDurationMs": 6136,
+    "segs": [ {
+      "utf8": "some of them have in them\nbasically solar power, the ability to --"
+    } ]
+  }, {
+    "tStartMs": 1377640,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "EM: Yeah. Solar glass tiles"
+    } ]
+  }, {
+    "tStartMs": 1379360,
+    "dDurationMs": 5096,
+    "segs": [ {
+      "utf8": "where you can adjust\nthe texture and the color"
+    } ]
+  }, {
+    "tStartMs": 1384480,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "to a very fine-grained level,"
+    } ]
+  }, {
+    "tStartMs": 1386480,
+    "dDurationMs": 5576,
+    "segs": [ {
+      "utf8": "and then there's\nsort of microlouvers in the glass,"
+    } ]
+  }, {
+    "tStartMs": 1392080,
+    "dDurationMs": 3456,
+    "segs": [ {
+      "utf8": "such that when you're looking\nat the roof from street level"
+    } ]
+  }, {
+    "tStartMs": 1395560,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "or close to street level,"
+    } ]
+  }, {
+    "tStartMs": 1397280,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "all the tiles look the same"
+    } ]
+  }, {
+    "tStartMs": 1399680,
+    "dDurationMs": 5080,
+    "segs": [ {
+      "utf8": "whether there is a solar cell\nbehind it or not."
+    } ]
+  }, {
+    "tStartMs": 1406000,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "So you have an even color"
+    } ]
+  }, {
+    "tStartMs": 1409440,
+    "dDurationMs": 3496,
+    "segs": [ {
+      "utf8": "from the ground level."
+    } ]
+  }, {
+    "tStartMs": 1412960,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "If you were to look at it\nfrom a helicopter,"
+    } ]
+  }, {
+    "tStartMs": 1415080,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "you would be actually able\nto look through and see"
+    } ]
+  }, {
+    "tStartMs": 1417480,
+    "dDurationMs": 4016,
+    "segs": [ {
+      "utf8": "that some of the glass tiles have\na solar cell behind them and some do not."
+    } ]
+  }, {
+    "tStartMs": 1421520,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "You can't tell from street level."
+    } ]
+  }, {
+    "tStartMs": 1423160,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "CA: You put them in the ones\nthat are likely to see a lot of sun,"
+    } ]
+  }, {
+    "tStartMs": 1426240,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "and that makes these roofs\nsuper affordable, right?"
+    } ]
+  }, {
+    "tStartMs": 1428640,
+    "dDurationMs": 2976,
+    "segs": [ {
+      "utf8": "They're not that much more expensive\nthan just tiling the roof."
+    } ]
+  }, {
+    "tStartMs": 1431640,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 1433840,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "We're very confident\nthat the cost of the roof"
+    } ]
+  }, {
+    "tStartMs": 1437840,
+    "dDurationMs": 1920,
+    "segs": [ {
+      "utf8": "plus the cost of electricity --"
+    } ]
+  }, {
+    "tStartMs": 1441920,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "A solar glass roof will be less\nthan the cost of a normal roof"
+    } ]
+  }, {
+    "tStartMs": 1444880,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "plus the cost of electricity."
+    } ]
+  }, {
+    "tStartMs": 1446320,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "So in other words,"
+    } ]
+  }, {
+    "tStartMs": 1447600,
+    "dDurationMs": 4336,
+    "segs": [ {
+      "utf8": "this will be economically a no-brainer,"
+    } ]
+  }, {
+    "tStartMs": 1451960,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "we think it will look great,"
+    } ]
+  }, {
+    "tStartMs": 1453680,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "and it will last --"
+    } ]
+  }, {
+    "tStartMs": 1455840,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "We thought about having\nthe warranty be infinity,"
+    } ]
+  }, {
+    "tStartMs": 1458920,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "but then people thought,"
+    } ]
+  }, {
+    "tStartMs": 1460160,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "well, that might sound\nlike were just talking rubbish,"
+    } ]
+  }, {
+    "tStartMs": 1462760,
+    "dDurationMs": 5616,
+    "segs": [ {
+      "utf8": "but actually this is toughened glass."
+    } ]
+  }, {
+    "tStartMs": 1468400,
+    "dDurationMs": 2896,
+    "segs": [ {
+      "utf8": "Well after the house has collapsed"
+    } ]
+  }, {
+    "tStartMs": 1471320,
+    "dDurationMs": 1896,
+    "segs": [ {
+      "utf8": "and there's nothing there,"
+    } ]
+  }, {
+    "tStartMs": 1473240,
+    "dDurationMs": 3536,
+    "segs": [ {
+      "utf8": "the glass tiles will still be there."
+    } ]
+  }, {
+    "tStartMs": 1476800,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 1478400,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "CA: I mean, this is cool."
+    } ]
+  }, {
+    "tStartMs": 1480160,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "So you're rolling this out\nin a couple week's time, I think,"
+    } ]
+  }, {
+    "tStartMs": 1483040,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "with four different roofing types."
+    } ]
+  }, {
+    "tStartMs": 1485600,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "EM: Yeah, we're starting off\nwith two, two initially,"
+    } ]
+  }, {
+    "tStartMs": 1488160,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "and the second two\nwill be introduced early next year."
+    } ]
+  }, {
+    "tStartMs": 1491360,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "CA: And what's the scale of ambition here?"
+    } ]
+  }, {
+    "tStartMs": 1493440,
+    "dDurationMs": 5520,
+    "segs": [ {
+      "utf8": "How many houses do you believe\ncould end up having this type of roofing?"
+    } ]
+  }, {
+    "tStartMs": 1499760,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "EM: I think eventually"
+    } ]
+  }, {
+    "tStartMs": 1502560,
+    "dDurationMs": 3640,
+    "segs": [ {
+      "utf8": "almost all houses will have a solar roof."
+    } ]
+  }, {
+    "tStartMs": 1507880,
+    "dDurationMs": 3536,
+    "segs": [ {
+      "utf8": "The thing is to consider\nthe time scale here"
+    } ]
+  }, {
+    "tStartMs": 1511440,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "to be probably on the order"
+    } ]
+  }, {
+    "tStartMs": 1513920,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "of 40 or 50 years."
+    } ]
+  }, {
+    "tStartMs": 1517120,
+    "dDurationMs": 4880,
+    "segs": [ {
+      "utf8": "So on average, a roof\nis replaced every 20 to 25 years."
+    } ]
+  }, {
+    "tStartMs": 1523400,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "But you don't start replacing\nall roofs immediately."
+    } ]
+  }, {
+    "tStartMs": 1526760,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "But eventually,\nif you say were to fast-forward"
+    } ]
+  }, {
+    "tStartMs": 1530120,
+    "dDurationMs": 3456,
+    "segs": [ {
+      "utf8": "to say 15 years from now,"
+    } ]
+  }, {
+    "tStartMs": 1533600,
+    "dDurationMs": 3600,
+    "segs": [ {
+      "utf8": "it will be unusual to have a roof\nthat does not have solar."
+    } ]
+  }, {
+    "tStartMs": 1537840,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "CA: Is there a mental model thing\nthat people don't get here"
+    } ]
+  }, {
+    "tStartMs": 1540720,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "that because of the shift in the cost,\nthe economics of solar power,"
+    } ]
+  }, {
+    "tStartMs": 1545160,
+    "dDurationMs": 4096,
+    "segs": [ {
+      "utf8": "most houses actually have\nenough sunlight on their roof"
+    } ]
+  }, {
+    "tStartMs": 1549280,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "pretty much to power all of their needs."
+    } ]
+  }, {
+    "tStartMs": 1551360,
+    "dDurationMs": 1896,
+    "segs": [ {
+      "utf8": "If you could capture the power,"
+    } ]
+  }, {
+    "tStartMs": 1553280,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "it could pretty much\npower all their needs."
+    } ]
+  }, {
+    "tStartMs": 1555360,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "You could go off-grid, kind of."
+    } ]
+  }, {
+    "tStartMs": 1556920,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "EM: It depends on where you are"
+    } ]
+  }, {
+    "tStartMs": 1558480,
+    "dDurationMs": 3256,
+    "segs": [ {
+      "utf8": "and what the house size is\nrelative to the roof area,"
+    } ]
+  }, {
+    "tStartMs": 1561760,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "but it's a fair statement to say"
+    } ]
+  }, {
+    "tStartMs": 1563640,
+    "dDurationMs": 4816,
+    "segs": [ {
+      "utf8": "that most houses in the US\nhave enough roof area"
+    } ]
+  }, {
+    "tStartMs": 1568480,
+    "dDurationMs": 1960,
+    "segs": [ {
+      "utf8": "to power all the needs of the house."
+    } ]
+  }, {
+    "tStartMs": 1571800,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "CA: So the key to the economics"
+    } ]
+  }, {
+    "tStartMs": 1575000,
+    "dDurationMs": 4016,
+    "segs": [ {
+      "utf8": "of the cars, the Semi, of these houses"
+    } ]
+  }, {
+    "tStartMs": 1579040,
+    "dDurationMs": 3896,
+    "segs": [ {
+      "utf8": "is the falling price\nof lithium-ion batteries,"
+    } ]
+  }, {
+    "tStartMs": 1582960,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "which you've made a huge bet on as Tesla."
+    } ]
+  }, {
+    "tStartMs": 1585480,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "In many ways, that's almost\nthe core competency."
+    } ]
+  }, {
+    "tStartMs": 1587760,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "And you've decided"
+    } ]
+  }, {
+    "tStartMs": 1590040,
+    "dDurationMs": 5216,
+    "segs": [ {
+      "utf8": "that to really, like, own that competency,"
+    } ]
+  }, {
+    "tStartMs": 1595280,
+    "dDurationMs": 3456,
+    "segs": [ {
+      "utf8": "you just have to build\nthe world's largest manufacturing plant"
+    } ]
+  }, {
+    "tStartMs": 1598760,
+    "dDurationMs": 3136,
+    "segs": [ {
+      "utf8": "to double the world's supply\nof lithium-ion batteries,"
+    } ]
+  }, {
+    "tStartMs": 1601920,
+    "dDurationMs": 2296,
+    "segs": [ {
+      "utf8": "with this guy. What is this?"
+    } ]
+  }, {
+    "tStartMs": 1604240,
+    "dDurationMs": 3456,
+    "segs": [ {
+      "utf8": "EM: Yeah, so that's the Gigafactory,"
+    } ]
+  }, {
+    "tStartMs": 1607720,
+    "dDurationMs": 2696,
+    "segs": [ {
+      "utf8": "progress so far on the Gigafactory."
+    } ]
+  }, {
+    "tStartMs": 1610440,
+    "dDurationMs": 1896,
+    "segs": [ {
+      "utf8": "Eventually, you can sort of roughly see"
+    } ]
+  }, {
+    "tStartMs": 1612360,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "that there's sort of\na diamond shape overall,"
+    } ]
+  }, {
+    "tStartMs": 1615320,
+    "dDurationMs": 4616,
+    "segs": [ {
+      "utf8": "and when it's fully done,\nit'll look like a giant diamond,"
+    } ]
+  }, {
+    "tStartMs": 1619960,
+    "dDurationMs": 2216,
+    "segs": [ {
+      "utf8": "or that's the idea behind it,"
+    } ]
+  }, {
+    "tStartMs": 1622200,
+    "dDurationMs": 1496,
+    "segs": [ {
+      "utf8": "and it's aligned on true north."
+    } ]
+  }, {
+    "tStartMs": 1623720,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "It's a small detail."
+    } ]
+  }, {
+    "tStartMs": 1625480,
+    "dDurationMs": 3896,
+    "segs": [ {
+      "utf8": "CA: And capable of producing, eventually,"
+    } ]
+  }, {
+    "tStartMs": 1629400,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "like a hundred gigawatt hours\nof batteries a year."
+    } ]
+  }, {
+    "tStartMs": 1632600,
+    "dDurationMs": 2976,
+    "segs": [ {
+      "utf8": "EM: A hundred gigawatt hours.\nWe think probably more, but yeah."
+    } ]
+  }, {
+    "tStartMs": 1635600,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "CA: And they're actually\nbeing produced right now."
+    } ]
+  }, {
+    "tStartMs": 1638000,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "EM: They're in production already.\nCA: You guys put out this video."
+    } ]
+  }, {
+    "tStartMs": 1641200,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "I mean, is that speeded up?"
+    } ]
+  }, {
+    "tStartMs": 1642560,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "EM: That's the slowed down version."
+    } ]
+  }, {
+    "tStartMs": 1644280,
+    "dDurationMs": 1776,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1646080,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "CA: How fast does it actually go?"
+    } ]
+  }, {
+    "tStartMs": 1648440,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "EM: Well, when it's running at full speed,"
+    } ]
+  }, {
+    "tStartMs": 1651280,
+    "dDurationMs": 3936,
+    "segs": [ {
+      "utf8": "you can't actually see the cells\nwithout a strobe light."
+    } ]
+  }, {
+    "tStartMs": 1655240,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "It's just blur."
+    } ]
+  }, {
+    "tStartMs": 1656540,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1660000,
+    "dDurationMs": 3576,
+    "segs": [ {
+      "utf8": "CA: One of your core ideas, Elon,\nabout what makes an exciting future"
+    } ]
+  }, {
+    "tStartMs": 1663600,
+    "dDurationMs": 2640,
+    "segs": [ {
+      "utf8": "is a future where we no longer\nfeel guilty about energy."
+    } ]
+  }, {
+    "tStartMs": 1667480,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "Help us picture this."
+    } ]
+  }, {
+    "tStartMs": 1668920,
+    "dDurationMs": 5016,
+    "segs": [ {
+      "utf8": "How many Gigafactories, if you like,\ndoes it take to get us there?"
+    } ]
+  }, {
+    "tStartMs": 1673960,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "EM: It's about a hundred, roughly."
+    } ]
+  }, {
+    "tStartMs": 1675720,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "It's not 10, it's not a thousand."
+    } ]
+  }, {
+    "tStartMs": 1677480,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "Most likely a hundred."
+    } ]
+  }, {
+    "tStartMs": 1680040,
+    "dDurationMs": 1656,
+    "segs": [ {
+      "utf8": "CA: See, I find this amazing."
+    } ]
+  }, {
+    "tStartMs": 1681720,
+    "dDurationMs": 3976,
+    "segs": [ {
+      "utf8": "You can picture what it would take"
+    } ]
+  }, {
+    "tStartMs": 1685720,
+    "dDurationMs": 3256,
+    "segs": [ {
+      "utf8": "to move the world\noff this vast fossil fuel thing."
+    } ]
+  }, {
+    "tStartMs": 1689000,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "It's like you're building one,"
+    } ]
+  }, {
+    "tStartMs": 1691600,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "it costs five billion dollars,"
+    } ]
+  }, {
+    "tStartMs": 1694480,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "or whatever, five to 10 billion dollars."
+    } ]
+  }, {
+    "tStartMs": 1696640,
+    "dDurationMs": 3616,
+    "segs": [ {
+      "utf8": "Like, it's kind of cool\nthat you can picture that project."
+    } ]
+  }, {
+    "tStartMs": 1700280,
+    "dDurationMs": 4480,
+    "segs": [ {
+      "utf8": "And you're planning to do, at Tesla --\nannounce another two this year."
+    } ]
+  }, {
+    "tStartMs": 1705480,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "EM: I think we'll announce locations"
+    } ]
+  }, {
+    "tStartMs": 1708360,
+    "dDurationMs": 3736,
+    "segs": [ {
+      "utf8": "for somewhere between two\nand four Gigafactories later this year."
+    } ]
+  }, {
+    "tStartMs": 1712120,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "Yeah, probably four."
+    } ]
+  }, {
+    "tStartMs": 1714040,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "CA: Whoa."
+    } ]
+  }, {
+    "tStartMs": 1715680,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 1718320,
+    "dDurationMs": 4056,
+    "segs": [ {
+      "utf8": "No more teasing from you for here?"
+    } ]
+  }, {
+    "tStartMs": 1722400,
+    "dDurationMs": 2800,
+    "segs": [ {
+      "utf8": "Like -- where, continent?"
+    } ]
+  }, {
+    "tStartMs": 1727480,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "You can say no."
+    } ]
+  }, {
+    "tStartMs": 1729440,
+    "dDurationMs": 3776,
+    "segs": [ {
+      "utf8": "EM: We need to address a global market."
+    } ]
+  }, {
+    "tStartMs": 1733240,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: OK."
+    } ]
+  }, {
+    "tStartMs": 1734480,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1735840,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "This is cool."
+    } ]
+  }, {
+    "tStartMs": 1739480,
+    "dDurationMs": 4240,
+    "segs": [ {
+      "utf8": "I think we should talk for --"
+    } ]
+  }, {
+    "tStartMs": 1744560,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "Actually, global market."
+    } ]
+  }, {
+    "tStartMs": 1746200,
+    "dDurationMs": 4096,
+    "segs": [ {
+      "utf8": "I'm going to ask you one question\nabout politics, only one."
+    } ]
+  }, {
+    "tStartMs": 1750320,
+    "dDurationMs": 3256,
+    "segs": [ {
+      "utf8": "I'm kind of sick of politics,\nbut I do want to ask you this."
+    } ]
+  }, {
+    "tStartMs": 1753600,
+    "dDurationMs": 6336,
+    "segs": [ {
+      "utf8": "You're on a body now\ngiving advice to a guy --"
+    } ]
+  }, {
+    "tStartMs": 1759960,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "EM: Who?"
+    } ]
+  }, {
+    "tStartMs": 1761200,
+    "dDurationMs": 2896,
+    "segs": [ {
+      "utf8": "CA: Who has said he doesn't\nreally believe in climate change,"
+    } ]
+  }, {
+    "tStartMs": 1764120,
+    "dDurationMs": 4336,
+    "segs": [ {
+      "utf8": "and there's a lot of people out there\nwho think you shouldn't be doing that."
+    } ]
+  }, {
+    "tStartMs": 1768480,
+    "dDurationMs": 1896,
+    "segs": [ {
+      "utf8": "They'd like you to walk away from that."
+    } ]
+  }, {
+    "tStartMs": 1770400,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "What would you say to them?"
+    } ]
+  }, {
+    "tStartMs": 1772720,
+    "dDurationMs": 3616,
+    "segs": [ {
+      "utf8": "EM: Well, I think that first of all,"
+    } ]
+  }, {
+    "tStartMs": 1776360,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "I'm just on two advisory councils"
+    } ]
+  }, {
+    "tStartMs": 1778920,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "where the format consists\nof going around the room"
+    } ]
+  }, {
+    "tStartMs": 1781760,
+    "dDurationMs": 2896,
+    "segs": [ {
+      "utf8": "and asking people's opinion on things,"
+    } ]
+  }, {
+    "tStartMs": 1784680,
+    "dDurationMs": 3760,
+    "segs": [ {
+      "utf8": "and so there's like a meeting\nevery month or two."
+    } ]
+  }, {
+    "tStartMs": 1789560,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "That's the sum total of my contribution."
+    } ]
+  }, {
+    "tStartMs": 1792800,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "But I think to the degree\nthat there are people in the room"
+    } ]
+  }, {
+    "tStartMs": 1795600,
+    "dDurationMs": 4736,
+    "segs": [ {
+      "utf8": "who are arguing in favor\nof doing something about climate change,"
+    } ]
+  }, {
+    "tStartMs": 1800360,
+    "dDurationMs": 4000,
+    "segs": [ {
+      "utf8": "or social issues,"
+    } ]
+  }, {
+    "tStartMs": 1806520,
+    "dDurationMs": 3216,
+    "segs": [ {
+      "utf8": "I've used the meetings I've had thus far"
+    } ]
+  }, {
+    "tStartMs": 1809760,
+    "dDurationMs": 4856,
+    "segs": [ {
+      "utf8": "to argue in favor of immigration\nand in favor of climate change."
+    } ]
+  }, {
+    "tStartMs": 1814640,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 1816600,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "And if I hadn't done that,"
+    } ]
+  }, {
+    "tStartMs": 1818720,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "that wasn't on the agenda before."
+    } ]
+  }, {
+    "tStartMs": 1821560,
+    "dDurationMs": 4240,
+    "segs": [ {
+      "utf8": "So maybe nothing will happen,\nbut at least the words were said."
+    } ]
+  }, {
+    "tStartMs": 1826680,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "CA: OK."
+    } ]
+  }, {
+    "tStartMs": 1827920,
+    "dDurationMs": 2880,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 1831800,
+    "dDurationMs": 3536,
+    "segs": [ {
+      "utf8": "So let's talk SpaceX and Mars."
+    } ]
+  }, {
+    "tStartMs": 1835360,
+    "dDurationMs": 1456,
+    "segs": [ {
+      "utf8": "Last time you were here,"
+    } ]
+  }, {
+    "tStartMs": 1836840,
+    "dDurationMs": 3696,
+    "segs": [ {
+      "utf8": "you spoke about what seemed like\na kind of incredibly ambitious dream"
+    } ]
+  }, {
+    "tStartMs": 1840560,
+    "dDurationMs": 4296,
+    "segs": [ {
+      "utf8": "to develop rockets\nthat were actually reusable."
+    } ]
+  }, {
+    "tStartMs": 1844880,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "And you've only gone and done it."
+    } ]
+  }, {
+    "tStartMs": 1847040,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "EM: Finally. It took a long time."
+    } ]
+  }, {
+    "tStartMs": 1848680,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "CA: Talk us through this.\nWhat are we looking at here?"
+    } ]
+  }, {
+    "tStartMs": 1851280,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "EM: So this is one of our rocket boosters"
+    } ]
+  }, {
+    "tStartMs": 1853440,
+    "dDurationMs": 4576,
+    "segs": [ {
+      "utf8": "coming back from\nvery high and fast in space."
+    } ]
+  }, {
+    "tStartMs": 1858040,
+    "dDurationMs": 3256,
+    "segs": [ {
+      "utf8": "So just delivered the upper stage"
+    } ]
+  }, {
+    "tStartMs": 1861320,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "at high velocity."
+    } ]
+  }, {
+    "tStartMs": 1863440,
+    "dDurationMs": 3856,
+    "segs": [ {
+      "utf8": "I think this might have been\nat sort of Mach 7 or so,"
+    } ]
+  }, {
+    "tStartMs": 1867320,
+    "dDurationMs": 1960,
+    "segs": [ {
+      "utf8": "delivery of the upper stage."
+    } ]
+  }, {
+    "tStartMs": 1870880,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 1873840,
+    "dDurationMs": 1496,
+    "segs": [ {
+      "utf8": "CA: So that was a sped-up --"
+    } ]
+  }, {
+    "tStartMs": 1875360,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "EM: That was the slowed down version."
+    } ]
+  }, {
+    "tStartMs": 1877200,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1878560,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "CA: I thought that was\nthe sped-up version."
+    } ]
+  }, {
+    "tStartMs": 1881080,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "But I mean, that's amazing,"
+    } ]
+  }, {
+    "tStartMs": 1882440,
+    "dDurationMs": 1336,
+    "segs": [ {
+      "utf8": "and several of these failed"
+    } ]
+  }, {
+    "tStartMs": 1883800,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "before you finally\nfigured out how to do it,"
+    } ]
+  }, {
+    "tStartMs": 1886760,
+    "dDurationMs": 2896,
+    "segs": [ {
+      "utf8": "but now you've done this,\nwhat, five or six times?"
+    } ]
+  }, {
+    "tStartMs": 1889680,
+    "dDurationMs": 2296,
+    "segs": [ {
+      "utf8": "EM: We're at eight or nine."
+    } ]
+  }, {
+    "tStartMs": 1892000,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "CA: And for the first time,"
+    } ]
+  }, {
+    "tStartMs": 1893640,
+    "dDurationMs": 3136,
+    "segs": [ {
+      "utf8": "you've actually reflown\none of the rockets that landed."
+    } ]
+  }, {
+    "tStartMs": 1896800,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "EM: Yeah, so we landed the rocket booster"
+    } ]
+  }, {
+    "tStartMs": 1899600,
+    "dDurationMs": 2616,
+    "segs": [ {
+      "utf8": "and then prepped it for flight again\nand flew it again,"
+    } ]
+  }, {
+    "tStartMs": 1902240,
+    "dDurationMs": 5176,
+    "segs": [ {
+      "utf8": "so it's the first reflight\nof an orbital booster"
+    } ]
+  }, {
+    "tStartMs": 1907440,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "where that reflight is relevant."
+    } ]
+  }, {
+    "tStartMs": 1909440,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "So it's important to appreciate\nthat reusability is only relevant"
+    } ]
+  }, {
+    "tStartMs": 1912640,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "if it is rapid and complete."
+    } ]
+  }, {
+    "tStartMs": 1917400,
+    "dDurationMs": 3256,
+    "segs": [ {
+      "utf8": "So like an aircraft or a car,"
+    } ]
+  }, {
+    "tStartMs": 1920680,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "the reusability is rapid and complete."
+    } ]
+  }, {
+    "tStartMs": 1923080,
+    "dDurationMs": 5056,
+    "segs": [ {
+      "utf8": "You do not send your aircraft\nto Boeing in-between flights."
+    } ]
+  }, {
+    "tStartMs": 1928160,
+    "dDurationMs": 4816,
+    "segs": [ {
+      "utf8": "CA: Right. So this is allowing you\nto dream of this really ambitious idea"
+    } ]
+  }, {
+    "tStartMs": 1933000,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "of sending many, many, many people to Mars"
+    } ]
+  }, {
+    "tStartMs": 1936200,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "in, what, 10 or 20 years time, I guess."
+    } ]
+  }, {
+    "tStartMs": 1938640,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "EM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 1940040,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "CA: And you've designed\nthis outrageous rocket to do it."
+    } ]
+  }, {
+    "tStartMs": 1943480,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "Help us understand\nthe scale of this thing."
+    } ]
+  }, {
+    "tStartMs": 1945920,
+    "dDurationMs": 4880,
+    "segs": [ {
+      "utf8": "EM: Well, visually\nyou can see that's a person."
+    } ]
+  }, {
+    "tStartMs": 1952680,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "Yeah, and that's the vehicle."
+    } ]
+  }, {
+    "tStartMs": 1954520,
+    "dDurationMs": 1656,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1956200,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "CA: So if that was a skyscraper,"
+    } ]
+  }, {
+    "tStartMs": 1957960,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "that's like, did I read that,\na 40-story skyscraper?"
+    } ]
+  }, {
+    "tStartMs": 1961320,
+    "dDurationMs": 1600,
+    "segs": [ {
+      "utf8": "EM: Probably a little more, yeah."
+    } ]
+  }, {
+    "tStartMs": 1964360,
+    "dDurationMs": 4000,
+    "segs": [ {
+      "utf8": "The thrust level of this is really --"
+    } ]
+  }, {
+    "tStartMs": 1970360,
+    "dDurationMs": 4920,
+    "segs": [ {
+      "utf8": "This configuration is about four times\nthe thrust of the Saturn V moon rocket."
+    } ]
+  }, {
+    "tStartMs": 1976440,
+    "dDurationMs": 4856,
+    "segs": [ {
+      "utf8": "CA: Four times the thrust of the biggest\nrocket humanity ever created before."
+    } ]
+  }, {
+    "tStartMs": 1981320,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "EM: Yeah. Yeah."
+    } ]
+  }, {
+    "tStartMs": 1984640,
+    "dDurationMs": 1456,
+    "segs": [ {
+      "utf8": "CA: As one does.\nEM: Yeah."
+    } ]
+  }, {
+    "tStartMs": 1986120,
+    "dDurationMs": 2976,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 1989120,
+    "dDurationMs": 5976,
+    "segs": [ {
+      "utf8": "In units of 747, a 747 is only about\na quarter of a million pounds of thrust,"
+    } ]
+  }, {
+    "tStartMs": 1995120,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "so for every 10 million pounds of thrust,"
+    } ]
+  }, {
+    "tStartMs": 1998240,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "there's 40 747s."
+    } ]
+  }, {
+    "tStartMs": 1999960,
+    "dDurationMs": 6256,
+    "segs": [ {
+      "utf8": "So this would be the thrust equivalent\nof 120 747s, with all engines blazing."
+    } ]
+  }, {
+    "tStartMs": 2006240,
+    "dDurationMs": 4216,
+    "segs": [ {
+      "utf8": "CA: And so even with a machine\ndesigned to escape Earth's gravity,"
+    } ]
+  }, {
+    "tStartMs": 2010480,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "I think you told me last time"
+    } ]
+  }, {
+    "tStartMs": 2011920,
+    "dDurationMs": 3256,
+    "segs": [ {
+      "utf8": "this thing could actually\ntake a fully loaded 747,"
+    } ]
+  }, {
+    "tStartMs": 2015200,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "people, cargo, everything,"
+    } ]
+  }, {
+    "tStartMs": 2017560,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "into orbit."
+    } ]
+  }, {
+    "tStartMs": 2018840,
+    "dDurationMs": 5136,
+    "segs": [ {
+      "utf8": "EM: Exactly. This can take\na fully loaded 747 with maximum fuel,"
+    } ]
+  }, {
+    "tStartMs": 2024000,
+    "dDurationMs": 4496,
+    "segs": [ {
+      "utf8": "maximum passengers,\nmaximum cargo on the 747 --"
+    } ]
+  }, {
+    "tStartMs": 2028520,
+    "dDurationMs": 2240,
+    "segs": [ {
+      "utf8": "this can take it as cargo."
+    } ]
+  }, {
+    "tStartMs": 2032080,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "CA: So based on this,"
+    } ]
+  }, {
+    "tStartMs": 2033840,
+    "dDurationMs": 4816,
+    "segs": [ {
+      "utf8": "you presented recently\nthis Interplanetary Transport System"
+    } ]
+  }, {
+    "tStartMs": 2038680,
+    "dDurationMs": 3376,
+    "segs": [ {
+      "utf8": "which is visualized this way."
+    } ]
+  }, {
+    "tStartMs": 2042080,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "This is a scene you picture in, what,\n30 years time? 20 years time?"
+    } ]
+  }, {
+    "tStartMs": 2046880,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "People walking into this rocket."
+    } ]
+  }, {
+    "tStartMs": 2049480,
+    "dDurationMs": 4576,
+    "segs": [ {
+      "utf8": "EM: I'm hopeful it's sort of\nan eight- to 10-year time frame."
+    } ]
+  }, {
+    "tStartMs": 2054080,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "Aspirationally, that's our target."
+    } ]
+  }, {
+    "tStartMs": 2056480,
+    "dDurationMs": 3016,
+    "segs": [ {
+      "utf8": "Our internal targets\nare more aggressive, but I think --"
+    } ]
+  }, {
+    "tStartMs": 2059520,
+    "dDurationMs": 2159,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 2063600,
+    "dDurationMs": 1215,
+    "segs": [ {
+      "utf8": "CA: OK."
+    } ]
+  }, {
+    "tStartMs": 2064840,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "EM: While vehicle seems quite large"
+    } ]
+  }, {
+    "tStartMs": 2067000,
+    "dDurationMs": 2176,
+    "segs": [ {
+      "utf8": "and is large by comparison\nwith other rockets,"
+    } ]
+  }, {
+    "tStartMs": 2069199,
+    "dDurationMs": 3977,
+    "segs": [ {
+      "utf8": "I think the future spacecraft"
+    } ]
+  }, {
+    "tStartMs": 2073199,
+    "dDurationMs": 3841,
+    "segs": [ {
+      "utf8": "will make this look like a rowboat."
+    } ]
+  }, {
+    "tStartMs": 2078320,
+    "dDurationMs": 4696,
+    "segs": [ {
+      "utf8": "The future spaceships\nwill be truly enormous."
+    } ]
+  }, {
+    "tStartMs": 2083040,
+    "dDurationMs": 2176,
+    "segs": [ {
+      "utf8": "CA: Why, Elon?"
+    } ]
+  }, {
+    "tStartMs": 2085239,
+    "dDurationMs": 4137,
+    "segs": [ {
+      "utf8": "Why do we need to build a city on Mars"
+    } ]
+  }, {
+    "tStartMs": 2089400,
+    "dDurationMs": 3056,
+    "segs": [ {
+      "utf8": "with a million people\non it in your lifetime,"
+    } ]
+  }, {
+    "tStartMs": 2092480,
+    "dDurationMs": 3000,
+    "segs": [ {
+      "utf8": "which I think is kind of\nwhat you've said you'd love to do?"
+    } ]
+  }, {
+    "tStartMs": 2096480,
+    "dDurationMs": 2759,
+    "segs": [ {
+      "utf8": "EM: I think it's important to have"
+    } ]
+  }, {
+    "tStartMs": 2101120,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "a future that is inspiring and appealing."
+    } ]
+  }, {
+    "tStartMs": 2103880,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "I just think there have to be reasons"
+    } ]
+  }, {
+    "tStartMs": 2106679,
+    "dDurationMs": 2937,
+    "segs": [ {
+      "utf8": "that you get up in the morning\nand you want to live."
+    } ]
+  }, {
+    "tStartMs": 2109640,
+    "dDurationMs": 1456,
+    "segs": [ {
+      "utf8": "Like, why do you want to live?"
+    } ]
+  }, {
+    "tStartMs": 2111120,
+    "dDurationMs": 1736,
+    "segs": [ {
+      "utf8": "What's the point? What inspires you?"
+    } ]
+  }, {
+    "tStartMs": 2112880,
+    "dDurationMs": 1856,
+    "segs": [ {
+      "utf8": "What do you love about the future?"
+    } ]
+  }, {
+    "tStartMs": 2114760,
+    "dDurationMs": 1496,
+    "segs": [ {
+      "utf8": "And if we're not out there,"
+    } ]
+  }, {
+    "tStartMs": 2116280,
+    "dDurationMs": 4016,
+    "segs": [ {
+      "utf8": "if the future does not include\nbeing out there among the stars"
+    } ]
+  }, {
+    "tStartMs": 2120320,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "and being a multiplanet species,"
+    } ]
+  }, {
+    "tStartMs": 2122040,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "I find that it's incredibly depressing"
+    } ]
+  }, {
+    "tStartMs": 2124560,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "if that's not the future\nthat we're going to have."
+    } ]
+  }, {
+    "tStartMs": 2127920,
+    "dDurationMs": 4176,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 2132120,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "CA: People want to position this\nas an either or,"
+    } ]
+  }, {
+    "tStartMs": 2134480,
+    "dDurationMs": 3696,
+    "segs": [ {
+      "utf8": "that there are so many desperate things\nhappening on the planet now"
+    } ]
+  }, {
+    "tStartMs": 2138200,
+    "dDurationMs": 3440,
+    "segs": [ {
+      "utf8": "from climate to poverty\nto, you know, you pick your issue."
+    } ]
+  }, {
+    "tStartMs": 2142480,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "And this feels like a distraction."
+    } ]
+  }, {
+    "tStartMs": 2145040,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "You shouldn't be thinking about this."
+    } ]
+  }, {
+    "tStartMs": 2146880,
+    "dDurationMs": 2176,
+    "segs": [ {
+      "utf8": "You should be solving what's here and now."
+    } ]
+  }, {
+    "tStartMs": 2149080,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "And to be fair, you've done\na fair old bit to actually do that"
+    } ]
+  }, {
+    "tStartMs": 2152040,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "with your work on sustainable energy."
+    } ]
+  }, {
+    "tStartMs": 2154880,
+    "dDurationMs": 2040,
+    "segs": [ {
+      "utf8": "But why not just do that?"
+    } ]
+  }, {
+    "tStartMs": 2159360,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "EM: I think there's --"
+    } ]
+  }, {
+    "tStartMs": 2164840,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "I look at the future\nfrom the standpoint of probabilities."
+    } ]
+  }, {
+    "tStartMs": 2169280,
+    "dDurationMs": 4176,
+    "segs": [ {
+      "utf8": "It's like a branching\nstream of probabilities,"
+    } ]
+  }, {
+    "tStartMs": 2173480,
+    "dDurationMs": 5000,
+    "segs": [ {
+      "utf8": "and there are actions that we can take\nthat affect those probabilities"
+    } ]
+  }, {
+    "tStartMs": 2179920,
+    "dDurationMs": 3200,
+    "segs": [ {
+      "utf8": "or that accelerate one thing\nor slow down another thing."
+    } ]
+  }, {
+    "tStartMs": 2184000,
+    "dDurationMs": 4120,
+    "segs": [ {
+      "utf8": "I may introduce something new\nto the probability stream."
+    } ]
+  }, {
+    "tStartMs": 2190840,
+    "dDurationMs": 2176,
+    "segs": [ {
+      "utf8": "Sustainable energy\nwill happen no matter what."
+    } ]
+  }, {
+    "tStartMs": 2193040,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "If there was no Tesla,\nif Tesla never existed,"
+    } ]
+  }, {
+    "tStartMs": 2195560,
+    "dDurationMs": 2856,
+    "segs": [ {
+      "utf8": "it would have to happen out of necessity."
+    } ]
+  }, {
+    "tStartMs": 2198440,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "It's tautological."
+    } ]
+  }, {
+    "tStartMs": 2200040,
+    "dDurationMs": 3656,
+    "segs": [ {
+      "utf8": "If you don't have sustainable energy,\nit means you have unsustainable energy."
+    } ]
+  }, {
+    "tStartMs": 2203720,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "Eventually you will run out,"
+    } ]
+  }, {
+    "tStartMs": 2205360,
+    "dDurationMs": 5816,
+    "segs": [ {
+      "utf8": "and the laws of economics\nwill drive civilization"
+    } ]
+  }, {
+    "tStartMs": 2211200,
+    "dDurationMs": 1656,
+    "segs": [ {
+      "utf8": "towards sustainable energy,"
+    } ]
+  }, {
+    "tStartMs": 2212880,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "inevitably."
+    } ]
+  }, {
+    "tStartMs": 2214120,
+    "dDurationMs": 2976,
+    "segs": [ {
+      "utf8": "The fundamental value\nof a company like Tesla"
+    } ]
+  }, {
+    "tStartMs": 2217120,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "is the degree to which it accelerates\nthe advent of sustainable energy,"
+    } ]
+  }, {
+    "tStartMs": 2221560,
+    "dDurationMs": 1762,
+    "segs": [ {
+      "utf8": "faster than it would otherwise occur."
+    } ]
+  }, {
+    "tStartMs": 2225120,
+    "dDurationMs": 1216,
+    "segs": [ {
+      "utf8": "So when I think, like,"
+    } ]
+  }, {
+    "tStartMs": 2226360,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "what is the fundamental good\nof a company like Tesla,"
+    } ]
+  }, {
+    "tStartMs": 2229120,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "I would say, hopefully,"
+    } ]
+  }, {
+    "tStartMs": 2230840,
+    "dDurationMs": 5616,
+    "segs": [ {
+      "utf8": "if it accelerated that by a decade,\npotentially more than a decade,"
+    } ]
+  }, {
+    "tStartMs": 2236480,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "that would be quite a good thing to occur."
+    } ]
+  }, {
+    "tStartMs": 2238640,
+    "dDurationMs": 1616,
+    "segs": [ {
+      "utf8": "That's what I consider to be"
+    } ]
+  }, {
+    "tStartMs": 2240280,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "the fundamental\naspirational good of Tesla."
+    } ]
+  }, {
+    "tStartMs": 2245480,
+    "dDurationMs": 6336,
+    "segs": [ {
+      "utf8": "Then there's becoming a multiplanet\nspecies and space-faring civilization."
+    } ]
+  }, {
+    "tStartMs": 2251840,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "This is not inevitable."
+    } ]
+  }, {
+    "tStartMs": 2253800,
+    "dDurationMs": 2696,
+    "segs": [ {
+      "utf8": "It's very important to appreciate\nthis is not inevitable."
+    } ]
+  }, {
+    "tStartMs": 2256520,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "The sustainable energy future\nI think is largely inevitable,"
+    } ]
+  }, {
+    "tStartMs": 2259640,
+    "dDurationMs": 4736,
+    "segs": [ {
+      "utf8": "but being a space-faring civilization\nis definitely not inevitable."
+    } ]
+  }, {
+    "tStartMs": 2264400,
+    "dDurationMs": 4176,
+    "segs": [ {
+      "utf8": "If you look at the progress in space,"
+    } ]
+  }, {
+    "tStartMs": 2268600,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "in 1969 you were able\nto send somebody to the moon."
+    } ]
+  }, {
+    "tStartMs": 2272040,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "1969."
+    } ]
+  }, {
+    "tStartMs": 2274840,
+    "dDurationMs": 2896,
+    "segs": [ {
+      "utf8": "Then we had the Space Shuttle."
+    } ]
+  }, {
+    "tStartMs": 2277760,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "The Space Shuttle could only\ntake people to low Earth orbit."
+    } ]
+  }, {
+    "tStartMs": 2281200,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "Then the Space Shuttle retired,"
+    } ]
+  }, {
+    "tStartMs": 2282760,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "and the United States\ncould take no one to orbit."
+    } ]
+  }, {
+    "tStartMs": 2286320,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "So that's the trend."
+    } ]
+  }, {
+    "tStartMs": 2287600,
+    "dDurationMs": 2680,
+    "segs": [ {
+      "utf8": "The trend is like down to nothing."
+    } ]
+  }, {
+    "tStartMs": 2291560,
+    "dDurationMs": 2376,
+    "segs": [ {
+      "utf8": "People are mistaken when they think"
+    } ]
+  }, {
+    "tStartMs": 2293960,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "that technology\njust automatically improves."
+    } ]
+  }, {
+    "tStartMs": 2296080,
+    "dDurationMs": 1896,
+    "segs": [ {
+      "utf8": "It does not automatically improve."
+    } ]
+  }, {
+    "tStartMs": 2298000,
+    "dDurationMs": 4656,
+    "segs": [ {
+      "utf8": "It only improves if a lot of people\nwork very hard to make it better,"
+    } ]
+  }, {
+    "tStartMs": 2302680,
+    "dDurationMs": 5776,
+    "segs": [ {
+      "utf8": "and actually it will, I think,\nby itself degrade, actually."
+    } ]
+  }, {
+    "tStartMs": 2308480,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "You look at great civilizations\nlike Ancient Egypt,"
+    } ]
+  }, {
+    "tStartMs": 2310920,
+    "dDurationMs": 1936,
+    "segs": [ {
+      "utf8": "and they were able to make the pyramids,"
+    } ]
+  }, {
+    "tStartMs": 2312880,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "and they forgot how to do that."
+    } ]
+  }, {
+    "tStartMs": 2314720,
+    "dDurationMs": 2816,
+    "segs": [ {
+      "utf8": "And then the Romans,\nthey built these incredible aqueducts."
+    } ]
+  }, {
+    "tStartMs": 2317560,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "They forgot how to do it."
+    } ]
+  }, {
+    "tStartMs": 2320720,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "CA: Elon, it almost seems,\nlistening to you"
+    } ]
+  }, {
+    "tStartMs": 2322800,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "and looking at the different\nthings you've done,"
+    } ]
+  }, {
+    "tStartMs": 2325080,
+    "dDurationMs": 2776,
+    "segs": [ {
+      "utf8": "that you've got this unique\ndouble motivation on everything"
+    } ]
+  }, {
+    "tStartMs": 2327880,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "that I find so interesting."
+    } ]
+  }, {
+    "tStartMs": 2331720,
+    "dDurationMs": 4576,
+    "segs": [ {
+      "utf8": "One is this desire to work\nfor humanity's long-term good."
+    } ]
+  }, {
+    "tStartMs": 2336320,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "The other is the desire\nto do something exciting."
+    } ]
+  }, {
+    "tStartMs": 2338680,
+    "dDurationMs": 4696,
+    "segs": [ {
+      "utf8": "And often it feels like you feel\nlike you need the one to drive the other."
+    } ]
+  }, {
+    "tStartMs": 2343400,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "With Tesla, you want\nto have sustainable energy,"
+    } ]
+  }, {
+    "tStartMs": 2346520,
+    "dDurationMs": 4536,
+    "segs": [ {
+      "utf8": "so you made these super sexy,\nexciting cars to do it."
+    } ]
+  }, {
+    "tStartMs": 2351080,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "Solar energy, we need to get there,"
+    } ]
+  }, {
+    "tStartMs": 2352800,
+    "dDurationMs": 1953,
+    "segs": [ {
+      "utf8": "so we need to make these beautiful roofs."
+    } ]
+  }, {
+    "tStartMs": 2354777,
+    "dDurationMs": 2199,
+    "segs": [ {
+      "utf8": "We haven't even spoken\nabout your newest thing,"
+    } ]
+  }, {
+    "tStartMs": 2357000,
+    "dDurationMs": 1536,
+    "segs": [ {
+      "utf8": "which we don't have time to do,"
+    } ]
+  }, {
+    "tStartMs": 2358560,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "but you want to save humanity from bad AI,"
+    } ]
+  }, {
+    "tStartMs": 2360920,
+    "dDurationMs": 3296,
+    "segs": [ {
+      "utf8": "and so you're going to create\nthis really cool brain-machine interface"
+    } ]
+  }, {
+    "tStartMs": 2364240,
+    "dDurationMs": 3856,
+    "segs": [ {
+      "utf8": "to give us all infinite memory\nand telepathy and so forth."
+    } ]
+  }, {
+    "tStartMs": 2368120,
+    "dDurationMs": 2696,
+    "segs": [ {
+      "utf8": "And on Mars, it feels\nlike what you're saying is,"
+    } ]
+  }, {
+    "tStartMs": 2370840,
+    "dDurationMs": 3696,
+    "segs": [ {
+      "utf8": "yeah, we need to save humanity"
+    } ]
+  }, {
+    "tStartMs": 2374560,
+    "dDurationMs": 1376,
+    "segs": [ {
+      "utf8": "and have a backup plan,"
+    } ]
+  }, {
+    "tStartMs": 2375960,
+    "dDurationMs": 3256,
+    "segs": [ {
+      "utf8": "but also we need to inspire humanity,"
+    } ]
+  }, {
+    "tStartMs": 2379240,
+    "dDurationMs": 4520,
+    "segs": [ {
+      "utf8": "and this is a way to inspire."
+    } ]
+  }, {
+    "tStartMs": 2385680,
+    "dDurationMs": 3776,
+    "segs": [ {
+      "utf8": "EM: I think the value\nof beauty and inspiration"
+    } ]
+  }, {
+    "tStartMs": 2389480,
+    "dDurationMs": 1976,
+    "segs": [ {
+      "utf8": "is very much underrated,"
+    } ]
+  }, {
+    "tStartMs": 2391480,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "no question."
+    } ]
+  }, {
+    "tStartMs": 2393080,
+    "dDurationMs": 1256,
+    "segs": [ {
+      "utf8": "But I want to be clear."
+    } ]
+  }, {
+    "tStartMs": 2394360,
+    "dDurationMs": 1816,
+    "segs": [ {
+      "utf8": "I'm not trying to be anyone's savior."
+    } ]
+  }, {
+    "tStartMs": 2396200,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "That is not the --"
+    } ]
+  }, {
+    "tStartMs": 2398240,
+    "dDurationMs": 3776,
+    "segs": [ {
+      "utf8": "I'm just trying to think about the future"
+    } ]
+  }, {
+    "tStartMs": 2402040,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "and not be sad."
+    } ]
+  }, {
+    "tStartMs": 2404400,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  }, {
+    "tStartMs": 2406520,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "CA: Beautiful statement."
+    } ]
+  }, {
+    "tStartMs": 2410200,
+    "dDurationMs": 1576,
+    "segs": [ {
+      "utf8": "I think everyone here would agree"
+    } ]
+  }, {
+    "tStartMs": 2411800,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "that it is not --"
+    } ]
+  }, {
+    "tStartMs": 2413800,
+    "dDurationMs": 2056,
+    "segs": [ {
+      "utf8": "None of this is going\nto happen inevitably."
+    } ]
+  }, {
+    "tStartMs": 2415880,
+    "dDurationMs": 3656,
+    "segs": [ {
+      "utf8": "The fact that in your mind,\nyou dream this stuff,"
+    } ]
+  }, {
+    "tStartMs": 2419560,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "you dream stuff that no one else\nwould dare dream,"
+    } ]
+  }, {
+    "tStartMs": 2422160,
+    "dDurationMs": 2656,
+    "segs": [ {
+      "utf8": "or no one else\nwould be capable of dreaming"
+    } ]
+  }, {
+    "tStartMs": 2424840,
+    "dDurationMs": 3656,
+    "segs": [ {
+      "utf8": "at the level of complexity that you do."
+    } ]
+  }, {
+    "tStartMs": 2428520,
+    "dDurationMs": 3176,
+    "segs": [ {
+      "utf8": "The fact that you do that, Elon Musk,\nis a really remarkable thing."
+    } ]
+  }, {
+    "tStartMs": 2431720,
+    "dDurationMs": 2696,
+    "segs": [ {
+      "utf8": "Thank you for helping us all\nto dream a bit bigger."
+    } ]
+  }, {
+    "tStartMs": 2434440,
+    "dDurationMs": 3496,
+    "segs": [ {
+      "utf8": "EM: But you'll tell me if it ever\nstarts getting genuinely insane, right?"
+    } ]
+  }, {
+    "tStartMs": 2437960,
+    "dDurationMs": 2496,
+    "segs": [ {
+      "utf8": "(Laughter)"
+    } ]
+  }, {
+    "tStartMs": 2440480,
+    "dDurationMs": 3096,
+    "segs": [ {
+      "utf8": "CA: Thank you, Elon Musk.\nThat was really, really fantastic."
+    } ]
+  }, {
+    "tStartMs": 2443600,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "That was really fantastic."
+    } ]
+  }, {
+    "tStartMs": 2445040,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "(Applause)"
+    } ]
+  } ]
+}

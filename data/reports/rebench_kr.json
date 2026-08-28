@@ -1,0 +1,60 @@
+{
+  "dataset": {
+    "video": "찐반등인가, 훼이크인가 (TgmE7y5syXk)",
+    "audio": "data/audio/kr_first10min.wav",
+    "full_ref": "data/transcripts/kr_first10min.txt",
+    "full_seconds": 600.0,
+    "language": "ko",
+    "note": "수동 한국어 자막 정답, MOSS 제외"
+  },
+  "engines": [
+    {
+      "engine": "sensevoice",
+      "model": "iic/SenseVoiceSmall",
+      "device": "cuda:0",
+      "wer_raw": 0.7109,
+      "cer_raw": 0.2351,
+      "wer_norm": 0.6946,
+      "cer_norm": 0.2164,
+      "rtf": 0.0097,
+      "elapsed": 5.82,
+      "audio_s": 600.0,
+      "ref_words": 1169,
+      "hyp_words": 1128,
+      "ref_chars": 4539,
+      "hyp_chars": 4504
+    },
+    {
+      "engine": "faster-whisper",
+      "model": "whisper-small",
+      "device": "cuda:0",
+      "wer_raw": 0.3944,
+      "cer_raw": 0.1458,
+      "wer_norm": 0.2541,
+      "cer_norm": 0.1022,
+      "rtf": 0.0379,
+      "elapsed": 22.74,
+      "audio_s": 600.0,
+      "ref_words": 1169,
+      "hyp_words": 1114,
+      "ref_chars": 4539,
+      "hyp_chars": 4499
+    },
+    {
+      "engine": "sensevoice-gguf",
+      "model": "FunAudioLLM/SenseVoiceSmall-GGUF (Q8_0)",
+      "device": "cpu",
+      "wer_raw": 0.7271,
+      "cer_raw": 0.2569,
+      "wer_norm": 0.7032,
+      "cer_norm": 0.2383,
+      "rtf": 0.0344,
+      "elapsed": 20.63,
+      "audio_s": 600.0,
+      "ref_words": 1169,
+      "hyp_words": 1109,
+      "ref_chars": 4539,
+      "hyp_chars": 4482
+    }
+  ]
+}

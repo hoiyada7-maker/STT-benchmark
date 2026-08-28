@@ -1,0 +1,36 @@
+[
+  {
+    "engine": "parakeet",
+    "model": "nemo-parakeet-tdt-0.6b-v3",
+    "language": "en",
+    "wer_raw": 0.3069,
+    "cer_raw": 0.1828,
+    "wer_norm": 0.2469,
+    "cer_norm": 0.1702,
+    "rtf": 0.0787,
+    "elapsed": 47.2,
+    "ref_words": 1463,
+    "hyp_words": 1623,
+    "ref_chars": 8016,
+    "hyp_chars": 8449,
+    "hyp_preview": "Hey, welcome back to Ted. It's great to have you here. Thanks for having me. So in the next half hour or so, um, we're gonna spend some time exploring your vision for what an exciting future might loo",
+    "runtime_note": "backend=onnx;chunked-120s"
+  },
+  {
+    "engine": "moonshine",
+    "model": "moonshine/base",
+    "language": "en",
+    "wer_raw": 0.2262,
+    "cer_raw": 0.1035,
+    "wer_norm": 0.1341,
+    "cer_norm": 0.0816,
+    "rtf": 0.1521,
+    "elapsed": 91.23,
+    "ref_words": 1463,
+    "hyp_words": 1525,
+    "ref_chars": 8016,
+    "hyp_chars": 8097,
+    "hyp_preview": "You know, hey, welcome back to Ted. It's great to have you here. Thanks for having me. So, in the next half hour or so, we're going to spend some time exploring your vision for what an exciting future",
+    "runtime_note": "backend=onnx;chunked-30s"
+  }
+]

@@ -1,0 +1,6115 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 7680,
+    "dDurationMs": 1460,
+    "segs": [ {
+      "utf8": "자, 오늘의 주제"
+    } ]
+  }, {
+    "tStartMs": 9140,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "아우 떨려 지금이니?"
+    } ]
+  }, {
+    "tStartMs": 11630,
+    "dDurationMs": 1770,
+    "segs": [ {
+      "utf8": "지,지금입니까?"
+    } ]
+  }, {
+    "tStartMs": 13400,
+    "dDurationMs": 2210,
+    "segs": [ {
+      "utf8": "지금입니까?"
+    } ]
+  }, {
+    "tStartMs": 15610,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "아, 지금이냐?"
+    } ]
+  }, {
+    "tStartMs": 17320,
+    "dDurationMs": 790,
+    "segs": [ {
+      "utf8": "어, 이게 무슨 말인지"
+    } ]
+  }, {
+    "tStartMs": 18110,
+    "dDurationMs": 2010,
+    "segs": [ {
+      "utf8": "전혀 모르겠는 분들도 계실 텐데"
+    } ]
+  }, {
+    "tStartMs": 20120,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "어, 이걸 보시면 바로 알 수 있습니다"
+    } ]
+  }, {
+    "tStartMs": 21820,
+    "dDurationMs": 3880,
+    "segs": [ {
+      "utf8": "자, 6월 셋째 주 거의 7월 초 이후로"
+    } ]
+  }, {
+    "tStartMs": 25700,
+    "dDurationMs": 3820,
+    "segs": [ {
+      "utf8": "코스피가 처음으로 상승 주봉을 맞이했습니다"
+    } ]
+  }, {
+    "tStartMs": 32480,
+    "dDurationMs": 1570,
+    "segs": [ {
+      "utf8": "이게 몇 주 만입니까?"
+    } ]
+  }, {
+    "tStartMs": 34050,
+    "dDurationMs": 3740,
+    "segs": [ {
+      "utf8": "1주, 2주, 3주, 4주, 5주, 6주, 7주"
+    } ]
+  }, {
+    "tStartMs": 37790,
+    "dDurationMs": 3690,
+    "segs": [ {
+      "utf8": "7주 만에 거의 8주 차에"
+    } ]
+  }, {
+    "tStartMs": 41480,
+    "dDurationMs": 2930,
+    "segs": [ {
+      "utf8": "드디어 주로 올랐어요"
+    } ]
+  }, {
+    "tStartMs": 44410,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "정말 오래 기다렸다"
+    } ]
+  }, {
+    "tStartMs": 47660,
+    "dDurationMs": 2170,
+    "segs": [ {
+      "utf8": "힘들었습니다 힘들었고요"
+    } ]
+  }, {
+    "tStartMs": 49830,
+    "dDurationMs": 3050,
+    "segs": [ {
+      "utf8": "별일 없었지 않냐?"
+    } ]
+  }, {
+    "tStartMs": 52880,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "너무 많은 일이 있었습니다"
+    } ]
+  }, {
+    "tStartMs": 55040,
+    "dDurationMs": 4800,
+    "segs": [ {
+      "utf8": "6월 19일 9,385에서 7월 29일 5,262로 갔어요"
+    } ]
+  }, {
+    "tStartMs": 59840,
+    "dDurationMs": 1430,
+    "segs": [ {
+      "utf8": "하..."
+    } ]
+  }, {
+    "tStartMs": 61270,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "4,000포인트가 한 달만에 빠졌어"
+    } ]
+  }, {
+    "tStartMs": 64450,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "이런 미친"
+    } ]
+  }, {
+    "tStartMs": 66850,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "하지만 우리는 2주 만에"
+    } ]
+  }, {
+    "tStartMs": 68210,
+    "dDurationMs": 2480,
+    "segs": [ {
+      "utf8": "거의 1,500포인트 넘게 들어올려서"
+    } ]
+  }, {
+    "tStartMs": 70690,
+    "dDurationMs": 2430,
+    "segs": [ {
+      "utf8": "지금 6,977, 7,000까지 왔습니다"
+    } ]
+  }, {
+    "tStartMs": 73120,
+    "dDurationMs": 1520,
+    "segs": [ {
+      "utf8": "역시 강해요"
+    } ]
+  }, {
+    "tStartMs": 74640,
+    "dDurationMs": 2550,
+    "segs": [ {
+      "utf8": "한 달 만에 마이너스 44%를 찍고"
+    } ]
+  }, {
+    "tStartMs": 77190,
+    "dDurationMs": 2720,
+    "segs": [ {
+      "utf8": "거기에서 한 18%p 정도를 되돌렸어요"
+    } ]
+  }, {
+    "tStartMs": 79910,
+    "dDurationMs": 870,
+    "segs": [ {
+      "utf8": "여기가 그래서 마이너스"
+    } ]
+  }, {
+    "tStartMs": 80780,
+    "dDurationMs": 2430,
+    "segs": [ {
+      "utf8": "한 26% 정도 지점이라고 보시면 됩니다"
+    } ]
+  }, {
+    "tStartMs": 83210,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "고점 대비"
+    } ]
+  }, {
+    "tStartMs": 84160,
+    "dDurationMs": 1450,
+    "segs": [ {
+      "utf8": "정말 많은 일이 있었죠"
+    } ]
+  }, {
+    "tStartMs": 85610,
+    "dDurationMs": 1730,
+    "segs": [ {
+      "utf8": "수많은 일들이 있었고"
+    } ]
+  }, {
+    "tStartMs": 87340,
+    "dDurationMs": 2680,
+    "segs": [ {
+      "utf8": "우리나라 역사상 가장 뜨거웠던 6개월"
+    } ]
+  }, {
+    "tStartMs": 90020,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "우리나라 역사상 가장 추웠던 두 달"
+    } ]
+  }, {
+    "tStartMs": 92000,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "주식 역사상 그렇게 보면 됩니다"
+    } ]
+  }, {
+    "tStartMs": 94970,
+    "dDurationMs": 2650,
+    "segs": [ {
+      "utf8": "자, 그러면 아무도 모르는 질문"
+    } ]
+  }, {
+    "tStartMs": 97620,
+    "dDurationMs": 2700,
+    "segs": [ {
+      "utf8": "과연 시장은 돌아선 것이냐?"
+    } ]
+  }, {
+    "tStartMs": 101490,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "자, 이제 상승으로 돌아선 거냐?"
+    } ]
+  }, {
+    "tStartMs": 104810,
+    "dDurationMs": 1940,
+    "segs": [ {
+      "utf8": "좀 들어가 볼까?"
+    } ]
+  }, {
+    "tStartMs": 106750,
+    "dDurationMs": 2470,
+    "segs": [ {
+      "utf8": "아니면 훼이크냐?"
+    } ]
+  }, {
+    "tStartMs": 109240,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "훼이크냐 이거"
+    } ]
+  }, {
+    "tStartMs": 110680,
+    "dDurationMs": 1530,
+    "segs": [ {
+      "utf8": "야, 여기서 훼이크하면"
+    } ]
+  }, {
+    "tStartMs": 112210,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "진짜 역대급이다"
+    } ]
+  }, {
+    "tStartMs": 114370,
+    "dDurationMs": 4060,
+    "segs": [ {
+      "utf8": "와, 야, 이게 훼이크라고?"
+    } ]
+  }, {
+    "tStartMs": 118430,
+    "dDurationMs": 3400,
+    "segs": [ {
+      "utf8": "만약 그러면 진짜 드라마도 그런 드라마가 없는데"
+    } ]
+  }, {
+    "tStartMs": 121830,
+    "dDurationMs": 990,
+    "segs": [ {
+      "utf8": "참고로 그러면 안 됩니다"
+    } ]
+  }, {
+    "tStartMs": 122820,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "왜냐하면 들어가 있거든요"
+    } ]
+  }, {
+    "tStartMs": 124480,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "들어가 있어요"
+    } ]
+  }, {
+    "tStartMs": 125410,
+    "dDurationMs": 840,
+    "segs": [ {
+      "utf8": "들어가 있기 때문에"
+    } ]
+  }, {
+    "tStartMs": 126250,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "절대 그러면 안 됩니다"
+    } ]
+  }, {
+    "tStartMs": 127450,
+    "dDurationMs": 1670,
+    "segs": [ {
+      "utf8": "절대 그러면 안 되는데"
+    } ]
+  }, {
+    "tStartMs": 129120,
+    "dDurationMs": 670,
+    "segs": [ {
+      "utf8": "약간 불안한 건"
+    } ]
+  }, {
+    "tStartMs": 129790,
+    "dDurationMs": 3290,
+    "segs": [ {
+      "utf8": "이 모양이 좀 쐐기형"
+    } ]
+  }, {
+    "tStartMs": 133080,
+    "dDurationMs": 910,
+    "segs": [ {
+      "utf8": "아 아닙니다 아닙니다"
+    } ]
+  }, {
+    "tStartMs": 133990,
+    "dDurationMs": 720,
+    "segs": [ {
+      "utf8": "이거 아닙니다 아닙니다"
+    } ]
+  }, {
+    "tStartMs": 134710,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "쭉쭉쭉쭉 뚫고"
+    } ]
+  }, {
+    "tStartMs": 135970,
+    "dDurationMs": 2210,
+    "segs": [ {
+      "utf8": "올라가지 않을까라고 생각을 하는데"
+    } ]
+  }, {
+    "tStartMs": 138180,
+    "dDurationMs": 1740,
+    "segs": [ {
+      "utf8": "자, 일단 시장을 보면은"
+    } ]
+  }, {
+    "tStartMs": 139920,
+    "dDurationMs": 1860,
+    "segs": [ {
+      "utf8": "그동안 시장을 뒤흔들었던"
+    } ]
+  }, {
+    "tStartMs": 141780,
+    "dDurationMs": 2020,
+    "segs": [ {
+      "utf8": "단일 종목 레버리지"
+    } ]
+  }, {
+    "tStartMs": 143800,
+    "dDurationMs": 2140,
+    "segs": [ {
+      "utf8": "거의 숨만 쉬고 계십니다"
+    } ]
+  }, {
+    "tStartMs": 145940,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "거의 거래량이 20분의 1이 됐어요"
+    } ]
+  }, {
+    "tStartMs": 148540,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "20분의 1이 됐어"
+    } ]
+  }, {
+    "tStartMs": 150180,
+    "dDurationMs": 1310,
+    "segs": [ {
+      "utf8": "규제가 세게 들어가서 그런지"
+    } ]
+  }, {
+    "tStartMs": 151490,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "뭐 3천만 원 이상 보유해야 되고"
+    } ]
+  }, {
+    "tStartMs": 153150,
+    "dDurationMs": 1630,
+    "segs": [ {
+      "utf8": "규제가 여러 가지 들어가 있죠"
+    } ]
+  }, {
+    "tStartMs": 154780,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "규제가 빡세게 들어가니까"
+    } ]
+  }, {
+    "tStartMs": 156140,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "거래량이 완전히 뭐 이거 뭐야"
+    } ]
+  }, {
+    "tStartMs": 158140,
+    "dDurationMs": 1450,
+    "segs": [ {
+      "utf8": "이거 반토막도 아니고"
+    } ]
+  }, {
+    "tStartMs": 159590,
+    "dDurationMs": 990,
+    "segs": [ {
+      "utf8": "숨만 쉬고 있습니다"
+    } ]
+  }, {
+    "tStartMs": 160580,
+    "dDurationMs": 1720,
+    "segs": [ {
+      "utf8": "확 줄었고요"
+    } ]
+  }, {
+    "tStartMs": 162300,
+    "dDurationMs": 3160,
+    "segs": [ {
+      "utf8": "저 단일 종목 레버리지 전성기 때는 이거 미쳤거든요"
+    } ]
+  }, {
+    "tStartMs": 165460,
+    "dDurationMs": 2910,
+    "segs": [ {
+      "utf8": "거래 규모가 거래대금 15조 넘겼어요"
+    } ]
+  }, {
+    "tStartMs": 168370,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "시장 전체 거래대금의 30%를"
+    } ]
+  }, {
+    "tStartMs": 170970,
+    "dDurationMs": 2410,
+    "segs": [ {
+      "utf8": "단일 종목 레버리지가 차지하던 시절도 있었습니다"
+    } ]
+  }, {
+    "tStartMs": 173380,
+    "dDurationMs": 720,
+    "segs": [ {
+      "utf8": "전성기 시절에"
+    } ]
+  }, {
+    "tStartMs": 174100,
+    "dDurationMs": 2060,
+    "segs": [ {
+      "utf8": "근데 지금은 갑자기"
+    } ]
+  }, {
+    "tStartMs": 176160,
+    "dDurationMs": 1970,
+    "segs": [ {
+      "utf8": "갑자기 숨만 쉬고 있어요"
+    } ]
+  }, {
+    "tStartMs": 178130,
+    "dDurationMs": 3930,
+    "segs": [ {
+      "utf8": "현재는 시장 전체 거래대금의 3% 왔다 갔다 하고 있어요"
+    } ]
+  }, {
+    "tStartMs": 182060,
+    "dDurationMs": 1690,
+    "segs": [ {
+      "utf8": "거의 뭐 10분의 1로 줄었다고 봐도"
+    } ]
+  }, {
+    "tStartMs": 183750,
+    "dDurationMs": 1590,
+    "segs": [ {
+      "utf8": "과언이 아니고요"
+    } ]
+  }, {
+    "tStartMs": 185340,
+    "dDurationMs": 4190,
+    "segs": [ {
+      "utf8": "자, 그래서 단일 종목 레버리지에 대한 걱정은 좀 줄어든 것 같다"
+    } ]
+  }, {
+    "tStartMs": 189530,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "그리고 제가 애널리스트 리포트에서"
+    } ]
+  }, {
+    "tStartMs": 191690,
+    "dDurationMs": 2260,
+    "segs": [ {
+      "utf8": "여러분들의 마음을 안정시켜 드릴 수 있는 자료를"
+    } ]
+  }, {
+    "tStartMs": 193950,
+    "dDurationMs": 2340,
+    "segs": [ {
+      "utf8": "몇 개 찾아왔는데 하나가 이겁니다"
+    } ]
+  }, {
+    "tStartMs": 196290,
+    "dDurationMs": 4830,
+    "segs": [ {
+      "utf8": "8월 9일 기준 코스피 PER이 5에서 6 사이다"
+    } ]
+  }, {
+    "tStartMs": 201120,
+    "dDurationMs": 2270,
+    "segs": [ {
+      "utf8": "코스피 PER이 보통 10배에서 움직입니다"
+    } ]
+  }, {
+    "tStartMs": 203390,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "자, 롱을 보는 사람들의"
+    } ]
+  }, {
+    "tStartMs": 204870,
+    "dDurationMs": 3750,
+    "segs": [ {
+      "utf8": "가장 큰 어떤 믿음이자 신앙이자"
+    } ]
+  }, {
+    "tStartMs": 208620,
+    "dDurationMs": 2640,
+    "segs": [ {
+      "utf8": "가장 큰 지지가 저기 있는 거죠"
+    } ]
+  }, {
+    "tStartMs": 211260,
+    "dDurationMs": 2980,
+    "segs": [ {
+      "utf8": "거의 대부분의 롱을 보는 분들이 말하는 근거가"
+    } ]
+  }, {
+    "tStartMs": 214240,
+    "dDurationMs": 990,
+    "segs": [ {
+      "utf8": "이제 이거라고 할 수 있는데"
+    } ]
+  }, {
+    "tStartMs": 215230,
+    "dDurationMs": 2370,
+    "segs": [ {
+      "utf8": "한마디로 싸다"
+    } ]
+  }, {
+    "tStartMs": 217600,
+    "dDurationMs": 1930,
+    "segs": [ {
+      "utf8": "버는 돈에 비해서 싸다가"
+    } ]
+  }, {
+    "tStartMs": 219530,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "이제 주된 이유가 되겠습니다"
+    } ]
+  }, {
+    "tStartMs": 221690,
+    "dDurationMs": 2410,
+    "segs": [ {
+      "utf8": "대부분의 애널리스트들의 근거가 이건데"
+    } ]
+  }, {
+    "tStartMs": 224100,
+    "dDurationMs": 2880,
+    "segs": [ {
+      "utf8": "코스피 PER 보통 10배, 12배 그래요"
+    } ]
+  }, {
+    "tStartMs": 226980,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "위기가 왔을 때 6정도 됩니다"
+    } ]
+  }, {
+    "tStartMs": 228630,
+    "dDurationMs": 1870,
+    "segs": [ {
+      "utf8": "금융위기 같은 것 6정도"
+    } ]
+  }, {
+    "tStartMs": 230500,
+    "dDurationMs": 2870,
+    "segs": [ {
+      "utf8": "지금은 5배야 5배"
+    } ]
+  }, {
+    "tStartMs": 233370,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "사람마다 보는 게 다르지만"
+    } ]
+  }, {
+    "tStartMs": 234600,
+    "dDurationMs": 1970,
+    "segs": [ {
+      "utf8": "5.x 배입니다 5배"
+    } ]
+  }, {
+    "tStartMs": 236570,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "그러면 사실은 두 개 중에 하나죠"
+    } ]
+  }, {
+    "tStartMs": 238670,
+    "dDurationMs": 1730,
+    "segs": [ {
+      "utf8": "미래 이익을 못 믿거나"
+    } ]
+  }, {
+    "tStartMs": 240400,
+    "dDurationMs": 2120,
+    "segs": [ {
+      "utf8": "이거 다섯 배 아니다 왜냐?"
+    } ]
+  }, {
+    "tStartMs": 242520,
+    "dDurationMs": 2530,
+    "segs": [ {
+      "utf8": "12개월 뒤에 영업이익을 보는 거니까"
+    } ]
+  }, {
+    "tStartMs": 245050,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "그땐 빠져있을 거야"
+    } ]
+  }, {
+    "tStartMs": 246530,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "근데 그걸 예측을 못한 거야라고 보는 사람이 있고"
+    } ]
+  }, {
+    "tStartMs": 249500,
+    "dDurationMs": 3650,
+    "segs": [ {
+      "utf8": "아니면 이 AI 이거는 이런 식으로 보면 안 된다"
+    } ]
+  }, {
+    "tStartMs": 253150,
+    "dDurationMs": 1290,
+    "segs": [ {
+      "utf8": "단기적으로 또 위험이 왔고"
+    } ]
+  }, {
+    "tStartMs": 254440,
+    "dDurationMs": 910,
+    "segs": [ {
+      "utf8": "수급이 있고 그런데"
+    } ]
+  }, {
+    "tStartMs": 255350,
+    "dDurationMs": 1520,
+    "segs": [ {
+      "utf8": "이거만 보고"
+    } ]
+  }, {
+    "tStartMs": 256870,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "지금 어?"
+    } ]
+  }, {
+    "tStartMs": 257820,
+    "dDurationMs": 1630,
+    "segs": [ {
+      "utf8": "이거는 뭐 먼 미래 얘기지"
+    } ]
+  }, {
+    "tStartMs": 259450,
+    "dDurationMs": 4120,
+    "segs": [ {
+      "utf8": "지금 당장 반영이 되겠냐라고 얘기하는 사람들이 있죠"
+    } ]
+  }, {
+    "tStartMs": 263570,
+    "dDurationMs": 2450,
+    "segs": [ {
+      "utf8": "반도체 영업이익을 못 믿은 분들이"
+    } ]
+  }, {
+    "tStartMs": 266020,
+    "dDurationMs": 1840,
+    "segs": [ {
+      "utf8": "그런 얘기를 이제 많이 하는 편인데"
+    } ]
+  }, {
+    "tStartMs": 267860,
+    "dDurationMs": 2800,
+    "segs": [ {
+      "utf8": "어쨌건 놀랍게도 코스피가 7,000인데"
+    } ]
+  }, {
+    "tStartMs": 270660,
+    "dDurationMs": 1920,
+    "segs": [ {
+      "utf8": "싸다라는 말이 나오고 있어요"
+    } ]
+  }, {
+    "tStartMs": 272580,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "아, 세상 오래 살아봐야 돼요"
+    } ]
+  }, {
+    "tStartMs": 274980,
+    "dDurationMs": 3500,
+    "segs": [ {
+      "utf8": "코스피가 3,000 가면 비싸다고 얘기를 많이 했었는데"
+    } ]
+  }, {
+    "tStartMs": 278480,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "어 물론 그땐 영업이익을 잘 못 벌었죠"
+    } ]
+  }, {
+    "tStartMs": 280160,
+    "dDurationMs": 910,
+    "segs": [ {
+      "utf8": "우리나라 기업들이"
+    } ]
+  }, {
+    "tStartMs": 281070,
+    "dDurationMs": 3720,
+    "segs": [ {
+      "utf8": "지금은 코스피가 7,000인데 싸대 신기하지요?"
+    } ]
+  }, {
+    "tStartMs": 284790,
+    "dDurationMs": 1550,
+    "segs": [ {
+      "utf8": "어 우리가 해낸 겁니다"
+    } ]
+  }, {
+    "tStartMs": 286340,
+    "dDurationMs": 2120,
+    "segs": [ {
+      "utf8": "자, 우리가 해낸 거지 않나 생각이 되고"
+    } ]
+  }, {
+    "tStartMs": 288460,
+    "dDurationMs": 2070,
+    "segs": [ {
+      "utf8": "외국인들은 어떻게 움직이고 있냐?"
+    } ]
+  }, {
+    "tStartMs": 290530,
+    "dDurationMs": 1800,
+    "segs": [ {
+      "utf8": "외국인들은 놀랍게도"
+    } ]
+  }, {
+    "tStartMs": 292330,
+    "dDurationMs": 3610,
+    "segs": [ {
+      "utf8": "지난주에 오랜만에 3일 연속 순매수를 했습니다"
+    } ]
+  }, {
+    "tStartMs": 295940,
+    "dDurationMs": 560,
+    "segs": [ {
+      "utf8": "한 6조?"
+    } ]
+  }, {
+    "tStartMs": 296500,
+    "dDurationMs": 1310,
+    "segs": [ {
+      "utf8": "한 2조, 2조, 2조"
+    } ]
+  }, {
+    "tStartMs": 297810,
+    "dDurationMs": 1610,
+    "segs": [ {
+      "utf8": "한 세 번 정도 했어요"
+    } ]
+  }, {
+    "tStartMs": 299420,
+    "dDurationMs": 2940,
+    "segs": [ {
+      "utf8": "겨우 3일 갖고 왜 그러냐? 맞습니다"
+    } ]
+  }, {
+    "tStartMs": 302360,
+    "dDurationMs": 2340,
+    "segs": [ {
+      "utf8": "사실은 별 움직임이 없다고 봐야 돼요"
+    } ]
+  }, {
+    "tStartMs": 304700,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "아주 미미해요"
+    } ]
+  }, {
+    "tStartMs": 306380,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "요것 조금 올라가고"
+    } ]
+  }, {
+    "tStartMs": 307330,
+    "dDurationMs": 1720,
+    "segs": [ {
+      "utf8": "저것 조금 올랐어요 조금"
+    } ]
+  }, {
+    "tStartMs": 309050,
+    "dDurationMs": 4270,
+    "segs": [ {
+      "utf8": "어, 그러니까 거대한 반등의 시작"
+    } ]
+  }, {
+    "tStartMs": 313320,
+    "dDurationMs": 1530,
+    "segs": [ {
+      "utf8": "발가락 끝이 움직였다"
+    } ]
+  }, {
+    "tStartMs": 314850,
+    "dDurationMs": 2330,
+    "segs": [ {
+      "utf8": "앞으로 거대한 이게 온다는 거죠"
+    } ]
+  }, {
+    "tStartMs": 317180,
+    "dDurationMs": 870,
+    "segs": [ {
+      "utf8": "지금일 수 있습니다"
+    } ]
+  }, {
+    "tStartMs": 318050,
+    "dDurationMs": 2390,
+    "segs": [ {
+      "utf8": "거대한 뭐가 올 수 있어요"
+    } ]
+  }, {
+    "tStartMs": 320440,
+    "dDurationMs": 1810,
+    "segs": [ {
+      "utf8": "지나친 희망회로긴 하지만"
+    } ]
+  }, {
+    "tStartMs": 322250,
+    "dDurationMs": 3860,
+    "segs": [ {
+      "utf8": "발가락 끝이 어쨌건 볼록 움직였다 음"
+    } ]
+  }, {
+    "tStartMs": 326110,
+    "dDurationMs": 2050,
+    "segs": [ {
+      "utf8": "얼마나 제 마음이 급한지 알겠죠?"
+    } ]
+  }, {
+    "tStartMs": 328160,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "이거 움직였다고"
+    } ]
+  }, {
+    "tStartMs": 329410,
+    "dDurationMs": 2680,
+    "segs": [ {
+      "utf8": "그게 희망 신호라고 갖고 온 겁니다 지금"
+    } ]
+  }, {
+    "tStartMs": 332090,
+    "dDurationMs": 690,
+    "segs": [ {
+      "utf8": "약속하는 거죠"
+    } ]
+  }, {
+    "tStartMs": 332780,
+    "dDurationMs": 980,
+    "segs": [ {
+      "utf8": "이렇게 약속"
+    } ]
+  }, {
+    "tStartMs": 333760,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "뽈록뽈록 뽈록뽈록"
+    } ]
+  }, {
+    "tStartMs": 335920,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "어 그렇습니다"
+    } ]
+  }, {
+    "tStartMs": 337340,
+    "dDurationMs": 1890,
+    "segs": [ {
+      "utf8": "누적으로 150조를 팔았어요"
+    } ]
+  }, {
+    "tStartMs": 339230,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "지금 그런 상황이고"
+    } ]
+  }, {
+    "tStartMs": 340670,
+    "dDurationMs": 1000,
+    "segs": [ {
+      "utf8": "외국인들의 순매수는"
+    } ]
+  }, {
+    "tStartMs": 341670,
+    "dDurationMs": 1210,
+    "segs": [ {
+      "utf8": "당연히 대부분이"
+    } ]
+  }, {
+    "tStartMs": 342880,
+    "dDurationMs": 1870,
+    "segs": [ {
+      "utf8": "한 70%가 반도체 기업들입니다"
+    } ]
+  }, {
+    "tStartMs": 344750,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "삼성전자, SK하이닉스 나눠서 샀어요"
+    } ]
+  }, {
+    "tStartMs": 345950,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "합계 4.7조 원을"
+    } ]
+  }, {
+    "tStartMs": 347430,
+    "dDurationMs": 1770,
+    "segs": [ {
+      "utf8": "그리고 지난주 시장을 보면은"
+    } ]
+  }, {
+    "tStartMs": 349200,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "지난주에 빨간 양봉이 섰잖아요"
+    } ]
+  }, {
+    "tStartMs": 350850,
+    "dDurationMs": 3230,
+    "segs": [ {
+      "utf8": "주봉으로 역시 반도체 기업들이 끌고 갔습니다"
+    } ]
+  }, {
+    "tStartMs": 354080,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "진짜 오랜만에"
+    } ]
+  }, {
+    "tStartMs": 356070,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "진짜 오랜만에"
+    } ]
+  }, {
+    "tStartMs": 357330,
+    "dDurationMs": 2740,
+    "segs": [ {
+      "utf8": "지난 일주일 삼성전자가 18% 올랐어요"
+    } ]
+  }, {
+    "tStartMs": 360070,
+    "dDurationMs": 1880,
+    "segs": [ {
+      "utf8": "하이닉스가 15% 올랐습니다"
+    } ]
+  }, {
+    "tStartMs": 361950,
+    "dDurationMs": 3660,
+    "segs": [ {
+      "utf8": "물론 SK하이닉스가 120만 원, 130만 원을 찍었기 때문이긴 한데"
+    } ]
+  }, {
+    "tStartMs": 365910,
+    "dDurationMs": 1240,
+    "segs": [ {
+      "utf8": "워낙 바닥을 찍었고"
+    } ]
+  }, {
+    "tStartMs": 367150,
+    "dDurationMs": 2760,
+    "segs": [ {
+      "utf8": "삼성전자가 20만 원 초반을 찍어서"
+    } ]
+  }, {
+    "tStartMs": 369910,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "아휴"
+    } ]
+  }, {
+    "tStartMs": 371350,
+    "dDurationMs": 1490,
+    "segs": [ {
+      "utf8": "뭐 그랬기 때문이긴 한데"
+    } ]
+  }, {
+    "tStartMs": 372840,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "어쨌건 반도체 기업들이"
+    } ]
+  }, {
+    "tStartMs": 374540,
+    "dDurationMs": 1910,
+    "segs": [ {
+      "utf8": "큰 기업들이 끌고 올라갔던"
+    } ]
+  }, {
+    "tStartMs": 376450,
+    "dDurationMs": 1280,
+    "segs": [ {
+      "utf8": "그런 한 주라고 보면 되고요"
+    } ]
+  }, {
+    "tStartMs": 377730,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "그럼 지난주에 우리나라 반도체 기업들이"
+    } ]
+  }, {
+    "tStartMs": 380290,
+    "dDurationMs": 1500,
+    "segs": [ {
+      "utf8": "왜 반등할 수 있었냐?"
+    } ]
+  }, {
+    "tStartMs": 381790,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "외국인들도 반도체 기업들을 사기 시작하고"
+    } ]
+  }, {
+    "tStartMs": 383500,
+    "dDurationMs": 1790,
+    "segs": [ {
+      "utf8": "뭔가 분위기가 반전되는 것 같아"
+    } ]
+  }, {
+    "tStartMs": 385290,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "왜 그랬냐?"
+    } ]
+  }, {
+    "tStartMs": 386940,
+    "dDurationMs": 2480,
+    "segs": [ {
+      "utf8": "물론 가장 큰 이유는 많이 빠졌기 때문인데"
+    } ]
+  }, {
+    "tStartMs": 389420,
+    "dDurationMs": 1810,
+    "segs": [ {
+      "utf8": "트리거가 하나 있었습니다 트리거가"
+    } ]
+  }, {
+    "tStartMs": 391230,
+    "dDurationMs": 5140,
+    "segs": [ {
+      "utf8": "그게 오늘의 주인공인 샌디스크입니다"
+    } ]
+  }, {
+    "tStartMs": 396370,
+    "dDurationMs": 1750,
+    "segs": [ {
+      "utf8": "킹디스크다 음"
+    } ]
+  }, {
+    "tStartMs": 398120,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "약한 디스크가 아니라"
+    } ]
+  }, {
+    "tStartMs": 399070,
+    "dDurationMs": 2020,
+    "segs": [ {
+      "utf8": "정말 샌디스크입니다"
+    } ]
+  }, {
+    "tStartMs": 401090,
+    "dDurationMs": 4130,
+    "segs": [ {
+      "utf8": "지난주에 샌디스크가 단 2일 만에 주가를 21%"
+    } ]
+  }, {
+    "tStartMs": 405220,
+    "dDurationMs": 2840,
+    "segs": [ {
+      "utf8": "주간으로 30%를 올렸어요"
+    } ]
+  }, {
+    "tStartMs": 408990,
+    "dDurationMs": 3110,
+    "segs": [ {
+      "utf8": "정말 샌디스크가 아닌가 생각이 되는데"
+    } ]
+  }, {
+    "tStartMs": 412100,
+    "dDurationMs": 2680,
+    "segs": [ {
+      "utf8": "어, 오늘의 주인공이기도 합니다, 샌디스크"
+    } ]
+  }, {
+    "tStartMs": 414780,
+    "dDurationMs": 2470,
+    "segs": [ {
+      "utf8": "아니, 근데 나이 좀 있는 분들은 뭐, 뭐야? 샌디스크"
+    } ]
+  }, {
+    "tStartMs": 417250,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "저, 저 회사 저거x4"
+    } ]
+  }, {
+    "tStartMs": 418910,
+    "dDurationMs": 2200,
+    "segs": [ {
+      "utf8": "USB 팔던 회사 아니요?"
+    } ]
+  }, {
+    "tStartMs": 421110,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "편의점에서도 이거 있었죠"
+    } ]
+  }, {
+    "tStartMs": 423100,
+    "dDurationMs": 720,
+    "segs": [ {
+      "utf8": "야 USB 사봐"
+    } ]
+  }, {
+    "tStartMs": 423820,
+    "dDurationMs": 2200,
+    "segs": [ {
+      "utf8": "그러면 편의점에서 샌디스크 USB 사왔는데"
+    } ]
+  }, {
+    "tStartMs": 426020,
+    "dDurationMs": 3300,
+    "segs": [ {
+      "utf8": "어, 심지어 이거 중국 기업 아니냐고 얘기한 분들 있었어요"
+    } ]
+  }, {
+    "tStartMs": 429320,
+    "dDurationMs": 2820,
+    "segs": [ {
+      "utf8": "저 편의점 가성비 USB에 너무 꽂히셔 갖고"
+    } ]
+  }, {
+    "tStartMs": 432140,
+    "dDurationMs": 600,
+    "segs": [ {
+      "utf8": "중국 기업 아니야?"
+    } ]
+  }, {
+    "tStartMs": 432740,
+    "dDurationMs": 1600,
+    "segs": [ {
+      "utf8": "라고 생각하시는 분들이 있는데"
+    } ]
+  }, {
+    "tStartMs": 434340,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "놀랍게도 미국 기업입니다"
+    } ]
+  }, {
+    "tStartMs": 435290,
+    "dDurationMs": 1100,
+    "segs": [ {
+      "utf8": "미국 기업"
+    } ]
+  }, {
+    "tStartMs": 436390,
+    "dDurationMs": 1450,
+    "segs": [ {
+      "utf8": "그리고 샌디스크 하면"
+    } ]
+  }, {
+    "tStartMs": 437840,
+    "dDurationMs": 790,
+    "segs": [ {
+      "utf8": "또 USB하고"
+    } ]
+  }, {
+    "tStartMs": 438630,
+    "dDurationMs": 2550,
+    "segs": [ {
+      "utf8": "저 SSD 낸드플래시"
+    } ]
+  }, {
+    "tStartMs": 441180,
+    "dDurationMs": 2010,
+    "segs": [ {
+      "utf8": "하드디스크보다 압도적으로 빠르지만"
+    } ]
+  }, {
+    "tStartMs": 443190,
+    "dDurationMs": 1510,
+    "segs": [ {
+      "utf8": "하드보다 비싼 거"
+    } ]
+  }, {
+    "tStartMs": 444700,
+    "dDurationMs": 3140,
+    "segs": [ {
+      "utf8": "가격 비싼 저장장치 이걸로 유명했죠"
+    } ]
+  }, {
+    "tStartMs": 447840,
+    "dDurationMs": 1070,
+    "segs": [ {
+      "utf8": "근데 갑자기 샌디스크가"
+    } ]
+  }, {
+    "tStartMs": 448910,
+    "dDurationMs": 1960,
+    "segs": [ {
+      "utf8": "왜 AI 기업 뭘로 뜨고"
+    } ]
+  }, {
+    "tStartMs": 450870,
+    "dDurationMs": 1130,
+    "segs": [ {
+      "utf8": "왜 그랬습니까?"
+    } ]
+  }, {
+    "tStartMs": 452000,
+    "dDurationMs": 1570,
+    "segs": [ {
+      "utf8": "다들 아시겠지만"
+    } ]
+  }, {
+    "tStartMs": 453570,
+    "dDurationMs": 3920,
+    "segs": [ {
+      "utf8": "AI 데이터센터에 속도가 느린 하드디스크를 쓸 수는 없죠"
+    } ]
+  }, {
+    "tStartMs": 457490,
+    "dDurationMs": 1850,
+    "segs": [ {
+      "utf8": "이거 엄청 빨리 돌아가는데"
+    } ]
+  }, {
+    "tStartMs": 459340,
+    "dDurationMs": 2170,
+    "segs": [ {
+      "utf8": "거기다가 HDD 달 수는 없잖아"
+    } ]
+  }, {
+    "tStartMs": 461510,
+    "dDurationMs": 4190,
+    "segs": [ {
+      "utf8": "AI 데이터센터용 초저지연 초고성능 eSSD"
+    } ]
+  }, {
+    "tStartMs": 465700,
+    "dDurationMs": 2290,
+    "segs": [ {
+      "utf8": "기업용 SSD 수요가 크게 늘면서"
+    } ]
+  }, {
+    "tStartMs": 467990,
+    "dDurationMs": 3410,
+    "segs": [ {
+      "utf8": "순식간에 AI 수혜주로 급부상했던 게 샌디스크입니다"
+    } ]
+  }, {
+    "tStartMs": 471400,
+    "dDurationMs": 1130,
+    "segs": [ {
+      "utf8": "그래서 다 알고 있어요"
+    } ]
+  }, {
+    "tStartMs": 472530,
+    "dDurationMs": 3790,
+    "segs": [ {
+      "utf8": "샌디스크의 주가가 그동안 미쳤었다는 걸"
+    } ]
+  }, {
+    "tStartMs": 476320,
+    "dDurationMs": 2730,
+    "segs": [ {
+      "utf8": "저점 대비하면 거의 60배?"
+    } ]
+  }, {
+    "tStartMs": 479050,
+    "dDurationMs": 2290,
+    "segs": [ {
+      "utf8": "한 1년, 1년 반 만에 60배 올랐어"
+    } ]
+  }, {
+    "tStartMs": 481340,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "좀 미친..."
+    } ]
+  }, {
+    "tStartMs": 482780,
+    "dDurationMs": 2280,
+    "segs": [ {
+      "utf8": "그리고 지금도 많이 빠졌어요"
+    } ]
+  }, {
+    "tStartMs": 485060,
+    "dDurationMs": 820,
+    "segs": [ {
+      "utf8": "많이 빠졌는데"
+    } ]
+  }, {
+    "tStartMs": 485880,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "지금도 1년 전에 비하면"
+    } ]
+  }, {
+    "tStartMs": 487360,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "거의 40배입니다"
+    } ]
+  }, {
+    "tStartMs": 488760,
+    "dDurationMs": 3280,
+    "segs": [ {
+      "utf8": "아, 근데 난 샌디스크 살 생각은 못했어"
+    } ]
+  }, {
+    "tStartMs": 492040,
+    "dDurationMs": 4050,
+    "segs": [ {
+      "utf8": "아니, 그러니까 너무 이게 너무 강했어"
+    } ]
+  }, {
+    "tStartMs": 496090,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "이 이미지가 너무 강했어"
+    } ]
+  }, {
+    "tStartMs": 498070,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "USB 회사로"
+    } ]
+  }, {
+    "tStartMs": 499780,
+    "dDurationMs": 1550,
+    "segs": [ {
+      "utf8": "저렴이 저렴이를 쓰던 이미지가"
+    } ]
+  }, {
+    "tStartMs": 501330,
+    "dDurationMs": 670,
+    "segs": [ {
+      "utf8": "너무 강하니까"
+    } ]
+  }, {
+    "tStartMs": 502000,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "손이 안 나가 손이"
+    } ]
+  }, {
+    "tStartMs": 504100,
+    "dDurationMs": 2630,
+    "segs": [ {
+      "utf8": "야, 그 내가 알던 샌디스크는 저게 아닌데?"
+    } ]
+  }, {
+    "tStartMs": 506730,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "엔비디아도 비슷해서 못 샀어요"
+    } ]
+  }, {
+    "tStartMs": 508830,
+    "dDurationMs": 2520,
+    "segs": [ {
+      "utf8": "그래픽카드 용산에서 사고팔던 게 언젠데"
+    } ]
+  }, {
+    "tStartMs": 511350,
+    "dDurationMs": 360,
+    "segs": [ {
+      "utf8": "그 뭐야?"
+    } ]
+  }, {
+    "tStartMs": 511710,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "그 지포스 그거"
+    } ]
+  }, {
+    "tStartMs": 513030,
+    "dDurationMs": 2470,
+    "segs": [ {
+      "utf8": "그거 하다가 AI 기업 뭐 어쩌고 하니까"
+    } ]
+  }, {
+    "tStartMs": 515500,
+    "dDurationMs": 940,
+    "segs": [ {
+      "utf8": "야 뭐야 그거?"
+    } ]
+  }, {
+    "tStartMs": 516440,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "그랬다가 못 샀는데"
+    } ]
+  }, {
+    "tStartMs": 517780,
+    "dDurationMs": 740,
+    "segs": [ {
+      "utf8": "야, 샌디스크는"
+    } ]
+  }, {
+    "tStartMs": 518520,
+    "dDurationMs": 2540,
+    "segs": [ {
+      "utf8": "더 손이 안 나가던데?"
+    } ]
+  }, {
+    "tStartMs": 521060,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "이게 지금 60배가 오르고"
+    } ]
+  }, {
+    "tStartMs": 522720,
+    "dDurationMs": 1070,
+    "segs": [ {
+      "utf8": "50배가 올라갔다고 하는데"
+    } ]
+  }, {
+    "tStartMs": 523790,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "시가총액이 막 엄청나게 올라가고"
+    } ]
+  }, {
+    "tStartMs": 525950,
+    "dDurationMs": 2270,
+    "segs": [ {
+      "utf8": "그걸 내가 믿어야 돼?"
+    } ]
+  }, {
+    "tStartMs": 528220,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "그래, 그래서 못 샀죠"
+    } ]
+  }, {
+    "tStartMs": 529780,
+    "dDurationMs": 2020,
+    "segs": [ {
+      "utf8": "결론적으로 뭐 못 샀다는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 531800,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "결론적으로 못 샀고"
+    } ]
+  }, {
+    "tStartMs": 533000,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "지금 샌디스크는 실적이 어떠냐?"
+    } ]
+  }, {
+    "tStartMs": 534710,
+    "dDurationMs": 4420,
+    "segs": [ {
+      "utf8": "아, AI 데이터센터용 eSSD를 공급한 결과"
+    } ]
+  }, {
+    "tStartMs": 539130,
+    "dDurationMs": 3840,
+    "segs": [ {
+      "utf8": "실적이 뭐 70배예요 70배"
+    } ]
+  }, {
+    "tStartMs": 542970,
+    "dDurationMs": 3420,
+    "segs": [ {
+      "utf8": "1억 달러 벌던 회사가 71억 달러예요"
+    } ]
+  }, {
+    "tStartMs": 546390,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "여기 4분기는 올해 4월에서 6월이에요"
+    } ]
+  }, {
+    "tStartMs": 548290,
+    "dDurationMs": 1690,
+    "segs": [ {
+      "utf8": "6월 결산 기업이에요"
+    } ]
+  }, {
+    "tStartMs": 549980,
+    "dDurationMs": 1520,
+    "segs": [ {
+      "utf8": "이번 분기에 71억 달러"
+    } ]
+  }, {
+    "tStartMs": 551500,
+    "dDurationMs": 1810,
+    "segs": [ {
+      "utf8": "10조 벌어, 10조"
+    } ]
+  }, {
+    "tStartMs": 553310,
+    "dDurationMs": 2490,
+    "segs": [ {
+      "utf8": "1,000억에서 2,000억 사이 벌던 회사가 10조 벌어, 10조"
+    } ]
+  }, {
+    "tStartMs": 555800,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "야이씨"
+    } ]
+  }, {
+    "tStartMs": 557880,
+    "dDurationMs": 2190,
+    "segs": [ {
+      "utf8": "이야, 이게 AI가 대단하긴 하구나"
+    } ]
+  }, {
+    "tStartMs": 560070,
+    "dDurationMs": 2110,
+    "segs": [ {
+      "utf8": "USB 만들던 회사를"
+    } ]
+  }, {
+    "tStartMs": 562180,
+    "dDurationMs": 4390,
+    "segs": [ {
+      "utf8": "영업이익을 70배를 올려놨어 10조"
+    } ]
+  }, {
+    "tStartMs": 566570,
+    "dDurationMs": 2380,
+    "segs": [ {
+      "utf8": "뭐 미친 실적을 보였고요"
+    } ]
+  }, {
+    "tStartMs": 568950,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "실적 발표 옛날에 했었죠"
+    } ]
+  }, {
+    "tStartMs": 570310,
+    "dDurationMs": 2460,
+    "segs": [ {
+      "utf8": "그런데 8월 13일날 샌디스크가 뭘 했냐?"
+    } ]
+  }, {
+    "tStartMs": 572770,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "지난주에"
+    } ]
+  }, {
+    "tStartMs": 573700,
+    "dDurationMs": 2300,
+    "segs": [ {
+      "utf8": "투자자의 날이라는 걸 개최했습니다"
+    } ]
+  }, {
+    "tStartMs": 576000,
+    "dDurationMs": 900,
+    "segs": [ {
+      "utf8": "Investor Day"
+    } ]
+  }, {
+    "tStartMs": 576900,
+    "dDurationMs": 1760,
+    "segs": [ {
+      "utf8": "이거 회사들 많이 하죠"
+    } ]
+  }, {
+    "tStartMs": 578660,
+    "dDurationMs": 1490,
+    "segs": [ {
+      "utf8": "일종의 IR 하는 날이에요"
+    } ]
+  }, {
+    "tStartMs": 580150,
+    "dDurationMs": 1290,
+    "segs": [ {
+      "utf8": "회사의 중장기 비전 얘기하고"
+    } ]
+  }, {
+    "tStartMs": 581440,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "CEO, CFO들 나와서"
+    } ]
+  }, {
+    "tStartMs": 582840,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "기술 로드맵 얘기하고"
+    } ]
+  }, {
+    "tStartMs": 584100,
+    "dDurationMs": 2010,
+    "segs": [ {
+      "utf8": "사업 전략 앞으로 우리 어떡하겠다"
+    } ]
+  }, {
+    "tStartMs": 586110,
+    "dDurationMs": 2190,
+    "segs": [ {
+      "utf8": "투자자들한테 자기들을 쇼잉하는 날입니다"
+    } ]
+  }, {
+    "tStartMs": 588300,
+    "dDurationMs": 1220,
+    "segs": [ {
+      "utf8": "우리 이렇게 할 테니까"
+    } ]
+  }, {
+    "tStartMs": 589520,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "뭐 잘 봐달라"
+    } ]
+  }, {
+    "tStartMs": 590450,
+    "dDurationMs": 1780,
+    "segs": [ {
+      "utf8": "주가 부양책 이런 것도 이날 나오고"
+    } ]
+  }, {
+    "tStartMs": 592230,
+    "dDurationMs": 2790,
+    "segs": [ {
+      "utf8": "투자자들한테 한마디로 기업이 소통하는 날입니다"
+    } ]
+  }, {
+    "tStartMs": 595020,
+    "dDurationMs": 2410,
+    "segs": [ {
+      "utf8": "그거를 8월 13일 날 개최를 했어요"
+    } ]
+  }, {
+    "tStartMs": 597430,
+    "dDurationMs": 2640,
+    "segs": [ {
+      "utf8": "여기서 샌디스크가 했던 얘기들을 정리해보면"
+    } ]
+  }, {
+    "tStartMs": 600070,
+    "dDurationMs": 2030,
+    "segs": [ {
+      "utf8": "일단 장기계약을 발표합니다"
+    } ]
+  }, {
+    "tStartMs": 602100,
+    "dDurationMs": 1960,
+    "segs": [ {
+      "utf8": "메모리 반도체 기업들이 많이 했던 거죠"
+    } ]
+  }, {
+    "tStartMs": 604060,
+    "dDurationMs": 2940,
+    "segs": [ {
+      "utf8": "샌디스크는 여덟 개의 고객사와 롱텀 어그리먼트"
+    } ]
+  }, {
+    "tStartMs": 607000,
+    "dDurationMs": 1350,
+    "segs": [ {
+      "utf8": "장기계약을 체결했습니다"
+    } ]
+  }, {
+    "tStartMs": 608350,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "여기는 NBM이라고 표시했는데"
+    } ]
+  }, {
+    "tStartMs": 610050,
+    "dDurationMs": 2260,
+    "segs": [ {
+      "utf8": "계약기간이 평균 4년이에요"
+    } ]
+  }, {
+    "tStartMs": 612310,
+    "dDurationMs": 2930,
+    "segs": [ {
+      "utf8": "지금 계속 물량을 달라는"
+    } ]
+  }, {
+    "tStartMs": 615240,
+    "dDurationMs": 1610,
+    "segs": [ {
+      "utf8": "이 빅테크들의 이게 많기 때문에"
+    } ]
+  }, {
+    "tStartMs": 616850,
+    "dDurationMs": 2700,
+    "segs": [ {
+      "utf8": "여기 지금 메타가 새로 들어갔다고 얘기했던 것 같은데"
+    } ]
+  }, {
+    "tStartMs": 619550,
+    "dDurationMs": 2820,
+    "segs": [ {
+      "utf8": "그런 빅테크들하고 4년의 장기 계약을 체결했습니다"
+    } ]
+  }, {
+    "tStartMs": 622370,
+    "dDurationMs": 1930,
+    "segs": [ {
+      "utf8": "이미 2027년의 물량"
+    } ]
+  }, {
+    "tStartMs": 624300,
+    "dDurationMs": 2060,
+    "segs": [ {
+      "utf8": "지금부터 얘네들은 FY 2027입니다"
+    } ]
+  }, {
+    "tStartMs": 626360,
+    "dDurationMs": 2860,
+    "segs": [ {
+      "utf8": "50%가 이미 계약이 끝났어요"
+    } ]
+  }, {
+    "tStartMs": 629220,
+    "dDurationMs": 3840,
+    "segs": [ {
+      "utf8": "2028년 물량의 3분의 2가 이미 계약이 끝났어"
+    } ]
+  }, {
+    "tStartMs": 633060,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "메모리하고 똑같죠"
+    } ]
+  }, {
+    "tStartMs": 634010,
+    "dDurationMs": 1930,
+    "segs": [ {
+      "utf8": "일시적이라고 생각하지 마"
+    } ]
+  }, {
+    "tStartMs": 635940,
+    "dDurationMs": 2840,
+    "segs": [ {
+      "utf8": "내년, 내후년 물량이 이미 절반 이상은 나갔다"
+    } ]
+  }, {
+    "tStartMs": 638780,
+    "dDurationMs": 1460,
+    "segs": [ {
+      "utf8": "이런 거 발표했고요"
+    } ]
+  }, {
+    "tStartMs": 640240,
+    "dDurationMs": 2610,
+    "segs": [ {
+      "utf8": "그리고 자기들 매출 대비 총이익률"
+    } ]
+  }, {
+    "tStartMs": 642850,
+    "dDurationMs": 2940,
+    "segs": [ {
+      "utf8": "80%가 넘을 것이라고"
+    } ]
+  }, {
+    "tStartMs": 645790,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "가이던스를 줬습니다"
+    } ]
+  }, {
+    "tStartMs": 647470,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "FY 2026년에는 그러니까 지금으로부터 1년 뒤까지는 71%였어요"
+    } ]
+  }, {
+    "tStartMs": 652150,
+    "dDurationMs": 2270,
+    "segs": [ {
+      "utf8": "이 회사가 매출 총이익률이"
+    } ]
+  }, {
+    "tStartMs": 654420,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "미친 회사죠"
+    } ]
+  }, {
+    "tStartMs": 656130,
+    "dDurationMs": 2750,
+    "segs": [ {
+      "utf8": "근데 80%를 넘길 거로 예상한다고 했습니다"
+    } ]
+  }, {
+    "tStartMs": 658880,
+    "dDurationMs": 2790,
+    "segs": [ {
+      "utf8": "가이던스가 83에서 85예요"
+    } ]
+  }, {
+    "tStartMs": 661670,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "84%"
+    } ]
+  }, {
+    "tStartMs": 663370,
+    "dDurationMs": 1750,
+    "segs": [ {
+      "utf8": "한마디로 장기계약이 있고"
+    } ]
+  }, {
+    "tStartMs": 665120,
+    "dDurationMs": 3460,
+    "segs": [ {
+      "utf8": "엄청난 돈을 벌 거다라고 밝혔죠"
+    } ]
+  }, {
+    "tStartMs": 668580,
+    "dDurationMs": 2200,
+    "segs": [ {
+      "utf8": "그리고 그렇게 돈을 벌기 때문에"
+    } ]
+  }, {
+    "tStartMs": 670780,
+    "dDurationMs": 3020,
+    "segs": [ {
+      "utf8": "모든 비용을 차감한 현금 흐름, 그러니까 마진"
+    } ]
+  }, {
+    "tStartMs": 673800,
+    "dDurationMs": 1150,
+    "segs": [ {
+      "utf8": "마진 흐름"
+    } ]
+  }, {
+    "tStartMs": 674950,
+    "dDurationMs": 4330,
+    "segs": [ {
+      "utf8": "그것도 매출액의 50%에 달할 걸로 얘기했습니다"
+    } ]
+  }, {
+    "tStartMs": 679280,
+    "dDurationMs": 1580,
+    "segs": [ {
+      "utf8": "그러니까 조정 현금 흐름이"
+    } ]
+  }, {
+    "tStartMs": 680860,
+    "dDurationMs": 2150,
+    "segs": [ {
+      "utf8": "매출액의 약 50%에 달할 것이다"
+    } ]
+  }, {
+    "tStartMs": 683010,
+    "dDurationMs": 3680,
+    "segs": [ {
+      "utf8": "엄청난 현금 흐름이 예상된다라고 얘기를 했죠"
+    } ]
+  }, {
+    "tStartMs": 686690,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "그리고 그다음에 오늘의 주제가 나옵니다"
+    } ]
+  }, {
+    "tStartMs": 688790,
+    "dDurationMs": 2910,
+    "segs": [ {
+      "utf8": "그리고 샌디스크가 뭐를 발표했습니까?"
+    } ]
+  }, {
+    "tStartMs": 691700,
+    "dDurationMs": 3130,
+    "segs": [ {
+      "utf8": "매출의 50%가 내 현금으로 나올 거야"
+    } ]
+  }, {
+    "tStartMs": 694830,
+    "dDurationMs": 730,
+    "segs": [ {
+      "utf8": "마진으로 나올 거야"
+    } ]
+  }, {
+    "tStartMs": 695560,
+    "dDurationMs": 1370,
+    "segs": [ {
+      "utf8": "그리고 그 돈을 모두"
+    } ]
+  }, {
+    "tStartMs": 698100,
+    "dDurationMs": 2120,
+    "segs": [ {
+      "utf8": "100% 주주들에게 환원하겠다"
+    } ]
+  }, {
+    "tStartMs": 701320,
+    "dDurationMs": 3410,
+    "segs": [ {
+      "utf8": "이 한마디에 전 세계 반도체 기업들이"
+    } ]
+  }, {
+    "tStartMs": 704730,
+    "dDurationMs": 1970,
+    "segs": [ {
+      "utf8": "와 하면서"
+    } ]
+  }, {
+    "tStartMs": 706700,
+    "dDurationMs": 1580,
+    "segs": [ {
+      "utf8": "감사합니다x2"
+    } ]
+  }, {
+    "tStartMs": 708280,
+    "dDurationMs": 3080,
+    "segs": [ {
+      "utf8": "야, 우리나라 삼성전자, SK하이닉스 같이 보고 있다가 어?"
+    } ]
+  }, {
+    "tStartMs": 711360,
+    "dDurationMs": 1180,
+    "segs": [ {
+      "utf8": "하면서 올라가면서"
+    } ]
+  }, {
+    "tStartMs": 712540,
+    "dDurationMs": 3950,
+    "segs": [ {
+      "utf8": "지난주에 8주 만에 7주 만에 드디어 양봉 났다"
+    } ]
+  }, {
+    "tStartMs": 716490,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "야, 갓디스크가 아닌가 생각합니다"
+    } ]
+  }, {
+    "tStartMs": 718490,
+    "dDurationMs": 1940,
+    "segs": [ {
+      "utf8": "야, 역시 킹디스크 다르다"
+    } ]
+  }, {
+    "tStartMs": 720430,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "사업에 필요한 투자를 마친 후 발생하는 조정 잉여 현금"
+    } ]
+  }, {
+    "tStartMs": 723610,
+    "dDurationMs": 4200,
+    "segs": [ {
+      "utf8": "전액 100%를 주주들에게 환원하겠다"
+    } ]
+  }, {
+    "tStartMs": 727810,
+    "dDurationMs": 1720,
+    "segs": [ {
+      "utf8": "이 한마디에 불꽃 상승해서"
+    } ]
+  }, {
+    "tStartMs": 729530,
+    "dDurationMs": 1370,
+    "segs": [ {
+      "utf8": "20% 올랐어요 20%"
+    } ]
+  }, {
+    "tStartMs": 730900,
+    "dDurationMs": 590,
+    "segs": [ {
+      "utf8": "한 방에"
+    } ]
+  }, {
+    "tStartMs": 732560,
+    "dDurationMs": 2830,
+    "segs": [ {
+      "utf8": "이미 샌디스크는 기존에도 자사주 매입을"
+    } ]
+  }, {
+    "tStartMs": 735390,
+    "dDurationMs": 1850,
+    "segs": [ {
+      "utf8": "엄청난 규모로 하고 있었습니다"
+    } ]
+  }, {
+    "tStartMs": 737240,
+    "dDurationMs": 3290,
+    "segs": [ {
+      "utf8": "155억 달러 이게 얼마예요? 20조?"
+    } ]
+  }, {
+    "tStartMs": 740530,
+    "dDurationMs": 2190,
+    "segs": [ {
+      "utf8": "우리나라 반도체 기업들보다 훨씬 작아요"
+    } ]
+  }, {
+    "tStartMs": 742720,
+    "dDurationMs": 1860,
+    "segs": [ {
+      "utf8": "크기 자체는 비교가 안 되지"
+    } ]
+  }, {
+    "tStartMs": 744580,
+    "dDurationMs": 2450,
+    "segs": [ {
+      "utf8": "우리나라 기업들은 1조 달러 기업들인데"
+    } ]
+  }, {
+    "tStartMs": 747030,
+    "dDurationMs": 1240,
+    "segs": [ {
+      "utf8": "이 1,000조가 넘는 기업들이"
+    } ]
+  }, {
+    "tStartMs": 748270,
+    "dDurationMs": 1690,
+    "segs": [ {
+      "utf8": "2,000조 가까운 되는 기업들인데"
+    } ]
+  }, {
+    "tStartMs": 749960,
+    "dDurationMs": 3950,
+    "segs": [ {
+      "utf8": "여기가 이 작은 기업이 작다고 하면 뭐하지만 155억 달러"
+    } ]
+  }, {
+    "tStartMs": 753910,
+    "dDurationMs": 1530,
+    "segs": [ {
+      "utf8": "이미 이걸 하고 있었는데"
+    } ]
+  }, {
+    "tStartMs": 755440,
+    "dDurationMs": 3820,
+    "segs": [ {
+      "utf8": "그걸 넘는 또 다른 주주환원 계획을 발표한 거고요"
+    } ]
+  }, {
+    "tStartMs": 759260,
+    "dDurationMs": 820,
+    "segs": [ {
+      "utf8": "이렇게 얘기했습니다"
+    } ]
+  }, {
+    "tStartMs": 760080,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "아니, 샌디스크도 AI 시대가 오니까"
+    } ]
+  }, {
+    "tStartMs": 762180,
+    "dDurationMs": 2230,
+    "segs": [ {
+      "utf8": "뭔가 투자 많이 해야 되는 거 아닙니까?"
+    } ]
+  }, {
+    "tStartMs": 764410,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "실제로 이렇게 얘기했어요"
+    } ]
+  }, {
+    "tStartMs": 765640,
+    "dDurationMs": 2260,
+    "segs": [ {
+      "utf8": "설비 투자는 증가할 걸로 예상이 됩니다"
+    } ]
+  }, {
+    "tStartMs": 767900,
+    "dDurationMs": 4450,
+    "segs": [ {
+      "utf8": "2027년 회계년도 매출의 6% 정도가 설비 투자로 나갈 것 같아요"
+    } ]
+  }, {
+    "tStartMs": 772350,
+    "dDurationMs": 3300,
+    "segs": [ {
+      "utf8": "하지만 자본 효율성을 지키면서"
+    } ]
+  }, {
+    "tStartMs": 775650,
+    "dDurationMs": 4190,
+    "segs": [ {
+      "utf8": "잉여 현금을 주주에게 계속 환원할 수 있는 여력을 확보하겠습니다"
+    } ]
+  }, {
+    "tStartMs": 781090,
+    "dDurationMs": 2610,
+    "segs": [ {
+      "utf8": "주주에게 환원할 수 있는 여력을 확보할 정도로"
+    } ]
+  }, {
+    "tStartMs": 783700,
+    "dDurationMs": 2120,
+    "segs": [ {
+      "utf8": "자본 효율적으로 투자하겠다는 말이에요"
+    } ]
+  }, {
+    "tStartMs": 786850,
+    "dDurationMs": 3270,
+    "segs": [ {
+      "utf8": "최대한의 현금 흐름을 만드는 거를 노력하겠다는 뜻입니다"
+    } ]
+  }, {
+    "tStartMs": 790120,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "설비 투자는 하겠지만"
+    } ]
+  }, {
+    "tStartMs": 791500,
+    "dDurationMs": 3910,
+    "segs": [ {
+      "utf8": "자본 효율성을 지키면서 효율적으로"
+    } ]
+  }, {
+    "tStartMs": 795410,
+    "dDurationMs": 1610,
+    "segs": [ {
+      "utf8": "주주들이 열광했죠"
+    } ]
+  }, {
+    "tStartMs": 797020,
+    "dDurationMs": 550,
+    "segs": [ {
+      "utf8": "이 말에"
+    } ]
+  }, {
+    "tStartMs": 798680,
+    "dDurationMs": 4070,
+    "segs": [ {
+      "utf8": "어 이게 왜냐하면 그냥 회사 입장에서는"
+    } ]
+  }, {
+    "tStartMs": 802750,
+    "dDurationMs": 1610,
+    "segs": [ {
+      "utf8": "최대한의 투자를 하고 남는 거 주겠다"
+    } ]
+  }, {
+    "tStartMs": 804360,
+    "dDurationMs": 1270,
+    "segs": [ {
+      "utf8": "이렇게 얘기할 수도 있잖아요"
+    } ]
+  }, {
+    "tStartMs": 805630,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "생존이 더 중요하니까"
+    } ]
+  }, {
+    "tStartMs": 807270,
+    "dDurationMs": 2300,
+    "segs": [ {
+      "utf8": "근데 그렇게 얘기 안 합니다"
+    } ]
+  }, {
+    "tStartMs": 809570,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "효율적인 투자로 최대한의 현금흐름을 만들어서"
+    } ]
+  }, {
+    "tStartMs": 812130,
+    "dDurationMs": 1600,
+    "segs": [ {
+      "utf8": "주주환원 여력을 확보하겠다"
+    } ]
+  }, {
+    "tStartMs": 813730,
+    "dDurationMs": 700,
+    "segs": [ {
+      "utf8": "왜 그렇게 합니까?"
+    } ]
+  }, {
+    "tStartMs": 814430,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "이렇게 얘기했어요"
+    } ]
+  }, {
+    "tStartMs": 815900,
+    "dDurationMs": 1060,
+    "segs": [ {
+      "utf8": "우리는 빠르게 성장하는"
+    } ]
+  }, {
+    "tStartMs": 816960,
+    "dDurationMs": 720,
+    "segs": [ {
+      "utf8": "이 시장 환경 속에서"
+    } ]
+  }, {
+    "tStartMs": 817680,
+    "dDurationMs": 1450,
+    "segs": [ {
+      "utf8": "독보적인 기회를 맞이했고"
+    } ]
+  }, {
+    "tStartMs": 819130,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "유리한 위치에 있다고 확신한다"
+    } ]
+  }, {
+    "tStartMs": 820550,
+    "dDurationMs": 1180,
+    "segs": [ {
+      "utf8": "하지만 성장, 지속가능성"
+    } ]
+  }, {
+    "tStartMs": 821730,
+    "dDurationMs": 1410,
+    "segs": [ {
+      "utf8": "물론 중요하지만"
+    } ]
+  }, {
+    "tStartMs": 823140,
+    "dDurationMs": 3200,
+    "segs": [ {
+      "utf8": "주주들의 수익성, 주주환원 간의 최적화를 추구하고 있다"
+    } ]
+  }, {
+    "tStartMs": 827900,
+    "dDurationMs": 1630,
+    "segs": [ {
+      "utf8": "어, 우리가 보기엔 놀랍지만"
+    } ]
+  }, {
+    "tStartMs": 829530,
+    "dDurationMs": 1950,
+    "segs": [ {
+      "utf8": "너무 당연한 거죠"
+    } ]
+  }, {
+    "tStartMs": 831480,
+    "dDurationMs": 2270,
+    "segs": [ {
+      "utf8": "성장, 지속가능성 이런 거는"
+    } ]
+  }, {
+    "tStartMs": 833750,
+    "dDurationMs": 1730,
+    "segs": [ {
+      "utf8": "어, 물론 중요하지만"
+    } ]
+  }, {
+    "tStartMs": 835480,
+    "dDurationMs": 1190,
+    "segs": [ {
+      "utf8": "대부분 주주들의 입장에선"
+    } ]
+  }, {
+    "tStartMs": 836670,
+    "dDurationMs": 1220,
+    "segs": [ {
+      "utf8": "수익성이 가장 중요해요"
+    } ]
+  }, {
+    "tStartMs": 839230,
+    "dDurationMs": 1210,
+    "segs": [ {
+      "utf8": "이걸로 뭐 그렇죠"
+    } ]
+  }, {
+    "tStartMs": 840440,
+    "dDurationMs": 2180,
+    "segs": [ {
+      "utf8": "아들 손자들한테 물려줄 생각을 하면"
+    } ]
+  }, {
+    "tStartMs": 842620,
+    "dDurationMs": 800,
+    "segs": [ {
+      "utf8": "수익성이고 나발이고"
+    } ]
+  }, {
+    "tStartMs": 843420,
+    "dDurationMs": 1330,
+    "segs": [ {
+      "utf8": "그냥 지속 가능성만 중요하니까"
+    } ]
+  }, {
+    "tStartMs": 844750,
+    "dDurationMs": 1080,
+    "segs": [ {
+      "utf8": "돈만 그냥 드립다"
+    } ]
+  }, {
+    "tStartMs": 845830,
+    "dDurationMs": 1170,
+    "segs": [ {
+      "utf8": "거기다 부을 생각을 하겠지만"
+    } ]
+  }, {
+    "tStartMs": 847000,
+    "dDurationMs": 3350,
+    "segs": [ {
+      "utf8": "가장 중요한 거는 동업자잖아 동업자"
+    } ]
+  }, {
+    "tStartMs": 850350,
+    "dDurationMs": 1730,
+    "segs": [ {
+      "utf8": "나보다 훨씬 큰 동업자"
+    } ]
+  }, {
+    "tStartMs": 852080,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "이런 수익성 간의 최적화가 중요하다는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 854480,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "실제로 그게 너무 당연한 얘기지만"
+    } ]
+  }, {
+    "tStartMs": 856470,
+    "dDurationMs": 1040,
+    "segs": [ {
+      "utf8": "당연한 얘기지만"
+    } ]
+  }, {
+    "tStartMs": 857510,
+    "dDurationMs": 1310,
+    "segs": [ {
+      "utf8": "열광을 하는 거죠"
+    } ]
+  }, {
+    "tStartMs": 858820,
+    "dDurationMs": 1740,
+    "segs": [ {
+      "utf8": "샌디스크가 그렇게 생각을 하고 있구나"
+    } ]
+  }, {
+    "tStartMs": 860560,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "샌디스크의 경영진과 이사진이 이렇게 생각을 하고"
+    } ]
+  }, {
+    "tStartMs": 863120,
+    "dDurationMs": 1160,
+    "segs": [ {
+      "utf8": "CFO가 나와서"
+    } ]
+  }, {
+    "tStartMs": 864280,
+    "dDurationMs": 2020,
+    "segs": [ {
+      "utf8": "직접 이걸 설명을 했습니다"
+    } ]
+  }, {
+    "tStartMs": 866300,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "정말 열광을 했고"
+    } ]
+  }, {
+    "tStartMs": 868000,
+    "dDurationMs": 1040,
+    "segs": [ {
+      "utf8": "지난번에 보여드렸지만"
+    } ]
+  }, {
+    "tStartMs": 869040,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "메모리 반도체 기업 마이크론도"
+    } ]
+  }, {
+    "tStartMs": 870460,
+    "dDurationMs": 920,
+    "segs": [ {
+      "utf8": "현금흐름 100%"
+    } ]
+  }, {
+    "tStartMs": 871380,
+    "dDurationMs": 1860,
+    "segs": [ {
+      "utf8": "주주 환원을 발표했었죠"
+    } ]
+  }, {
+    "tStartMs": 873240,
+    "dDurationMs": 3110,
+    "segs": [ {
+      "utf8": "초과 잉여 현금흐름 투자 같은 걸 한 걸 빼고"
+    } ]
+  }, {
+    "tStartMs": 876350,
+    "dDurationMs": 2060,
+    "segs": [ {
+      "utf8": "조정 잉여 현금흐름이라고 보시면 되는데"
+    } ]
+  }, {
+    "tStartMs": 878410,
+    "dDurationMs": 1620,
+    "segs": [ {
+      "utf8": "부채 비용 같은 것도 빼고"
+    } ]
+  }, {
+    "tStartMs": 880030,
+    "dDurationMs": 2300,
+    "segs": [ {
+      "utf8": "여기 CFO가 이렇게 얘기했었습니다"
+    } ]
+  }, {
+    "tStartMs": 882330,
+    "dDurationMs": 1570,
+    "segs": [ {
+      "utf8": "AI 투자 늘어나는 거 아닙니까?"
+    } ]
+  }, {
+    "tStartMs": 883900,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "맞습니다 늘어납니다"
+    } ]
+  }, {
+    "tStartMs": 885460,
+    "dDurationMs": 1390,
+    "segs": [ {
+      "utf8": "FY 2027년 지금부터입니다"
+    } ]
+  }, {
+    "tStartMs": 886850,
+    "dDurationMs": 1390,
+    "segs": [ {
+      "utf8": "지금부터 1년간 CAPEX가"
+    } ]
+  }, {
+    "tStartMs": 888240,
+    "dDurationMs": 1730,
+    "segs": [ {
+      "utf8": "올 4분기, 올 4분기라는 건"
+    } ]
+  }, {
+    "tStartMs": 889970,
+    "dDurationMs": 1510,
+    "segs": [ {
+      "utf8": "4월에서 6월을 넘어갈 겁니다"
+    } ]
+  }, {
+    "tStartMs": 891480,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "투자가 늘어날 겁니다"
+    } ]
+  }, {
+    "tStartMs": 892730,
+    "dDurationMs": 3690,
+    "segs": [ {
+      "utf8": "하지만 당사의 재무 상태는 매우 견고합니다"
+    } ]
+  }, {
+    "tStartMs": 896420,
+    "dDurationMs": 960,
+    "segs": [ {
+      "utf8": "이게 무슨 말입니까?"
+    } ]
+  }, {
+    "tStartMs": 897380,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "투자가 크게 늘어나지만"
+    } ]
+  }, {
+    "tStartMs": 898610,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "우리 재무 상태는 견고하다"
+    } ]
+  }, {
+    "tStartMs": 900600,
+    "dDurationMs": 3390,
+    "segs": [ {
+      "utf8": "그래서 주주환원을 최우선 과제로 놓겠다"
+    } ]
+  }, {
+    "tStartMs": 903990,
+    "dDurationMs": 3770,
+    "segs": [ {
+      "utf8": "마이크론의 주주에 대한 현금환원 기조는 유지될 것입니다"
+    } ]
+  }, {
+    "tStartMs": 907760,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "투자가 늘어난다고 해서"
+    } ]
+  }, {
+    "tStartMs": 909410,
+    "dDurationMs": 2070,
+    "segs": [ {
+      "utf8": "주주환원을 뒤로 빼지 않겠습니다"
+    } ]
+  }, {
+    "tStartMs": 911480,
+    "dDurationMs": 1810,
+    "segs": [ {
+      "utf8": "우리는 초과현금의 100%를"
+    } ]
+  }, {
+    "tStartMs": 913290,
+    "dDurationMs": 3510,
+    "segs": [ {
+      "utf8": "주주에게 환원할 것으로 예상합니다라고 얘기를 해서"
+    } ]
+  }, {
+    "tStartMs": 916800,
+    "dDurationMs": 1410,
+    "segs": [ {
+      "utf8": "마이크론은 지난주 말고"
+    } ]
+  }, {
+    "tStartMs": 918210,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "그 전에 있었죠"
+    } ]
+  }, {
+    "tStartMs": 919550,
+    "dDurationMs": 3680,
+    "segs": [ {
+      "utf8": "그 이후로 마이크론 주가가 역시 쭉 올라갔죠"
+    } ]
+  }, {
+    "tStartMs": 923230,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "마이크론도 감사합니다"
+    } ]
+  }, {
+    "tStartMs": 924700,
+    "dDurationMs": 2350,
+    "segs": [ {
+      "utf8": "마이크론은 들고 있진 않지만"
+    } ]
+  }, {
+    "tStartMs": 927050,
+    "dDurationMs": 2810,
+    "segs": [ {
+      "utf8": "뭐 어쨌건 뭐 우리 반도체도 같이 올라가니까 감사합니다 감사합니다"
+    } ]
+  }, {
+    "tStartMs": 929860,
+    "dDurationMs": 530,
+    "segs": [ {
+      "utf8": "계속해 주세요"
+    } ]
+  }, {
+    "tStartMs": 930390,
+    "dDurationMs": 820,
+    "segs": [ {
+      "utf8": "계속해 주세요"
+    } ]
+  }, {
+    "tStartMs": 931210,
+    "dDurationMs": 870,
+    "segs": [ {
+      "utf8": "오케이 땡큐요"
+    } ]
+  }, {
+    "tStartMs": 932080,
+    "dDurationMs": 860,
+    "segs": [ {
+      "utf8": "땡큐요"
+    } ]
+  }, {
+    "tStartMs": 932940,
+    "dDurationMs": 3140,
+    "segs": [ {
+      "utf8": "게다가 마이크론은 한국인의 입장에서는"
+    } ]
+  }, {
+    "tStartMs": 936080,
+    "dDurationMs": 2110,
+    "segs": [ {
+      "utf8": "애플과 싸우고 있는 기업이죠"
+    } ]
+  }, {
+    "tStartMs": 938190,
+    "dDurationMs": 2060,
+    "segs": [ {
+      "utf8": "애플이 중국 반도체를 사용하기 위해서"
+    } ]
+  }, {
+    "tStartMs": 940250,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "미국 정부에 로비를 열심히 하고 있는데"
+    } ]
+  }, {
+    "tStartMs": 942330,
+    "dDurationMs": 2440,
+    "segs": [ {
+      "utf8": "마이크론은 반대로 로비하고 있죠"
+    } ]
+  }, {
+    "tStartMs": 944770,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "애플은 사용해 달라고 요구하고"
+    } ]
+  }, {
+    "tStartMs": 946670,
+    "dDurationMs": 2510,
+    "segs": [ {
+      "utf8": "마이크론은 안 된다고 로비합니다"
+    } ]
+  }, {
+    "tStartMs": 949180,
+    "dDurationMs": 1410,
+    "segs": [ {
+      "utf8": "잘하고, 잘하고 있다 하면 안 되지"
+    } ]
+  }, {
+    "tStartMs": 950590,
+    "dDurationMs": 1240,
+    "segs": [ {
+      "utf8": "감사합니다 형님"
+    } ]
+  }, {
+    "tStartMs": 951830,
+    "dDurationMs": 1290,
+    "segs": [ {
+      "utf8": "어, 애플 CEO는 이렇게 얘기했어요"
+    } ]
+  }, {
+    "tStartMs": 953120,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "애플의 중국 반도체 사용을 허가해 주는 것은"
+    } ]
+  }, {
+    "tStartMs": 954770,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "재앙적인 결과를 초래할 수 있다"
+    } ]
+  }, {
+    "tStartMs": 956330,
+    "dDurationMs": 1950,
+    "segs": [ {
+      "utf8": "과거 미국 철강이나 미국 제조업체들이"
+    } ]
+  }, {
+    "tStartMs": 958280,
+    "dDurationMs": 2140,
+    "segs": [ {
+      "utf8": "겪었던 재앙을 기억하지 못하냐?"
+    } ]
+  }, {
+    "tStartMs": 960420,
+    "dDurationMs": 1780,
+    "segs": [ {
+      "utf8": "중국은 정부 보조금을 앞세워서"
+    } ]
+  }, {
+    "tStartMs": 962200,
+    "dDurationMs": 2220,
+    "segs": [ {
+      "utf8": "해당 산업의 미국 기업을 고사시켰다"
+    } ]
+  }, {
+    "tStartMs": 964420,
+    "dDurationMs": 1840,
+    "segs": [ {
+      "utf8": "만약에 반도체에서도 비슷한 일이 일어나면"
+    } ]
+  }, {
+    "tStartMs": 966260,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "미국 반도체 기업들에"
+    } ]
+  }, {
+    "tStartMs": 967520,
+    "dDurationMs": 1100,
+    "segs": [ {
+      "utf8": "큰 어려움이 올 거고"
+    } ]
+  }, {
+    "tStartMs": 968620,
+    "dDurationMs": 2370,
+    "segs": [ {
+      "utf8": "재앙적인 결과를 초래할 것이다라고"
+    } ]
+  }, {
+    "tStartMs": 970990,
+    "dDurationMs": 520,
+    "segs": [ {
+      "utf8": "주장을 했죠"
+    } ]
+  }, {
+    "tStartMs": 971510,
+    "dDurationMs": 630,
+    "segs": [ {
+      "utf8": "그리고 얼마 전에"
+    } ]
+  }, {
+    "tStartMs": 972140,
+    "dDurationMs": 3050,
+    "segs": [ {
+      "utf8": "러트닉 상무부 장관이 애플 공장을 방문했는데"
+    } ]
+  }, {
+    "tStartMs": 975190,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "이때 기자들이 물어봤습니다"
+    } ]
+  }, {
+    "tStartMs": 976590,
+    "dDurationMs": 2440,
+    "segs": [ {
+      "utf8": "애플의 중국 반도체 사용을 허가할 것입니까?"
+    } ]
+  }, {
+    "tStartMs": 979030,
+    "dDurationMs": 1100,
+    "segs": [ {
+      "utf8": "그랬더니 이렇게 얘기했어요"
+    } ]
+  }, {
+    "tStartMs": 980130,
+    "dDurationMs": 2700,
+    "segs": [ {
+      "utf8": "트럼프 행정부는 그런 방식을 선호하지 않는다"
+    } ]
+  }, {
+    "tStartMs": 982830,
+    "dDurationMs": 3470,
+    "segs": [ {
+      "utf8": "미국 기업들이 중국산 메모리를 사용하는 것은 바람직하지 않다"
+    } ]
+  }, {
+    "tStartMs": 986300,
+    "dDurationMs": 2410,
+    "segs": [ {
+      "utf8": "그걸 팀 쿡에게 얘기했습니까?"
+    } ]
+  }, {
+    "tStartMs": 988710,
+    "dDurationMs": 2170,
+    "segs": [ {
+      "utf8": "분명하게 전달했다"
+    } ]
+  }, {
+    "tStartMs": 990880,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "그리고 더 중요한 거는"
+    } ]
+  }, {
+    "tStartMs": 992440,
+    "dDurationMs": 660,
+    "segs": [ {
+      "utf8": "더 중요한 거는"
+    } ]
+  }, {
+    "tStartMs": 993100,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "뒤에가 더 재밌는데"
+    } ]
+  }, {
+    "tStartMs": 994570,
+    "dDurationMs": 2540,
+    "segs": [ {
+      "utf8": "앞으로 애플이 사업의 상당 부분을"
+    } ]
+  }, {
+    "tStartMs": 997110,
+    "dDurationMs": 3130,
+    "segs": [ {
+      "utf8": "미국으로 가져와야 할 것이라는 점이다"
+    } ]
+  }, {
+    "tStartMs": 1000240,
+    "dDurationMs": 3820,
+    "segs": [ {
+      "utf8": "그동안은 뭐 자꾸 저기 뭐 동남아시아, 중국 이런 데서 만들던데"
+    } ]
+  }, {
+    "tStartMs": 1004060,
+    "dDurationMs": 2340,
+    "segs": [ {
+      "utf8": "아니 리쇼어링 하라며"
+    } ]
+  }, {
+    "tStartMs": 1006400,
+    "dDurationMs": 980,
+    "segs": [ {
+      "utf8": "한국 기업, 대만 기업도"
+    } ]
+  }, {
+    "tStartMs": 1007380,
+    "dDurationMs": 1950,
+    "segs": [ {
+      "utf8": "지금 미국에 들어가 투자하는 판에"
+    } ]
+  }, {
+    "tStartMs": 1009330,
+    "dDurationMs": 2050,
+    "segs": [ {
+      "utf8": "야 본국 미국 애플 미국 기업이"
+    } ]
+  }, {
+    "tStartMs": 1011380,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "지금 딴 데 가서 만들어?"
+    } ]
+  }, {
+    "tStartMs": 1013200,
+    "dDurationMs": 2090,
+    "segs": [ {
+      "utf8": "미국으로 가져와서 만들어야겠죠"
+    } ]
+  }, {
+    "tStartMs": 1015290,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "그래서 애플도 리쇼어링 해서"
+    } ]
+  }, {
+    "tStartMs": 1017850,
+    "dDurationMs": 2490,
+    "segs": [ {
+      "utf8": "미국에서 이제 많은 미국 근로자분들과"
+    } ]
+  }, {
+    "tStartMs": 1020340,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "메이크 아메리카 그레이트 어게인"
+    } ]
+  }, {
+    "tStartMs": 1022020,
+    "dDurationMs": 1960,
+    "segs": [ {
+      "utf8": "그거 열심히 하시기를 기원드립니다"
+    } ]
+  }, {
+    "tStartMs": 1023980,
+    "dDurationMs": 1630,
+    "segs": [ {
+      "utf8": "그래서 물어봤어요 되겠습니까?"
+    } ]
+  }, {
+    "tStartMs": 1025610,
+    "dDurationMs": 3160,
+    "segs": [ {
+      "utf8": "그랬더니 예, 애플은 할 수 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1030430,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "Of course they can"
+    } ]
+  }, {
+    "tStartMs": 1031630,
+    "dDurationMs": 560,
+    "segs": [ {
+      "utf8": "좋습니다"
+    } ]
+  }, {
+    "tStartMs": 1032190,
+    "dDurationMs": 1330,
+    "segs": [ {
+      "utf8": "애플은 할 수 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1033520,
+    "dDurationMs": 3200,
+    "segs": [ {
+      "utf8": "애플은 할 수 있지 않을까 믿습니다"
+    } ]
+  }, {
+    "tStartMs": 1036720,
+    "dDurationMs": 1870,
+    "segs": [ {
+      "utf8": "그리고 또 다른 기업이 하나 있는데"
+    } ]
+  }, {
+    "tStartMs": 1038590,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "반도체 기업은 아니에요"
+    } ]
+  }, {
+    "tStartMs": 1040070,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "제가 대단해서 갖고 왔습니다"
+    } ]
+  }, {
+    "tStartMs": 1042030,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "우리나라 기업이지만"
+    } ]
+  }, {
+    "tStartMs": 1042960,
+    "dDurationMs": 2460,
+    "segs": [ {
+      "utf8": "일본에 상장돼 있는 넥슨이 있는데"
+    } ]
+  }, {
+    "tStartMs": 1045420,
+    "dDurationMs": 2770,
+    "segs": [ {
+      "utf8": "넥슨이 2분기 실적을 발표했습니다"
+    } ]
+  }, {
+    "tStartMs": 1048190,
+    "dDurationMs": 1810,
+    "segs": [ {
+      "utf8": "게이머들이 애증이 있는"
+    } ]
+  }, {
+    "tStartMs": 1050000,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "너무 사랑하는 기업이죠"
+    } ]
+  }, {
+    "tStartMs": 1051650,
+    "dDurationMs": 1570,
+    "segs": [ {
+      "utf8": "메이플 시리즈가 호실적이 나왔고"
+    } ]
+  }, {
+    "tStartMs": 1053220,
+    "dDurationMs": 2170,
+    "segs": [ {
+      "utf8": "ARC레이더스가 굉장히 실적이 좋았어요"
+    } ]
+  }, {
+    "tStartMs": 1055390,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "그래서 영업이익도 좋았어요"
+    } ]
+  }, {
+    "tStartMs": 1056620,
+    "dDurationMs": 2640,
+    "segs": [ {
+      "utf8": "매출과 영업이익이 모두 예상치를 상회했습니다"
+    } ]
+  }, {
+    "tStartMs": 1059260,
+    "dDurationMs": 2320,
+    "segs": [ {
+      "utf8": "앞으로 마비노기 모바일, 던전앤파이터 RPG"
+    } ]
+  }, {
+    "tStartMs": 1061580,
+    "dDurationMs": 2250,
+    "segs": [ {
+      "utf8": "다양한 신작도 출시를 앞두고 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1063830,
+    "dDurationMs": 2390,
+    "segs": [ {
+      "utf8": "갑자기 넥슨을 왜 얘기하냐?"
+    } ]
+  }, {
+    "tStartMs": 1066220,
+    "dDurationMs": 2490,
+    "segs": [ {
+      "utf8": "이날 넥슨이 시장을 놀래켰어요"
+    } ]
+  }, {
+    "tStartMs": 1068710,
+    "dDurationMs": 1750,
+    "segs": [ {
+      "utf8": "일본 시장을 뒤흔들었습니다"
+    } ]
+  }, {
+    "tStartMs": 1070460,
+    "dDurationMs": 2120,
+    "segs": [ {
+      "utf8": "일본 시장의 최대 뉴스가 넥슨이었어요"
+    } ]
+  }, {
+    "tStartMs": 1073670,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "말이 필요 없어요"
+    } ]
+  }, {
+    "tStartMs": 1074620,
+    "dDurationMs": 3120,
+    "segs": [ {
+      "utf8": "게임사가 니케이를 움직였다라는 평을 들었습니다"
+    } ]
+  }, {
+    "tStartMs": 1077740,
+    "dDurationMs": 2130,
+    "segs": [ {
+      "utf8": "왜냐하면 넥슨이 이렇게 발표했거든요"
+    } ]
+  }, {
+    "tStartMs": 1079870,
+    "dDurationMs": 880,
+    "segs": [ {
+      "utf8": "꾸준한 수익 덕분에"
+    } ]
+  }, {
+    "tStartMs": 1080750,
+    "dDurationMs": 2790,
+    "segs": [ {
+      "utf8": "넥슨은 상당한 현금 보유고를 축적할 수 있었습니다"
+    } ]
+  }, {
+    "tStartMs": 1083540,
+    "dDurationMs": 1150,
+    "segs": [ {
+      "utf8": "그리고 최근에는 투자자산"
+    } ]
+  }, {
+    "tStartMs": 1084690,
+    "dDurationMs": 1300,
+    "segs": [ {
+      "utf8": "주식 매각 같은 거"
+    } ]
+  }, {
+    "tStartMs": 1085990,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "다른 데 투자한 주식들 매각을 통해"
+    } ]
+  }, {
+    "tStartMs": 1087810,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "상당한 금액을 실현했습니다"
+    } ]
+  }, {
+    "tStartMs": 1089790,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "그리고 아래에 있는 말을 했습니다"
+    } ]
+  }, {
+    "tStartMs": 1091610,
+    "dDurationMs": 3560,
+    "segs": [ {
+      "utf8": "현금 보유고는 향후 성장 기회를 위한 투자에 충분히 갖고 있고"
+    } ]
+  }, {
+    "tStartMs": 1095170,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "또 자본 효율성이라는 말이 나오죠"
+    } ]
+  }, {
+    "tStartMs": 1096830,
+    "dDurationMs": 2470,
+    "segs": [ {
+      "utf8": "자본 효율성을 높이기 위해서"
+    } ]
+  }, {
+    "tStartMs": 1099300,
+    "dDurationMs": 3060,
+    "segs": [ {
+      "utf8": "이 잉여 자금을 특별배당금 형태로"
+    } ]
+  }, {
+    "tStartMs": 1102360,
+    "dDurationMs": 3710,
+    "segs": [ {
+      "utf8": "주주들에게 환원하기로 결정했습니다"
+    } ]
+  }, {
+    "tStartMs": 1106070,
+    "dDurationMs": 3440,
+    "segs": [ {
+      "utf8": "그래서 발표한 넥슨의 특별배당이 얼마냐?"
+    } ]
+  }, {
+    "tStartMs": 1109510,
+    "dDurationMs": 2430,
+    "segs": [ {
+      "utf8": "주당 415엔이라고 나왔어요"
+    } ]
+  }, {
+    "tStartMs": 1113170,
+    "dDurationMs": 1160,
+    "segs": [ {
+      "utf8": "감이 없으시죠?"
+    } ]
+  }, {
+    "tStartMs": 1114330,
+    "dDurationMs": 2630,
+    "segs": [ {
+      "utf8": "발표 당시 넥슨 주가가 2,520엔이었습니다"
+    } ]
+  }, {
+    "tStartMs": 1118290,
+    "dDurationMs": 5090,
+    "segs": [ {
+      "utf8": "주가 대비 특별배당금 수익률이 19%가 나왔어요"
+    } ]
+  }, {
+    "tStartMs": 1123380,
+    "dDurationMs": 4510,
+    "segs": [ {
+      "utf8": "야, 이거는 넥슨이 상한가를 안 칠 수가 없었어"
+    } ]
+  }, {
+    "tStartMs": 1127890,
+    "dDurationMs": 1110,
+    "segs": [ {
+      "utf8": "저 날"
+    } ]
+  }, {
+    "tStartMs": 1129000,
+    "dDurationMs": 1840,
+    "segs": [ {
+      "utf8": "그러니까 만 원짜리 주식을 갖고 있는데"
+    } ]
+  }, {
+    "tStartMs": 1130840,
+    "dDurationMs": 2580,
+    "segs": [ {
+      "utf8": "2천 원을 배당을 해주겠다는 거야"
+    } ]
+  }, {
+    "tStartMs": 1133420,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "20% 물린 사람도 다 복구되죠 받으면"
+    } ]
+  }, {
+    "tStartMs": 1137920,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "그러니까 20만 원 기준으로 하면"
+    } ]
+  }, {
+    "tStartMs": 1139240,
+    "dDurationMs": 1590,
+    "segs": [ {
+      "utf8": "20%, 4만 원"
+    } ]
+  }, {
+    "tStartMs": 1140830,
+    "dDurationMs": 3290,
+    "segs": [ {
+      "utf8": "주당 4만 원을 배당해 주겠다는 거니까"
+    } ]
+  }, {
+    "tStartMs": 1144120,
+    "dDurationMs": 2780,
+    "segs": [ {
+      "utf8": "이날 완전히 일본 언론들이"
+    } ]
+  }, {
+    "tStartMs": 1146900,
+    "dDurationMs": 1800,
+    "segs": [ {
+      "utf8": "이 영어로 내는 게 많이 없어요"
+    } ]
+  }, {
+    "tStartMs": 1148700,
+    "dDurationMs": 1790,
+    "segs": [ {
+      "utf8": "그래서 제가 일본 그 말을 모르니까"
+    } ]
+  }, {
+    "tStartMs": 1150490,
+    "dDurationMs": 2870,
+    "segs": [ {
+      "utf8": "그거 다 번역 한국말로 번역 눌러서 봤는데"
+    } ]
+  }, {
+    "tStartMs": 1153360,
+    "dDurationMs": 1970,
+    "segs": [ {
+      "utf8": "전부 이 얘기밖에 없어"
+    } ]
+  }, {
+    "tStartMs": 1155330,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "게임사가 니케이를 뒤흔들었다"
+    } ]
+  }, {
+    "tStartMs": 1157890,
+    "dDurationMs": 1520,
+    "segs": [ {
+      "utf8": "이 말이 안 되잖아"
+    } ]
+  }, {
+    "tStartMs": 1159410,
+    "dDurationMs": 2640,
+    "segs": [ {
+      "utf8": "배당수익률 19%라는 게"
+    } ]
+  }, {
+    "tStartMs": 1162050,
+    "dDurationMs": 3280,
+    "segs": [ {
+      "utf8": "게다가 이번에 특별 배당이긴 하지만"
+    } ]
+  }, {
+    "tStartMs": 1165330,
+    "dDurationMs": 2540,
+    "segs": [ {
+      "utf8": "기존 배당의 10배입니다 10배"
+    } ]
+  }, {
+    "tStartMs": 1167870,
+    "dDurationMs": 1750,
+    "segs": [ {
+      "utf8": "10배를 올린 거예요"
+    } ]
+  }, {
+    "tStartMs": 1169620,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "게다가 뭐 반도체 기업들은"
+    } ]
+  }, {
+    "tStartMs": 1171620,
+    "dDurationMs": 3410,
+    "segs": [ {
+      "utf8": "돈을 많이 번다 그러니까 배당을 높게 올린다고 다 생각을 하는데"
+    } ]
+  }, {
+    "tStartMs": 1175030,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "넥슨은 갑자기"
+    } ]
+  }, {
+    "tStartMs": 1177010,
+    "dDurationMs": 3840,
+    "segs": [ {
+      "utf8": "갑자기 정말 뜬금없이 발표한 거라고 봐도 되고"
+    } ]
+  }, {
+    "tStartMs": 1180850,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "이 415엔은 놀랍게도"
+    } ]
+  }, {
+    "tStartMs": 1182490,
+    "dDurationMs": 2690,
+    "segs": [ {
+      "utf8": "정기 배당을 합치지 않은 값입니다"
+    } ]
+  }, {
+    "tStartMs": 1185180,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "정기 배당을 합치면"
+    } ]
+  }, {
+    "tStartMs": 1186110,
+    "dDurationMs": 2010,
+    "segs": [ {
+      "utf8": "475엔을 받을 수 있어요"
+    } ]
+  }, {
+    "tStartMs": 1188120,
+    "dDurationMs": 1790,
+    "segs": [ {
+      "utf8": "20% 넘는다"
+    } ]
+  }, {
+    "tStartMs": 1189910,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "지난해 배당금의 열 배"
+    } ]
+  }, {
+    "tStartMs": 1191560,
+    "dDurationMs": 2760,
+    "segs": [ {
+      "utf8": "뭐 어마어마한 저 한 방에 아까 말씀드렸지만"
+    } ]
+  }, {
+    "tStartMs": 1194320,
+    "dDurationMs": 2790,
+    "segs": [ {
+      "utf8": "넥슨이 상한가를 갔어요"
+    } ]
+  }, {
+    "tStartMs": 1197110,
+    "dDurationMs": 2330,
+    "segs": [ {
+      "utf8": "그래서 얘네가 상한가 20%인가 갔죠"
+    } ]
+  }, {
+    "tStartMs": 1199440,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "그 한 방에 20%가 올라가고"
+    } ]
+  }, {
+    "tStartMs": 1201120,
+    "dDurationMs": 960,
+    "segs": [ {
+      "utf8": "상한가를 갔어요"
+    } ]
+  }, {
+    "tStartMs": 1202080,
+    "dDurationMs": 1870,
+    "segs": [ {
+      "utf8": "바로 난리가 났었고"
+    } ]
+  }, {
+    "tStartMs": 1203950,
+    "dDurationMs": 2810,
+    "segs": [ {
+      "utf8": "그럼 넥슨은 어떻게 이런 결정이 가능했냐?"
+    } ]
+  }, {
+    "tStartMs": 1206760,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "이런 얘기가 나옵니다"
+    } ]
+  }, {
+    "tStartMs": 1208200,
+    "dDurationMs": 3210,
+    "segs": [ {
+      "utf8": "넥슨의 최대 지주는 한국 지주사 NXC입니다"
+    } ]
+  }, {
+    "tStartMs": 1211410,
+    "dDurationMs": 6270,
+    "segs": [ {
+      "utf8": "얼마 전에 일본의 넥슨 지분을 얘네가 샀어요 현금으로"
+    } ]
+  }, {
+    "tStartMs": 1217680,
+    "dDurationMs": 520,
+    "segs": [ {
+      "utf8": "더 많이 샀어요"
+    } ]
+  }, {
+    "tStartMs": 1218200,
+    "dDurationMs": 1020,
+    "segs": [ {
+      "utf8": "10% 포인트인가?"
+    } ]
+  }, {
+    "tStartMs": 1219220,
+    "dDurationMs": 1290,
+    "segs": [ {
+      "utf8": "사서 소각을 해 날렸어"
+    } ]
+  }, {
+    "tStartMs": 1220510,
+    "dDurationMs": 3440,
+    "segs": [ {
+      "utf8": "그래서 지분이 46.3%예요 NXC가"
+    } ]
+  }, {
+    "tStartMs": 1223950,
+    "dDurationMs": 4320,
+    "segs": [ {
+      "utf8": "NXC의 지분 74%는 고 김정주 창업자"
+    } ]
+  }, {
+    "tStartMs": 1228270,
+    "dDurationMs": 3560,
+    "segs": [ {
+      "utf8": "돌아가신 김정주 창업자 유가족이 보유하고 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1231830,
+    "dDurationMs": 2690,
+    "segs": [ {
+      "utf8": "얼마 전에 세금을 이 지분으로 냈었죠"
+    } ]
+  }, {
+    "tStartMs": 1234520,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "그다음에 정부로부터 그 지분을 사서"
+    } ]
+  }, {
+    "tStartMs": 1236220,
+    "dDurationMs": 1780,
+    "segs": [ {
+      "utf8": "지분을 소각해 버렸어요"
+    } ]
+  }, {
+    "tStartMs": 1238000,
+    "dDurationMs": 2110,
+    "segs": [ {
+      "utf8": "그게 컸는데 하여튼 소각해 버렸어요"
+    } ]
+  }, {
+    "tStartMs": 1240110,
+    "dDurationMs": 3550,
+    "segs": [ {
+      "utf8": "그래서 74%를 창업자 유가족이 보유하고 있어요"
+    } ]
+  }, {
+    "tStartMs": 1243660,
+    "dDurationMs": 1490,
+    "segs": [ {
+      "utf8": "그러니까 배당을 많이 하면"
+    } ]
+  }, {
+    "tStartMs": 1245150,
+    "dDurationMs": 1690,
+    "segs": [ {
+      "utf8": "창업자 대주주 일가한테"
+    } ]
+  }, {
+    "tStartMs": 1246840,
+    "dDurationMs": 2150,
+    "segs": [ {
+      "utf8": "배당금의 34%"
+    } ]
+  }, {
+    "tStartMs": 1248990,
+    "dDurationMs": 3650,
+    "segs": [ {
+      "utf8": "굉장히 많은 금액을 대주주가 받을 수 있어요"
+    } ]
+  }, {
+    "tStartMs": 1252640,
+    "dDurationMs": 770,
+    "segs": [ {
+      "utf8": "그러니까 대주주 입장에서도"
+    } ]
+  }, {
+    "tStartMs": 1253410,
+    "dDurationMs": 3330,
+    "segs": [ {
+      "utf8": "배당을 하고 싶은 유인이 높은 거죠"
+    } ]
+  }, {
+    "tStartMs": 1256740,
+    "dDurationMs": 960,
+    "segs": [ {
+      "utf8": "반대로 말하면"
+    } ]
+  }, {
+    "tStartMs": 1257700,
+    "dDurationMs": 2300,
+    "segs": [ {
+      "utf8": "대주주의 만약에 지분율이 낮다"
+    } ]
+  }, {
+    "tStartMs": 1260000,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "만약에"
+    } ]
+  }, {
+    "tStartMs": 1260950,
+    "dDurationMs": 2860,
+    "segs": [ {
+      "utf8": "배당을 했는데 배당금의 34%가, 30%가"
+    } ]
+  }, {
+    "tStartMs": 1263810,
+    "dDurationMs": 2170,
+    "segs": [ {
+      "utf8": "이번에 대주주 일가로 들어가니까"
+    } ]
+  }, {
+    "tStartMs": 1265980,
+    "dDurationMs": 1160,
+    "segs": [ {
+      "utf8": "배당 많이 하는 거 좋네 해서"
+    } ]
+  }, {
+    "tStartMs": 1267140,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "결정을 할 수 있었는데"
+    } ]
+  }, {
+    "tStartMs": 1268070,
+    "dDurationMs": 1830,
+    "segs": [ {
+      "utf8": "물론 이게 모든 이유는 아니겠죠"
+    } ]
+  }, {
+    "tStartMs": 1269900,
+    "dDurationMs": 1330,
+    "segs": [ {
+      "utf8": "모든 이유는 아니고"
+    } ]
+  }, {
+    "tStartMs": 1271230,
+    "dDurationMs": 1590,
+    "segs": [ {
+      "utf8": "넥슨에서 그걸 결정한 건데"
+    } ]
+  }, {
+    "tStartMs": 1272820,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "주주환원을 한 건데"
+    } ]
+  }, {
+    "tStartMs": 1274140,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "어쨌건 결론적으로 보면"
+    } ]
+  }, {
+    "tStartMs": 1275520,
+    "dDurationMs": 1050,
+    "segs": [ {
+      "utf8": "그렇게 된단 말이에요"
+    } ]
+  }, {
+    "tStartMs": 1276570,
+    "dDurationMs": 4810,
+    "segs": [ {
+      "utf8": "근데 만약에 배당금의 3%가 대주주로 들어간다"
+    } ]
+  }, {
+    "tStartMs": 1281380,
+    "dDurationMs": 3550,
+    "segs": [ {
+      "utf8": "또는 0.3%가 대주주로 들어간다"
+    } ]
+  }, {
+    "tStartMs": 1284930,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "그럼 대주주 입장에서는"
+    } ]
+  }, {
+    "tStartMs": 1286350,
+    "dDurationMs": 3070,
+    "segs": [ {
+      "utf8": "배당을 이렇게 하려는 결정을 할 수 있을까?"
+    } ]
+  }, {
+    "tStartMs": 1289420,
+    "dDurationMs": 3160,
+    "segs": [ {
+      "utf8": "3%대 0.3%로 기업을 어떻게 지배합니까?"
+    } ]
+  }, {
+    "tStartMs": 1294560,
+    "dDurationMs": 1120,
+    "segs": [ {
+      "utf8": "그러게요"
+    } ]
+  }, {
+    "tStartMs": 1295680,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "하지만 그런 그것도 이제 마법이 있기 때문에"
+    } ]
+  }, {
+    "tStartMs": 1297840,
+    "dDurationMs": 1070,
+    "segs": [ {
+      "utf8": "마법이 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1298910,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "자, 그래서 지분율이"
+    } ]
+  }, {
+    "tStartMs": 1300310,
+    "dDurationMs": 1850,
+    "segs": [ {
+      "utf8": "대주주 지분율이 높은 경우에"
+    } ]
+  }, {
+    "tStartMs": 1302160,
+    "dDurationMs": 2090,
+    "segs": [ {
+      "utf8": "배당을 공격적으로도 할 수 있고"
+    } ]
+  }, {
+    "tStartMs": 1304250,
+    "dDurationMs": 1220,
+    "segs": [ {
+      "utf8": "그럼 모두가 행복해질 수 있는데"
+    } ]
+  }, {
+    "tStartMs": 1305470,
+    "dDurationMs": 2110,
+    "segs": [ {
+      "utf8": "지분율이 낮게 되면은"
+    } ]
+  }, {
+    "tStartMs": 1307580,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "배당을 하고자 하는 것보다"
+    } ]
+  }, {
+    "tStartMs": 1309580,
+    "dDurationMs": 2210,
+    "segs": [ {
+      "utf8": "이 돈으로 지배력 강화"
+    } ]
+  }, {
+    "tStartMs": 1311790,
+    "dDurationMs": 1010,
+    "segs": [ {
+      "utf8": "이 돈으로 어디에 투자해서"
+    } ]
+  }, {
+    "tStartMs": 1312800,
+    "dDurationMs": 1270,
+    "segs": [ {
+      "utf8": "뭐 어떻게 어떻게 하고 늘리고"
+    } ]
+  }, {
+    "tStartMs": 1314070,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "막 이런 거에 이제 많이 갈 수 있는"
+    } ]
+  }, {
+    "tStartMs": 1315970,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "그런 위험성이 있죠"
+    } ]
+  }, {
+    "tStartMs": 1317220,
+    "dDurationMs": 1890,
+    "segs": [ {
+      "utf8": "그리고 넥슨 같은 경우에는"
+    } ]
+  }, {
+    "tStartMs": 1319110,
+    "dDurationMs": 3760,
+    "segs": [ {
+      "utf8": "과거부터 ROE 15%를 목표로 한다는 얘기를 많이 했습니다"
+    } ]
+  }, {
+    "tStartMs": 1322870,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "10%를 단기 목표"
+    } ]
+  }, {
+    "tStartMs": 1324520,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "15%를 중장기 목표"
+    } ]
+  }, {
+    "tStartMs": 1326340,
+    "dDurationMs": 550,
+    "segs": [ {
+      "utf8": "이걸 위해서"
+    } ]
+  }, {
+    "tStartMs": 1326890,
+    "dDurationMs": 1800,
+    "segs": [ {
+      "utf8": "대규모 배당과 자사주 소각을 하겠다"
+    } ]
+  }, {
+    "tStartMs": 1328690,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "그래서 꾸준히 해온 기업이에요"
+    } ]
+  }, {
+    "tStartMs": 1330770,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "기본적으로 이게 가장 크겠죠"
+    } ]
+  }, {
+    "tStartMs": 1332750,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "그리고 중간에 계속 나왔는데"
+    } ]
+  }, {
+    "tStartMs": 1334010,
+    "dDurationMs": 2500,
+    "segs": [ {
+      "utf8": "기업의 자본 효율성이라는 말이 나왔습니다"
+    } ]
+  }, {
+    "tStartMs": 1336510,
+    "dDurationMs": 1670,
+    "segs": [ {
+      "utf8": "물론 여기서 자본 효율성은"
+    } ]
+  }, {
+    "tStartMs": 1338180,
+    "dDurationMs": 2310,
+    "segs": [ {
+      "utf8": "현금 중에 얼만큼을 투자하고"
+    } ]
+  }, {
+    "tStartMs": 1340490,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "얼만큼을 주주환원을 할 거냐"
+    } ]
+  }, {
+    "tStartMs": 1342310,
+    "dDurationMs": 2340,
+    "segs": [ {
+      "utf8": "이 자본 효율성을 결정하겠다는 거죠"
+    } ]
+  }, {
+    "tStartMs": 1344650,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "투자금이 너무 높아서"
+    } ]
+  }, {
+    "tStartMs": 1346470,
+    "dDurationMs": 1020,
+    "segs": [ {
+      "utf8": "주주에게 안 주는 것도"
+    } ]
+  }, {
+    "tStartMs": 1347490,
+    "dDurationMs": 1970,
+    "segs": [ {
+      "utf8": "효율성이 없는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 1349460,
+    "dDurationMs": 2030,
+    "segs": [ {
+      "utf8": "너무 낮아서 다 배당받아가고"
+    } ]
+  }, {
+    "tStartMs": 1351490,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "기업이 망하면"
+    } ]
+  }, {
+    "tStartMs": 1352440,
+    "dDurationMs": 1960,
+    "segs": [ {
+      "utf8": "역시 효율성이 없는 거예요"
+    } ]
+  }, {
+    "tStartMs": 1354400,
+    "dDurationMs": 2620,
+    "segs": [ {
+      "utf8": "그러니까 적절한 곳을 잘 정하는 게"
+    } ]
+  }, {
+    "tStartMs": 1357020,
+    "dDurationMs": 840,
+    "segs": [ {
+      "utf8": "효율성이라고 할 수 있는데"
+    } ]
+  }, {
+    "tStartMs": 1357860,
+    "dDurationMs": 2280,
+    "segs": [ {
+      "utf8": "그리고 제가 또 옛날에 잠깐 말씀드렸는데"
+    } ]
+  }, {
+    "tStartMs": 1360140,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "가장 효율성 있는 투자로"
+    } ]
+  }, {
+    "tStartMs": 1361540,
+    "dDurationMs": 2320,
+    "segs": [ {
+      "utf8": "최대한의 이익을 기업이 창출합니다"
+    } ]
+  }, {
+    "tStartMs": 1363860,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "그럼 자본이 증가해요"
+    } ]
+  }, {
+    "tStartMs": 1365200,
+    "dDurationMs": 2350,
+    "segs": [ {
+      "utf8": "그러면 ROE가 내려가죠"
+    } ]
+  }, {
+    "tStartMs": 1367550,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "자본총계가 늘었기 때문에"
+    } ]
+  }, {
+    "tStartMs": 1368950,
+    "dDurationMs": 2250,
+    "segs": [ {
+      "utf8": "당기순이익이 크게 늘지 못하는 한"
+    } ]
+  }, {
+    "tStartMs": 1371200,
+    "dDurationMs": 1670,
+    "segs": [ {
+      "utf8": "이익을 쌓으면 쌓을수록"
+    } ]
+  }, {
+    "tStartMs": 1372870,
+    "dDurationMs": 1890,
+    "segs": [ {
+      "utf8": "효율성은 떨어져요"
+    } ]
+  }, {
+    "tStartMs": 1374760,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "효율성을 높이려면 어떻게 해야 됩니까?"
+    } ]
+  }, {
+    "tStartMs": 1376440,
+    "dDurationMs": 1490,
+    "segs": [ {
+      "utf8": "쌓여있던 자본을"
+    } ]
+  }, {
+    "tStartMs": 1377930,
+    "dDurationMs": 1030,
+    "segs": [ {
+      "utf8": "불필요한 자본을"
+    } ]
+  }, {
+    "tStartMs": 1378960,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "최대한의 이익을 주주에게 돌려주면 자본이 줍니다"
+    } ]
+  }, {
+    "tStartMs": 1382140,
+    "dDurationMs": 1110,
+    "segs": [ {
+      "utf8": "그럼 ROE가 다시 올라가고"
+    } ]
+  }, {
+    "tStartMs": 1383250,
+    "dDurationMs": 1530,
+    "segs": [ {
+      "utf8": "효율성이 올라갑니다"
+    } ]
+  }, {
+    "tStartMs": 1384780,
+    "dDurationMs": 1770,
+    "segs": [ {
+      "utf8": "이게 반복이 되죠"
+    } ]
+  }, {
+    "tStartMs": 1386550,
+    "dDurationMs": 2500,
+    "segs": [ {
+      "utf8": "이게 기업의 자본 효율성이에요"
+    } ]
+  }, {
+    "tStartMs": 1389050,
+    "dDurationMs": 880,
+    "segs": [ {
+      "utf8": "자본 효율성이라는 건"
+    } ]
+  }, {
+    "tStartMs": 1389930,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "물론 여러 가지 뜻이 있지만"
+    } ]
+  }, {
+    "tStartMs": 1391640,
+    "dDurationMs": 1450,
+    "segs": [ {
+      "utf8": "근데 예전에 얘기했지만"
+    } ]
+  }, {
+    "tStartMs": 1393090,
+    "dDurationMs": 2570,
+    "segs": [ {
+      "utf8": "우리나라 지금은 좀 많이 달라지고 있는데"
+    } ]
+  }, {
+    "tStartMs": 1395660,
+    "dDurationMs": 910,
+    "segs": [ {
+      "utf8": "우리나라 예전 기업들은"
+    } ]
+  }, {
+    "tStartMs": 1396570,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "ROE가 굉장히 낮았어요 왜?"
+    } ]
+  }, {
+    "tStartMs": 1398560,
+    "dDurationMs": 1880,
+    "segs": [ {
+      "utf8": "자본을 쌓아두고"
+    } ]
+  }, {
+    "tStartMs": 1400440,
+    "dDurationMs": 2690,
+    "segs": [ {
+      "utf8": "잘 주주환원을 안 하는 경향이 있었죠"
+    } ]
+  }, {
+    "tStartMs": 1403130,
+    "dDurationMs": 1180,
+    "segs": [ {
+      "utf8": "과거 한 10년 전에"
+    } ]
+  }, {
+    "tStartMs": 1404310,
+    "dDurationMs": 1020,
+    "segs": [ {
+      "utf8": "지금은 바뀌고 있지만"
+    } ]
+  }, {
+    "tStartMs": 1405330,
+    "dDurationMs": 1430,
+    "segs": [ {
+      "utf8": "지금 바뀌고 있지만"
+    } ]
+  }, {
+    "tStartMs": 1406760,
+    "dDurationMs": 2030,
+    "segs": [ {
+      "utf8": "그래서 이제 우리나라 기업들의 ROE도"
+    } ]
+  }, {
+    "tStartMs": 1408790,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "이제 올라가지 않을까?"
+    } ]
+  }, {
+    "tStartMs": 1410210,
+    "dDurationMs": 1390,
+    "segs": [ {
+      "utf8": "우리나라는 왜 주주환원을 안 하고"
+    } ]
+  }, {
+    "tStartMs": 1411600,
+    "dDurationMs": 2170,
+    "segs": [ {
+      "utf8": "자본총계를 계속 높여왔냐?"
+    } ]
+  }, {
+    "tStartMs": 1413770,
+    "dDurationMs": 890,
+    "segs": [ {
+      "utf8": "아까 말씀드렸죠"
+    } ]
+  }, {
+    "tStartMs": 1414660,
+    "dDurationMs": 3440,
+    "segs": [ {
+      "utf8": "기업의 지배력이나 영속성을 더 중요시하는 경우는"
+    } ]
+  }, {
+    "tStartMs": 1418100,
+    "dDurationMs": 1520,
+    "segs": [ {
+      "utf8": "주주환원을 하기 어렵게 됩니다"
+    } ]
+  }, {
+    "tStartMs": 1419620,
+    "dDurationMs": 2010,
+    "segs": [ {
+      "utf8": "수익성을 중요시할 거냐?"
+    } ]
+  }, {
+    "tStartMs": 1421630,
+    "dDurationMs": 2380,
+    "segs": [ {
+      "utf8": "그 기업의 어떤 생존 가능성"
+    } ]
+  }, {
+    "tStartMs": 1424010,
+    "dDurationMs": 1180,
+    "segs": [ {
+      "utf8": "뭐 그런 영속성"
+    } ]
+  }, {
+    "tStartMs": 1425190,
+    "dDurationMs": 1880,
+    "segs": [ {
+      "utf8": "이런 걸 중요시할 거냐라는"
+    } ]
+  }, {
+    "tStartMs": 1427070,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "그런 거 차이가 있죠"
+    } ]
+  }, {
+    "tStartMs": 1428730,
+    "dDurationMs": 4580,
+    "segs": [ {
+      "utf8": "그래서 이런 대규모 환원을 하는 기업들의 뉴스가 계속 떴다"
+    } ]
+  }, {
+    "tStartMs": 1433310,
+    "dDurationMs": 2290,
+    "segs": [ {
+      "utf8": "그러면 우리의 궁금증은 이제 이거죠 좋습니다"
+    } ]
+  }, {
+    "tStartMs": 1435600,
+    "dDurationMs": 1280,
+    "segs": [ {
+      "utf8": "뉴스가 계속 나와서"
+    } ]
+  }, {
+    "tStartMs": 1436880,
+    "dDurationMs": 1100,
+    "segs": [ {
+      "utf8": "우리나라 쫙쫙 올라갔어요"
+    } ]
+  }, {
+    "tStartMs": 1437980,
+    "dDurationMs": 2770,
+    "segs": [ {
+      "utf8": "그러면 이제 우리 차례죠"
+    } ]
+  }, {
+    "tStartMs": 1440750,
+    "dDurationMs": 1890,
+    "segs": [ {
+      "utf8": "소액주주 500만"
+    } ]
+  }, {
+    "tStartMs": 1442640,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "우리나라 국민 주식"
+    } ]
+  }, {
+    "tStartMs": 1444040,
+    "dDurationMs": 3620,
+    "segs": [ {
+      "utf8": "삼성전자의 주주환원 발표가 이제 있겠죠"
+    } ]
+  }, {
+    "tStartMs": 1447660,
+    "dDurationMs": 1780,
+    "segs": [ {
+      "utf8": "얼마가 나올까?"
+    } ]
+  }, {
+    "tStartMs": 1449440,
+    "dDurationMs": 2140,
+    "segs": [ {
+      "utf8": "진정한 낙수효과는 뭡니까?"
+    } ]
+  }, {
+    "tStartMs": 1451580,
+    "dDurationMs": 2130,
+    "segs": [ {
+      "utf8": "주주가 500만이래요"
+    } ]
+  }, {
+    "tStartMs": 1453710,
+    "dDurationMs": 2090,
+    "segs": [ {
+      "utf8": "470만인가 그랬어요"
+    } ]
+  }, {
+    "tStartMs": 1455800,
+    "dDurationMs": 960,
+    "segs": [ {
+      "utf8": "주주에게 나눠주는 게"
+    } ]
+  }, {
+    "tStartMs": 1456760,
+    "dDurationMs": 2420,
+    "segs": [ {
+      "utf8": "진정한 낙수효과로 생각합니다"
+    } ]
+  }, {
+    "tStartMs": 1459180,
+    "dDurationMs": 2120,
+    "segs": [ {
+      "utf8": "무슨 이상한 회의에 앉아갖고"
+    } ]
+  }, {
+    "tStartMs": 1461300,
+    "dDurationMs": 810,
+    "segs": [ {
+      "utf8": "포럼에 앉아갖고"
+    } ]
+  }, {
+    "tStartMs": 1462110,
+    "dDurationMs": 3920,
+    "segs": [ {
+      "utf8": "이 돈을 누구한테 나눠줄까를 고민할 필요가 없이 500만이에요 500만"
+    } ]
+  }, {
+    "tStartMs": 1466030,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "거기 앉아서 얘기하는 분들"
+    } ]
+  }, {
+    "tStartMs": 1467370,
+    "dDurationMs": 1940,
+    "segs": [ {
+      "utf8": "다 합쳐봐야 몇 만 되겠어?"
+    } ]
+  }, {
+    "tStartMs": 1469310,
+    "dDurationMs": 2730,
+    "segs": [ {
+      "utf8": "삼성전자 주주가 이제 몇 만일지 모르겠지만 줄었어"
+    } ]
+  }, {
+    "tStartMs": 1472040,
+    "dDurationMs": 1400,
+    "segs": [ {
+      "utf8": "줄었어도 400만이라고 쳐도"
+    } ]
+  }, {
+    "tStartMs": 1473440,
+    "dDurationMs": 2140,
+    "segs": [ {
+      "utf8": "진정한 낙수효과가 여기서 나오는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 1475580,
+    "dDurationMs": 1800,
+    "segs": [ {
+      "utf8": "우리나라의 대들보 기업이죠"
+    } ]
+  }, {
+    "tStartMs": 1477380,
+    "dDurationMs": 1780,
+    "segs": [ {
+      "utf8": "삼성전자의 올해 잉여현금흐름인"
+    } ]
+  }, {
+    "tStartMs": 1479160,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "약 250조원 내외로"
+    } ]
+  }, {
+    "tStartMs": 1480540,
+    "dDurationMs": 1510,
+    "segs": [ {
+      "utf8": "애널리스트들이 추정하고 있어요"
+    } ]
+  }, {
+    "tStartMs": 1482050,
+    "dDurationMs": 1740,
+    "segs": [ {
+      "utf8": "위도 있고 아래도 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1483790,
+    "dDurationMs": 4150,
+    "segs": [ {
+      "utf8": "주주환원의 잉여현금 만약에 50에서 100%를 쓴다고 하면"
+    } ]
+  }, {
+    "tStartMs": 1487940,
+    "dDurationMs": 3720,
+    "segs": [ {
+      "utf8": "기존의 삼성전자는 FCF의 50%를 얘기해 왔어요"
+    } ]
+  }, {
+    "tStartMs": 1491660,
+    "dDurationMs": 1750,
+    "segs": [ {
+      "utf8": "뭐 많이 쓰면 100%겠죠"
+    } ]
+  }, {
+    "tStartMs": 1493410,
+    "dDurationMs": 2240,
+    "segs": [ {
+      "utf8": "그러니까 50에서 100어디 사이일 것 같아요"
+    } ]
+  }, {
+    "tStartMs": 1495650,
+    "dDurationMs": 1460,
+    "segs": [ {
+      "utf8": "아무도 모르지만"
+    } ]
+  }, {
+    "tStartMs": 1497110,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "그래서 많이 나오는 게"
+    } ]
+  }, {
+    "tStartMs": 1498370,
+    "dDurationMs": 2750,
+    "segs": [ {
+      "utf8": "대충 100조에서"
+    } ]
+  }, {
+    "tStartMs": 1501120,
+    "dDurationMs": 1270,
+    "segs": [ {
+      "utf8": "야, 250조는 무리다"
+    } ]
+  }, {
+    "tStartMs": 1502390,
+    "dDurationMs": 1370,
+    "segs": [ {
+      "utf8": "250조는 무리다"
+    } ]
+  }, {
+    "tStartMs": 1503760,
+    "dDurationMs": 3120,
+    "segs": [ {
+      "utf8": "100조에서 200조 얘기가 나오고 있어요 주주환원에"
+    } ]
+  }, {
+    "tStartMs": 1506880,
+    "dDurationMs": 2580,
+    "segs": [ {
+      "utf8": "뭐 어쨌건 현금 흐름의 절반에서 100% 사이일 테니까"
+    } ]
+  }, {
+    "tStartMs": 1509460,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "100조에서 200조"
+    } ]
+  }, {
+    "tStartMs": 1511170,
+    "dDurationMs": 1620,
+    "segs": [ {
+      "utf8": "KB증권 형님들도 리포트를 냈는데"
+    } ]
+  }, {
+    "tStartMs": 1512790,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "100조에서 200조가 나왔어요"
+    } ]
+  }, {
+    "tStartMs": 1514150,
+    "dDurationMs": 1950,
+    "segs": [ {
+      "utf8": "물론 KB증권 형님들은"
+    } ]
+  }, {
+    "tStartMs": 1516100,
+    "dDurationMs": 2370,
+    "segs": [ {
+      "utf8": "굉장히 강한 뷰를 가지고 계신 분이에요"
+    } ]
+  }, {
+    "tStartMs": 1518470,
+    "dDurationMs": 1580,
+    "segs": [ {
+      "utf8": "롱 뷰x3"
+    } ]
+  }, {
+    "tStartMs": 1520050,
+    "dDurationMs": 1430,
+    "segs": [ {
+      "utf8": "이해하고 보십시오"
+    } ]
+  }, {
+    "tStartMs": 1521480,
+    "dDurationMs": 3150,
+    "segs": [ {
+      "utf8": "그러면 지금은 평균 연간 9.8조 원에 10조 원이에요"
+    } ]
+  }, {
+    "tStartMs": 1524630,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "10조 원"
+    } ]
+  }, {
+    "tStartMs": 1526110,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "최소가 100조 원이라고 치면"
+    } ]
+  }, {
+    "tStartMs": 1527810,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "일단 100조 원 발표되면"
+    } ]
+  }, {
+    "tStartMs": 1529010,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "10배 늘어나는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 1530650,
+    "dDurationMs": 1450,
+    "segs": [ {
+      "utf8": "연간 주주환원 규모가"
+    } ]
+  }, {
+    "tStartMs": 1532100,
+    "dDurationMs": 1500,
+    "segs": [ {
+      "utf8": "100조면 FCF 기준으로"
+    } ]
+  }, {
+    "tStartMs": 1533600,
+    "dDurationMs": 2760,
+    "segs": [ {
+      "utf8": "50%가 조금 왔다갔다 할 것 같아요"
+    } ]
+  }, {
+    "tStartMs": 1536360,
+    "dDurationMs": 2170,
+    "segs": [ {
+      "utf8": "조정으로 치면 되지 않을까?"
+    } ]
+  }, {
+    "tStartMs": 1538530,
+    "dDurationMs": 1370,
+    "segs": [ {
+      "utf8": "기존처럼 50%로 한다면"
+    } ]
+  }, {
+    "tStartMs": 1539900,
+    "dDurationMs": 4220,
+    "segs": [ {
+      "utf8": "아마 100조, 100%로 간다면 200조 음"
+    } ]
+  }, {
+    "tStartMs": 1544120,
+    "dDurationMs": 640,
+    "segs": [ {
+      "utf8": "물론 모르죠"
+    } ]
+  }, {
+    "tStartMs": 1544760,
+    "dDurationMs": 2270,
+    "segs": [ {
+      "utf8": "얼마가 나올지 더 적게 나올 수도 있는데"
+    } ]
+  }, {
+    "tStartMs": 1547030,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "만약에 200조 원을 주주환원하면"
+    } ]
+  }, {
+    "tStartMs": 1548690,
+    "dDurationMs": 2070,
+    "segs": [ {
+      "utf8": "배당수익률이 얼마가 되냐?"
+    } ]
+  }, {
+    "tStartMs": 1550760,
+    "dDurationMs": 1790,
+    "segs": [ {
+      "utf8": "삼성전자 시가총액이 1,700조입니다"
+    } ]
+  }, {
+    "tStartMs": 1552550,
+    "dDurationMs": 1110,
+    "segs": [ {
+      "utf8": "물론 이거 왔다갔다 하겠죠"
+    } ]
+  }, {
+    "tStartMs": 1553660,
+    "dDurationMs": 690,
+    "segs": [ {
+      "utf8": "배당 발표할 때"
+    } ]
+  }, {
+    "tStartMs": 1554350,
+    "dDurationMs": 600,
+    "segs": [ {
+      "utf8": "얼마인지 왔다갔다"
+    } ]
+  }, {
+    "tStartMs": 1554950,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "지금 1,700조정도 돼요"
+    } ]
+  }, {
+    "tStartMs": 1556290,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "2,000조가 좀 내려왔죠"
+    } ]
+  }, {
+    "tStartMs": 1557670,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "만약에 200조를 만약에 주주환원하면"
+    } ]
+  }, {
+    "tStartMs": 1559570,
+    "dDurationMs": 2290,
+    "segs": [ {
+      "utf8": "거의 11%가 나옵니다"
+    } ]
+  }, {
+    "tStartMs": 1561860,
+    "dDurationMs": 1010,
+    "segs": [ {
+      "utf8": "그건 넥슨이죠"
+    } ]
+  }, {
+    "tStartMs": 1562870,
+    "dDurationMs": 720,
+    "segs": [ {
+      "utf8": "이거 하면 넥슨이야"
+    } ]
+  }, {
+    "tStartMs": 1563590,
+    "dDurationMs": 1170,
+    "segs": [ {
+      "utf8": "이거 하면 넥슨인데"
+    } ]
+  }, {
+    "tStartMs": 1564760,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "저건 약간 꿈의 숫자고"
+    } ]
+  }, {
+    "tStartMs": 1566230,
+    "dDurationMs": 2790,
+    "segs": [ {
+      "utf8": "애널리스트들은 현실적으로 한 7%?"
+    } ]
+  }, {
+    "tStartMs": 1569020,
+    "dDurationMs": 1100,
+    "segs": [ {
+      "utf8": "물론 현금 배당 얘기죠"
+    } ]
+  }, {
+    "tStartMs": 1570120,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "물론 주식을 사 소각할 수도 있으니까"
+    } ]
+  }, {
+    "tStartMs": 1571940,
+    "dDurationMs": 2030,
+    "segs": [ {
+      "utf8": "그럼 저렇게 배당 수익률 찍히진 않겠지만"
+    } ]
+  }, {
+    "tStartMs": 1573970,
+    "dDurationMs": 2350,
+    "segs": [ {
+      "utf8": "어쨌건 100% 현금이라고 가정했을 때는"
+    } ]
+  }, {
+    "tStartMs": 1576320,
+    "dDurationMs": 1180,
+    "segs": [ {
+      "utf8": "200조를 다 한다 그러면"
+    } ]
+  }, {
+    "tStartMs": 1577500,
+    "dDurationMs": 3750,
+    "segs": [ {
+      "utf8": "거의 10% 가까운 배당 수익률을 기대할 수 있지만"
+    } ]
+  }, {
+    "tStartMs": 1581250,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "현실적으로 7%?"
+    } ]
+  }, {
+    "tStartMs": 1583240,
+    "dDurationMs": 920,
+    "segs": [ {
+      "utf8": "7% 좋다"
+    } ]
+  }, {
+    "tStartMs": 1584160,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "7%도 굉장히 좋습니다"
+    } ]
+  }, {
+    "tStartMs": 1586140,
+    "dDurationMs": 3720,
+    "segs": [ {
+      "utf8": "삼성전자는 컨퍼런스 콜에서 주주환원에 대해 약속을 했었죠"
+    } ]
+  }, {
+    "tStartMs": 1589860,
+    "dDurationMs": 1170,
+    "segs": [ {
+      "utf8": "올해 특별배당을 포함해"
+    } ]
+  }, {
+    "tStartMs": 1591030,
+    "dDurationMs": 2060,
+    "segs": [ {
+      "utf8": "주주환원 관련 실행 방안 토론 중이다"
+    } ]
+  }, {
+    "tStartMs": 1593090,
+    "dDurationMs": 1150,
+    "segs": [ {
+      "utf8": "미래 성장을 위한 재투자와"
+    } ]
+  }, {
+    "tStartMs": 1594240,
+    "dDurationMs": 3000,
+    "segs": [ {
+      "utf8": "주주환원 극대화간 최적 균형점을 확보하는 방안을 마련해"
+    } ]
+  }, {
+    "tStartMs": 1597240,
+    "dDurationMs": 2500,
+    "segs": [ {
+      "utf8": "주주에게 공유하겠다라고 얘기했으니까"
+    } ]
+  }, {
+    "tStartMs": 1599740,
+    "dDurationMs": 1540,
+    "segs": [ {
+      "utf8": "아마 좀 이제 나오지 않을까"
+    } ]
+  }, {
+    "tStartMs": 1601280,
+    "dDurationMs": 1200,
+    "segs": [ {
+      "utf8": "그런 기대를 하고 있고요"
+    } ]
+  }, {
+    "tStartMs": 1602480,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "그리고 역시 우리나라 국민기업"
+    } ]
+  }, {
+    "tStartMs": 1604560,
+    "dDurationMs": 1520,
+    "segs": [ {
+      "utf8": "개인들이 가장 사랑하는 기업"
+    } ]
+  }, {
+    "tStartMs": 1606080,
+    "dDurationMs": 3010,
+    "segs": [ {
+      "utf8": "SK하이닉스의 주주환원 규모는 얼마가 될까?"
+    } ]
+  }, {
+    "tStartMs": 1609090,
+    "dDurationMs": 4450,
+    "segs": [ {
+      "utf8": "SK하이닉스 올해 잉여현금흐름은 한 180조 원 내외인 것 같습니다"
+    } ]
+  }, {
+    "tStartMs": 1613540,
+    "dDurationMs": 1130,
+    "segs": [ {
+      "utf8": "이것도 애널리스트마다 달라요"
+    } ]
+  }, {
+    "tStartMs": 1614670,
+    "dDurationMs": 1070,
+    "segs": [ {
+      "utf8": "위아래가 좀 있어요"
+    } ]
+  }, {
+    "tStartMs": 1615740,
+    "dDurationMs": 3170,
+    "segs": [ {
+      "utf8": "150조에서 200조 사이 어딘가 같은데 180조"
+    } ]
+  }, {
+    "tStartMs": 1618910,
+    "dDurationMs": 1940,
+    "segs": [ {
+      "utf8": "어 현금의 50%에서 100% 사이면은"
+    } ]
+  }, {
+    "tStartMs": 1620850,
+    "dDurationMs": 3610,
+    "segs": [ {
+      "utf8": "90조에서 180조인데"
+    } ]
+  }, {
+    "tStartMs": 1624460,
+    "dDurationMs": 1620,
+    "segs": [ {
+      "utf8": "여기 어딘가"
+    } ]
+  }, {
+    "tStartMs": 1626080,
+    "dDurationMs": 1540,
+    "segs": [ {
+      "utf8": "근데 SK하이닉스는 연초에"
+    } ]
+  }, {
+    "tStartMs": 1627620,
+    "dDurationMs": 2770,
+    "segs": [ {
+      "utf8": "100조원의 순현금 정도를 있어야"
+    } ]
+  }, {
+    "tStartMs": 1630390,
+    "dDurationMs": 3770,
+    "segs": [ {
+      "utf8": "중장기 재무가 건전해질 것 같다라는 얘기를 한 적이 있었습니다"
+    } ]
+  }, {
+    "tStartMs": 1634160,
+    "dDurationMs": 1490,
+    "segs": [ {
+      "utf8": "100조원 이상의 순현금을"
+    } ]
+  }, {
+    "tStartMs": 1635650,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "중장기 재무 건전성 목표로 내세웠다"
+    } ]
+  }, {
+    "tStartMs": 1638970,
+    "dDurationMs": 4890,
+    "segs": [ {
+      "utf8": "그러면은 뭐 FCF 180조에서 100조를 뺀다고 치고"
+    } ]
+  }, {
+    "tStartMs": 1643860,
+    "dDurationMs": 2110,
+    "segs": [ {
+      "utf8": "그럼 잉여 80조가 남네"
+    } ]
+  }, {
+    "tStartMs": 1645970,
+    "dDurationMs": 2990,
+    "segs": [ {
+      "utf8": "여기에 50%면 한 40조"
+    } ]
+  }, {
+    "tStartMs": 1648960,
+    "dDurationMs": 2780,
+    "segs": [ {
+      "utf8": "여기에 100%면 한 80조"
+    } ]
+  }, {
+    "tStartMs": 1651740,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "이 정도를 주주환원하지 않을까라고"
+    } ]
+  }, {
+    "tStartMs": 1654140,
+    "dDurationMs": 2090,
+    "segs": [ {
+      "utf8": "생각하는 분들이 많은 것 같아요"
+    } ]
+  }, {
+    "tStartMs": 1656230,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "리포트 기준으로"
+    } ]
+  }, {
+    "tStartMs": 1657870,
+    "dDurationMs": 2430,
+    "segs": [ {
+      "utf8": "어, 뭐 이거보다 더 하면은"
+    } ]
+  }, {
+    "tStartMs": 1660300,
+    "dDurationMs": 1170,
+    "segs": [ {
+      "utf8": "뭐 말할 것도 없고"
+    } ]
+  }, {
+    "tStartMs": 1661470,
+    "dDurationMs": 2180,
+    "segs": [ {
+      "utf8": "한 40조에서 80조"
+    } ]
+  }, {
+    "tStartMs": 1663650,
+    "dDurationMs": 1890,
+    "segs": [ {
+      "utf8": "근데 개인적인 생각에"
+    } ]
+  }, {
+    "tStartMs": 1665540,
+    "dDurationMs": 1760,
+    "segs": [ {
+      "utf8": "ADR 매각 대금이 40조 있었거든요"
+    } ]
+  }, {
+    "tStartMs": 1667300,
+    "dDurationMs": 1210,
+    "segs": [ {
+      "utf8": "미국에 상장한 거"
+    } ]
+  }, {
+    "tStartMs": 1668510,
+    "dDurationMs": 3090,
+    "segs": [ {
+      "utf8": "키옥시아 지분 매각도 한 60조 원 들어왔습니다"
+    } ]
+  }, {
+    "tStartMs": 1671600,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "그러면 순현금 100조를"
+    } ]
+  }, {
+    "tStartMs": 1673070,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "이미 거의 확보하지 않았나라는"
+    } ]
+  }, {
+    "tStartMs": 1676250,
+    "dDurationMs": 5980,
+    "segs": [ {
+      "utf8": "야 그러면은 40조에서 80조보다 더 할 수도 있겠다라는"
+    } ]
+  }, {
+    "tStartMs": 1682230,
+    "dDurationMs": 630,
+    "segs": [ {
+      "utf8": "개인적인 기대"
+    } ]
+  }, {
+    "tStartMs": 1682860,
+    "dDurationMs": 3630,
+    "segs": [ {
+      "utf8": "한 80조? 80조 할까?"
+    } ]
+  }, {
+    "tStartMs": 1686490,
+    "dDurationMs": 2700,
+    "segs": [ {
+      "utf8": "이런 요즘 이제 기대를 좀 갖고 있죠"
+    } ]
+  }, {
+    "tStartMs": 1689190,
+    "dDurationMs": 3520,
+    "segs": [ {
+      "utf8": "40조보다는 80조 정도"
+    } ]
+  }, {
+    "tStartMs": 1692710,
+    "dDurationMs": 2020,
+    "segs": [ {
+      "utf8": "정도까지는 나올 수 있지 않을까?"
+    } ]
+  }, {
+    "tStartMs": 1694730,
+    "dDurationMs": 1770,
+    "segs": [ {
+      "utf8": "만약에 100조 나온다 그러면"
+    } ]
+  }, {
+    "tStartMs": 1696500,
+    "dDurationMs": 2620,
+    "segs": [ {
+      "utf8": "정말 땡큐 베리 감사합니다 이건데"
+    } ]
+  }, {
+    "tStartMs": 1699120,
+    "dDurationMs": 2320,
+    "segs": [ {
+      "utf8": "SK하이닉스가 100조 원을 만약에 주주환원한다"
+    } ]
+  }, {
+    "tStartMs": 1701440,
+    "dDurationMs": 3460,
+    "segs": [ {
+      "utf8": "배당수익률은 한 8%?"
+    } ]
+  }, {
+    "tStartMs": 1704900,
+    "dDurationMs": 2270,
+    "segs": [ {
+      "utf8": "뭐 아래는 이상한 숫자가 써 있네요"
+    } ]
+  }, {
+    "tStartMs": 1707170,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "현재 분기 배당금 375원"
+    } ]
+  }, {
+    "tStartMs": 1709160,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "이거는 이거 아직 특별 발표가 안 나왔기 때문에"
+    } ]
+  }, {
+    "tStartMs": 1712480,
+    "dDurationMs": 2110,
+    "segs": [ {
+      "utf8": "50조에서 100조 사이 어딘가"
+    } ]
+  }, {
+    "tStartMs": 1714590,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "한번 큰 기대하고"
+    } ]
+  }, {
+    "tStartMs": 1716150,
+    "dDurationMs": 1840,
+    "segs": [ {
+      "utf8": "국민기업 SK하이닉스의 결과가"
+    } ]
+  }, {
+    "tStartMs": 1717990,
+    "dDurationMs": 860,
+    "segs": [ {
+      "utf8": "또 언제 나올지"
+    } ]
+  }, {
+    "tStartMs": 1718850,
+    "dDurationMs": 1750,
+    "segs": [ {
+      "utf8": "큰 기대하고 지켜보고 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1720600,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "그리고 얘기 다 끝났는데"
+    } ]
+  }, {
+    "tStartMs": 1721980,
+    "dDurationMs": 1490,
+    "segs": [ {
+      "utf8": "지난주에 있었던 뉴스 하나 보여드리겠습니다"
+    } ]
+  }, {
+    "tStartMs": 1723470,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "지난주에 가장 뜨거웠던 뉴스"
+    } ]
+  }, {
+    "tStartMs": 1724700,
+    "dDurationMs": 1630,
+    "segs": [ {
+      "utf8": "이걸 또 안 갖고 올 수는 없어서"
+    } ]
+  }, {
+    "tStartMs": 1726330,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "작은 뉴스로만 소개시켜 드릴게요"
+    } ]
+  }, {
+    "tStartMs": 1728230,
+    "dDurationMs": 4250,
+    "segs": [ {
+      "utf8": "엔비디아가 지난주에 AI 펀드를 결성하겠다라는 말을 했어요"
+    } ]
+  }, {
+    "tStartMs": 1732480,
+    "dDurationMs": 2350,
+    "segs": [ {
+      "utf8": "이 다음에 또 시장이 불끈불끈 했는데"
+    } ]
+  }, {
+    "tStartMs": 1734830,
+    "dDurationMs": 2420,
+    "segs": [ {
+      "utf8": "엔비디아가 세계 최대 자산운용사 여섯 곳과 함께"
+    } ]
+  }, {
+    "tStartMs": 1737250,
+    "dDurationMs": 1800,
+    "segs": [ {
+      "utf8": "협약을 체결했다고 발표했습니다"
+    } ]
+  }, {
+    "tStartMs": 1739050,
+    "dDurationMs": 3360,
+    "segs": [ {
+      "utf8": "블랙락, 블랙스톤, 아폴로, KKR, 브룩필드, 골드만삭스"
+    } ]
+  }, {
+    "tStartMs": 1742410,
+    "dDurationMs": 1210,
+    "segs": [ {
+      "utf8": "다 들어가 있었어요"
+    } ]
+  }, {
+    "tStartMs": 1743620,
+    "dDurationMs": 1120,
+    "segs": [ {
+      "utf8": "얘네들하고 뭘 한 거냐?"
+    } ]
+  }, {
+    "tStartMs": 1744740,
+    "dDurationMs": 1070,
+    "segs": [ {
+      "utf8": "AI 펀드를 결성"
+    } ]
+  }, {
+    "tStartMs": 1745810,
+    "dDurationMs": 680,
+    "segs": [ {
+      "utf8": "이게 무슨 말이냐?"
+    } ]
+  }, {
+    "tStartMs": 1746490,
+    "dDurationMs": 4900,
+    "segs": [ {
+      "utf8": "이 AI 펀드에 얘기된 규모가 700조입니다"
+    } ]
+  }, {
+    "tStartMs": 1751390,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "500 빌리언이니까 700조"
+    } ]
+  }, {
+    "tStartMs": 1753040,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "이 펀드의 목적은"
+    } ]
+  }, {
+    "tStartMs": 1754270,
+    "dDurationMs": 2240,
+    "segs": [ {
+      "utf8": "반도체 칩을 구매할 현금이 없거나"
+    } ]
+  }, {
+    "tStartMs": 1756510,
+    "dDurationMs": 3190,
+    "segs": [ {
+      "utf8": "신용등급이 낮아서 대출금리가 높은 기업들을 위해서"
+    } ]
+  }, {
+    "tStartMs": 1759700,
+    "dDurationMs": 4200,
+    "segs": [ {
+      "utf8": "700조 원짜리 자금조달 플랫폼을 만들겠다는 거예요"
+    } ]
+  }, {
+    "tStartMs": 1763900,
+    "dDurationMs": 4490,
+    "segs": [ {
+      "utf8": "700조를 누구한테 빌려주건 투자를 하건 넣겠다는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 1768390,
+    "dDurationMs": 2720,
+    "segs": [ {
+      "utf8": "그 돈으로 반도체 칩을 사라고"
+    } ]
+  }, {
+    "tStartMs": 1771110,
+    "dDurationMs": 3920,
+    "segs": [ {
+      "utf8": "근데 얘들한테 그렇게 자금을 700조를 빌려주려면"
+    } ]
+  }, {
+    "tStartMs": 1775030,
+    "dDurationMs": 1390,
+    "segs": [ {
+      "utf8": "뭔가 담보가 있든지"
+    } ]
+  }, {
+    "tStartMs": 1776420,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "유동화할 뭐가 있어야 될 거 아니에요"
+    } ]
+  }, {
+    "tStartMs": 1777890,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "유동자산 뭘 기반으로 대출해 줍니까?"
+    } ]
+  }, {
+    "tStartMs": 1780450,
+    "dDurationMs": 3650,
+    "segs": [ {
+      "utf8": "그랬더니 젠슨 황 형님이 이렇게 얘기했습니다"
+    } ]
+  }, {
+    "tStartMs": 1784100,
+    "dDurationMs": 2490,
+    "segs": [ {
+      "utf8": "엔비디아의 GPU가"
+    } ]
+  }, {
+    "tStartMs": 1786590,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "이제는 감가상각되는 일반 소비자 제품이 아니라"
+    } ]
+  }, {
+    "tStartMs": 1789770,
+    "dDurationMs": 3410,
+    "segs": [ {
+      "utf8": "투자 가능한 실물 자산으로 봐야 된다"
+    } ]
+  }, {
+    "tStartMs": 1793180,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "AI 데이터 센터를 만드는"
+    } ]
+  }, {
+    "tStartMs": 1794820,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "그 GPU를 많이 갖고 있는 기업들은"
+    } ]
+  }, {
+    "tStartMs": 1796200,
+    "dDurationMs": 1530,
+    "segs": [ {
+      "utf8": "예를 들면 1조 원어치를 사"
+    } ]
+  }, {
+    "tStartMs": 1797730,
+    "dDurationMs": 1570,
+    "segs": [ {
+      "utf8": "그럼 1조짜리 담보물이 있는 거야"
+    } ]
+  }, {
+    "tStartMs": 1799300,
+    "dDurationMs": 3260,
+    "segs": [ {
+      "utf8": "그래서 이거를 담보로 대출해 주면 되는 거 아니냐?"
+    } ]
+  }, {
+    "tStartMs": 1802560,
+    "dDurationMs": 810,
+    "segs": [ {
+      "utf8": "담보라 그러면 뭐 하고"
+    } ]
+  }, {
+    "tStartMs": 1803370,
+    "dDurationMs": 2250,
+    "segs": [ {
+      "utf8": "이걸 유동화해서 대출해 주면 되는 거 아니냐?"
+    } ]
+  }, {
+    "tStartMs": 1805620,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "뭐 이런 생각이죠"
+    } ]
+  }, {
+    "tStartMs": 1807180,
+    "dDurationMs": 1110,
+    "segs": [ {
+      "utf8": "근데 잘 생각해 보면"
+    } ]
+  }, {
+    "tStartMs": 1808290,
+    "dDurationMs": 3360,
+    "segs": [ {
+      "utf8": "GPU가 감가상각되는 일반 제품이냐?"
+    } ]
+  }, {
+    "tStartMs": 1811650,
+    "dDurationMs": 2350,
+    "segs": [ {
+      "utf8": "투자 가능한 실물 자산이냐?"
+    } ]
+  }, {
+    "tStartMs": 1814000,
+    "dDurationMs": 1100,
+    "segs": [ {
+      "utf8": "야, 이거 애매한데"
+    } ]
+  }, {
+    "tStartMs": 1815100,
+    "dDurationMs": 2580,
+    "segs": [ {
+      "utf8": "야, 물론 기업으로 치면"
+    } ]
+  }, {
+    "tStartMs": 1817680,
+    "dDurationMs": 770,
+    "segs": [ {
+      "utf8": "빌딩이 있어"
+    } ]
+  }, {
+    "tStartMs": 1818450,
+    "dDurationMs": 620,
+    "segs": [ {
+      "utf8": "사옥이 있어"
+    } ]
+  }, {
+    "tStartMs": 1819070,
+    "dDurationMs": 1350,
+    "segs": [ {
+      "utf8": "그건 실물 자산이지 오케이"
+    } ]
+  }, {
+    "tStartMs": 1820420,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "그건 가능해"
+    } ]
+  }, {
+    "tStartMs": 1821250,
+    "dDurationMs": 1790,
+    "segs": [ {
+      "utf8": "근데 기업이 컴퓨터를 많이 갖고 있어"
+    } ]
+  }, {
+    "tStartMs": 1823040,
+    "dDurationMs": 1720,
+    "segs": [ {
+      "utf8": "이걸로 해줘 그럼 어"
+    } ]
+  }, {
+    "tStartMs": 1824760,
+    "dDurationMs": 3520,
+    "segs": [ {
+      "utf8": "그거 몇 년 쓰면 감가상각돼서 바꾸는 거 아니여?"
+    } ]
+  }, {
+    "tStartMs": 1828280,
+    "dDurationMs": 2200,
+    "segs": [ {
+      "utf8": "그걸로 되나?"
+    } ]
+  }, {
+    "tStartMs": 1830480,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "젠슨 황 형님이 이렇게 얘기했습니다"
+    } ]
+  }, {
+    "tStartMs": 1831620,
+    "dDurationMs": 2040,
+    "segs": [ {
+      "utf8": "그런 낡은 생각을 하지 마라"
+    } ]
+  }, {
+    "tStartMs": 1833660,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "언제적 얘기냐?"
+    } ]
+  }, {
+    "tStartMs": 1834910,
+    "dDurationMs": 1540,
+    "segs": [ {
+      "utf8": "그런 AI 시대 전에"
+    } ]
+  }, {
+    "tStartMs": 1836450,
+    "dDurationMs": 1300,
+    "segs": [ {
+      "utf8": "그런 오프라인적 마인드"
+    } ]
+  }, {
+    "tStartMs": 1837750,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "어우 안 되는 거죠"
+    } ]
+  }, {
+    "tStartMs": 1839730,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "엔비디아 AI 플랫폼은"
+    } ]
+  }, {
+    "tStartMs": 1840870,
+    "dDurationMs": 1540,
+    "segs": [ {
+      "utf8": "당연히 투자 가능한 자산이자"
+    } ]
+  }, {
+    "tStartMs": 1842410,
+    "dDurationMs": 2500,
+    "segs": [ {
+      "utf8": "인프라 자산으로 보는 게 맞다"
+    } ]
+  }, {
+    "tStartMs": 1844910,
+    "dDurationMs": 1670,
+    "segs": [ {
+      "utf8": "빌딩과 AI 플랫폼"
+    } ]
+  }, {
+    "tStartMs": 1846580,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "여기 GPU"
+    } ]
+  }, {
+    "tStartMs": 1847940,
+    "dDurationMs": 2430,
+    "segs": [ {
+      "utf8": "뭐가 더 안전하고 뭐가 더 수익성 있는 자산이냐?"
+    } ]
+  }, {
+    "tStartMs": 1851440,
+    "dDurationMs": 850,
+    "segs": [ {
+      "utf8": "빌딩이요"
+    } ]
+  }, {
+    "tStartMs": 1852290,
+    "dDurationMs": 1160,
+    "segs": [ {
+      "utf8": "아니라는 거죠"
+    } ]
+  }, {
+    "tStartMs": 1853450,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "GPU라는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 1854920,
+    "dDurationMs": 2130,
+    "segs": [ {
+      "utf8": "그 GPU 갖고 돈을 벌 수 있잖아"
+    } ]
+  }, {
+    "tStartMs": 1857050,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "금방금방 벌어요"
+    } ]
+  }, {
+    "tStartMs": 1858300,
+    "dDurationMs": 2790,
+    "segs": [ {
+      "utf8": "1조 GPU 사면 1년 만에 뽑는다"
+    } ]
+  }, {
+    "tStartMs": 1861090,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "2년이면 2조를 벌어"
+    } ]
+  }, {
+    "tStartMs": 1862560,
+    "dDurationMs": 3200,
+    "segs": [ {
+      "utf8": "어 그러면은 더 안전한 최고의 투자자산 아니겠냐? 어?"
+    } ]
+  }, {
+    "tStartMs": 1865760,
+    "dDurationMs": 820,
+    "segs": [ {
+      "utf8": "빌딩이 뭐 돈을 벌어"
+    } ]
+  }, {
+    "tStartMs": 1866580,
+    "dDurationMs": 680,
+    "segs": [ {
+      "utf8": "얼마나 벌어?"
+    } ]
+  }, {
+    "tStartMs": 1867260,
+    "dDurationMs": 1430,
+    "segs": [ {
+      "utf8": "연에 뭐 7%, 8%?"
+    } ]
+  }, {
+    "tStartMs": 1868690,
+    "dDurationMs": 1410,
+    "segs": [ {
+      "utf8": "임차인 안 들어오면 어떡할 거야?"
+    } ]
+  }, {
+    "tStartMs": 1870100,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "뭐 그런 게 있기 때문에"
+    } ]
+  }, {
+    "tStartMs": 1871570,
+    "dDurationMs": 1490,
+    "segs": [ {
+      "utf8": "AI 플랫폼을 갖고 있는"
+    } ]
+  }, {
+    "tStartMs": 1873060,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "이런 GPU나 AI 데이터센터"
+    } ]
+  }, {
+    "tStartMs": 1874880,
+    "dDurationMs": 2550,
+    "segs": [ {
+      "utf8": "당연히 투자 가능한 자산으로 보고"
+    } ]
+  }, {
+    "tStartMs": 1877430,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "돈을 대출해 줄 수 있다는 거죠"
+    } ]
+  }, {
+    "tStartMs": 1879330,
+    "dDurationMs": 3300,
+    "segs": [ {
+      "utf8": "그래서 AI 자금조달 펀드라는 걸 만들어서"
+    } ]
+  }, {
+    "tStartMs": 1882630,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "많은 자산운용사들과 함께"
+    } ]
+  }, {
+    "tStartMs": 1884620,
+    "dDurationMs": 2810,
+    "segs": [ {
+      "utf8": "엔비디아가 뭔가 투자하건 하여튼 대출해 주건"
+    } ]
+  }, {
+    "tStartMs": 1887430,
+    "dDurationMs": 3260,
+    "segs": [ {
+      "utf8": "이런 식으로 마중물 역할을 해주겠다는 겁니다"
+    } ]
+  }, {
+    "tStartMs": 1890690,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "물론 문제는 있죠"
+    } ]
+  }, {
+    "tStartMs": 1892510,
+    "dDurationMs": 2870,
+    "segs": [ {
+      "utf8": "저 GPU나 AI 데이터센터가"
+    } ]
+  }, {
+    "tStartMs": 1895380,
+    "dDurationMs": 1080,
+    "segs": [ {
+      "utf8": "돈을 버는 건 알겠어"
+    } ]
+  }, {
+    "tStartMs": 1896460,
+    "dDurationMs": 3150,
+    "segs": [ {
+      "utf8": "근데 그거 몇 년 가냐?"
+    } ]
+  }, {
+    "tStartMs": 1899610,
+    "dDurationMs": 950,
+    "segs": [ {
+      "utf8": "지금은 가치 있어도"
+    } ]
+  }, {
+    "tStartMs": 1900560,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "이거 감가상각 5년"
+    } ]
+  }, {
+    "tStartMs": 1901820,
+    "dDurationMs": 2380,
+    "segs": [ {
+      "utf8": "5년 뒤에는 갖고 가서 게임이나 하세요"
+    } ]
+  }, {
+    "tStartMs": 1904200,
+    "dDurationMs": 1580,
+    "segs": [ {
+      "utf8": "이러면 어떡할 거야?"
+    } ]
+  }, {
+    "tStartMs": 1905780,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "5년 뒤에는 다 새로 사야 되면은"
+    } ]
+  }, {
+    "tStartMs": 1907780,
+    "dDurationMs": 1580,
+    "segs": [ {
+      "utf8": "뭐 안 되잖아"
+    } ]
+  }, {
+    "tStartMs": 1909360,
+    "dDurationMs": 3820,
+    "segs": [ {
+      "utf8": "어, 물론 지금은 최대한 오래 쓴다는 말이 있긴 하던데"
+    } ]
+  }, {
+    "tStartMs": 1913180,
+    "dDurationMs": 1660,
+    "segs": [ {
+      "utf8": "어, 하여튼 이런 게 있습니다"
+    } ]
+  }, {
+    "tStartMs": 1914840,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "그래서 금리가 굉장히 높지 않냐라는 말이 있는데"
+    } ]
+  }, {
+    "tStartMs": 1917400,
+    "dDurationMs": 1740,
+    "segs": [ {
+      "utf8": "이제 그거를 저 AI 펀드가"
+    } ]
+  }, {
+    "tStartMs": 1919140,
+    "dDurationMs": 2040,
+    "segs": [ {
+      "utf8": "금리 얼마를 낮춰줄 수 있느냐?"
+    } ]
+  }, {
+    "tStartMs": 1921180,
+    "dDurationMs": 2110,
+    "segs": [ {
+      "utf8": "이게 굉장히 중요한 그런 상황이 되겠죠"
+    } ]
+  }, {
+    "tStartMs": 1923290,
+    "dDurationMs": 1330,
+    "segs": [ {
+      "utf8": "하지만 잘 생각해 보면"
+    } ]
+  }, {
+    "tStartMs": 1924620,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "이건 뭐랑 비슷합니까?"
+    } ]
+  }, {
+    "tStartMs": 1926100,
+    "dDurationMs": 3920,
+    "segs": [ {
+      "utf8": "엔비디아가 사실상 월스트리트하고 손잡고"
+    } ]
+  }, {
+    "tStartMs": 1930020,
+    "dDurationMs": 1350,
+    "segs": [ {
+      "utf8": "뭘 한 거예요?"
+    } ]
+  }, {
+    "tStartMs": 1931370,
+    "dDurationMs": 1470,
+    "segs": [ {
+      "utf8": "거대한 마중물"
+    } ]
+  }, {
+    "tStartMs": 1932840,
+    "dDurationMs": 2900,
+    "segs": [ {
+      "utf8": "거대한 자금 집행기관이 되겠다는 거잖아"
+    } ]
+  }, {
+    "tStartMs": 1935740,
+    "dDurationMs": 3170,
+    "segs": [ {
+      "utf8": "어쨌건 초대형 여섯 개 자산운용사하고 손을 잡고"
+    } ]
+  }, {
+    "tStartMs": 1938910,
+    "dDurationMs": 2530,
+    "segs": [ {
+      "utf8": "뭔가 거대한 펀드를 만드는 거니까"
+    } ]
+  }, {
+    "tStartMs": 1941440,
+    "dDurationMs": 4480,
+    "segs": [ {
+      "utf8": "사실상 AI 인프라 시대의 중앙은행이라는 말이 나오고 있어요"
+    } ]
+  }, {
+    "tStartMs": 1945920,
+    "dDurationMs": 2230,
+    "segs": [ {
+      "utf8": "진짜 700조짜리가 가동을 하면"
+    } ]
+  }, {
+    "tStartMs": 1948150,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "스타트업들은 여기 엔비디아 와서"
+    } ]
+  }, {
+    "tStartMs": 1950250,
+    "dDurationMs": 780,
+    "segs": [ {
+      "utf8": "뭐, 안녕하세요"
+    } ]
+  }, {
+    "tStartMs": 1951030,
+    "dDurationMs": 1350,
+    "segs": [ {
+      "utf8": "슈카 스타트업인데요"
+    } ]
+  }, {
+    "tStartMs": 1952380,
+    "dDurationMs": 1480,
+    "segs": [ {
+      "utf8": "GPU 사서 이거 좀 해볼게요"
+    } ]
+  }, {
+    "tStartMs": 1953860,
+    "dDurationMs": 850,
+    "segs": [ {
+      "utf8": "근데 돈이 없어요"
+    } ]
+  }, {
+    "tStartMs": 1954710,
+    "dDurationMs": 560,
+    "segs": [ {
+      "utf8": "그러면"
+    } ]
+  }, {
+    "tStartMs": 1955270,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "그래, 내가 그럼 이 돈을 빌려줄게"
+    } ]
+  }, {
+    "tStartMs": 1956920,
+    "dDurationMs": 2620,
+    "segs": [ {
+      "utf8": "대신에 너는 엔비디아 GPU를 사야 된다"
+    } ]
+  }, {
+    "tStartMs": 1959540,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "그걸 담보로 빌려주는 거야"
+    } ]
+  }, {
+    "tStartMs": 1960680,
+    "dDurationMs": 1950,
+    "segs": [ {
+      "utf8": "그럼 받아갖고 GPU 사고"
+    } ]
+  }, {
+    "tStartMs": 1962630,
+    "dDurationMs": 1060,
+    "segs": [ {
+      "utf8": "어 돌리고"
+    } ]
+  }, {
+    "tStartMs": 1963690,
+    "dDurationMs": 2270,
+    "segs": [ {
+      "utf8": "그 엔비디아는 빌려준 돈이 다시 들어왔죠"
+    } ]
+  }, {
+    "tStartMs": 1965960,
+    "dDurationMs": 880,
+    "segs": [ {
+      "utf8": "다시 들어왔어"
+    } ]
+  }, {
+    "tStartMs": 1966840,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "GPU 팔아서"
+    } ]
+  }, {
+    "tStartMs": 1968160,
+    "dDurationMs": 3130,
+    "segs": [ {
+      "utf8": "어 그럼 그 돈으로 AI 펀드 보증해 주면 됩니다"
+    } ]
+  }, {
+    "tStartMs": 1971290,
+    "dDurationMs": 1220,
+    "segs": [ {
+      "utf8": "그럼 다른 사람이 왔을 때"
+    } ]
+  }, {
+    "tStartMs": 1972510,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "다시 여기 그 돈으로 그 사람한테 빌려주고"
+    } ]
+  }, {
+    "tStartMs": 1975480,
+    "dDurationMs": 1330,
+    "segs": [ {
+      "utf8": "그 사람은 다시 GPU 사고"
+    } ]
+  }, {
+    "tStartMs": 1976810,
+    "dDurationMs": 570,
+    "segs": [ {
+      "utf8": "GPU 샀으니까"
+    } ]
+  }, {
+    "tStartMs": 1977380,
+    "dDurationMs": 1680,
+    "segs": [ {
+      "utf8": "그거 다시 엔비디아로 들어와요"
+    } ]
+  }, {
+    "tStartMs": 1979060,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "그럼 엔비디아가 그 돈을 갖고"
+    } ]
+  }, {
+    "tStartMs": 1980200,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "다시 그 다음 사람 뭐 보증해 주거나"
+    } ]
+  }, {
+    "tStartMs": 1981900,
+    "dDurationMs": 2580,
+    "segs": [ {
+      "utf8": "대출해 주면 됩니다"
+    } ]
+  }, {
+    "tStartMs": 1984480,
+    "dDurationMs": 1590,
+    "segs": [ {
+      "utf8": "뭐 듣다 보면"
+    } ]
+  }, {
+    "tStartMs": 1986070,
+    "dDurationMs": 1720,
+    "segs": [ {
+      "utf8": "이상한데 듣다 보니까"
+    } ]
+  }, {
+    "tStartMs": 1987790,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "돈 번 사람은 없는데"
+    } ]
+  }, {
+    "tStartMs": 1988930,
+    "dDurationMs": 3070,
+    "segs": [ {
+      "utf8": "모든 사람은 행복한 것 같기도 하고 신기하죠"
+    } ]
+  }, {
+    "tStartMs": 1992000,
+    "dDurationMs": 1220,
+    "segs": [ {
+      "utf8": "하여튼 신기한데"
+    } ]
+  }, {
+    "tStartMs": 1993220,
+    "dDurationMs": 1830,
+    "segs": [ {
+      "utf8": "이런 일이 일어날 수 있는 거죠"
+    } ]
+  }, {
+    "tStartMs": 1995050,
+    "dDurationMs": 2530,
+    "segs": [ {
+      "utf8": "계속 돈 번 사람은 별로 없는 것 같은데"
+    } ]
+  }, {
+    "tStartMs": 1997580,
+    "dDurationMs": 940,
+    "segs": [ {
+      "utf8": "하여튼 이렇게 해서"
+    } ]
+  }, {
+    "tStartMs": 1998520,
+    "dDurationMs": 4010,
+    "segs": [ {
+      "utf8": "이제 AI 시대의 중앙은행 역할까지도 할 수 있는 거 아니냐?"
+    } ]
+  }, {
+    "tStartMs": 2002530,
+    "dDurationMs": 1740,
+    "segs": [ {
+      "utf8": "그리고 만약에 진짜 월스트리트가"
+    } ]
+  }, {
+    "tStartMs": 2004270,
+    "dDurationMs": 980,
+    "segs": [ {
+      "utf8": "이야, 이거 돈 된다 해서"
+    } ]
+  }, {
+    "tStartMs": 2005250,
+    "dDurationMs": 2660,
+    "segs": [ {
+      "utf8": "돈을 마구 넣으면 뭐가 되는 겁니까?"
+    } ]
+  }, {
+    "tStartMs": 2007910,
+    "dDurationMs": 3490,
+    "segs": [ {
+      "utf8": "엔비디아식 AI 양적완화"
+    } ]
+  }, {
+    "tStartMs": 2011400,
+    "dDurationMs": 1880,
+    "segs": [ {
+      "utf8": "또는 막 돈을 넣었어"
+    } ]
+  }, {
+    "tStartMs": 2013280,
+    "dDurationMs": 1800,
+    "segs": [ {
+      "utf8": "이 펀드가 막 커졌어"
+    } ]
+  }, {
+    "tStartMs": 2015080,
+    "dDurationMs": 1500,
+    "segs": [ {
+      "utf8": "근데 AI가 버블이야"
+    } ]
+  }, {
+    "tStartMs": 2016580,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "그러면 엔비디아만 망하는 게 아니라"
+    } ]
+  }, {
+    "tStartMs": 2018480,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "월스트리트가 같이 망하죠"
+    } ]
+  }, {
+    "tStartMs": 2021920,
+    "dDurationMs": 3870,
+    "segs": [ {
+      "utf8": "이게 그 유명한 위험의 금융 전이"
+    } ]
+  }, {
+    "tStartMs": 2025790,
+    "dDurationMs": 2030,
+    "segs": [ {
+      "utf8": "금융위기 때 2008년에 있었던 거"
+    } ]
+  }, {
+    "tStartMs": 2027820,
+    "dDurationMs": 1390,
+    "segs": [ {
+      "utf8": "부동산이 빵 터지면서"
+    } ]
+  }, {
+    "tStartMs": 2029210,
+    "dDurationMs": 1330,
+    "segs": [ {
+      "utf8": "부동산만 터지면 문제가 없었는데"
+    } ]
+  }, {
+    "tStartMs": 2030540,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "금융가들이 이거 갖고 뭐 막 돌렸다가"
+    } ]
+  }, {
+    "tStartMs": 2032640,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "지들이 죽었죠"
+    } ]
+  }, {
+    "tStartMs": 2034290,
+    "dDurationMs": 1110,
+    "segs": [ {
+      "utf8": "금융으로 전이돼서"
+    } ]
+  }, {
+    "tStartMs": 2035400,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "얘들은 뻥튀기를 하니까"
+    } ]
+  }, {
+    "tStartMs": 2036650,
+    "dDurationMs": 1160,
+    "segs": [ {
+      "utf8": "부동산만 망했으면"
+    } ]
+  }, {
+    "tStartMs": 2037810,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "그렇게 안 망했어요"
+    } ]
+  }, {
+    "tStartMs": 2039150,
+    "dDurationMs": 1300,
+    "segs": [ {
+      "utf8": "부동산 가격이 떨어진 것만으로"
+    } ]
+  }, {
+    "tStartMs": 2040450,
+    "dDurationMs": 1590,
+    "segs": [ {
+      "utf8": "얘들이 금융에 넣어서 막 돌리니까"
+    } ]
+  }, {
+    "tStartMs": 2042040,
+    "dDurationMs": 1270,
+    "segs": [ {
+      "utf8": "이게 막 10배, 100배 뻥튀기 돼갖고"
+    } ]
+  }, {
+    "tStartMs": 2043310,
+    "dDurationMs": 990,
+    "segs": [ {
+      "utf8": "같이 망했단 말이야"
+    } ]
+  }, {
+    "tStartMs": 2044300,
+    "dDurationMs": 1270,
+    "segs": [ {
+      "utf8": "그러니까 좋은 말로 하면"
+    } ]
+  }, {
+    "tStartMs": 2045570,
+    "dDurationMs": 2610,
+    "segs": [ {
+      "utf8": "엔비디아식 AI 양적완화가 가능할 수도 있고"
+    } ]
+  }, {
+    "tStartMs": 2048180,
+    "dDurationMs": 930,
+    "segs": [ {
+      "utf8": "나쁜 말로 하면"
+    } ]
+  }, {
+    "tStartMs": 2049110,
+    "dDurationMs": 2150,
+    "segs": [ {
+      "utf8": "하나 무너질 때 이젠 다 죽는다"
+    } ]
+  }, {
+    "tStartMs": 2052290,
+    "dDurationMs": 2240,
+    "segs": [ {
+      "utf8": "월스트리트가 얼마나 개입했냐에 따라서"
+    } ]
+  }, {
+    "tStartMs": 2054530,
+    "dDurationMs": 820,
+    "segs": [ {
+      "utf8": "얘네가 이거 넣은 다음에"
+    } ]
+  }, {
+    "tStartMs": 2055350,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "이걸로 또 펌핑 열심히 할 거 아니에요"
+    } ]
+  }, {
+    "tStartMs": 2057000,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "뭘 펌핑할지 모르겠지만"
+    } ]
+  }, {
+    "tStartMs": 2058340,
+    "dDurationMs": 2530,
+    "segs": [ {
+      "utf8": "온갖 아이디어로 막 펌핑을 거라고"
+    } ]
+  }, {
+    "tStartMs": 2060870,
+    "dDurationMs": 2580,
+    "segs": [ {
+      "utf8": "뭐 옛날처럼 뭐 CDN 만들고 뭐 만들고"
+    } ]
+  }, {
+    "tStartMs": 2063450,
+    "dDurationMs": 4330,
+    "segs": [ {
+      "utf8": "자, 이제 그러면 그럼 뭐 우리 입장에선 나쁘지 않을 수도 있어요"
+    } ]
+  }, {
+    "tStartMs": 2067780,
+    "dDurationMs": 1390,
+    "segs": [ {
+      "utf8": "삼전, SK하이닉스 주가 빠지면"
+    } ]
+  }, {
+    "tStartMs": 2069170,
+    "dDurationMs": 1090,
+    "segs": [ {
+      "utf8": "니들 다 죽는 거야"
+    } ]
+  }, {
+    "tStartMs": 2070260,
+    "dDurationMs": 900,
+    "segs": [ {
+      "utf8": "다 죽는 거"
+    } ]
+  }, {
+    "tStartMs": 2071160,
+    "dDurationMs": 1350,
+    "segs": [ {
+      "utf8": "살려, 살려주고 가든가"
+    } ]
+  }, {
+    "tStartMs": 2072510,
+    "dDurationMs": 1890,
+    "segs": [ {
+      "utf8": "올려놓고 양적완화 좀 넣어라"
+    } ]
+  }, {
+    "tStartMs": 2074400,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "확 누워버린다"
+    } ]
+  }, {
+    "tStartMs": 2075780,
+    "dDurationMs": 1740,
+    "segs": [ {
+      "utf8": "확 누우면 다 죽는 거야"
+    } ]
+  }, {
+    "tStartMs": 2077520,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "어 좋습니다 좋습니다"
+    } ]
+  }, {
+    "tStartMs": 2078840,
+    "dDurationMs": 710,
+    "segs": [ {
+      "utf8": "아 좋아요 좋아요"
+    } ]
+  }, {
+    "tStartMs": 2079550,
+    "dDurationMs": 700,
+    "segs": [ {
+      "utf8": "어깨걸고 가는 거죠"
+    } ]
+  }, {
+    "tStartMs": 2080250,
+    "dDurationMs": 1540,
+    "segs": [ {
+      "utf8": "자 미국 형님들과"
+    } ]
+  }, {
+    "tStartMs": 2081790,
+    "dDurationMs": 1950,
+    "segs": [ {
+      "utf8": "어깨 걸고 가는 K-반도체"
+    } ]
+  }, {
+    "tStartMs": 2083740,
+    "dDurationMs": 2510,
+    "segs": [ {
+      "utf8": "이게 되지 않았나 생각을 합니다"
+    } ]
+  }, {
+    "tStartMs": 2086250,
+    "dDurationMs": 1060,
+    "segs": [ {
+      "utf8": "아 좋다, 좋다"
+    } ]
+  }, {
+    "tStartMs": 2087310,
+    "dDurationMs": 2010,
+    "segs": [ {
+      "utf8": "또 월요일은 쉬네요 음"
+    } ]
+  }, {
+    "tStartMs": 2089320,
+    "dDurationMs": 980,
+    "segs": [ {
+      "utf8": "쉬는 게 나을 수도 있다"
+    } ]
+  }, {
+    "tStartMs": 2090300,
+    "dDurationMs": 1020,
+    "segs": [ {
+      "utf8": "쉬는 게 그렇죠"
+    } ]
+  }, {
+    "tStartMs": 2091320,
+    "dDurationMs": 630,
+    "segs": [ {
+      "utf8": "쉬는 게 나을 수 있다"
+    } ]
+  }, {
+    "tStartMs": 2091950,
+    "dDurationMs": 1030,
+    "segs": [ {
+      "utf8": "좋은 뉴스가 더 와서"
+    } ]
+  }, {
+    "tStartMs": 2092980,
+    "dDurationMs": 1760,
+    "segs": [ {
+      "utf8": "화요일 날에는 주식이 많이 오르고"
+    } ]
+  }, {
+    "tStartMs": 2094740,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "여러분들 모두 행복해지고"
+    } ]
+  }, {
+    "tStartMs": 2096380,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "우리나라가 쭉쭉 잘 되고"
+    } ]
+  }, {
+    "tStartMs": 2097610,
+    "dDurationMs": 900,
+    "segs": [ {
+      "utf8": "삼성전자, SK하이닉스도"
+    } ]
+  }, {
+    "tStartMs": 2098510,
+    "dDurationMs": 2330,
+    "segs": [ {
+      "utf8": "앞으로 더더욱 국민기업이 돼서"
+    } ]
+  }, {
+    "tStartMs": 2100840,
+    "dDurationMs": 2770,
+    "segs": [ {
+      "utf8": "계속 발전하기를 한번 기원해 보겠습니다"
+    } ]
+  } ]
+}
