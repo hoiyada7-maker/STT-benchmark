@@ -129,6 +129,34 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 
 > MOSS suffers from an autoregressive decoding bottleneck that sharply slows it down on long-form transcription, making it unsuitable for continuous live captioning.
 
+### 2-4. Runtime environment characteristics (streaming suitability · CPU · GPU hardware compatibility)
+
+> Separately from accuracy/speed (§2-1~2-3), this summarizes **where (on what hardware) each engine can run**, based on the runtime each adapter in this repo actually uses.
+> - **Streaming suitability** refers not to throughput (RTF) but to whether the architecture supports online/streaming output with *low latency while speech is ongoing*. This benchmark measured everything in offline batch mode, so this column reflects architectural potential.
+> - Under **GPU hardware**, "NVIDIA only" means the runtime is CUDA-exclusive, so AMD/Apple/Intel GPUs get no acceleration.
+
+| Engine / Model | Runtime (backend) | Streaming suitability | CPU support | GPU hardware compatibility | Context/hotword | Language auto-detect |
+|---|---|---|---|---|---|---|
+| **faster-whisper** | CTranslate2 | Unsuitable (offline batch, Silero VAD) | Yes (int8-optimized) | **NVIDIA only** — CTranslate2 is CUDA/cuDNN-exclusive | Yes (initial_prompt·hotwords·prefix, but adapter doesn't pass them) | Yes (language=None, once on the first 30s window) |
+| **SenseVoice** | PyTorch (FunASR) | Semi-suitable (non-autoregressive, short chunk latency) | Yes | NVIDIA — adapter fixes cuda/cpu (ROCm/MPS only in theory via torch) | No (SenseVoice has no hotword argument) | Yes (language="auto", per-segment LID tag) |
+| **SenseVoice-GGUF** | ggml / llama.cpp (native binary) | Semi-suitable (same model, subprocess so batch-leaning) | Yes (**CPU-only**) | None — shipped binary is a CPU build (rebuild ggml for Metal/CUDA/Vulkan = vendor-agnostic) | No (lightweight CLI, no biasing API) | Yes (SenseVoice model's built-in LID) |
+| **Parakeet** | onnxruntime | Semi-suitable (FastConformer family, but the onnx path is offline) | Yes (CPU in this repo) | **Vendor-flexible** — CPU here, but onnxruntime-gpu(CUDA)·DirectML(AMD/Intel)·CoreML possible | No (no text-hint input path in onnx) | Yes (multilingual internal recognition, no language arg · Korean out of scope) |
+| **Moonshine** | onnxruntime (default) / transformers (fallback) | Suitable (low-latency on-device design) | Yes (onnx path) | onnx=CPU/DirectML flexible, transformers fallback is NVIDIA (device=0) | No | N/A (English-only) |
+| **MOSS** | PyTorch (transformers) | Unsuitable (autoregressive decoding bottleneck, degrades on long-form) | Possible but not recommended (float32) | NVIDIA — bf16 on cuda, else cpu | Prompt-capable (Qwen3 LLM decoder, not exposed by adapter) | Yes (multilingual, Whisper-encoder based · language unspecified) |
+| **Qwen3-ASR** | PyTorch (transformers, bf16) | Unsuitable (utterance-level batch · LLM) | Possible but not recommended (bf16 LLM) | NVIDIA — cuda:0/bf16 | Yes (`context` free text, but adapter doesn't pass it) | Model supports it · adapter fixes it (adapter specifies the language) |
+| **NeMo (2026)** | NVIDIA NeMo (torch) | **Suitable** (nemotron checkpoints are streaming variants · cache-aware) | Possible but impractical (assumes GPU) | **NVIDIA only** — NeMo is a CUDA ecosystem | Limited (prompt is for locale selection, not vocabulary boosting) | No (nemotron-3.5 specifies language via prompt; the others are English-only) |
+| **Granite-Speech** | PyTorch (transformers, bf16 + peft) | Unsuitable (LLM 2-pass · 30s batch) | Possible but not recommended (bf16 2-pass) | NVIDIA — cuda:0/bf16 | Prompt-capable (LLM decoder apply_chat_template) | N/A (English + 5 EU languages, no auto-detect argument) |
+
+**Notes**
+
+- **What "NVIDIA only" really means** — faster-whisper (CTranslate2) and NeMo are bound to CUDA/cuDNN at the runtime level, so AMD/Apple/Intel GPUs get no GPU acceleration. The torch-based ones (SenseVoice·MOSS·Qwen3·Granite) could in theory use ROCm (AMD) or MPS (Apple), but this repo's adapters branch only on `cuda:0`/`cpu`, making them effectively NVIDIA-only.
+- **The most hardware-flexible axis is the onnx family** — the onnxruntime used by Parakeet·Moonshine can run on CPU plus DirectML (any DX12 GPU, incl. AMD·Intel), CoreML (Apple), or CUDA just by switching the execution provider. This repo, however, ran both on CPU (hence the `(CPU)` tags in the §2 RTF).
+- **GGUF ships CPU-only** — SenseVoice-GGUF invokes the prebuilt `llama-funasr-sensevoice.exe` on CPU via subprocess. ggml itself can be rebuilt with Metal/CUDA/Vulkan backends for GPU, but the currently obtained asset is a CPU build.
+- **CPU support "Yes" vs "possible but not recommended"** — "Yes" means practical speed on CPU (faster-whisper int8, SenseVoice, the onnx family, GGUF). "Possible but not recommended" (MOSS·Qwen3·NeMo·Granite) means a CPU branch exists in code, but bf16 LLMs / NeMo assume a GPU, making CPU very slow or impractical.
+- **Streaming suitability is architecture-based** — suitable (Moonshine·NeMo streaming variants) are online/low-latency designs; semi-suitable (SenseVoice·Parakeet) can do pseudo-streaming via non-autoregression or chunking; unsuitable (faster-whisper·MOSS·Qwen3·Granite) are utterance/chunk batch models. This benchmark's RTF is all offline-batch measurement, not a direct measure of streaming latency.
+- **Only two have native context/hotword support** — the ones with dedicated arguments are Qwen3-ASR (`context` free text) and faster-whisper (`initial_prompt`·`hotwords`·`prefix`). Note that neither adapter currently passes these, so using them just requires adding a parameter pass-through. granite-speech·MOSS are LLM decoders and can inject context via prompt, though not through a dedicated API, while NeMo's `prompt` is for locale selection rather than vocabulary boosting. SenseVoice·SenseVoice-GGUF·Parakeet·Moonshine have no text-hint input path at all.
+- **Language auto-detect defaults to "detect once"** — even when auto-detection is supported, it usually decides once at the start (or the start of each segment) and locks that span. SenseVoice, being non-autoregressive with per-segment LID, is comparatively flexible at utterance-boundary switches; faster-whisper detects once on the first 30s window. Qwen3-ASR's model can auto-detect across languages, but this repo's adapter fixes the language (English/Korean); NeMo (nemotron-3.5) doesn't auto-detect but specifies the language via `prompt`. In every case, if languages are mixed within one utterance (code-switching), that segment is processed as a single language.
+
 ---
 
 ## 3. Explanation of benchmark terms and final interpretation

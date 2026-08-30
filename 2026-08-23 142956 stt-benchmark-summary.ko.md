@@ -129,6 +129,34 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 
 > MOSS는 자기회귀 디코딩 병목으로 장문 전사 시 속도가 급격히 떨어져 연속 라이브 캡션에는 부적합하다.
 
+### 2-4. 실행 환경별 특성 (스트리밍 적합도 · CPU · GPU 하드웨어 호환성)
+
+> 정확도·속도(§2-1~2-3)와 별개로, 각 엔진을 **어디서(어떤 하드웨어) 돌릴 수 있는지**를 이 레포 어댑터가 실제로 쓰는 런타임 기준으로 정리한다.
+> - **스트리밍 적합도**는 처리량(RTF)이 아니라 *말하는 도중 낮은 지연으로 결과를 내는* 온라인/스트리밍 아키텍처 지원 여부다. 본 벤치는 전부 오프라인 배치로 측정했으므로 이 열은 아키텍처 잠재력 기준이다.
+> - **GPU 하드웨어**의 "NVIDIA만"은 런타임이 CUDA 전용이라 AMD·Apple·Intel GPU로는 가속이 안 된다는 뜻이다.
+
+| 엔진 / 모델 | 런타임(백엔드) | 스트리밍 적합도 | CPU 지원 | GPU 하드웨어 호환성 | 컨텍스트/핫워드 | 언어 auto 감지 |
+|---|---|---|---|---|---|---|
+| **faster-whisper** | CTranslate2 | 부적합 (오프라인 배치, Silero VAD) | 지원 (int8 최적화) | **NVIDIA만** — CTranslate2가 CUDA/cuDNN 전용 | 지원 (initial_prompt·hotwords·prefix, 단 어댑터 미전달) | 지원 (language=None, 첫 30초 창 1회) |
+| **SenseVoice** | PyTorch (FunASR) | 준적합 (비자기회귀·짧은 청크 지연) | 지원 | NVIDIA — 어댑터가 cuda/cpu 고정 (torch라 ROCm/MPS는 이론상) | 미지원 (SenseVoice에 hotword 인자 없음) | 지원 (language="auto", 세그먼트별 LID 태그) |
+| **SenseVoice-GGUF** | ggml / llama.cpp (네이티브 바이너리) | 준적합 (동일 모델, subprocess라 배치 성향) | 지원 (**CPU 전용**) | 없음 — 배포 바이너리가 CPU 빌드 (ggml 재빌드 시 Metal/CUDA/Vulkan 무관) | 미지원 (경량 CLI, 바이어싱 API 없음) | 지원 (SenseVoice 모델 내장 LID) |
+| **Parakeet** | onnxruntime | 준적합 (FastConformer 계열, onnx 경로는 오프라인) | 지원 (이 레포 CPU 구동) | **벤더 유연** — 이 레포는 CPU, onnxruntime-gpu(CUDA)·DirectML(AMD/Intel)·CoreML 가능 | 미지원 (onnx 텍스트 힌트 경로 없음) | 지원 (다국어 내부 인식, 언어 인자 없음·한국어 범위 밖) |
+| **Moonshine** | onnxruntime (기본) / transformers (폴백) | 적합 (저지연 온디바이스 설계) | 지원 (onnx 경로) | onnx=CPU/DirectML 유연, transformers 폴백은 NVIDIA(device=0) | 미지원 | 해당없음 (영어 전용) |
+| **MOSS** | PyTorch (transformers) | 부적합 (자기회귀 디코딩 병목, 장문 급저하) | 가능하나 비권장 (float32) | NVIDIA — cuda면 bf16, 아니면 cpu | 프롬프트 가능 (Qwen3 LLM 디코더, 어댑터 미노출) | 지원 (다국어, Whisper 인코더 기반·언어 미지정) |
+| **Qwen3-ASR** | PyTorch (transformers, bf16) | 부적합 (발화 단위 배치·LLM) | 가능하나 비권장 (bf16 LLM) | NVIDIA — cuda:0/bf16 | 지원 (context 자유 텍스트, 단 어댑터 미전달) | 모델 지원·어댑터 고정 (어댑터가 언어 명시) |
+| **NeMo (2026)** | NVIDIA NeMo (torch) | **적합** (nemotron 체크포인트가 streaming 변형·cache-aware) | 가능하나 비실용 (GPU 전제) | **NVIDIA만** — NeMo가 CUDA 생태계 | 제한적 (prompt는 로케일 지정용, 어휘 부스팅 아님) | 미지원 (nemotron-3.5는 prompt로 언어 지정, 나머지 영어 전용) |
+| **Granite-Speech** | PyTorch (transformers, bf16 + peft) | 부적합 (LLM 2-pass·30초 배치) | 가능하나 비권장 (bf16 2-pass) | NVIDIA — cuda:0/bf16 | 프롬프트 가능 (LLM 디코더 apply_chat_template) | 해당없음 (영어+EU 5종, 자동감지 인자 없음) |
+
+**해설**
+
+- **"NVIDIA만"의 진짜 의미** — faster-whisper(CTranslate2)와 NeMo는 런타임 자체가 CUDA/cuDNN에 묶여 있어 AMD·Apple·Intel GPU로는 GPU 가속이 안 된다. torch 기반(SenseVoice·MOSS·Qwen3·Granite)은 이론상 ROCm(AMD)·MPS(Apple)도 가능하지만, 이 레포 어댑터가 `cuda:0`/`cpu`로만 분기해 실질적으로 NVIDIA 전용이다.
+- **가장 하드웨어-유연한 축은 onnx 계열** — Parakeet·Moonshine이 쓰는 onnxruntime은 CPU 외에 DirectML(모든 DX12 GPU: AMD·Intel 포함)·CoreML(Apple)·CUDA로 실행 프로바이더만 바꾸면 된다. 단 이 레포는 둘 다 CPU로 돌렸다(그래서 §2 RTF에 `(CPU)` 표기가 붙었다).
+- **GGUF는 CPU 전용으로 배포** — SenseVoice-GGUF는 사전 빌드된 `llama-funasr-sensevoice.exe`를 subprocess로 CPU 호출한다. ggml 자체는 Metal·CUDA·Vulkan 백엔드로 재빌드하면 GPU도 되지만, 현재 확보한 자산은 CPU 빌드다.
+- **CPU 지원 "지원" vs "가능하나 비권장"** — "지원"은 CPU에서 실용 속도가 나오는 경우(faster-whisper int8, SenseVoice, onnx 계열, GGUF)다. "가능하나 비권장"(MOSS·Qwen3·NeMo·Granite)은 코드상 CPU 분기는 있으나 bf16 LLM·NeMo처럼 GPU를 전제해 CPU로는 매우 느리거나 비실용적이다.
+- **스트리밍 적합도는 아키텍처 기준** — 적합(Moonshine·NeMo streaming 변형)은 온라인/저지연 설계, 준적합(SenseVoice·Parakeet)은 비자기회귀나 청크로 유사 스트리밍이 가능한 정도, 부적합(faster-whisper·MOSS·Qwen3·Granite)은 발화/청크 배치 모델이다. 본 벤치의 RTF는 전부 오프라인 배치 측정치라 스트리밍 지연을 직접 잰 값이 아니다.
+- **컨텍스트/핫워드 네이티브 지원은 둘뿐** — 전용 인자를 가진 건 Qwen3-ASR(`context` 자유 텍스트)와 faster-whisper(`initial_prompt`·`hotwords`·`prefix`)다. 다만 현재 두 어댑터 모두 이 인자를 넘기지 않으므로, 쓰려면 파라미터 통로만 추가하면 된다. granite-speech·MOSS는 LLM 디코더라 프롬프트로 문맥을 주입할 수 있으나 전용 API는 아니고, NeMo의 `prompt`는 어휘 부스팅이 아니라 로케일 지정용이다. SenseVoice·SenseVoice-GGUF·Parakeet·Moonshine은 텍스트 힌트 입력 경로 자체가 없다.
+- **언어 auto 감지는 "1회 감지"가 기본** — 자동 감지를 지원해도 대개 시작(또는 세그먼트 시작)에 한 번 판정해 그 구간을 고정한다. SenseVoice는 비자기회귀+세그먼트 LID라 발화 경계 전환에 상대적으로 유연하고, faster-whisper는 첫 30초 창에서 1회 감지한다. Qwen3-ASR은 모델 자체는 다국어 자동이 가능하나 이 레포 어댑터가 언어를 명시(English/Korean)해 고정하며, NeMo(nemotron-3.5)는 자동 감지가 아니라 `prompt`로 언어를 지정하는 방식이다. 어느 경우든 한 발화 안에서 언어가 섞이면(code-switching) 그 세그먼트는 한 언어로 처리된다.
+
 ---
 
 ## 3. 벤치마크 수치 용어 설명과 최종 해석
