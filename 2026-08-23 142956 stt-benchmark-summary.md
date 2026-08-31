@@ -71,10 +71,12 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 | faster-whisper · medium | 0.0908 | 0.0627 | 0.066 |
 | faster-whisper · large-v3 | 0.0736 | 0.0540 | 0.377 |
 | **faster-whisper · large-v3-turbo** | **0.0681** | **0.0485** | 0.128 |
+| faster-whisper · large-v3-turbo (CPU) | 0.0763 | 0.0517 | 0.480 |
 | faster-whisper · distil-large-v3 | 0.0901 | 0.0581 | 0.075 |
 | faster-whisper · distil-large-v3.5 | 0.1919 | 0.1573 | 0.083 |
 
 - The top English accuracy is **large-v3-turbo**, which is both more accurate than the full-size large-v3 and about 3x faster.
+- **large-v3-turbo (CPU, int8)** holds essentially the same accuracy as GPU (FP16): WER 0.0681 → 0.0763 (~+1pp), CER 0.0485 → 0.0517. Only speed changes — RTF goes from 0.128 to ~0.48 (observed 0.48–0.68), roughly 4–5x slower. In short, int8 quantization costs speed, not accuracy.
 - **distil-large-v3** delivers medium-level accuracy at the highest speed (RTF 0.075), making it the best-value option for English.
 - **Moonshine (base)** is an ultra-lightweight English-only model, yet its WER of 0.1341 beats whisper-small (0.1774) — making it attractive for on-device, low-power English dictation.
 - **Parakeet (v3)** came in lower than expected on this clip's English, at WER 0.2469. The main reason is that v3 is a **unified multilingual model**, putting it at a disadvantage versus an English-specialized variant (v2); the fixed-window chunking effect noted below is minimal (only about 4 boundaries).
@@ -103,6 +105,7 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 | faster-whisper · medium | 0.2079 | 0.0918 | 0.093 |
 | faster-whisper · large-v3 | 0.2207 | 0.1207 | 0.486 |
 | **faster-whisper · large-v3-turbo** | **0.1865** | **0.0855** | 0.141 |
+| faster-whisper · large-v3-turbo (CPU) | 0.1565 | 0.0641 | 0.941 |
 | faster-whisper · distil-large-v3 | 0.9949 | 0.8459 | 0.193 |
 | faster-whisper · distil-large-v3.5 | 0.9957 | 0.8592 | 0.113 |
 | Parakeet · v3 | — (unsupported) | — | — |
@@ -111,6 +114,7 @@ These repos were reviewed as STT candidates but excluded from the benchmark beca
 | Granite-Speech 3.3 | — (English only) | — | — |
 
 - Top Korean accuracy also goes to **large-v3-turbo**, the only model that improves on medium.
+- **large-v3-turbo (CPU, int8)** scores WER 0.1565 / CER 0.0641 on Korean — lower (better) than the GPU (FP16) measurement of 0.1865 / 0.0855. Unlike English, where CPU was slightly worse, on this clip the int8 quantization noise happened to nudge beam search toward the correct tokens (a clip-specific coincidence, not a general trend). RTF is 0.141 → 0.941, about 6.7x slower.
 - **The distil variants are unusable for Korean** (WER ~0.99). Because they were distilled with an English focus, their multilingual capability was stripped out.
 - **The SenseVoice family lags far behind for Korean** (WER ~0.70) — a limitation of a Chinese-centric multilingual model.
 - **Qwen3-ASR (1.7B)** posts a WER of 0.2626, roughly on par with small (0.2541), but falls short of medium (0.2079) and large-v3-turbo (0.1865).

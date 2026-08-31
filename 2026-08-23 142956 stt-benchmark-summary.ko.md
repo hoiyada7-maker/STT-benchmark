@@ -71,10 +71,12 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 | faster-whisper · medium | 0.0908 | 0.0627 | 0.066 |
 | faster-whisper · large-v3 | 0.0736 | 0.0540 | 0.377 |
 | **faster-whisper · large-v3-turbo** | **0.0681** | **0.0485** | 0.128 |
+| faster-whisper · large-v3-turbo (CPU) | 0.0763 | 0.0517 | 0.480 |
 | faster-whisper · distil-large-v3 | 0.0901 | 0.0581 | 0.075 |
 | faster-whisper · distil-large-v3.5 | 0.1919 | 0.1573 | 0.083 |
 
 - 영어 정확도 1위는 **large-v3-turbo**로, 풀사이즈 large-v3보다도 정확하면서 약 3배 빠르다.
+- **large-v3-turbo (CPU·int8)**는 GPU(FP16)와 정확도가 사실상 같다 — WER 0.0681→0.0763(약 +1%p), CER 0.0485→0.0517. 대신 RTF는 0.128→약 0.48(측정 편차 0.48~0.68)로 약 4~5배 느리다. 즉 int8 양자화는 정확도가 아니라 속도에만 주로 비용이 간다.
 - **distil-large-v3**는 medium급 정확도를 최고 속도(RTF 0.075)로 내는 영어 가성비 옵션이다.
 - **Moonshine(base)**는 초경량 영어 전용 모델임에도 WER 0.1341로 whisper-small(0.1774)보다 우수해, 온디바이스·저전력 영어 받아쓰기에 매력적이다.
 - **Parakeet(v3)**는 WER 0.2469로 이 클립 영어에서 기대만큼 높지 않았다. 주된 원인은 v3가 **다국어 통합 모델**이라 영어 특화(v2)보다 불리한 것이며, 아래 단서의 고정창 분할 영향은 (경계가 4개뿐이라) 미미하다.
@@ -103,6 +105,7 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 | faster-whisper · medium | 0.2079 | 0.0918 | 0.093 |
 | faster-whisper · large-v3 | 0.2207 | 0.1207 | 0.486 |
 | **faster-whisper · large-v3-turbo** | **0.1865** | **0.0855** | 0.141 |
+| faster-whisper · large-v3-turbo (CPU) | 0.1565 | 0.0641 | 0.941 |
 | faster-whisper · distil-large-v3 | 0.9949 | 0.8459 | 0.193 |
 | faster-whisper · distil-large-v3.5 | 0.9957 | 0.8592 | 0.113 |
 | Parakeet · v3 | — (미지원) | — | — |
@@ -111,6 +114,7 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 | Granite-Speech 3.3 | — (영어 전용) | — | — |
 
 - 한국어 정확도 1위 역시 **large-v3-turbo**로, 유일하게 medium보다 개선된 모델이다.
+- **large-v3-turbo (CPU·int8)**는 한국어에서 WER 0.1565 / CER 0.0641로, GPU(FP16)의 0.1865 / 0.0855보다 오히려 낮다. 영어에선 CPU가 GPU보다 소폭 나빴던 것과 반대로, 이 클립에서는 int8 양자화 노이즈가 빔서치를 정답 방향으로 밀어낸 우연으로 보인다(일반적 경향이 아님). RTF는 0.141→0.941로 약 6.7배 느리다.
 - **distil 계열은 한국어에서 사용 불가**(WER ~0.99). 영어 위주로 증류돼 다국어 능력이 제거된 탓이다.
 - **SenseVoice 계열은 한국어에서 크게 뒤처진다**(WER ~0.70). 중국어 중심 다국어 모델의 한계.
 - **Qwen3-ASR(1.7B)**는 WER 0.2626으로 whisper-small(0.2541)과 비슷한 수준이며, medium(0.2079)·large-v3-turbo(0.1865)에는 못 미친다.

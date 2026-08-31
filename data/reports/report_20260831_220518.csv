@@ -1,0 +1,4 @@
+﻿file,engine,model,wer_raw,cer_raw,wer_norm,cer_norm,rtf,elapsed_s,audio_s,hyp_words
+kr_first10min,faster-whisper,whisper-large-v3-turbo,0.3122,0.1591,0.2712,0.1442,0.511,306.54,600.0,1166
+talk_first10min,faster-whisper,whisper-large-v3-turbo,0.2451,0.1259,0.1358,0.0966,0.513,308.04,600.0,1889
+ted_first10min,faster-whisper,whisper-large-v3-turbo,0.1306,0.0655,0.0763,0.0517,0.681,408.54,600.0,1469
