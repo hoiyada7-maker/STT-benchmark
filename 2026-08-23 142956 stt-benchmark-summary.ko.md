@@ -4,7 +4,7 @@
 > 영어·한국어 두 언어를 각각 사람이 작성한 수동 자막을 정답으로 삼아 측정했다.
 >
 > **측정 환경**: CPU — 12th Gen Intel Core i7-12850HX (2.10 GHz) · GPU — NVIDIA RTX A2000 8GB Laptop GPU.
-> RTF 수치는 별도 표기가 없으면 GPU 기준이며, `(CPU)` 표기가 붙은 항목(SenseVoice-GGUF·Parakeet·Moonshine)은 위 CPU에서 측정한 값이다.
+> RTF 수치는 별도 표기가 없으면 GPU 기준이며, `(CPU)` 표기가 붙은 항목(SenseVoice-GGUF·Parakeet·Moonshine·VibeVoice-BitNet)은 위 CPU에서 측정한 값이다.
 
 ---
 
@@ -23,8 +23,9 @@
 | **Qwen3-ASR** | LLM 기반 ASR | [QwenLM/Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR) | 52개 (ko/en 포함) | Qwen3 LLM 백본 기반 전사 모델. 0.6B/1.7B 두 크기로 채점(같은 레포의 ForcedAligner-0.6B는 정답 텍스트→오디오 타임스탬프 정렬 전용이라 전사 채점 대상 아님). 한국어 파인튜닝(TeamUNIVA/qwen3_asr_1.7b_ko_beta)도 함께 채점 |
 | **Granite-Speech** | LLM 기반 ASR | [ibm-granite/granite-speech-models](https://github.com/ibm-granite/granite-speech-models) | 영어 + 유럽어 5종 (**한국어 미지원**) | IBM Granite-Speech 3.3 — Whisper 인코더 + Granite LLM 의 2-pass 구조. transformers 로 GPU 구동(peft 필요) |
 | **NeMo (2026)** | NVIDIA NeMo FastConformer/RNNT | [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) | 영어 전용 2종 + 40개(ko 포함, Nemotron-3.5) | 2026년 NeMo 신모델 3종 — Parakeet-Unified·Nemotron-Speech(영어), Nemotron-3.5(다국어, `prompt` 로 언어 지정). 위 onnx Parakeet(v3)와 같은 NeMo 계보지만 별개 신모델이며, 전용 Python 3.12 venv 필요·600초 통짜 GPU 추론 |
+| **VibeVoice-ASR** | LLM 기반 ASR | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) · [microsoft/VibeASR.cpp](https://github.com/microsoft/VibeASR.cpp)(BitNet 런타임) | 50+ (ko/en 포함) | 연속형 음향+의미 음성 토크나이저(7.5 Hz) + Qwen2.5 LLM 디코더. ASR + 화자 분리 + 타임스탬프를 한 번에 출력하며, 언어 지정 파라미터 없음(자동 감지)·핫워드/컨텍스트 지원. 7B(4-bit, GPU)와 BitNet 1.5B(CPU, VibeASR.cpp) 두 변형으로 채점. Streaming-7B 변형은 4-bit로도 8GB GPU에 올라가지 않아 제외 |
 
-> 6개 앱 모두 **Whisper 계열(faster-whisper / whisper.cpp / WhisperX)을 핵심·기본 엔진으로 사용**하며, 관련 앱에 반복 등장하던 **Parakeet·Moonshine**도 이번에 영어로 추가 검토했다(결과는 §2). LLM 기반 ASR 계열엔 MOSS 외에 **Qwen3-ASR**도 함께 검토했는데, Qwen3-ASR은 영어·한국어 두 언어 모두 채점했다. 여기에 더해 **NVIDIA가 2026년 공개한 NeMo 신모델 3종**(Parakeet-Unified·Nemotron-Speech·Nemotron-3.5)도 채점에 추가했다(영어 3종, 한국어는 다국어인 Nemotron-3.5만). 이어서 **IBM Granite-Speech 3.3(영어)**과 **Qwen3-ASR 한국어 파인튜닝(TeamUNIVA/qwen3_asr_1.7b_ko_beta)**도 추가 채점했다. **Deepgram**은 STT지만 유료 클라우드 API(키+인터넷 필수)라 로컬 벤치에서 제외했고, **VibeVoice**는 TTS라 아래 범위 밖 표에 포함했다. `whisper.cpp`·`WhisperX`·TensorRT·OpenVINO·`sherpa-onnx` 등은 새 엔진이 아니라 기존 모델의 **다른 런타임**이다.
+> 6개 앱 모두 **Whisper 계열(faster-whisper / whisper.cpp / WhisperX)을 핵심·기본 엔진으로 사용**하며, 관련 앱에 반복 등장하던 **Parakeet·Moonshine**도 이번에 영어로 추가 검토했다(결과는 §2). LLM 기반 ASR 계열엔 MOSS 외에 **Qwen3-ASR**도 함께 검토했는데, Qwen3-ASR은 영어·한국어 두 언어 모두 채점했다. 여기에 더해 **NVIDIA가 2026년 공개한 NeMo 신모델 3종**(Parakeet-Unified·Nemotron-Speech·Nemotron-3.5)도 채점에 추가했다(영어 3종, 한국어는 다국어인 Nemotron-3.5만). 이어서 **IBM Granite-Speech 3.3(영어)**과 **Qwen3-ASR 한국어 파인튜닝(TeamUNIVA/qwen3_asr_1.7b_ko_beta)**도 추가 채점했다. **Deepgram**은 STT지만 유료 클라우드 API(키+인터넷 필수)라 로컬 벤치에서 제외했고, **VibeVoice**는 계열이다 — VibeVoice-TTS·VibeVoice-Realtime은 TTS라 아래 범위 밖 표에 포함했지만, **VibeVoice-ASR은 STT**라 채점했다(GPU 7B 4-bit, CPU BitNet 1.5B. Streaming-7B는 8GB VRAM에서 구동 불가). `whisper.cpp`·`WhisperX`·TensorRT·OpenVINO·`sherpa-onnx` 등은 새 엔진이 아니라 기존 모델의 **다른 런타임**이다.
 
 ### Whisper 계열에서 채점한 모델 라인업
 
@@ -41,7 +42,7 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 
 | 레포 / 이름 | 성격 |
 |---|---|
-| pocket-tts · dots.tts · Qwen3-TTS · kokoro · supertonic · VibeVoice | TTS (텍스트→음성) |
+| pocket-tts · dots.tts · Qwen3-TTS · kokoro · supertonic · VibeVoice-TTS · VibeVoice-Realtime | TTS (텍스트→음성) |
 | VoxCPM · voicebox · Seed-VC | 음성 합성 / 보이스 클론·변환 |
 | translategemma · AirTranslate · Synthalingua | 번역 / 자막 번역 파이프라인 |
 
@@ -67,6 +68,8 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 | NeMo · Parakeet-Unified | 0.1190 | 0.0843 | 0.153 |
 | NeMo · Nemotron-Speech | 0.1664 | 0.1074 | 0.146 |
 | NeMo · Nemotron-3.5 | 0.1623 | 0.1001 | 0.159 |
+| VibeVoice-ASR · 7B (4-bit) | 0.2325 | 0.1541 | 0.609 |
+| VibeVoice-ASR-BitNet · 1.5B (CPU) | 0.2785 | 0.1797 | 0.344 |
 | faster-whisper · small | 0.1774 | 0.1163 | 0.030 |
 | faster-whisper · medium | 0.0908 | 0.0627 | 0.066 |
 | faster-whisper · large-v3 | 0.0736 | 0.0540 | 0.377 |
@@ -84,12 +87,15 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 - **NeMo(2026) 3종**은 영어 WER 0.119~0.166으로, 최상위 **Parakeet-Unified(0.1190)**가 whisper-medium(0.0908)에는 못 미치지만 whisper-small(0.1774)·Qwen3-ASR·Moonshine보다 낫다. onnx Parakeet(v3)와 달리 세 모델 모두 **600초를 통짜로 GPU 추론**(청킹 없음)해 RTF도 GPU 기준이라 Whisper와 직접 비교된다. 단 Parakeet-Unified는 도입부 첫 문장을 통째로 놓쳐(약 38단어 삭제) 그만큼 손해를 봤음에도 NeMo 3종 중 1위였다.
 - **Qwen3-ASR 한국어 파인튜닝(1.7b-ko)**은 영어 WER 0.1809로 base 1.7B(0.1417)보다 소폭 하락했다. 한국어 특화 학습의 대가로 영어 일반 성능이 약간 희생된 것이다.
 - **Granite-Speech 3.3(2B)**는 영어 WER 0.1224로 Moonshine(0.1341)·Qwen3-ASR 1.7B(0.1417)·whisper-small(0.1774)을 웃돌고 medium(0.0908)에 근접한 강한 영어 성능이다. 단문형(short-form) 설계라 30초 고정창으로 나눠 처리했다.
+- **VibeVoice-ASR**은 영어 WER 0.2325(7B, 4-bit) / 0.2785(BitNet 1.5B, CPU)로 표 하위권(SenseVoice·SenseVoice-GGUF·Parakeet보다만 앞섬)이지만, 아래 단서처럼 **verbatim(있는 그대로) 전사**라는 점을 감안해야 한다.
+
+> **VibeVoice 단서 (verbatim 전사)**: VibeVoice는 군말(filler)과 반복을 그대로 살리는데 정답인 TED 자막에는 이런 것이 없다(7B 영어 가설: "um" 38회, "uh" 45회 / 정답: 0회). 7B 영어 채점지 기준 대체(substitution)는 56건뿐이고 삽입(insertion)이 275건으로, 오류 대부분이 삽입이다. 보조 확인으로 가설에서 um/uh만 제거하고 나머지 정규화·채점을 동일하게 적용하면 7B WER 0.2325→0.1768, CER 0.1541→0.1234, BitNet WER 0.2785→0.2221, CER 0.1797→0.1487이다. 표의 수치는 다른 모든 엔진과 같은 프로토콜의 무수정 값을 유지한다.
 
 > **측정 단서(공정성)**:
 > - **평가 구간은 동일하다.** 모든 엔진이 같은 600초(앞 10분) 클립을 채점하므로 이 부분은 공정하다.
 > - **엔진 내부 분할 방식은 다르다.** 이전 엔진들은 침묵 경계에서 자르는 **VAD 분할**을 쓴다(faster-whisper=Silero VAD, SenseVoice·GGUF=FSMN-VAD, 최대 30초 캡). 반면 신규 엔진들(Parakeet·Moonshine·Qwen3-ASR)은 **고정 시간창**으로 나눴다 — Parakeet는 장문 통짜 추론이 런타임 한계로 실패해 120초 창, Moonshine은 단문형 모델이라 30초 창을 썼다. Qwen3-ASR도 120초 창을 썼는데, 이는 런타임 한계가 아니라 **모델 자체가 발화 단위(short-form) 설계라 장문 통짜 입력 시 조용히 나쁜 결과(앞부분 누락 등)를 내는 불안정성 때문에 처음부터 의도적으로 청킹**한 것이다. 고정창은 단어 경계와 무관하게 잘리므로 WER이 다소 부풀 수 있다. 다만 Parakeet 120초 창은 경계가 약 4개뿐이라 영향이 미미하고, Moonshine 30초 창은 경계가 약 19개로 약간의 페널티가 있다. Granite-Speech도 단문형이라 Moonshine과 동일한 30초 창, Qwen3-ASR 한국어 파인튜닝(1.7b-ko)은 base와 동일한 120초 창을 썼다.
 > - **NeMo(2026) 3종은 청킹 없이 600초를 통짜로 GPU 추론**했다. 고정창 분할을 쓴 위 신규 엔진(onnx Parakeet·Moonshine·Qwen3-ASR)과 달리 경계 절단 페널티가 없고, RTF도 GPU 기준이라 Whisper와 같은 조건에서 직접 비교된다.
-> - **RTF는 CPU(ONNX) 기준**이라(Parakeet·Moonshine·SenseVoice-GGUF), GPU로 잰 Whisper·NeMo RTF와 직접 비교하면 안 된다. 정확도 비교의 핵심은 WER/CER이다.
+> - **RTF는 CPU 기준**이라(Parakeet·Moonshine·SenseVoice-GGUF는 ONNX/GGUF, VibeVoice-BitNet은 네이티브 바이너리; BitNet의 wall RTF에는 60초 청크마다 모델 로드 약 1.1초가 포함되며 로드 제외 시 0.314 / 0.393), GPU로 잰 Whisper·NeMo RTF와 직접 비교하면 안 된다. 정확도 비교의 핵심은 WER/CER이다.
 
 ### 2-2. 한국어 결과 (정규화 기준)
 
@@ -101,6 +107,8 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 | Qwen3-ASR · 1.7B | 0.2626 | 0.1076 | 0.314 |
 | Qwen3-ASR · 1.7B-ko (파인튜닝) | 0.2164 | 0.0851 | 0.752 |
 | NeMo · Nemotron-3.5 | 0.3644 | 0.1735 | 0.157 |
+| VibeVoice-ASR · 7B (4-bit) | 0.3165 | 0.1279 | 0.751 |
+| VibeVoice-ASR-BitNet · 1.5B (CPU) | 0.5423 | 0.2175 | 0.420 |
 | faster-whisper · small | 0.2541 | 0.1022 | 0.038 |
 | faster-whisper · medium | 0.2079 | 0.0918 | 0.093 |
 | faster-whisper · large-v3 | 0.2207 | 0.1207 | 0.486 |
@@ -121,6 +129,7 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 - **Qwen3-ASR 한국어 파인튜닝(1.7b-ko)**은 한국어 WER 0.2164 / CER 0.0851로 base 1.7B(WER 0.2626 / CER 0.1076)보다 **한국어가 확실히 개선**됐다. CER 0.0851은 large-v3-turbo(0.0855)와 사실상 동률의 글자 정확도다.
 - **Parakeet(v3)**는 지원 언어에 한국어가 없어(영어+유럽어 25종) 한국어 채점에서 제외했다. **Moonshine**은 영어 전용 모델이라 애초에 대상이 아니다. **Granite-Speech**도 영어+유럽어 5종만 지원해 한국어 대상에서 제외했다.
 - **NeMo Nemotron-3.5**는 한국어 WER 0.3644 / CER 0.1735로, 40개 언어를 지원하는 다국어 모델치고는 준수하지만 Qwen3-ASR(1.7B)·whisper 계열에는 못 미친다. 나머지 NeMo 2종(Parakeet-Unified·Nemotron-Speech)은 영어 전용이라 한국어 대상에서 제외했다.
+- **VibeVoice-ASR**은 한국어 WER 0.3165 / CER 0.1279(7B, 4-bit)로 CER은 준수하다 — Whisper 계열 전 크기와 Qwen3-ASR 1.7B에는 못 미치지만 Nemotron-3.5(0.1735)보다는 낫다. **BitNet(1.5B, CPU)**은 WER 0.5423 / CER 0.2175로 훨씬 약하다. 숫자 표기가 정답과 달라(예: "팔월" vs "8월") 띄어쓰기가 사라지는 문제가 겹쳐 WER이 부풀려졌다.
 
 ### 2-3. 속도(RTF) 요약
 
@@ -130,6 +139,8 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 | 2 | faster-whisper (small~turbo) | 0.03~0.14 | 약 7~33배 빠름 |
 | 3 | faster-whisper large-v3 | 0.38~0.49 | 약 2~3배 빠름 |
 | — | MOSS | 0.33+ | 짧은 클립 약 3배, 장문에서 급격히 저하 |
+| — | VibeVoice-ASR 7B (4-bit, GPU) | 0.61~0.75 | 약 1.3~1.6배 빠름 |
+| — | VibeVoice-ASR-BitNet (CPU, 8스레드) | 0.34~0.42 | 약 2.4~2.9배 빠름 (CPU에서 실시간 가능) |
 
 > MOSS는 자기회귀 디코딩 병목으로 장문 전사 시 속도가 급격히 떨어져 연속 라이브 캡션에는 부적합하다.
 
@@ -150,6 +161,7 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 | **Qwen3-ASR** | PyTorch (transformers, bf16) | 부적합 (발화 단위 배치·LLM) | 가능하나 비권장 (bf16 LLM) | NVIDIA — cuda:0/bf16 | 지원 (context 자유 텍스트, 단 어댑터 미전달) | 모델 지원·어댑터 고정 (어댑터가 언어 명시) |
 | **NeMo (2026)** | NVIDIA NeMo (torch) | **적합** (nemotron 체크포인트가 streaming 변형·cache-aware) | 가능하나 비실용 (GPU 전제) | **NVIDIA만** — NeMo가 CUDA 생태계 | 제한적 (prompt는 로케일 지정용, 어휘 부스팅 아님) | 미지원 (nemotron-3.5는 prompt로 언어 지정, 나머지 영어 전용) |
 | **Granite-Speech** | PyTorch (transformers, bf16 + peft) | 부적합 (LLM 2-pass·30초 배치) | 가능하나 비권장 (bf16 2-pass) | NVIDIA — cuda:0/bf16 | 프롬프트 가능 (LLM 디코더 apply_chat_template) | 해당없음 (영어+EU 5종, 자동감지 인자 없음) |
+| **VibeVoice-ASR** | PyTorch (transformers ≥5.3, bitsandbytes nf4) · BitNet 변형: VibeASR.cpp (네이티브 바이너리) | 부적합 (오프라인 통짜 / 60초 청크 배치, 별도 Streaming-7B 모델은 구동 불가) | 7B: 가능하나 비실용 · BitNet: 지원 (**CPU 전용**, 8스레드 RTF 약 0.3~0.4) | NVIDIA — 7B 4-bit 최대 약 7.4GB VRAM (8GB 한계 근접), Streaming-7B는 8GB에 안 올라감, BitNet은 GPU 경로 없음 | 지원 (핫워드/컨텍스트, 단 어댑터 미전달) | 지원 (언어 파라미터 없음, 자동 감지) |
 
 **해설**
 
@@ -160,6 +172,7 @@ STT 후보로 함께 훑었으나 TTS·보이스클론·번역 등 **음성 인�
 - **스트리밍 적합도는 아키텍처 기준** — 적합(Moonshine·NeMo streaming 변형)은 온라인/저지연 설계, 준적합(SenseVoice·Parakeet)은 비자기회귀나 청크로 유사 스트리밍이 가능한 정도, 부적합(faster-whisper·MOSS·Qwen3·Granite)은 발화/청크 배치 모델이다. 본 벤치의 RTF는 전부 오프라인 배치 측정치라 스트리밍 지연을 직접 잰 값이 아니다.
 - **컨텍스트/핫워드 네이티브 지원은 둘뿐** — 전용 인자를 가진 건 Qwen3-ASR(`context` 자유 텍스트)와 faster-whisper(`initial_prompt`·`hotwords`·`prefix`)다. 다만 현재 두 어댑터 모두 이 인자를 넘기지 않으므로, 쓰려면 파라미터 통로만 추가하면 된다. granite-speech·MOSS는 LLM 디코더라 프롬프트로 문맥을 주입할 수 있으나 전용 API는 아니고, NeMo의 `prompt`는 어휘 부스팅이 아니라 로케일 지정용이다. SenseVoice·SenseVoice-GGUF·Parakeet·Moonshine은 텍스트 힌트 입력 경로 자체가 없다.
 - **언어 auto 감지는 "1회 감지"가 기본** — 자동 감지를 지원해도 대개 시작(또는 세그먼트 시작)에 한 번 판정해 그 구간을 고정한다. SenseVoice는 비자기회귀+세그먼트 LID라 발화 경계 전환에 상대적으로 유연하고, faster-whisper는 첫 30초 창에서 1회 감지한다. Qwen3-ASR은 모델 자체는 다국어 자동이 가능하나 이 레포 어댑터가 언어를 명시(English/Korean)해 고정하며, NeMo(nemotron-3.5)는 자동 감지가 아니라 `prompt`로 언어를 지정하는 방식이다. 어느 경우든 한 발화 안에서 언어가 섞이면(code-switching) 그 세그먼트는 한 언어로 처리된다.
+- **VibeVoice-ASR 런타임 메모** — 7B는 LM Linear에만 nf4 4-bit를 적용하며 전용 Python 3.12 venv(`.venv-vibevoice`)가 필요하고, 이 8GB GPU에서 최대 약 7.4GB VRAM을 쓴다(첫 실행은 12.5GB까지 올라 공유 메모리로 넘쳐 폐기했고, GQA-in-SDPA 경로 비활성화 + 음향 토크나이저 10초 청크 적용 후 재측정). **Streaming-7B**는 4-bit로도 8GB GPU에 올라가지 않아(모델만 7.98GB, 10분 실행 시 공유 GPU 메모리로 넘쳐 30분 이상 걸려도 끝나지 않음) "8GB VRAM에서 구동 불가"로 기록했고, 공식 저장소(transformers <5 고정)와 별도 venv `.venv-vibevoice-stream`이 필요하다. **BitNet**은 VibeASR.cpp를 MinGW-w64 GCC로 빌드(MSVC 미지원)해 CPU 8스레드·greedy·60초 청크로 구동한다(600초 단일 호출은 VAE가 약 138GB 연산 arena를 요구해 실패). 모든 변형이 화자 라벨과 타임스탬프를 함께 출력하며 언어 파라미터는 없다.
 
 ---
 
@@ -199,6 +212,8 @@ flowchart TD
 2. **더 크다고 항상 좋은 건 아니다.** 풀사이즈 large-v3보다 경량 변형 **large-v3-turbo**가 양 언어 모두에서 더 정확하고 훨씬 빨랐다.
 3. **속도-정확도는 대체로 트레이드오프**지만, turbo·distil 같은 최적화 변형은 이 곡선을 유리하게 당긴다.
 4. **다국어 강건성이 중요하다.** Whisper 계열은 언어를 바꿔도 완만하게 열화하지만, 영어에 특화된(distil) 또는 중국어 중심(SenseVoice) 모델은 한국어에서 급격히 무너진다.
+5. **verbatim 전사 모델은 군말 때문에 손해를 본다.** VibeVoice-ASR은 정답에 없는 "um"/"uh"와 반복을 그대로 살려, 영어 WER(0.2325)이 실제 내용 오류(um/uh 제거 시 0.1768)보다 과대 표시된다. 공식 표는 무수정 수치를 유지한다. 또한 화자 분리·타임스탬프를 함께 내는데, 이 레포의 Whisper 계열 어댑터는 그렇지 않다.
+6. **VibeVoice-BitNet은 CPU 실시간이 가능한 선택지**(8스레드 RTF 약 0.3~0.4)이나 영어 정확도는 보통(WER 0.2785), 한국어는 약하다(WER 0.5423). 8GB GPU에서 7B 4-bit는 겨우 들어간다(약 7.4GB).
 
 ### 3-5. 최종 결과 해석 및 추천
 

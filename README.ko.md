@@ -11,7 +11,7 @@
 - [Benchmark summary (English)](2026-08-23%20142956%20stt-benchmark-summary.md)
 - **[벤치마크 요약 (한국어)](2026-08-23%20142956%20stt-benchmark-summary.ko.md)** ← 여기부터
 
-요약 — 10분 클립 기준 정규화 WER 최고 (SenseVoice·Parakeet·Moonshine·MOSS·distil-\* 포함 전체 표는 요약 문서 참고):
+요약 — 10분 클립 기준 정규화 WER 최고 (SenseVoice·Parakeet·Moonshine·MOSS·VibeVoice·distil-\* 포함 전체 표는 요약 문서 참고):
 
 | 언어 | 최고 엔진 / 모델 | WER | CER |
 |---|---|---|---|
@@ -35,6 +35,8 @@
 | `qwen3-asr` | Qwen3-ASR (Qwen3 LLM 백본); 0.6B/1.7B + 한국어 파인튜닝 1.7b-ko(TeamUNIVA), `--model` 로 선택 | 52개 (ko/en 포함) |
 | `nemo-asr` | NVIDIA NeMo 2026 (Parakeet-Unified · Nemotron-Speech · Nemotron-3.5), `--model` 로 선택; 전용 Python 3.12 venv 필요 | 영어 전용(2종) + 40개 ko 포함(Nemotron-3.5) |
 | `granite-speech` | IBM Granite-Speech 3.3 (Whisper 인코더 + Granite LLM, 2-pass); transformers 로 GPU 구동 | 영어 + 유럽어 5종 (한국어 X) |
+| `vibevoice-asr` | Microsoft VibeVoice-ASR 7B / Streaming-7B (Qwen2.5 LLM 디코더, 4-bit nf4), `--model` 로 선택; 전용 venv 필요 (Streaming-7B는 8GB VRAM에 안 올라감) | 50+ (ko/en 포함) |
+| `vibevoice-bitnet` | VibeASR.cpp 기반 VibeVoice-ASR-BitNet 1.5B (CPU); MinGW 빌드 필요 | 50+ (ko/en 포함) |
 
 ## 구성
 
@@ -42,6 +44,7 @@
 stt-benchmark/
   engines/     base.py · faster_whisper.py · sensevoice.py · sensevoice_gguf.py
                parakeet.py · moonshine.py · moss.py · qwen3_asr.py · nemo_asr.py · granite_speech.py
+               vibevoice_asr.py · vibevoice_bitnet.py
                # SttEngine 인터페이스 — 교체 가능한 STT 엔진 어댑터
   benchmark/   score.py · dataset.py · run_benchmark.py · graded.py
                # wav + 정답 txt 매칭, 엔진별 CER/WER/RTF 산출
