@@ -1,0 +1,38 @@
+[
+  {
+    "lang": "en",
+    "variant": "7b",
+    "model_id": "VibeVoice-ASR-7b-4bit",
+    "wer_raw": 0.33014354066985646,
+    "cer_raw": 0.19461077844311378,
+    "wer_norm": 0.2324621733149931,
+    "cer_norm": 0.15407426508509542,
+    "ref_words": 1463,
+    "hyp_words": 1727,
+    "ref_chars": 8016,
+    "hyp_chars": 9204,
+    "audio_seconds": 600.0135,
+    "rtf": 0.6093507026092913,
+    "elapsed_s": 365.61864780006,
+    "peak_vram_gb": 7.418735104,
+    "chunked": false
+  },
+  {
+    "lang": "ko",
+    "variant": "7b",
+    "model_id": "VibeVoice-ASR-7b-4bit",
+    "wer_raw": 0.4602224123182207,
+    "cer_raw": 0.17492839832562238,
+    "wer_norm": 0.3165098374679213,
+    "cer_norm": 0.12793321299638988,
+    "ref_words": 1169,
+    "hyp_words": 1301,
+    "ref_chars": 4539,
+    "hyp_chars": 4837,
+    "audio_seconds": 600.0135,
+    "rtf": 0.7510665848351952,
+    "elapsed_s": 450.6500903000124,
+    "peak_vram_gb": 7.421243904,
+    "chunked": false
+  }
+]

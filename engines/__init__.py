@@ -10,6 +10,8 @@ from .moonshine import MoonshineEngine
 from .qwen3_asr import Qwen3AsrEngine
 from .nemo_asr import NemoAsrEngine
 from .granite_speech import GraniteSpeechEngine
+from .vibevoice_bitnet import VibeVoiceBitNetEngine
+from .vibevoice_asr import VibeVoiceAsrEngine
 
 __all__ = [
     "SttEngine",
@@ -22,6 +24,8 @@ __all__ = [
     "Qwen3AsrEngine",
     "NemoAsrEngine",
     "GraniteSpeechEngine",
+    "VibeVoiceBitNetEngine",
+    "VibeVoiceAsrEngine",
 ]
 
 
@@ -37,6 +41,8 @@ def get_engine(name: str, **kwargs) -> SttEngine:
         "qwen3-asr": Qwen3AsrEngine,
         "nemo-asr": NemoAsrEngine,
         "granite-speech": GraniteSpeechEngine,
+        "vibevoice-bitnet": VibeVoiceBitNetEngine,
+        "vibevoice-asr": VibeVoiceAsrEngine,
     }
     if name not in registry:
         raise KeyError(f"알 수 없는 엔진: {name!r} (가능: {list(registry)})")
