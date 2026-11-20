@@ -11,7 +11,7 @@ Full results — related repos by engine, English/Korean scores per engine & mod
 - **[Benchmark summary (English)](2026-08-23%20142956%20stt-benchmark-summary.md)** ← start here
 - [벤치마크 요약 (한국어)](2026-08-23%20142956%20stt-benchmark-summary.ko.md)
 
-Headline — best normalized WER on a 10-minute clip (see the summary for the full table incl. SenseVoice, Parakeet, Moonshine, MOSS, VibeVoice, distil-\*):
+Headline — best normalized WER on a 10-minute clip (see the summary for the full table incl. SenseVoice, Parakeet, Moonshine, MOSS, VibeVoice, Bark, LFM3, Notesoop, distil-\*):
 
 | Language | Best engine / model | WER | CER |
 |---|---|---|---|
@@ -37,6 +37,9 @@ Swap engines behind a common `SttEngine` interface (`engines/`). Registry keys:
 | `granite-speech` | IBM Granite-Speech 3.3 (Whisper encoder + Granite LLM, two-pass); runs on GPU via transformers | English + 5 EU (no Korean) |
 | `vibevoice-asr` | Microsoft VibeVoice-ASR 7B / Streaming-7B (Qwen2.5 LLM decoder, 4-bit nf4), pick via `--model`; needs a dedicated venv (Streaming-7B doesn't fit 8 GB VRAM) | 50+ (incl. ko/en) |
 | `vibevoice-bitnet` | VibeVoice-ASR-BitNet 1.5B on VibeASR.cpp (CPU); needs a MinGW build | 50+ (incl. ko/en) |
+| `bark` | ConwayResearch Underdog-Bark-3.0 (Parakeet-TDT-0.6B-v3 fine-tune, CC-BY-NC-4.0 non-commercial); needs a dedicated venv | English only |
+| `lfm3-audio` | LiquidAI LFM3-Audio-2B (audio LLM, bf16); needs a dedicated venv | 18 (incl. ko/en) |
+| `notesoop` | Phsoft-ai Notesoop-STT-Ko-v1 (embeddinggemma-2 + KenLM beam search); needs a dedicated venv | Korean only |
 
 ## Layout
 
@@ -45,6 +48,7 @@ stt-benchmark/
   engines/     base.py · faster_whisper.py · sensevoice.py · sensevoice_gguf.py
                parakeet.py · moonshine.py · moss.py · qwen3_asr.py · nemo_asr.py · granite_speech.py
                vibevoice_asr.py · vibevoice_bitnet.py
+               bark.py · lfm3_audio.py · notesoop.py
                # SttEngine interface — pluggable STT engine adapters
   benchmark/   score.py · dataset.py · run_benchmark.py · graded.py
                # match wav + reference txt, compute per-engine CER/WER/RTF
