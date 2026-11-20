@@ -2,13 +2,16 @@
 
 data/ 의 모든 (오디오, 정답) 쌍에 대해 선택한 엔진들을 돌려
 CER/WER/RTF 를 계산하고, 콘솔 표와 CSV/md 리포트를 출력한다.
-등록된 10개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
-moonshine, qwen3-asr, nemo-asr, granite-speech, vibevoice-asr) 모두 --engine 으로 선택 가능하며,
+등록된 13개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
+moonshine, qwen3-asr, nemo-asr, granite-speech, vibevoice-asr, notesoop, bark, lfm3-audio) 모두 --engine 으로 선택 가능하며,
 faster-whisper 는 --model 로 모델 크기를, qwen3-asr(0.6b/1.7b/1.7b-ko)·nemo-asr
 (parakeet-unified/nemotron-speech/nemotron-3.5)는 --model 로 변형을 고를 수 있다.
 granite-speech 는 영어 전용(한국어 미지원), nemo-asr 는 전용 .venv-nemo312 필요.
 vibevoice-asr(7b/streaming-7b, 4-bit)는 --model 로 변형을 고르며 전용 venv(.venv-vibevoice,
 .venv-vibevoice-stream) 필요.
+notesoop(Notesoop-STT-Ko-v1)은 한국어 전용이며 전용 .venv-notesoop 필요.
+bark(Underdog-Bark-3.0, parakeet-tdt-0.6b-v3 파인튜닝)는 영어 전용이며 전용 .venv-bark 필요.
+lfm3-audio(LiquidAI LFM3-Audio-2B, bf16)는 transformers>=5.20.2 라 전용 .venv-lfm3 필요.
 vibevoice-bitnet 은 VibeASR.cpp(MinGW 빌드, CPU, CLI 호출)로 실행한다 (.temp/VibeASR.cpp).
 --graded 를 주면 엔진·파일별 채점지(md)도 저장한다.
 
@@ -40,7 +43,9 @@ from benchmark.score import measure_transcribe, score_pair
 REPORT_DIR = os.path.join(dataset.DATA_DIR, "reports")
 
 # 한국어를 지원하지 않는 엔진
-NO_KOREAN_ENGINES = {"parakeet", "moonshine", "granite-speech"}
+NO_KOREAN_ENGINES = {"parakeet", "moonshine", "granite-speech", "bark"}
+# 한국어 전용 엔진 (영어 실행 시 건너뜀)
+KOREAN_ONLY_ENGINES = {"notesoop"}
 
 
 def build_engine(name, language, device, model):
@@ -75,6 +80,9 @@ def run(args):
         for eng_name in args.engines:
             if args.language.startswith("ko") and eng_name in NO_KOREAN_ENGINES:
                 print(f"  [{eng_name}] 경고: 한국어({args.language})를 지원하지 않는 엔진이라 건너뜀.")
+                continue
+            if not args.language.startswith("ko") and eng_name in KOREAN_ONLY_ENGINES:
+                print(f"  [{eng_name}] 경고: 한국어 전용 엔진이라 {args.language} 에서는 건너뜀.")
                 continue
 
             print(f"  [{eng_name}] 로딩...")
@@ -187,7 +195,7 @@ def main():
     ap = argparse.ArgumentParser(description="STT 엔진 배치 채점")
     ap.add_argument("--engine", action="append", dest="engines",
                     help="채점할 엔진 (반복 가능). 기본: sensevoice, faster-whisper. "
-                         "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine, qwen3-asr, nemo-asr, granite-speech, vibevoice-asr")
+                         "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine, qwen3-asr, nemo-asr, granite-speech, vibevoice-asr, notesoop, bark, lfm3-audio")
     ap.add_argument("--model", default="small",
                     help="faster-whisper 모델 크기(기본: small), qwen3-asr 변형(0.6b/1.7b/1.7b-ko), "
                          "또는 nemo-asr 변형(parakeet-unified/nemotron-speech/nemotron-3.5). 다른 엔진에는 영향 없음")

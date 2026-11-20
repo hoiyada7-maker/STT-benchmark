@@ -1,0 +1,38 @@
+[
+  {
+    "lang": "ko",
+    "variant": "gpu",
+    "model_id": "Notesoop-STT-Ko-v1",
+    "wer_raw": 0.5431993156544055,
+    "cer_raw": 0.27120511125798635,
+    "wer_norm": 0.49786142001710865,
+    "cer_norm": 0.2560920577617328,
+    "ref_words": 1169,
+    "hyp_words": 1192,
+    "ref_chars": 4539,
+    "hyp_chars": 4295,
+    "audio_seconds": 600.0135,
+    "rtf": 0.02580489372296828,
+    "elapsed_s": 15.483284599846229,
+    "peak_vram_gb": 1.91070464,
+    "chunked": true
+  },
+  {
+    "lang": "ko",
+    "variant": "cpu",
+    "model_id": "Notesoop-STT-Ko-v1",
+    "wer_raw": 0.5397775876817793,
+    "cer_raw": 0.27010354703679224,
+    "wer_norm": 0.49443969204448246,
+    "cer_norm": 0.2551895306859206,
+    "ref_words": 1169,
+    "hyp_words": 1193,
+    "ref_chars": 4539,
+    "hyp_chars": 4293,
+    "audio_seconds": 600.0135,
+    "rtf": 1.0345237340496143,
+    "elapsed_s": 620.7282065001782,
+    "peak_vram_gb": null,
+    "chunked": true
+  }
+]

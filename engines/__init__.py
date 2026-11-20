@@ -12,6 +12,9 @@ from .nemo_asr import NemoAsrEngine
 from .granite_speech import GraniteSpeechEngine
 from .vibevoice_bitnet import VibeVoiceBitNetEngine
 from .vibevoice_asr import VibeVoiceAsrEngine
+from .notesoop import NotesoopEngine
+from .bark import BarkEngine
+from .lfm3_audio import Lfm3AudioEngine
 
 __all__ = [
     "SttEngine",
@@ -26,6 +29,9 @@ __all__ = [
     "GraniteSpeechEngine",
     "VibeVoiceBitNetEngine",
     "VibeVoiceAsrEngine",
+    "NotesoopEngine",
+    "BarkEngine",
+    "Lfm3AudioEngine",
 ]
 
 
@@ -43,6 +49,9 @@ def get_engine(name: str, **kwargs) -> SttEngine:
         "granite-speech": GraniteSpeechEngine,
         "vibevoice-bitnet": VibeVoiceBitNetEngine,
         "vibevoice-asr": VibeVoiceAsrEngine,
+        "notesoop": NotesoopEngine,
+        "bark": BarkEngine,
+        "lfm3-audio": Lfm3AudioEngine,
     }
     if name not in registry:
         raise KeyError(f"알 수 없는 엔진: {name!r} (가능: {list(registry)})")
