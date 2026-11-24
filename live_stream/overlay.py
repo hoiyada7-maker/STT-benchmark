@@ -4,31 +4,50 @@ set_text(str) 는 어느 스레드에서든 호출 가능(Qt 시그널로 UI 스
 """
 from PyQt6 import QtCore, QtGui, QtWidgets
 
-TAIL_CHARS = 200  # 누적 텍스트에서 마지막 ~200자만 표시 (단어 경계에서 자름)
+BOTTOM_PX = 4  # 스크롤바가 맨 아래에서 이만큼 이내면 "맨 아래"로 본다 (자동 따라가기)
 
 
-def tail(text, n=TAIL_CHARS):
-    if len(text) <= n:
-        return text
-    t = text[-n:]
-    # 단어 중간에서 잘렸으면 첫 공백까지 버린다 (공백 없는 한글/CJK 는 그대로 둔다)
-    return t.split(" ", 1)[1] if text[-n - 1] != " " and " " in t else t
+class _Follow(QtWidgets.QPlainTextEdit):
+    """리사이즈 때도 맨 아래였으면 맨 아래를 유지하는 읽기 전용 텍스트 뷰."""
+
+    def at_bottom(self):
+        bar = self.verticalScrollBar()
+        return bar.value() >= bar.maximum() - BOTTOM_PX
+
+    def resizeEvent(self, e):
+        follow = self.at_bottom()
+        super().resizeEvent(e)
+        if follow:
+            self.verticalScrollBar().setValue(self.verticalScrollBar().maximum())
 
 
 class CaptionOverlay(QtWidgets.QWidget):
     _text = QtCore.pyqtSignal(str)
 
-    def __init__(self):
+    def __init__(self, color="white", below=None):
+        """color: 글자색, below: 이 오버레이 아래에 붙여 여는 다른 CaptionOverlay."""
         super().__init__()
         self._drag = None
         self.setWindowFlags(QtCore.Qt.WindowType.FramelessWindowHint | QtCore.Qt.WindowType.WindowStaysOnTopHint
                             | QtCore.Qt.WindowType.Tool)
         self.setAttribute(QtCore.Qt.WidgetAttribute.WA_TranslucentBackground)
-        self.label = QtWidgets.QLabel(self)
-        self.label.setWordWrap(True)
-        self.label.setAlignment(QtCore.Qt.AlignmentFlag.AlignBottom | QtCore.Qt.AlignmentFlag.AlignLeft)
+        self.label = _Follow(self)
+        self.label.setReadOnly(True)
+        self.label.setTextInteractionFlags(QtCore.Qt.TextInteractionFlag.NoTextInteraction)
+        self.label.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
+        # 항상 켜 둔다: 스크롤바가 처음 나타날 때 뷰포트 폭이 줄어 전체가 reflow 되는 것을 방지
+        self.label.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarPolicy.ScrollBarAlwaysOn)
         self.label.setFont(QtGui.QFont("Malgun Gothic", 24, QtGui.QFont.Weight.Bold))
-        self.label.setStyleSheet("background: rgba(0,0,0,170); color: white; border-radius: 14px; padding: 10px 18px;")
+        self.label.setStyleSheet(
+            f"QPlainTextEdit {{ background: rgba(0,0,0,170); color: {color}; border: none; border-radius: 14px;"
+            " padding: 10px 18px; }"
+            "QScrollBar:vertical { background: transparent; width: 8px; margin: 14px 2px; }"
+            "QScrollBar::handle:vertical { background: rgba(255,255,255,90); border-radius: 3px; min-height: 24px; }"
+            "QScrollBar::handle:vertical:disabled { background: transparent; }"
+            "QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }"
+            "QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: transparent; }")
+        self.label.viewport().installEventFilter(self)   # 텍스트 영역을 눌러도 창 드래그
+        self._shown = None
         lay = QtWidgets.QVBoxLayout(self)
         lay.setContentsMargins(0, 0, 0, 0)
         lay.addWidget(self.label)
@@ -43,6 +62,9 @@ class CaptionOverlay(QtWidgets.QWidget):
         self.setMinimumSize(300, 80)
         self.resize(w, h)
         self.move(scr.x() + (scr.width() - w) // 2, scr.y() + scr.height() - h - 80)
+        if below:                                  # 번역창: 자막창 바로 아래(화면 밖이면 위로)
+            y = below.y() + below.height() + 6
+            self.move(below.x(), y if y + h <= scr.bottom() else max(scr.y(), below.y() - h - 6))
         self._text.connect(self._apply)
         self.set_text("")
 
@@ -51,7 +73,31 @@ class CaptionOverlay(QtWidgets.QWidget):
 
     @QtCore.pyqtSlot(str)
     def _apply(self, text):
-        self.label.setText(tail(text) or "...")
+        text = text or "..."
+        old, w = self._shown, self.label
+        if text == old:
+            return
+        follow = w.at_bottom()                     # 맨 아래였을 때만 따라간다
+        if old and text.startswith(old):           # 보통: 뒤에 붙은 부분만 추가 -> 앞줄은 움직이지 않음
+            cur = QtGui.QTextCursor(w.document())
+            cur.movePosition(QtGui.QTextCursor.MoveOperation.End)
+            cur.insertText(text[len(old):])
+        else:                                      # 드문 수정/자리표시자 교체: 전체 교체
+            w.setPlainText(text)
+        self._shown = text
+        if follow:
+            w.verticalScrollBar().setValue(w.verticalScrollBar().maximum())
+
+    def eventFilter(self, obj, e):
+        t = e.type()
+        if obj is self.label.viewport() and t in (QtCore.QEvent.Type.MouseButtonPress,
+                                                  QtCore.QEvent.Type.MouseMove,
+                                                  QtCore.QEvent.Type.MouseButtonRelease):
+            {QtCore.QEvent.Type.MouseButtonPress: self.mousePressEvent,
+             QtCore.QEvent.Type.MouseMove: self.mouseMoveEvent,
+             QtCore.QEvent.Type.MouseButtonRelease: self.mouseReleaseEvent}[t](e)
+            return True
+        return super().eventFilter(obj, e)
 
     def resizeEvent(self, e):
         super().resizeEvent(e)
