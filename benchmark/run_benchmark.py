@@ -4,7 +4,7 @@ data/ 의 모든 (오디오, 정답) 쌍에 대해 선택한 엔진들을 돌려
 CER/WER/RTF 를 계산하고, 콘솔 표와 CSV/md 리포트를 출력한다.
 등록된 13개 엔진(sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet,
 moonshine, qwen3-asr, nemo-asr, granite-speech, vibevoice-asr, notesoop, bark, lfm3-audio) 모두 --engine 으로 선택 가능하며,
-faster-whisper 는 --model 로 모델 크기를, qwen3-asr(0.6b/1.7b/1.7b-ko)·nemo-asr
+faster-whisper 는 --model 로 모델 크기를, qwen3-asr(0.6b/1.7b/1.7b-ko/oruk-fourier-2b)·nemo-asr
 (parakeet-unified/nemotron-speech/nemotron-3.5)는 --model 로 변형을 고를 수 있다.
 granite-speech 는 영어 전용(한국어 미지원), nemo-asr 는 전용 .venv-nemo312 필요.
 vibevoice-asr(7b/streaming-7b, 4-bit)는 --model 로 변형을 고르며 전용 venv(.venv-vibevoice,
@@ -78,8 +78,14 @@ def run(args):
         print(f"\n=== {key} ({audio_seconds:.1f}s, {len(transcript.split())} 단어) ===")
 
         for eng_name in args.engines:
-            if args.language.startswith("ko") and eng_name in NO_KOREAN_ENGINES:
-                print(f"  [{eng_name}] 경고: 한국어({args.language})를 지원하지 않는 엔진이라 건너뜀.")
+            if args.language.startswith("ko") and (
+                eng_name in NO_KOREAN_ENGINES
+                or (
+                    eng_name == "qwen3-asr"
+                    and str(args.model).strip().lower() in ("oruk-fourier-2b", "fourier-2b", "oruk/oruk-fourier-2b")
+                )
+            ):
+                print(f"  [{eng_name}] 경고: 한국어({args.language})를 지원하지 않는 엔진/모델이라 건너뜀.")
                 continue
             if not args.language.startswith("ko") and eng_name in KOREAN_ONLY_ENGINES:
                 print(f"  [{eng_name}] 경고: 한국어 전용 엔진이라 {args.language} 에서는 건너뜀.")
@@ -197,7 +203,7 @@ def main():
                     help="채점할 엔진 (반복 가능). 기본: sensevoice, faster-whisper. "
                          "가능: sensevoice, sensevoice-gguf, faster-whisper, moss, parakeet, moonshine, qwen3-asr, nemo-asr, granite-speech, vibevoice-asr, notesoop, bark, lfm3-audio")
     ap.add_argument("--model", default="small",
-                    help="faster-whisper 모델 크기(기본: small), qwen3-asr 변형(0.6b/1.7b/1.7b-ko), "
+                    help="faster-whisper 모델 크기(기본: small), qwen3-asr 변형(0.6b/1.7b/1.7b-ko/oruk-fourier-2b), "
                          "또는 nemo-asr 변형(parakeet-unified/nemotron-speech/nemotron-3.5). 다른 엔진에는 영향 없음")
     ap.add_argument("--language", default="en", help="인식 언어 (기본: en)")
     ap.add_argument("--cpu", action="store_true", help="CPU 강제")
