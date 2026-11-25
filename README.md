@@ -32,7 +32,7 @@ Swap engines behind a common `SttEngine` interface (`engines/`). Registry keys:
 | `parakeet` | NVIDIA Parakeet TDT (onnx-asr) | English + 25 EU (no Korean) |
 | `moonshine` | Useful Sensors Moonshine (ONNX, short-form) | English only |
 | `moss` | MOSS-Transcribe-Diarize (Whisper enc + LLM dec) | 50+ |
-| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM backbone); 0.6B/1.7B + Korean fine-tune 1.7b-ko (TeamUNIVA), pick via `--model` | 52 (incl. ko/en) |
+| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM backbone); 0.6B/1.7B + Korean fine-tune 1.7b-ko (TeamUNIVA) + English fine-tune `oruk-fourier-2b` ([Oruk](https://huggingface.co/oruk/oruk-fourier-2b), CC BY-NC 4.0, native `transformers >= 5.21` venv), pick via `--model` | 52 (incl. ko/en); `oruk-fourier-2b` English only |
 | `nemo-asr` | NVIDIA NeMo 2026 (Parakeet-Unified · Nemotron-Speech · Nemotron-3.5), pick via `--model`; needs a dedicated Python-3.12 venv | En-only (2) + 40 incl. ko (Nemotron-3.5) |
 | `granite-speech` | IBM Granite-Speech 3.3 (Whisper encoder + Granite LLM, two-pass); runs on GPU via transformers | English + 5 EU (no Korean) |
 | `vibevoice-asr` | Microsoft VibeVoice-ASR 7B / Streaming-7B (Qwen2.5 LLM decoder, 4-bit nf4), pick via `--model`; needs a dedicated venv (Streaming-7B doesn't fit 8 GB VRAM) | 50+ (incl. ko/en) |

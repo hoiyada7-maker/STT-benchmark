@@ -32,7 +32,7 @@
 | `parakeet` | NVIDIA Parakeet TDT (onnx-asr) | 영어 + 유럽어 25종 (한국어 X) |
 | `moonshine` | Useful Sensors Moonshine (ONNX, 단문형) | 영어 전용 |
 | `moss` | MOSS-Transcribe-Diarize (Whisper 인코더 + LLM 디코더) | 50+ |
-| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM 백본); 0.6B/1.7B + 한국어 파인튜닝 1.7b-ko(TeamUNIVA), `--model` 로 선택 | 52개 (ko/en 포함) |
+| `qwen3-asr` | Qwen3-ASR (Qwen3 LLM 백본); 0.6B/1.7B + 한국어 파인튜닝 1.7b-ko(TeamUNIVA) + 영어 파인튜닝 `oruk-fourier-2b`([Oruk](https://huggingface.co/oruk/oruk-fourier-2b), CC BY-NC 4.0 비상업, `transformers >= 5.21` 전용 venv), `--model` 로 선택 | 52개 (ko/en 포함); `oruk-fourier-2b` 영어 전용 |
 | `nemo-asr` | NVIDIA NeMo 2026 (Parakeet-Unified · Nemotron-Speech · Nemotron-3.5), `--model` 로 선택; 전용 Python 3.12 venv 필요 | 영어 전용(2종) + 40개 ko 포함(Nemotron-3.5) |
 | `granite-speech` | IBM Granite-Speech 3.3 (Whisper 인코더 + Granite LLM, 2-pass); transformers 로 GPU 구동 | 영어 + 유럽어 5종 (한국어 X) |
 | `vibevoice-asr` | Microsoft VibeVoice-ASR 7B / Streaming-7B (Qwen2.5 LLM 디코더, 4-bit nf4), `--model` 로 선택; 전용 venv 필요 (Streaming-7B는 8GB VRAM에 안 올라감) | 50+ (ko/en 포함) |
